@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ce2a248.css",
+    "main.js": "/static/js/main.d7883bd3.js",
+    "static/js/453.3a56e9bc.chunk.js": "/static/js/453.3a56e9bc.chunk.js",
+    "static/media/UBC_Orbit_2019.jpg": "/static/media/UBC_Orbit_2019.4968c3cfde8dce344477.jpg",
+    "static/media/Geotab_Volleyball_2022.jpg": "/static/media/Geotab_Volleyball_2022.03afda7417ed095f1ec0.jpg",
+    "static/media/Optimus.jpg": "/static/media/Optimus.4cdbbe8705daee9b5b63.jpg",
+    "static/media/Muntakim_Headshot_2019.jpg": "/static/media/Muntakim_Headshot_2019.a30bb71b5133aa3c0a6a.jpg",
+    "static/media/Insignia.png": "/static/media/Insignia.29ff33dea67f0473d0ee.png",
+    "static/media/Tesla_Interns_2023.jpg": "/static/media/Tesla_Interns_2023.d67574cea66a075e1492.jpg",
+    "static/media/Data_Collection_App.jpeg": "/static/media/Data_Collection_App.9ec9402683d219e411f7.jpeg",
+    "static/media/Muntakim_Algonquin_2020.jpg": "/static/media/Muntakim_Algonquin_2020.01a93ddc99135006adfb.jpg",
+    "static/media/Muntakim_Cursive.png": "/static/media/Muntakim_Cursive.d1bfaa51dc98b9b4caf1.png",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/Golang.svg": "/static/media/Golang.7fb621ad3bc70707614bfba39d236e57.svg",
+    "static/media/Verilog.svg": "/static/media/Verilog.f550579cf38103f3ed0a51f895b4210a.svg",
+    "static/media/SQL.svg": "/static/media/SQL.1b81652d3bb4d5f7dfdfd624375ceff4.svg",
+    "static/media/ASM.svg": "/static/media/ASM.7f9619578dfed3a2755f2bdec38ebe9f.svg",
+    "static/media/C.svg": "/static/media/C.ac27de8477fe6c13739a9e3f385b75cc.svg",
+    "static/media/Python.svg": "/static/media/Python.14f5a10cd798d37370e148820ac33a75.svg",
+    "index.html": "/index.html",
+    "main.3ce2a248.css.map": "/static/css/main.3ce2a248.css.map",
+    "main.d7883bd3.js.map": "/static/js/main.d7883bd3.js.map",
+    "453.3a56e9bc.chunk.js.map": "/static/js/453.3a56e9bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ce2a248.css",
+    "static/js/main.d7883bd3.js"
+  ]
+}
