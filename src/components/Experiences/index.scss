@@ -1,0 +1,49 @@
+.experiences-page {
+    .text-zone {
+        position: absolute;
+        left: 15%;
+        top: 40%;
+        transform: translateY(-50%);
+        width: 60%;
+        max-width: 90%;
+        text-align: left;
+
+        h1 {
+            font-size: 50px;
+            font-family: 'Coolvetica';
+            color: #000000;
+            font-weight: 400;
+            margin-top:0;
+            margin-bottom: 40px;
+            left: 10px;
+            position: relative;
+        }
+    }
+
+    .custom-card-text {
+        font-size: 20px;
+    }
+
+    img {
+        width: 30%;
+        height: auto;
+        opacity: 0;
+        border: #000000 solid;
+        border-width: 1px;
+        animation: fadeIn 0.5s 2.25s forwards;
+    }
+
+    .float-right {
+        margin-left: 20px;
+        float: right;
+    }
+
+    .float-left {
+        margin-right: 20px;
+        float: left;
+    }
+
+    #Muntakim_UBC {
+        border-radius: 50%;
+    }
+}
