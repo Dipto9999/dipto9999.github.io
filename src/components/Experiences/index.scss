@@ -1,19 +1,17 @@
 .experiences-page {
     .text-zone {
-        position: absolute;
-        left: 15%;
-        top: 40%;
-        transform: translateY(-50%);
-        width: 60%;
+        position: relative;
+        width: 100%;
         max-width: 90%;
         text-align: left;
+        overflow-y: auto;
 
         h1 {
             font-size: 50px;
             font-family: 'Coolvetica';
             color: #000000;
             font-weight: 400;
-            margin-top:0;
+            margin-top: 0;
             margin-bottom: 40px;
             left: 10px;
             position: relative;

@@ -2,11 +2,10 @@
     background: #141331;
     width: 12%;
     max-width: 120px;
-    height: 100%;
-    position: absolute;
+    height: 100vh; /* Use full viewport height */
+    position: fixed; /* Fixed position to stay in place while scrolling */
     top: 0;
     z-index: 3;
-    min-height: 500px;
 
     .logo {
         display: block;
