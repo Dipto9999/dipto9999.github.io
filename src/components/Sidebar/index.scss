@@ -45,11 +45,11 @@
                 color: #D9FEC0;
 
                 svg {
-                    opacity:0;
+                    opacity: 0;
                 }
 
                 &:after {
-                    opacity:1;
+                    opacity: 1;
                 }
             }
 
@@ -94,7 +94,7 @@
 
         a.active {
             svg {
-                color : #3EA542;
+                color: #3EA542;
             }
         }
     }
@@ -111,7 +111,7 @@
 
         li {
             a {
-                padding : 8px 0px;
+                padding: 8px 0px;
                 display: block;
                 font-size: 25px;
                 line-height: 16px;
@@ -119,6 +119,41 @@
                 &:hover svg {
                     color: #D9FEC0;
                 }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        width: 15%;
+        max-width: none;
+
+        nav a {
+            font-size: 18px;
+            line-height: 30px;
+            height: 50px;
+
+            &:after {
+                font-size: 14px;
+                line-height: 1.2;
+                height: 50px;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        width: 20%;
+        max-width: none;
+
+        nav a {
+            font-size: 14px;
+            line-height: 20px;
+            height: 35px;
+
+            &:after {
+                font-size: 10px;
+                line-height: 1;
+                height: 35px;
+                opacity: 0; /* Hide the hover text completely for very small screens */
             }
         }
     }
