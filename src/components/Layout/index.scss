@@ -135,6 +135,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-right: 12%;
 
     @media (max-width: 1024px) {
         padding-left: calc(12% + 10px); /* Adjust padding based on navbar width and extra margin */
