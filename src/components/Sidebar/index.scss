@@ -122,39 +122,18 @@
             }
         }
     }
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
+    .nav-bar {
         width: 15%;
         max-width: none;
-
-        nav a {
-            font-size: 18px;
-            line-height: 30px;
-            height: 50px;
-
-            &:after {
-                font-size: 14px;
-                line-height: 1.2;
-                height: 50px;
-            }
-        }
     }
+}
 
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
+    .nav-bar {
         width: 20%;
         max-width: none;
-
-        nav a {
-            font-size: 14px;
-            line-height: 20px;
-            height: 35px;
-
-            &:after {
-                font-size: 10px;
-                line-height: 1;
-                height: 35px;
-                opacity: 0; /* Hide the hover text completely for very small screens */
-            }
-        }
     }
 }
