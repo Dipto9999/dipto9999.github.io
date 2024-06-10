@@ -1,9 +1,26 @@
-// src/components/Layout/index.scss
-
 .main-content {
     padding-left: 12%; /* Adjust based on the width of the sidebar */
     padding-top: 20px; /* Optional: Add some top padding if needed */
     overflow-x: hidden; /* Prevent horizontal overflow */
+    position: relative; /* Ensure relative positioning */
+}
+
+.tags {
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    opacity: 0.7;
+}
+
+.top-tags {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.bottom-tags {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
 }
 
 .container {
