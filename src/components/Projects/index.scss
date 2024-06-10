@@ -5,6 +5,8 @@
         max-width: 90%;
         text-align: left;
         overflow-y: auto;
+        margin: 0 auto;
+        padding: 20px 0;
 
         h1 {
             font-size: 50px;
@@ -13,61 +15,91 @@
             font-weight: 400;
             margin-top: 0;
             margin-bottom: 40px;
-            left: 10px;
             position: relative;
         }
-    }
 
-    .custom-card-text {
-        font-size: 20px;
-    }
+        .custom-card-text {
+            font-size: 20px;
+            margin-bottom: 40px; // Added margin to space out sections
 
-    iframe {
-        width: 30%;
-        height: auto;
-        opacity: 0;
-        border: #000000 solid;
-        border-width: 1px;
-        animation: fadeIn 0.5s 2.25s forwards;
+            img, iframe, video {
+                width: 30%;
+                height: auto;
+                opacity: 0;
+                border: #000000 solid;
+                border-width: 1px;
+                animation: fadeIn 0.5s 2.25s forwards;
+            }
 
-        @media (max-width: 768px) {
-            width: 100%;
+            .float-right {
+                margin-left: 20px;
+                float: right;
+            }
+
+            .float-left {
+                margin-right: 20px;
+                float: left;
+            }
+
+            &::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
         }
 
-        @media (max-width: 1024px) {
-            width: 100%;
+        .hr-separator {
+            color: #ffffff;
+            border: 1.5px solid #141331;
+            margin: 20px 0;
         }
     }
+}
 
-    img {
-        width: 30%;
-        height: auto;
-        opacity: 0;
-        border: #000000 solid;
-        border-width: 1px;
-        animation: fadeIn 0.5s 2.25s forwards;
+@media (max-width: 768px) {
+    .projects-page .text-zone {
+        padding: 10px;
+
+        .custom-card-text {
+            font-size: 18px;
+
+            img, iframe, video {
+                width: 100%;
+                margin: 10px auto;
+                display: block;
+                float: none;
+            }
+
+            .float-right,
+            .float-left {
+                float: none;
+                margin: 0 auto;
+            }
+        }
+
+        h1 {
+            font-size: 35px;
+        }
     }
+}
 
-    .contains-video {
-        margin-bottom: 15%;
-    }
+@media (max-width: 480px) {
+    .projects-page .text-zone {
+        padding: 5px;
 
-    video {
-        width: 30%;
-        height: auto;
-        opacity: 0;
-        border: #000000 solid;
-        border-width: 1px;
-        animation: fadeIn 0.5s 2.25s forwards;
-    }
+        .custom-card-text {
+            font-size: 16px;
 
-    .float-right {
-        margin-left: 20px;
-        float: right;
-    }
+            img, iframe, video {
+                width: 70%;
+                margin: 10px auto;
+                display: block;
+                float: none;
+            }
+        }
 
-    .float-left {
-        margin-right: 20px;
-        float: left;
+        h1 {
+            font-size: 25px;
+        }
     }
 }

@@ -5,6 +5,8 @@
         max-width: 90%;
         text-align: left;
         overflow-y: auto;
+        margin: 0 auto;
+        padding: 20px 0;
 
         h1 {
             font-size: 50px;
@@ -13,35 +15,95 @@
             font-weight: 400;
             margin-top: 0;
             margin-bottom: 40px;
-            left: 10px;
             position: relative;
+        }
+
+        .custom-card-text {
+            font-size: 20px;
+            margin-bottom: 40px; // Added margin to space out sections
+
+            img {
+                width: 30%;
+                height: auto;
+                opacity: 0;
+                border: #000000 solid;
+                border-width: 1px;
+                animation: fadeIn 0.5s 2.25s forwards;
+            }
+
+            .float-right {
+                margin-left: 20px;
+                float: right;
+            }
+
+            .float-left {
+                margin-right: 20px;
+                float: left;
+            }
+
+            &::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        }
+
+        #Muntakim_UBC {
+            border-radius: 50%;
         }
     }
 
-    .custom-card-text {
-        font-size: 20px;
+    .hr-separator {
+        color: #ffffff;
+        border: 1.5px solid #141331;
+        margin: 20px 0;
     }
+}
 
-    img {
-        width: 30%;
-        height: auto;
-        opacity: 0;
-        border: #000000 solid;
-        border-width: 1px;
-        animation: fadeIn 0.5s 2.25s forwards;
+@media (max-width: 768px) {
+    .experiences-page .text-zone {
+        padding: 10px;
+
+        .custom-card-text {
+            font-size: 18px;
+
+            img {
+                width: 50%;
+                margin: 10px auto;
+                display: block;
+                float: none;
+            }
+
+            .float-right,
+            .float-left {
+                float: none;
+                margin: 0 auto;
+            }
+        }
+
+        h1 {
+            font-size: 35px;
+        }
     }
+}
 
-    .float-right {
-        margin-left: 20px;
-        float: right;
-    }
+@media (max-width: 480px) {
+    .experiences-page .text-zone {
+        padding: 5px;
 
-    .float-left {
-        margin-right: 20px;
-        float: left;
-    }
+        .custom-card-text {
+            font-size: 16px;
 
-    #Muntakim_UBC {
-        border-radius: 50%;
+            img {
+                width: 70%;
+                margin: 10px auto;
+                display: block;
+                float: none;
+            }
+        }
+
+        h1 {
+            font-size: 25px;
+        }
     }
 }
