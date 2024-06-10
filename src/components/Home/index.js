@@ -31,9 +31,10 @@ const Home = () => {
 
     return (
         <>
+            <Loader type="line-scale-pulse-out" />
             <div className="container home-page">
+                <span className='tags top-tags'>func main() &#123;</span>
                 <div className="text-zone">
-                    <span className='tags top-tags'>func main() &#123;</span>
                     <h1>
                         <span className="supertitle">
                             <AnimatedLetters
@@ -57,7 +58,6 @@ const Home = () => {
                         I've found that I thrive in environments that require first principles thinking, especially in the realm of big data. Whether working on satellite firmware or designing data-centric user interfaces,
                         my goal is to bring robust and scalable solutions to intricate engineering challenges.
                     </h2>
-                    <span className='tags bottom-tags'>&#125;</span>
                 </div>
                 <div className="stage-cube-container">
                     <div className="cubespinner">
@@ -69,8 +69,8 @@ const Home = () => {
                         <div className="face6"><img src={ASM} alt="ASM" /></div>
                     </div>
                 </div>
+                <span className='tags bottom-tags'>&#125;</span>
             </div>
-            <Loader type="line-scale-pulse-out" />
         </>
     );
 }

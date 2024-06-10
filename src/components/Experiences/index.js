@@ -22,81 +22,81 @@ const Experiences = () => {
 
     return (
         <>
-        <Loader type="line-scale-pulse-out"/>
-        <div className='container experiences-page'>
-            <span className='tags top-tags'>func main() &#123;</span>
+            <Loader type="line-scale-pulse-out"/>
+            <div className='container experiences-page'>
+                <span className='tags top-tags'>func main() &#123;</span>
 
-            <div className='text-zone'>
-                <h1 className="supertitle">
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={['E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e', 's']}
-                        idx={10}
-                    />
-                </h1>
+                <div className='text-zone'>
+                    <h1 className="supertitle">
+                        <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={['E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e', 's']}
+                            idx={10}
+                        />
+                    </h1>
 
-                <p className="custom-card-text">
-                    <img
-                        src={Muntakim_UBC}
-                        className="float-right"
-                        id="Muntakim_UBC"
-                        alt="Muntakim Rahman : UBC Sauder School Headshot"
-                    />
-                    ⚡ I'm currently pursuing a <strong>Bachelors in Electrical Engineering</strong> at the <strong><a href="https://ece.ubc.ca/undergraduates/programs/electrical-engineering-program/" className="external-links">University of British Columbia</a></strong>,
-                    with an expected graduation in May 2026. My academic background also includes a <strong><a href="https://extendedlearning.ubc.ca/programs-credentials/key-capabilities-data-science-certificate" className="external-links">Certificate in Data Science</a></strong>,
-                    where I enhanced my skills in data analytics and visualization, as well as some machine learning. ⚡
-                </p>
+                    <p className="custom-card-text">
+                        <img
+                            src={Muntakim_UBC}
+                            className="float-right"
+                            id="Muntakim_UBC"
+                            alt="Muntakim Rahman : UBC Sauder School Headshot"
+                        />
+                        ⚡ I'm currently pursuing a <strong>Bachelors in Electrical Engineering</strong> at the <strong><a href="https://ece.ubc.ca/undergraduates/programs/electrical-engineering-program/" className="external-links">University of British Columbia</a></strong>,
+                        with an expected graduation in May 2026. My academic background also includes a <strong><a href="https://extendedlearning.ubc.ca/programs-credentials/key-capabilities-data-science-certificate" className="external-links">Certificate in Data Science</a></strong>,
+                        where I enhanced my skills in data analytics and visualization, as well as some machine learning. ⚡
+                    </p>
 
-                <p className="custom-card-text">
-                    <strong>Software Applications Engineering Intern @ <a href="https://www.tesla.com/en_eu/megapack" className="external-links">TESLA, Inc</a> 🔋 </strong>(Jan 2023 - Jan 2024,&nbsp;May 2024 - Present)
-                    <hr className="hr-separator"/>
-                    <img
-                        src={Tesla_Interns_2023}
-                        className="float-left"
-                        alt="Tesla Deer Creek Interns Fall 2023"
-                    />
-                    As part of the Industrial Energy Storage organization, I developed software automation and tools to analyze project performance metrics and generate reports. I helped standardize data management best practices in reporting
-                    key performance indicators to partner engineering teams and org leadership.
-                </p>
+                    <p className="custom-card-text">
+                        <strong>Software Applications Engineering Intern @ <a href="https://www.tesla.com/en_eu/megapack" className="external-links">TESLA, Inc</a> 🔋 </strong>(Jan 2023 - Jan 2024,&nbsp;May 2024 - Present)
+                        <hr className="hr-separator"/>
+                        <img
+                            src={Tesla_Interns_2023}
+                            className="float-left"
+                            alt="Tesla Deer Creek Interns Fall 2023"
+                        />
+                        As part of the Industrial Energy Storage organization, I developed software automation and tools to analyze project performance metrics and generate reports. I helped standardize data management best practices in reporting
+                        key performance indicators to partner engineering teams and org leadership.
+                    </p>
 
-                <p className="custom-card-text">
-                    <strong>Product Coordinator Intern @ <a href="https://www.geotab.com/" className="external-links">GEOTAB, Inc</a> 🌐 </strong>(Jan 2022 - Jan 2023)
-                    <hr className="hr-separator"/>
-                    <img
-                        src={Geotab_Volleyball_2022}
-                        className="float-right"
-                        alt="GEOTAB Interns 2022"
-                    />
-                    I coordinated UX research initiatives across Product Management teams to help develop vehicle telematics hardware and software solutions. I presented product insights, from both
-                    customer interviews and statistical analysis, to developers, product managers, and executives in informing roadmap decisions. During my time here, I also participated as a speaker for the Summer Junior Student Program,
-                    and provided secondary school students an Introduction to Big Data.
-                </p>
+                    <p className="custom-card-text">
+                        <strong>Product Coordinator Intern @ <a href="https://www.geotab.com/" className="external-links">GEOTAB, Inc</a> 🌐 </strong>(Jan 2022 - Jan 2023)
+                        <hr className="hr-separator"/>
+                        <img
+                            src={Geotab_Volleyball_2022}
+                            className="float-right"
+                            alt="GEOTAB Interns 2022"
+                        />
+                        I coordinated UX research initiatives across Product Management teams to help develop vehicle telematics hardware and software solutions. I presented product insights, from both
+                        customer interviews and statistical analysis, to developers, product managers, and executives in informing roadmap decisions. During my time here, I also participated as a speaker for the Summer Junior Student Program,
+                        and provided secondary school students an Introduction to Big Data.
+                    </p>
 
-                <p className="custom-card-text">
-                    <strong>Firmware Developer @ <a href="https://www.ubcorbit.com/" className="external-links">UBC Orbit</a> 🛰️ </strong>(Sept 2019 - Nov 2022)
-                    <hr className="hr-separator"/>
-                    <img
-                        src={UBC_Orbit_2019}
-                        className="float-left"
-                        alt="UBC Orbit Satellite Design Team 2019"
-                    />
-                    At university, I've had the opportunity to work on the ALEASAT project as part of the Command and Data-Handling (CDH) subteam. I worked on developing the onboard-computer telemetry functionality, intended to address
-                    system failure risks and ensure critical orbital tasks were performed with deterministic execution.
-                </p>
+                    <p className="custom-card-text">
+                        <strong>Firmware Developer @ <a href="https://www.ubcorbit.com/" className="external-links">UBC Orbit</a> 🛰️ </strong>(Sept 2019 - Nov 2022)
+                        <hr className="hr-separator"/>
+                        <img
+                            src={UBC_Orbit_2019}
+                            className="float-left"
+                            alt="UBC Orbit Satellite Design Team 2019"
+                        />
+                        At university, I've had the opportunity to work on the ALEASAT project as part of the Command and Data-Handling (CDH) subteam. I worked on developing the onboard-computer telemetry functionality, intended to address
+                        system failure risks and ensure critical orbital tasks were performed with deterministic execution.
+                    </p>
 
-                <p className="custom-card-text">
-                    <hr className="hr-separator"/>
-                    <img
-                        src={Optimus}
-                        className="float-right"
-                        alt="Tesla Bot Optimus in Front of a Cybertruck"
-                    />
-                    A potential market that excites me is the emerging field of humanoid and autonomous robots! 🤖 I am keen to
-                    closely follow new developments in this technological space!
-                </p>
+                    <p className="custom-card-text">
+                        <hr className="hr-separator"/>
+                        <img
+                            src={Optimus}
+                            className="float-right"
+                            alt="Tesla Bot Optimus in Front of a Cybertruck"
+                        />
+                        A potential market that excites me is the emerging field of humanoid and autonomous robots! 🤖 I am keen to
+                        closely follow new developments in this technological space!
+                    </p>
+                </div>
+                <span className='tags bottom-tags'>&#125;</span>
             </div>
-            <span className='tags bottom-tags'>&#125;</span>
-        </div>
         </>
     )
 }
