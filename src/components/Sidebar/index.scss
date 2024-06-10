@@ -128,6 +128,18 @@
     .nav-bar {
         width: 15%;
         max-width: none;
+
+        nav a {
+            font-size: 20px;
+
+            &:after {
+                font-size: 14px;
+            }
+        }
+
+        ul li a {
+            font-size: 20px;
+        }
     }
 }
 
@@ -135,5 +147,17 @@
     .nav-bar {
         width: 20%;
         max-width: none;
+
+        nav a {
+            font-size: 18px;
+
+            &:after {
+                font-size: 12px;
+            }
+        }
+
+        ul li a {
+            font-size: 18px;
+        }
     }
 }
