@@ -5,6 +5,10 @@
     padding-top: 20px; /* Optional: Add some top padding if needed */
     overflow-x: hidden; /* Prevent horizontal overflow */
     position: relative; /* Ensure relative positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .tags {
@@ -102,6 +106,8 @@ h2 {
     .main-content {
         padding-left: 5%;
         padding-right: 5%;
+        flex-direction: column;
+        align-items: center;
     }
 
     .tags {

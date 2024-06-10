@@ -1,13 +1,17 @@
 // src/components/Home/index.scss
 
 .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+
     .text-zone {
-        position: absolute;
-        left: 15%;
-        top: 40%;
-        transform: translateY(-50%);
-        width: 60%;
-        max-width: 90%;
+        position: relative;
+        max-width: 70%;
+        margin: 0 auto;
         text-align: left;
 
         img {
@@ -58,13 +62,10 @@
     }
 
     .stage-cube-container {
-        position: absolute;
-        right: 5%;
-        top: 40%;
-        transform: translateY(-50%);
         width: 200px;
         height: 200px;
         perspective: 1000px;
+        margin-top: 20px;
     }
 
     .cubespinner {
@@ -131,8 +132,6 @@
         }
 
         .stage-cube-container {
-            position: static;
-            transform: none;
             width: 150px;
             height: 150px;
             margin: 20px auto;
