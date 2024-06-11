@@ -24,8 +24,8 @@ const Projects = () => {
                     <h1 className="supertitle">
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', ' ', 'H', 'i', 'g', 'h', 'l', 'i', 'g', 'h', 't', 's']}
-                            idx={7}
+                            strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
+                            idx={1}
                         />
                     </h1>
                     <p className="custom-card-text">

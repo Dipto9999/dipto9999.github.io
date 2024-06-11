@@ -13,12 +13,7 @@ import './index.scss';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const helloArray = ['H', 'i', ' ', 't', 'h', 'e', 'r', 'e', ','];
-    const welcomeArray = [
-        'w', 'e', 'l', 'c', 'o', 'm', 'e', ' ',
-        't', 'o', ' ', 'm', 'y', ' ',
-        'p', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o', '!'
-    ];
+    const helloArray = ['H', 'i', ' ', 't', 'h', 'e', 'r', 'e', '!'];
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -41,11 +36,6 @@ const Home = () => {
                                 letterClass={letterClass}
                                 strArray={helloArray}
                                 idx={1}
-                            />
-                            <AnimatedLetters
-                                letterClass={letterClass}
-                                strArray={welcomeArray}
-                                idx={10}
                             />
                         </span> 🙋🏽‍♂️
                     </h1>
