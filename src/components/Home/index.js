@@ -26,7 +26,10 @@ const Home = () => {
 
     return (
         <>
-            <Loader type="line-scale-pulse-out" />
+            <div className="loader">
+                <Loader type="line-scale-pulse-out" />
+            </div>
+
             <div className="container home-page">
                 <span className='tags top-tags'>func main() &#123;</span>
                 <div className="text-zone">

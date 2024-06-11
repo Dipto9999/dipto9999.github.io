@@ -22,7 +22,10 @@ const Experiences = () => {
 
     return (
         <>
-            <Loader type="line-scale-pulse-out"/>
+            <div className="loader">
+                <Loader type="line-scale-pulse-out" />
+            </div>
+
             <div className='container experiences-page'>
                 <span className='tags top-tags'>func main() &#123;</span>
 
@@ -31,7 +34,7 @@ const Experiences = () => {
                         <AnimatedLetters
                             letterClass={letterClass}
                             strArray={['E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e', 's']}
-                            idx={10}
+                            idx={1}
                         />
                     </h1>
 

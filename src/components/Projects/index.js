@@ -17,7 +17,10 @@ const Projects = () => {
 
     return (
         <>
-            <Loader type="line-scale-pulse-out"/>
+            <div className="loader">
+                <Loader type="line-scale-pulse-out" />
+            </div>
+
             <div className='container projects-page'>
                 <span className='tags top-tags'>func main() &#123;</span>
                 <div className='text-zone'>
