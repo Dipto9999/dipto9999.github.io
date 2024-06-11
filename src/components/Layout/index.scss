@@ -21,7 +21,7 @@
     position: absolute;
     top: 10px;
     left: 20px;
-    padding-bottom: 20px; // Add padding to the bottom
+    padding-bottom: 20px; /* Add padding to the bottom */
 }
 
 .bottom-tags {
@@ -76,6 +76,7 @@
 }
 
 h1 {
+    padding-top: 10px;
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 400;
@@ -163,6 +164,7 @@ h2 {
     }
 
     h2 {
+        padding-top: 10px;
         font-size: 0.8em;
     }
 }
