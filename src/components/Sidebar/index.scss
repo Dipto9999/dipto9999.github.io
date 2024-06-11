@@ -124,6 +124,45 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .nav-bar {
+        width: 10%;
+        max-width: 80px;
+
+        nav {
+            a {
+                font-size: 22px;
+
+                &:after {
+                    font-size: 16px;
+                }
+            }
+
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a.interests-link {
+                &:after {
+                    content: 'Interests';
+                }
+            }
+        }
+
+        ul li a {
+            font-size: 22px;
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .nav-bar {
         width: 15%;
@@ -156,7 +195,6 @@
                 }
             }
         }
-
 
         ul li a {
             font-size: 20px;
@@ -199,6 +237,45 @@
 
         ul li a {
             font-size: 18px;
+        }
+    }
+}
+
+@media (orientation: landscape) and (max-height: 480px) {
+    .nav-bar {
+        width: 15%;
+        max-width: 60px;
+
+        nav {
+            a {
+                font-size: 16px;
+
+                &:after {
+                    font-size: 10px;
+                }
+            }
+
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a.interests-link {
+                &:after {
+                    content: 'Interests';
+                }
+            }
+        }
+
+        ul li a {
+            font-size: 16px;
         }
     }
 }
