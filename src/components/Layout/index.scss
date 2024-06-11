@@ -74,30 +74,6 @@
         animation: fadeIn 1s 1.7s backwards;
         opacity: 0.6;
     }
-
-    @media (max-width: 768px) {
-        &::before {
-            content: "fmt.\nPrintf(\n'";
-            white-space: pre-line;
-        }
-
-        &::after {
-            content: "\n')";
-            white-space: pre-line;
-        }
-    }
-
-    @media (max-width: 480px) {
-        &::before {
-            content: "fmt.\nPrintf(\n'";
-            white-space: pre-line;
-        }
-
-        &::after {
-            content: "\n')";
-            white-space: pre-line;
-        }
-    }
 }
 
 h1 {
