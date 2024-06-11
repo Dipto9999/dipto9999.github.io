@@ -1,5 +1,3 @@
-// src/components/Layout/index.scss
-
 .main-content {
     padding-left: 12%; /* Adjust based on the width of the sidebar */
     padding-top: 20px; /* Optional: Add some top padding if needed */
@@ -23,6 +21,7 @@
     position: absolute;
     top: 10px;
     left: 20px;
+    padding-bottom: 20px; // Add padding to the bottom
 }
 
 .bottom-tags {
@@ -120,6 +119,7 @@ h2 {
     .top-tags {
         top: 5px;
         left: 10px;
+        padding-bottom: 15px; // Adjust padding for smaller screens
     }
 
     .bottom-tags {
@@ -150,6 +150,7 @@ h2 {
     .top-tags {
         top: 5px;
         left: 5px;
+        padding-bottom: 10px; // Adjust padding for even smaller screens
     }
 
     .bottom-tags {

@@ -104,6 +104,14 @@
         83% { transform: rotateX(90deg); }
     }
 
+    @media (min-width: 770px) {
+        .text-zone h2 {
+            font-size: 1.5em; /* Adjust to a suitable size */
+            text-align: center;
+            bottom: 20px;
+        }
+    }
+
     @media (max-width: 768px) {
         .text-zone {
             position: static;
