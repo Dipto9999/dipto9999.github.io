@@ -129,13 +129,34 @@
         width: 15%;
         max-width: none;
 
-        nav a {
-            font-size: 20px;
+        nav {
+            a {
+                font-size: 20px;
 
-            &:after {
-                font-size: 14px;
+                &:after {
+                    font-size: 14px;
+                }
+            }
+
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a.interests-link {
+                &:after {
+                    content: 'Interests';
+                }
             }
         }
+
 
         ul li a {
             font-size: 20px;
@@ -148,11 +169,31 @@
         width: 20%;
         max-width: none;
 
-        nav a {
-            font-size: 18px;
+        nav {
+            a {
+                font-size: 18px;
 
-            &:after {
-                font-size: 12px;
+                &:after {
+                    font-size: 12px;
+                }
+            }
+
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a.interests-link {
+                &:after {
+                    content: 'Interests';
+                }
             }
         }
 
