@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.796b3422.css",
+    "main.css": "/static/css/main.ecec8779.css",
     "main.js": "/static/js/main.c8d21459.js",
     "static/js/453.3a56e9bc.chunk.js": "/static/js/453.3a56e9bc.chunk.js",
     "static/media/UBC_Orbit_2019.jpg": "/static/media/UBC_Orbit_2019.4968c3cfde8dce344477.jpg",
@@ -22,12 +22,12 @@
     "static/media/C.svg": "/static/media/C.ac27de8477fe6c13739a9e3f385b75cc.svg",
     "static/media/Python.svg": "/static/media/Python.14f5a10cd798d37370e148820ac33a75.svg",
     "index.html": "/index.html",
-    "main.796b3422.css.map": "/static/css/main.796b3422.css.map",
+    "main.ecec8779.css.map": "/static/css/main.ecec8779.css.map",
     "main.c8d21459.js.map": "/static/js/main.c8d21459.js.map",
     "453.3a56e9bc.chunk.js.map": "/static/js/453.3a56e9bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.796b3422.css",
+    "static/css/main.ecec8779.css",
     "static/js/main.c8d21459.js"
   ]
 }
