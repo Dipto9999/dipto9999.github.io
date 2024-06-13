@@ -6,15 +6,15 @@
     position: fixed; /* Fixed position to stay in place while scrolling */
     top: 0;
     z-index: 3;
-    padding-top: 40px; /* Add padding to the top */
+    padding-top: 20px; /* Add padding to the top */
 
     .logo {
         display: block;
-        padding: 10% 10%;
+        padding: 5% 10%; /* Move emblem and name higher */
 
         img {
             display: block;
-            margin: 10% 0;
+            margin: 5% 0; /* Adjust margin */
             width: 95%;
             height: auto;
         }
@@ -24,7 +24,7 @@
         display: block;
         text-align: center;
         position: absolute;
-        top: 30%; /* Shift downward */
+        top: 20%; /* Shift downward */
         transform: translateY(0); /* Remove vertical centering */
         width: 100%;
         padding: 0 5%;
@@ -33,8 +33,8 @@
             font-size: 25px;
             color: #4d4d4e;
             display: block;
-            line-height: 40px; /* Reduce spacing */
-            height: 60px; /* Reduce spacing */
+            line-height: 30px; /* Reduce spacing */
+            height: 50px; /* Reduce spacing */
             position: relative;
             text-decoration: none;
 
@@ -61,7 +61,7 @@
                 position: absolute;
                 bottom: 0;
                 display: block;
-                height: 60px;
+                height: 50px;
                 width: 100%;
                 text-align: center;
                 opacity: 0;
@@ -131,9 +131,22 @@
         width: 10%;
         max-width: 80px;
 
+        .logo {
+            padding: 5% 5%; /* Move emblem and name higher */
+
+            img {
+                margin: 5% 0; /* Adjust margin */
+            }
+        }
+
         nav {
+            top: 20%; /* Shift downward */
+            padding: 0 5%;
+
             a {
                 font-size: 22px;
+                line-height: 30px; /* Reduce spacing */
+                height: 50px; /* Reduce spacing */
 
                 &:after {
                     font-size: 16px;
@@ -170,9 +183,22 @@
         width: 15%;
         max-width: none;
 
+        .logo {
+            padding: 5% 5%; /* Move emblem and name higher */
+
+            img {
+                margin: 5% 0; /* Adjust margin */
+            }
+        }
+
         nav {
+            top: 20%; /* Shift downward */
+            padding: 0 5%;
+
             a {
                 font-size: 20px;
+                line-height: 25px; /* Reduce spacing */
+                height: 40px; /* Reduce spacing */
 
                 &:after {
                     font-size: 14px;
@@ -209,9 +235,22 @@
         width: 20%;
         max-width: none;
 
+        .logo {
+            padding: 5% 5%; /* Move emblem and name higher */
+
+            img {
+                margin: 5% 0; /* Adjust margin */
+            }
+        }
+
         nav {
+            top: 20%; /* Shift downward */
+            padding: 0 5%;
+
             a {
                 font-size: 18px;
+                line-height: 25px; /* Reduce spacing */
+                height: 40px; /* Reduce spacing */
 
                 &:after {
                     font-size: 12px;
@@ -248,9 +287,22 @@
         width: 15%;
         max-width: 60px;
 
+        .logo {
+            padding: 5% 5%; /* Move emblem and name higher */
+
+            img {
+                margin: 5% 0; /* Adjust margin */
+            }
+        }
+
         nav {
+            top: 20%; /* Shift downward */
+            padding: 0 5%;
+
             a {
                 font-size: 16px;
+                line-height: 20px; /* Reduce spacing */
+                height: 30px; /* Reduce spacing */
 
                 &:after {
                     font-size: 10px;
