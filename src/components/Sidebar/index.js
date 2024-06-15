@@ -60,6 +60,7 @@ const Sidebar = () => (
                 </li>
             </ul>
         </div>
+        <br/>
     </div>
 )
 
