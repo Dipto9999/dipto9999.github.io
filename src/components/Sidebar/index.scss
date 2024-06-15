@@ -6,9 +6,6 @@
     position: fixed; /* Fixed position to stay in place while scrolling */
     top: 0;
     z-index: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Distribute space equally */
 
     .logo {
         display: block;
@@ -22,150 +19,156 @@
         }
     }
 
-    .content-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between; /* Ensure space between nav-links and social-links */
-        height: 100%; /* Full height of the container */
+    nav {
+        display: block;
+        text-align: center;
+        position: absolute;
+        height: 210px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
 
-        .nav-links {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            flex-grow: 1; /* Allow to grow and take available space */
+        a {
+            font-size: 25px;
+            color: #4d4d4e;
+            display: block;
+            line-height: 50px;
+            height: 75px;
+            position: relative;
+            text-decoration: none;
 
-            a {
-                font-size: 25px;
-                color: #4d4d4e;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                line-height: 75px;
-                height: 75px;
-                width: 100%;
-                position: relative;
-                text-decoration: none;
+            i {
+                transition: all 0.3s ease-out;
+            }
 
-                i {
-                    transition: all 0.3s ease-out;
-                }
+            &:hover {
+                color: #D9FEC0;
 
-                &:hover {
-                    color: #D9FEC0;
-
-                    svg {
-                        opacity: 0;
-                    }
-
-                    &:after {
-                        opacity: 1;
-                    }
+                svg {
+                    opacity: 0;
                 }
 
                 &:after {
-                    content: '';
-                    font-size: 18px;
-                    letter-spacing: 2px;
-                    position: absolute;
-                    bottom: 0;
-                    display: block;
-                    height: 75px;
-                    width: 100%;
-                    text-align: center;
-                    opacity: 0;
-                    transition: all 0.3s ease-out;
+                    opacity: 1;
                 }
+            }
 
-                &:first-child {
-                    &:after {
-                        content: 'Home';
-                    }
-                }
+            &:after {
+                content: '';
+                font-size: 18px;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                height: 75px;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+            }
 
-                &.experiences-link {
-                    &:after {
-                        content: 'Experiences';
-                    }
-                }
-
-                &.projects-link {
-                    &:after {
-                        content: 'Projects';
-                    }
-                }
-
-                &.interests-link {
-                    &:after {
-                        content: 'Interests';
-                    }
-                }
-
-                &.active {
-                    svg {
-                        color: #3EA542;
-                    }
+            &:first-child {
+                &:after {
+                    content: 'Home';
                 }
             }
         }
 
-        .social-links {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-bottom: 40px; /* Increased padding at the bottom */
-            list-style: none;
-            margin: 0;
-            padding: 0;
+        a.experiences-link {
+            &:after {
+                content: 'Experiences';
+            }
+        }
 
-            li {
-                a {
-                    padding: 8px 0;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font-size: 25px;
-                    line-height: 16px;
+        a.projects-link {
+            &:after {
+                content: 'Projects';
+            }
+        }
 
-                    &:hover svg {
-                        color: #D9FEC0;
-                    }
-                }
+        a.interests-link {
+            &:after {
+                content: 'Interests';
+            }
+        }
+
+        a.active {
+            svg {
+                color: #3EA542;
             }
         }
     }
 
-    @media (max-width: 1024px) and (orientation: landscape) {
-        .logo,
-        .social-links {
-            display: none;
+    ul {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+        li {
+            a {
+                padding: 8px 0px;
+                display: block;
+                font-size: 25px;
+                line-height: 16px;
+
+                &:hover svg {
+                    color: #D9FEC0;
+                }
+            }
         }
+    }
+}
 
-        .nav-links {
-            justify-content: space-around; /* Space out the links evenly */
-            margin-top: 20%; /* Add some top margin */
-            margin-bottom: 20%; /* Add some bottom margin */
+@media (max-width: 1024px) {
+    .nav-bar {
+        width: 10%;
+        max-width: 80px;
 
+        nav {
             a {
                 font-size: 22px;
-                line-height: 50px;
-                height: auto;
 
                 &:after {
                     font-size: 16px;
                 }
             }
 
-            a.experiences-link:after {
-                content: 'Work';
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a.interests-link {
+                &:after {
+                    content: 'Interests';
+                }
             }
         }
-    }
 
-    @media (max-width: 768px) {
+        ul li a {
+            font-size: 22px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
         width: 15%;
         max-width: none;
 
-        .nav-links {
+        nav {
             a {
                 font-size: 20px;
 
@@ -174,21 +177,37 @@
                 }
             }
 
-            a.experiences-link:after {
-                content: 'Work';
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a.interests-link {
+                &:after {
+                    content: 'Interests';
+                }
             }
         }
 
-        .social-links li a {
+        ul li a {
             font-size: 20px;
         }
     }
+}
 
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
+    .nav-bar {
         width: 20%;
         max-width: none;
 
-        .nav-links {
+        nav {
             a {
                 font-size: 18px;
 
@@ -197,21 +216,37 @@
                 }
             }
 
-            a.experiences-link:after {
-                content: 'Work';
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a.interests-link {
+                &:after {
+                    content: 'Interests';
+                }
             }
         }
 
-        .social-links li a {
+        ul li a {
             font-size: 18px;
         }
     }
+}
 
-    @media (orientation: landscape) and (max-height: 480px) {
+@media (orientation: landscape) and (max-height: 480px) {
+    .nav-bar {
         width: 15%;
         max-width: 60px;
 
-        .nav-links {
+        nav {
             a {
                 font-size: 16px;
 
@@ -220,12 +255,26 @@
                 }
             }
 
-            a.experiences-link:after {
-                content: 'Work';
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+
+            a.projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a.interests-link {
+                &:after {
+                    content: 'Interests';
+                }
             }
         }
 
-        .social-links li a {
+        ul li a {
             font-size: 16px;
         }
     }
