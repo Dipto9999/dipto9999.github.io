@@ -1,10 +1,10 @@
-import { Link, NavLink } from 'react-router-dom'
-import './index.scss'
-import Muntakim_Insignia from '../../assets/images/Insignia.png'
-import Muntakim_Cursive from '../../assets/images/Muntakim_Cursive.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faBriefcase, faCode, faGamepad, faEnvelope, faCalendar } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { Link, NavLink } from 'react-router-dom';
+import './index.scss';
+import Muntakim_Insignia from '../../assets/images/Insignia.png';
+import Muntakim_Cursive from '../../assets/images/Muntakim_Cursive.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faBriefcase, faCode, faGamepad, faEnvelope, faCalendar } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className="nav-bar">
@@ -60,8 +60,7 @@ const Sidebar = () => (
                 </li>
             </ul>
         </div>
-        <br/>
     </div>
-)
+);
 
 export default Sidebar;
