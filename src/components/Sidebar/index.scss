@@ -26,13 +26,15 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between; /* Ensure space between nav-links and social-links */
-        height: 100%; /* Full height of the container */
+        height: calc(100% - 20px); /* Adjust height to create extra space */
+        margin-top: 20px; /* Slightly push content down */
 
         .nav-links {
             display: flex;
             flex-direction: column;
             align-items: center;
             flex-grow: 1; /* Allow to grow and take available space */
+            margin-bottom: 10px; /* Add margin-bottom to push social links up */
 
             a {
                 font-size: 25px;
@@ -112,7 +114,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-bottom: 40px; /* Increased padding at the bottom */
+            padding-bottom: 20px; /* Adjust padding to your preference */
             list-style: none;
             margin: 0;
             padding: 0;
@@ -222,6 +224,7 @@
         .nav-links {
             a {
                 font-size: 18px;
+                padding: 10px 0;
 
                 &:after {
                     font-size: 12px;
@@ -247,8 +250,13 @@
             }
         }
 
-        .social-links li a {
-            font-size: 18px;
+        .social-links {
+            padding-bottom: 10px;
+
+            li a {
+                font-size: 18px;
+                padding: 10px 0;
+            }
         }
     }
 }
@@ -286,10 +294,8 @@
             }
         }
 
-        .social-links {
-            li a {
-                font-size: 16px;
-            }
+        .social-links li a {
+            font-size: 16px;
         }
     }
 }
