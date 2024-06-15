@@ -26,15 +26,13 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between; /* Ensure space between nav-links and social-links */
-        height: calc(100% - 20px); /* Adjust height to create extra space */
-        margin-top: 20px; /* Slightly push content down */
+        height: 100%; /* Full height of the container */
 
         .nav-links {
             display: flex;
             flex-direction: column;
             align-items: center;
             flex-grow: 1; /* Allow to grow and take available space */
-            margin-bottom: 10px; /* Add margin-bottom to push social links up */
 
             a {
                 font-size: 25px;
@@ -83,29 +81,29 @@
                         content: 'Home';
                     }
                 }
-            }
 
-            a.experiences-link {
-                &:after {
-                    content: 'Experiences';
+                &.experiences-link {
+                    &:after {
+                        content: 'Experiences';
+                    }
                 }
-            }
 
-            a.projects-link {
-                &:after {
-                    content: 'Projects';
+                &.projects-link {
+                    &:after {
+                        content: 'Projects';
+                    }
                 }
-            }
 
-            a.interests-link {
-                &:after {
-                    content: 'Interests';
+                &.interests-link {
+                    &:after {
+                        content: 'Interests';
+                    }
                 }
-            }
 
-            a.active {
-                svg {
-                    color: #3EA542;
+                &.active {
+                    svg {
+                        color: #3EA542;
+                    }
                 }
             }
         }
@@ -114,11 +112,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-bottom: 20px; /* Adjust padding to your preference */
+            padding-bottom: 40px; /* Increased padding at the bottom */
             list-style: none;
             margin: 0;
             padding: 0;
-            margin-top: auto; /* Ensure social-links are pushed to the bottom of the container */
 
             li {
                 a {
@@ -136,49 +133,35 @@
             }
         }
     }
-}
 
-@media (max-width: 1024px) {
-    .nav-bar {
-        width: 10%;
-        max-width: 80px;
+    @media (max-width: 1024px) and (orientation: landscape) {
+        .logo,
+        .social-links {
+            display: none;
+        }
 
         .nav-links {
+            justify-content: space-around; /* Space out the links evenly */
+            margin-top: 20%; /* Add some top margin */
+            margin-bottom: 20%; /* Add some bottom margin */
+
             a {
                 font-size: 22px;
+                line-height: 50px;
+                height: auto;
 
                 &:after {
                     font-size: 16px;
                 }
             }
 
-            a.experiences-link {
-                &:after {
-                    content: 'Work';
-                }
+            a.experiences-link:after {
+                content: 'Work';
             }
-
-            a.projects-link {
-                &:after {
-                    content: 'Projects';
-                }
-            }
-
-            a.interests-link {
-                &:after {
-                    content: 'Interests';
-                }
-            }
-        }
-
-        .social-links li a {
-            font-size: 22px;
         }
     }
-}
 
-@media (max-width: 768px) {
-    .nav-bar {
+    @media (max-width: 768px) {
         width: 15%;
         max-width: none;
 
@@ -191,22 +174,8 @@
                 }
             }
 
-            a.experiences-link {
-                &:after {
-                    content: 'Work';
-                }
-            }
-
-            a.projects-link {
-                &:after {
-                    content: 'Projects';
-                }
-            }
-
-            a.interests-link {
-                &:after {
-                    content: 'Interests';
-                }
+            a.experiences-link:after {
+                content: 'Work';
             }
         }
 
@@ -214,55 +183,31 @@
             font-size: 20px;
         }
     }
-}
 
-@media (max-width: 480px) {
-    .nav-bar {
+    @media (max-width: 480px) {
         width: 20%;
         max-width: none;
 
         .nav-links {
             a {
                 font-size: 18px;
-                padding: 10px 0;
 
                 &:after {
                     font-size: 12px;
                 }
             }
 
-            a.experiences-link {
-                &:after {
-                    content: 'Work';
-                }
-            }
-
-            a.projects-link {
-                &:after {
-                    content: 'Projects';
-                }
-            }
-
-            a.interests-link {
-                &:after {
-                    content: 'Interests';
-                }
+            a.experiences-link:after {
+                content: 'Work';
             }
         }
 
-        .social-links {
-            padding-bottom: 10px;
-
-            li a {
-                font-size: 18px;
-                padding: 10px 0;
-            }
+        .social-links li a {
+            font-size: 18px;
         }
     }
-}
 
-@media (orientation: landscape) and (max-height: 480px) {
-    .nav-bar {
+    @media (orientation: landscape) and (max-height: 480px) {
         width: 15%;
         max-width: 60px;
 
@@ -275,22 +220,8 @@
                 }
             }
 
-            a.experiences-link {
-                &:after {
-                    content: 'Work';
-                }
-            }
-
-            a.projects-link {
-                &:after {
-                    content: 'Projects';
-                }
-            }
-
-            a.interests-link {
-                &:after {
-                    content: 'Interests';
-                }
+            a.experiences-link:after {
+                content: 'Work';
             }
         }
 
