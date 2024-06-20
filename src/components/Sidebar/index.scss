@@ -6,6 +6,9 @@
     position: fixed; /* Fixed position to stay in place while scrolling */
     top: 0;
     z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space equally */
 
     .logo {
         display: block;
@@ -19,15 +22,46 @@
         }
     }
 
-    nav {
-        display: block;
-        text-align: center;
-        position: absolute;
-        height: 210px;
-        top: 50%;
-        margin-top: -225px;
-        width: 100%;
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Ensure space between nav-links and social-links */
+        height: 100%; /* Full height of the container */
 
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1; /* Allow to grow and take available space */
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 40px; /* Increased padding at the bottom */
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                a {
+                    padding: 8px 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 15px;
+                    line-height: 16px;
+
+                    &:hover svg {
+                        color: #D9FEC0;
+                    }
+                }
+            }
+        }
+    }
+
+    nav {
         a {
             font-size: 25px;
             color: #4d4d4e;
@@ -95,30 +129,6 @@
         a.active {
             svg {
                 color: #3EA542;
-            }
-        }
-    }
-
-    ul {
-        position: absolute;
-        bottom: 20px;
-        width: 100%;
-        display: block;
-        padding: 0;
-        list-style: none;
-        text-align: center;
-        margin: 0;
-
-        li {
-            a {
-                padding: 8px 0px;
-                display: block;
-                font-size: 25px;
-                line-height: 16px;
-
-                &:hover svg {
-                    color: #D9FEC0;
-                }
             }
         }
     }
