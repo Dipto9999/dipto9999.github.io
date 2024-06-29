@@ -10,9 +10,12 @@
 
     .text-zone {
         position: relative;
-        max-width: 70%;
-        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
         text-align: left;
+        overflow-y: auto;
+        margin: 0 auto;
+        padding: 20px 0;
 
         img {
             width: 30%;
@@ -49,8 +52,13 @@
         }
 
         h1 {
-            font-size: 2.5em;
-            margin: 0.5em 0;
+            font-size: 50px;
+            font-family: 'Coolvetica';
+            color: #000000;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 40px;
+            position: relative;
         }
 
         h2 {
@@ -65,7 +73,6 @@
         width: 150px;
         height: 150px;
         perspective: 2000px;
-        // position: absolute;
         right: 20px; /* Adjust right alignment as needed */
         top: 50%;
         transform: translateY(-50%);
@@ -86,7 +93,7 @@
             border: 1px solid #000000;
             background: rgba(89, 150, 87, 0.4);
             text-align: center;
-            font-size: 100px;
+            font-size: 50px; /* Adjust font size for small screens */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -172,15 +179,16 @@
         }
 
         .stage-cube-container {
-            width: 100px;
-            height: 100px;
-            margin: 30px auto;
+            width: 80px;
+            height: 80px;
+            margin: 20px auto;
         }
 
         .cubespinner {
             div {
-                width: 100px;
-                height: 100px;
+                width: 80px;
+                height: 80px;
+                font-size: 20px; /* Adjust font size for small screens */
             }
         }
     }

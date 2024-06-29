@@ -33,20 +33,8 @@ const Home = () => {
             <div className="container home-page">
                 <span className='tags top-tags'>func main() &#123;</span>
 
-                <div className="text-zone">
-                    <h1>
-                        <span className="supertitle">
-                            <AnimatedLetters
-                                letterClass={letterClass}
-                                strArray={helloArray}
-                                idx={1}
-                            />
-                        </span> 🙋🏽‍♂️
-                    </h1>
-                    <br />
-                </div>
-
                 <div className="stage-cube-container">
+                    <br/>
                     <div className="cubespinner">
                         <div className="face1"><img src={Python} alt="Python" /></div>
                         <div className="face2"><img src={SQL} alt="SQL" /></div>
@@ -57,8 +45,21 @@ const Home = () => {
                     </div>
                 </div>
 
+                <div className='text-zone'>
+                    <h1>
+                        <span className="supertitle">
+                            <AnimatedLetters
+                                letterClass={letterClass}
+                                strArray={helloArray}
+                                idx={1}
+                            />
+                        </span> 🙋🏽‍♂️
+                    </h1>
+                    <br/>
+                </div>
+
+
                 <div className="text-zone">
-                    <br />
                     <h2 className="custom-card-text">
                         <img src={Muntakim_Algonquin} alt="Muntakim Rahman at Algonquin Park, 2020" className="profile-img" />
                         My name is Muntakim and I'm an Electrical Engineering undergraduate with an appetite for software development.
