@@ -32,6 +32,7 @@ const Home = () => {
 
             <div className="container home-page">
                 <span className='tags top-tags'>func main() &#123;</span>
+
                 <div className="text-zone">
                     <h1>
                         <span className="supertitle">
@@ -43,15 +44,8 @@ const Home = () => {
                         </span> 🙋🏽‍♂️
                     </h1>
                     <br />
-                    <h2 className="custom-card-text">
-                        <img src={Muntakim_Algonquin} alt="Muntakim Rahman at Algonquin Park, 2020" className="profile-img" />
-                        My name is Muntakim and I'm an Electrical Engineering undergraduate with an appetite for software development.
-                        I'm passionate about developing innovative technologies that integrate software and hardware. My experiences are in data science and embedded systems;
-                        I love working on projects that leverage the intersection of these fields! <br /><br />
-                        I've found that I thrive in environments that require first principles thinking, especially in the realm of big data. Whether working on satellite firmware or designing data-centric user interfaces,
-                        my goal is to bring robust and scalable solutions to intricate engineering challenges.
-                    </h2>
                 </div>
+
                 <div className="stage-cube-container">
                     <div className="cubespinner">
                         <div className="face1"><img src={Python} alt="Python" /></div>
@@ -62,6 +56,19 @@ const Home = () => {
                         <div className="face6"><img src={ASM} alt="ASM" /></div>
                     </div>
                 </div>
+
+                <div className="text-zone">
+                    <br />
+                    <h2 className="custom-card-text">
+                        <img src={Muntakim_Algonquin} alt="Muntakim Rahman at Algonquin Park, 2020" className="profile-img" />
+                        My name is Muntakim and I'm an Electrical Engineering undergraduate with an appetite for software development.
+                        I'm passionate about developing innovative technologies that integrate software and hardware. My experiences are in data science and embedded systems;
+                        I love working on projects that leverage the intersection of these fields! <br /><br />
+                        I've found that I thrive in environments that require first principles thinking, especially in the realm of big data. Whether working on satellite firmware or designing data-centric user interfaces,
+                        my goal is to bring robust and scalable solutions to intricate engineering challenges.
+                    </h2>
+                </div>
+
                 <span className='tags bottom-tags'>&#125;</span>
             </div>
         </>
