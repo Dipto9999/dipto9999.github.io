@@ -10,6 +10,9 @@
 
     .text-zone {
         position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         width: 100%;
         max-width: 90%;
         text-align: left;
@@ -17,15 +20,49 @@
         margin: 0 auto;
         padding: 20px 0;
 
+        h1 {
+            font-size: 50px;
+            font-family: 'Coolvetica';
+            color: #000000;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h2 {
+            display: flex;
+            align-items: center; /* Center image vertically within text */
+            justify-content: space-between;
+            width: 100%;
+            font-size: 1.2em;
+            line-height: 1.5em;
+            margin: 1em 0;
+            text-align: left; /* Align text to the left */
+
+            .intro-text {
+                flex: 1;
+                text-align: left; /* Align text to the left */
+            }
+
+            .profile-img {
+                width: 25;
+                height: auto;
+                margin-left: 20px; /* Space between text and image */
+                align-self: center; /* Center image vertically */
+            }
+        }
+
         img {
             width: 30%;
             height: auto;
-            float: right;
             opacity: 0;
-            margin-left: 20px;
+            margin-left: 40px;
             border: #000000 solid;
             border-width: 1px;
             animation: fadeIn 0.5s 2.25s forwards;
+            display: block;
+            margin: 0 auto;
         }
 
         .tags {
@@ -49,23 +86,6 @@
         .supertitle {
             display: inline-block; /* Ensure inline-block to avoid overlap */
             margin-bottom: 20px;
-        }
-
-        h1 {
-            font-size: 50px;
-            font-family: 'Coolvetica';
-            color: #000000;
-            font-weight: 400;
-            margin-top: 0;
-            margin-bottom: 40px;
-            position: relative;
-        }
-
-        h2 {
-            font-size: 1.2em;
-            line-height: 1.5em;
-            margin: 1em 0;
-            text-align: left; /* Align text to the left */
         }
     }
 
