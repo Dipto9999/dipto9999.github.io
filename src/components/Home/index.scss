@@ -56,13 +56,12 @@
         img {
             width: 30%;
             height: auto;
+            float: right;
             opacity: 0;
-            margin-left: 40px;
+            margin-left: 20px;
             border: #000000 solid;
             border-width: 1px;
             animation: fadeIn 0.5s 2.25s forwards;
-            display: block;
-            margin: 0 auto;
         }
 
         .tags {
