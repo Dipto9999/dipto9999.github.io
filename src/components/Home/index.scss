@@ -7,6 +7,7 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-right: 0;
 
     .text-zone {
         position: relative;
@@ -38,18 +39,18 @@
             font-size: 1.2em;
             line-height: 1.5em;
             margin: 1em 0;
-            text-align: left; /* Align text to the left */
+            text-align: left;
 
             .intro-text {
                 flex: 1;
-                text-align: left; /* Align text to the left */
+                text-align: left;
             }
 
             .profile-img {
                 width: 25;
                 height: auto;
-                margin-left: 20px; /* Space between text and image */
-                align-self: center; /* Center image vertically */
+                margin-left: 20px;
+                align-self: center;
             }
         }
 
@@ -138,13 +139,19 @@
 
     @media (min-width: 770px) {
         .text-zone h2 {
-            font-size: 1.5em; /* Adjust to a suitable size */
+            font-size: 1.5em;
             text-align: center;
             bottom: 20px;
         }
     }
 
     @media (max-width: 768px) {
+        .home-page {
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-right: 0;
+        }
+
         .text-zone {
             position: static;
             transform: none;
@@ -160,11 +167,11 @@
             }
 
             h1 {
-                font-size: 1.8em;
+                font-size: 3.5em;
             }
 
             h2 {
-                font-size: 1em;
+                font-size: 1.5em;
                 text-align: center;
             }
         }

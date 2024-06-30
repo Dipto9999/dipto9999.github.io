@@ -18,16 +18,19 @@
             position: relative;
         }
 
-        .custom-card-text {
+        .custom-card-content {
             font-size: 20px;
             margin-bottom: 40px; // Added margin to space out sections
 
             img, iframe, video {
                 width: 30%;
                 height: auto;
-                opacity: 0;
                 border: #000000 solid;
                 border-width: 1px;
+            }
+
+            .custom-card-text {
+                opacity: 0;
                 animation: fadeIn 0.5s 2.25s forwards;
             }
 
@@ -60,7 +63,7 @@
     .projects-page .text-zone {
         padding: 10px;
 
-        .custom-card-text {
+        .custom-card-content {
             font-size: 18px;
 
             img, iframe, video {
@@ -87,7 +90,7 @@
     .projects-page .text-zone {
         padding: 5px;
 
-        .custom-card-text {
+        .custom-card-content {
             font-size: 16px;
 
             img, iframe, video {

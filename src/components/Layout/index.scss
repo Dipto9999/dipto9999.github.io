@@ -1,20 +1,20 @@
 .main-content {
-    padding-left: 12%; /* Adjust based on the width of the sidebar */
-    padding-top: 20px; /* Optional: Add some top padding if needed */
-    overflow-x: hidden; /* Prevent horizontal overflow */
-    position: relative; /* Ensure relative positioning */
+    padding-top: 20px;
+    padding-left: 12%; /* Adjust Padding for Navbar */
+    overflow-x: hidden; /* Prevent Horizontal Overflow */
+    position: relative; /* Ensure Relative Positioning */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin-right: 12%;
+    margin-right: 0;
 }
 
 .loader {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed; /* Stay fixed in the viewport */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -32,7 +32,7 @@
     position: absolute;
     top: 10px;
     left: 20px;
-    padding-bottom: 20px; /* Add padding to the bottom */
+    padding-bottom: 20px;
 }
 
 .bottom-tags {
@@ -121,11 +121,11 @@ h2 {
         padding-right: 5%;
         flex-direction: column;
         align-items: center;
-        margin-right: 5%;
+        margin-right: 0;
     }
 
     .tags {
-        font-size: 0.9em;
+        font-size: 1.5em;
     }
 
     .top-tags {
@@ -150,9 +150,9 @@ h2 {
 
 @media (max-width: 480px) {
     .main-content {
-        padding-left: 20%; /* Further adjust padding for smaller screens */
-        padding-right: 2%;
-        margin-right: 2%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
     }
 
     .tags {
