@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e52a0371.css",
-    "main.js": "/static/js/main.f788a3cc.js",
+    "main.css": "/static/css/main.398a6aa0.css",
+    "main.js": "/static/js/main.201daa6d.js",
     "static/js/453.3a56e9bc.chunk.js": "/static/js/453.3a56e9bc.chunk.js",
     "static/media/UBC_Orbit_2019.jpg": "/static/media/UBC_Orbit_2019.4968c3cfde8dce344477.jpg",
     "static/media/Geotab_Volleyball_2022.jpg": "/static/media/Geotab_Volleyball_2022.03afda7417ed095f1ec0.jpg",
@@ -22,12 +22,12 @@
     "static/media/C.svg": "/static/media/C.ac27de8477fe6c13739a9e3f385b75cc.svg",
     "static/media/Python.svg": "/static/media/Python.14f5a10cd798d37370e148820ac33a75.svg",
     "index.html": "/index.html",
-    "main.e52a0371.css.map": "/static/css/main.e52a0371.css.map",
-    "main.f788a3cc.js.map": "/static/js/main.f788a3cc.js.map",
+    "main.398a6aa0.css.map": "/static/css/main.398a6aa0.css.map",
+    "main.201daa6d.js.map": "/static/js/main.201daa6d.js.map",
     "453.3a56e9bc.chunk.js.map": "/static/js/453.3a56e9bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e52a0371.css",
-    "static/js/main.f788a3cc.js"
+    "static/css/main.398a6aa0.css",
+    "static/js/main.201daa6d.js"
   ]
 }
