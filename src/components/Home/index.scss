@@ -31,6 +31,12 @@
             margin-bottom: 40px;
             position: relative;
         }
+        h2 {
+            font-size: 18px;
+            font-family: 'Coolvetica';
+            color: #000000;
+            font-weight: 400;
+        }
 
         .custom-card-content {
             display: flex;
@@ -170,6 +176,10 @@
                 font-size: 3.5em;
             }
 
+            h2 {
+                font-size: 1.5em;
+            }
+
             .custom-card-content {
                 flex-direction: column; /* Stack Content Vertically */
                 font-size: 1.5em;
@@ -206,6 +216,10 @@
         .text-zone {
             h1 {
                 font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 0.8em;
             }
 
             .custom-card-content {
