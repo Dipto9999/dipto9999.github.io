@@ -31,9 +31,9 @@
             position: relative;
         }
 
-        h2 {
+        .custom-card-content {
             display: flex;
-            align-items: center; /* Center image vertically within text */
+            align-items: center; /* Center Image Vertically Within Text */
             justify-content: space-between;
             width: 100%;
             font-size: 1.2em;
@@ -47,9 +47,8 @@
             }
 
             .profile-img {
-                width: 25;
+                width: 30%;
                 height: auto;
-                margin-left: 20px;
                 align-self: center;
             }
         }
@@ -84,7 +83,7 @@
         }
 
         .supertitle {
-            display: inline-block; /* Ensure inline-block to avoid overlap */
+            display: inline-block; /* Ensure inline-block to Avoid Overlap */
             margin-bottom: 20px;
         }
     }
@@ -138,7 +137,7 @@
     }
 
     @media (min-width: 770px) {
-        .text-zone h2 {
+        .text-zone .custom-card-content {
             font-size: 1.5em;
             text-align: center;
             bottom: 20px;
@@ -153,38 +152,47 @@
         }
 
         .text-zone {
-            position: static;
+            position: relative;
             transform: none;
-            width: 90%;
+            width: 100%;
             margin: 0 auto;
             text-align: center;
 
             img {
                 width: 50%;
-                float: none;
-                margin: 0 auto;
+                margin: 10px auto;
                 display: block;
+                float: none;
             }
 
             h1 {
                 font-size: 3.5em;
             }
 
-            h2 {
+            .custom-card-content {
+                flex-direction: column; /* Stack Content Vertically */
                 font-size: 1.5em;
+                text-align: center;
+            }
+
+            .profile-img {
+                width: 50%;
+                margin: 20px auto;
+                display: block;
                 text-align: center;
             }
         }
 
         .stage-cube-container {
-            width: 150px;
-            height: 150px;
-            margin: 20px auto;
+            width: 75px;
+            height: 50px;
+            margin: 40px auto;
+            right: 0;
         }
 
         .cubespinner {
-            width: 100%;
-            height: 100%;
+            width: 50%;
+            height: 50%;
 
             div {
                 width: 150px;
@@ -202,11 +210,18 @@
             h2 {
                 font-size: 0.9em;
             }
+
+            .profile-img {
+                width: 75%;
+                margin: 10px auto;
+                display: block;
+                text-align: center;
+            }
         }
 
         .stage-cube-container {
-            width: 80px;
-            height: 80px;
+            width: 125px;
+            height: 125px;
             margin: 20px auto;
         }
 
