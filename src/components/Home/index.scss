@@ -8,6 +8,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     margin-right: 0;
+    overflow: hidden;  /* Ensure No Overflow */
 
     .text-zone {
         position: relative;
@@ -17,7 +18,7 @@
         width: 100%;
         max-width: 90%;
         text-align: left;
-        overflow-y: auto;
+        overflow-y: hidden; /* Ensure No Overflow */
         margin: 0 auto;
         padding: 20px 0;
 
@@ -207,8 +208,11 @@
                 font-size: 1.5em;
             }
 
-            h2 {
+            .custom-card-content {
                 font-size: 0.9em;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
             }
 
             .profile-img {
