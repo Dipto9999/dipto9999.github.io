@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin-right: 0;
+    margin-right: 12%;
 }
 
 .loader {
@@ -121,7 +121,7 @@ h2 {
         padding-right: 5%;
         flex-direction: column;
         align-items: center;
-        margin-right: 0;
+        margin-right: 5%;
     }
 
     .tags {
@@ -150,9 +150,9 @@ h2 {
 
 @media (max-width: 480px) {
     .main-content {
-        padding-left: 0;
-        padding-right: 0;
-        margin-right: 0;
+        padding-left: 20%; /* Further Adjust Padding for Smaller Screens */
+        padding-right: 2%;
+        margin-right: 2%;
     }
 
     .tags {
