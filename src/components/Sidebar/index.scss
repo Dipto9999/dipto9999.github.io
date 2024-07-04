@@ -218,5 +218,9 @@
         .social-links {
             display: none;
         }
+
+        .not-on-mobile {
+            display: none !important;
+        }
     }
 }
