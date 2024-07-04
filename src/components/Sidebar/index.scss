@@ -193,27 +193,7 @@
 @media (orientation: landscape) and (max-height: 480px) {
     .nav-bar {
         width: 15%;
-        max-width: 80px;
-
-        .logo {
-            padding: 5% 5%;
-
-            img {
-                width: 90%;
-            }
-        }
-
-        .content-container {
-            justify-content: flex-start;
-
-            .nav-links {
-                margin-top: 20px;
-            }
-
-            .social-links {
-                display: none;
-            }
-        }
+        max-width: 60px;
 
         nav {
             a {
@@ -233,6 +213,10 @@
 
         ul li a {
             font-size: 16px;
+        }
+
+        .social-links {
+            display: none;
         }
     }
 }

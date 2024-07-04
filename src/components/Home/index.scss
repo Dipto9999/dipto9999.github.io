@@ -250,4 +250,44 @@
             }
         }
     }
+
+    @media (orientation: landscape) and (max-height: 480px) {
+        .text-zone {
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 12px;
+            }
+
+            .custom-card-content {
+                font-size: 0.8em;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .profile-img {
+                width: 50%;
+                margin: 10px auto;
+                display: block;
+                text-align: center;
+            }
+        }
+
+        .stage-cube-container {
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+        }
+
+        .cubespinner {
+            div {
+                width: 70px;
+                height: 70px;
+                font-size: 15px;
+            }
+        }
+    }
 }
