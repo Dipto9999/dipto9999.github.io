@@ -10,7 +10,7 @@ const Navbar = () => (
     <div className="nav-bar">
         <Link className="logo" to="/">
             <img src={Muntakim_Insignia} alt="Muntakim Insignia" id="insignia" />
-            <img src={Muntakim_Cursive} className="sub-logo" alt="Muntakim Subtitle" id="cursive" />
+            <img src={Muntakim_Cursive} className="sub-logo" alt="Muntakim Subtitle" id="signature" />
         </Link>
         <div className="content-container">
             <nav className="nav-links">
@@ -29,32 +29,32 @@ const Navbar = () => (
             </nav>
             <ul className="social-links">
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/Dipto9999">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/Dipto9999" className="social-icon">
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/muntakim-rahman/">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/muntakim-rahman/" className="social-icon">
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/Dipto9999">
+                    <a target="_blank" rel="noreferrer" href="https://twitter.com/Dipto9999" className="social-icon">
                         <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCNF7p6gRuxE0dFYeDnzxoHw">
+                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCNF7p6gRuxE0dFYeDnzxoHw" className="social-icon">
                         <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="mailto:dipto100@alum.ubc.ca">
+                    <a target="_blank" rel="noreferrer" href="mailto:dipto100@alum.ubc.ca" className="social-icon">
                         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://calendly.com/muntakim-rahman">
+                    <a target="_blank" rel="noreferrer" href="https://calendly.com/muntakim-rahman" className="social-icon">
                         <FontAwesomeIcon icon={faCalendar} color="#4d4d4e" />
                     </a>
                 </li>

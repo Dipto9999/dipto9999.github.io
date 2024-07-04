@@ -140,6 +140,33 @@
 
 @media (max-width: 768px) {
     .nav-bar {
+        width: 15%;
+        max-width: none;
+
+        nav {
+            a {
+                font-size: 20px;
+
+                &:after {
+                    font-size: 14px;
+                }
+            }
+
+            a.experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+        }
+
+        ul li a {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 480px) or (max-height: 480px) {
+    .nav-bar {
         width: 100%;
         height: auto;
         position: fixed;
@@ -282,11 +309,9 @@
         }
 
         .social-links {
-            display: none;
-        }
-
-        .not-on-mobile {
-            display: none !important;
+            .social-icon {
+                display: none;
+            }
         }
     }
 }
