@@ -58,6 +58,10 @@
                         color: #D9FEC0;
                     }
                 }
+
+                #icon-padding {
+                    padding: 10px;
+                }
             }
         }
     }
@@ -165,7 +169,7 @@
     }
 }
 
-@media (max-width: 480px) or (max-height: 480px) {
+@media (max-width: 480px) or (max-height: 685px) {
     .nav-bar {
         width: 100%;
         height: auto;
@@ -192,10 +196,6 @@
 
             #insignia {
                 height: 40px;
-            }
-
-            #signature {
-                height: 20px;
             }
         }
 
@@ -276,6 +276,16 @@
         ul li a {
             font-size: 18px;
         }
+
+        .content-container {
+            .social-links {
+                display: none;
+
+                .social-icons {
+                    display: none;
+                }
+            }
+        }
     }
 }
 
@@ -306,12 +316,6 @@
 
         ul li a {
             font-size: 16px;
-        }
-
-        .social-links {
-            .social-icon {
-                display: none;
-            }
         }
     }
 }
