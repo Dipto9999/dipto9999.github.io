@@ -44,17 +44,32 @@ const Sidebar = () => (
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCNF7p6gRuxE0dFYeDnzxoHw">
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.youtube.com/channel/UCNF7p6gRuxE0dFYeDnzxoHw"
+                        class="not-on-mobile"
+                    >
                         <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="mailto:dipto100@alum.ubc.ca">
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="mailto:dipto100@alum.ubc.ca"
+                        class="not-on-mobile"
+                    >
                         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://calendly.com/muntakim-rahman">
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://calendly.com/muntakim-rahman"
+                        class="not-on-mobile"
+                    >
                         <FontAwesomeIcon icon={faCalendar} color="#4d4d4e" />
                     </a>
                 </li>
