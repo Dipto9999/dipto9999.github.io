@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faBriefcase, faCode, faGamepad, faEnvelope, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-const Sidebar = () => (
+const Navbar = () => (
     <div className="nav-bar">
         <Link className='logo' to="/">
             <img src={Muntakim_Insignia} alt="Muntakim Insignia" />
@@ -79,4 +79,4 @@ const Sidebar = () => (
     </div>
 );
 
-export default Sidebar;
+export default Navbar;
