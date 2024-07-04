@@ -8,7 +8,7 @@ import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-br
 
 const Navbar = () => (
     <div className="nav-bar">
-        <Link className='logo' to="/">
+        <Link className="logo" to="/">
             <img src={Muntakim_Insignia} alt="Muntakim Insignia" />
             <img src={Muntakim_Cursive} className="sub-logo" alt="Muntakim Subtitle" />
         </Link>
@@ -44,37 +44,21 @@ const Navbar = () => (
                     </a>
                 </li>
                 <li>
-                    <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.youtube.com/channel/UCNF7p6gRuxE0dFYeDnzxoHw"
-                        // class="not-on-mobile"
-                    >
+                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCNF7p6gRuxE0dFYeDnzxoHw">
                         <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="mailto:dipto100@alum.ubc.ca"
-                        // class="not-on-mobile"
-                    >
+                    <a target="_blank" rel="noreferrer" href="mailto:dipto100@alum.ubc.ca">
                         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://calendly.com/muntakim-rahman"
-                        // class="not-on-mobile"
-                    >
+                    <a target="_blank" rel="noreferrer" href="https://calendly.com/muntakim-rahman">
                         <FontAwesomeIcon icon={faCalendar} color="#4d4d4e" />
                     </a>
                 </li>
             </ul>
-            <br/>
         </div>
     </div>
 );

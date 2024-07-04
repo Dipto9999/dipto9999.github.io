@@ -138,12 +138,62 @@
 
 @media (max-width: 768px) {
     .nav-bar {
-        width: 15%;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
         max-width: none;
+        z-index: 3;
+
+        .logo {
+            padding: 0;
+
+            img {
+                margin: 0;
+                width: auto;
+                height: 40px;
+            }
+        }
+
+        .content-container {
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            padding: 0;
+
+            .nav-links {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .social-links {
+                flex-direction: row;
+
+                li {
+                    margin-left: 10px;
+
+                    a {
+                        padding: 0;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
 
         nav {
             a {
                 font-size: 20px;
+                height: auto;
+                width: auto;
+                line-height: normal;
+                margin: 0 10px;
 
                 &:after {
                     font-size: 14px;
@@ -156,17 +206,17 @@
                 }
             }
         }
-
-        ul li a {
-            font-size: 20px;
-        }
     }
 }
 
 @media (max-width: 480px) {
     .nav-bar {
-        width: 20%;
-        max-width: none;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
 
         nav {
             a {
@@ -192,8 +242,12 @@
 
 @media (orientation: landscape) and (max-height: 480px) {
     .nav-bar {
-        width: 15%;
-        max-width: 60px;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
 
         nav {
             a {
