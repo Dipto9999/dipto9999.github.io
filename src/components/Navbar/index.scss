@@ -11,7 +11,9 @@
     justify-content: space-between; /* Distribute space equally */
 
     .logo {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 10% 10%;
 
         img {
@@ -152,11 +154,21 @@
 
         .logo {
             padding: 0;
+            flex-direction: row;
+            align-items: center;
 
             img {
                 margin: 0;
                 width: auto;
                 height: 40px;
+            }
+
+            #insignia {
+                height: 40px;
+            }
+
+            #signature {
+                height: 20px;
             }
         }
 
