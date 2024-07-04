@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Distribute space equally */
-    padding-bottom: 20px; /* Add padding to the bottom */
 
     .logo {
         display: block;
@@ -141,7 +140,6 @@
     .nav-bar {
         width: 15%;
         max-width: none;
-        padding-bottom: 30px; /* Additional padding for mobile */
 
         nav {
             a {
@@ -159,10 +157,13 @@
             }
         }
 
-        .social-links li a {
-            padding: 4px 0; // Adjust spacing for mobile
-            font-size: 18px;
+        ul li a {
+            font-size: 20px;
         }
+    }
+
+    .not-on-mobile {
+        display: none !important;
     }
 }
 
@@ -170,7 +171,6 @@
     .nav-bar {
         width: 20%;
         max-width: none;
-        padding-bottom: 30px; /* Additional padding for smaller screens */
 
         nav {
             a {
@@ -188,9 +188,8 @@
             }
         }
 
-        .social-links li a {
-            padding: 2px 0; // Adjust spacing for smaller screens
-            font-size: 16px;
+        ul li a {
+            font-size: 18px;
         }
     }
 }
@@ -199,7 +198,6 @@
     .nav-bar {
         width: 15%;
         max-width: 60px;
-        padding-bottom: 30px; /* Additional padding for landscape mode */
 
         nav {
             a {
@@ -217,8 +215,7 @@
             }
         }
 
-        .social-links li a {
-            padding: 2px 0; // Adjust spacing for landscape mode
+        ul li a {
             font-size: 16px;
         }
     }
