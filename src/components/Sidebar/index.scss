@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Distribute space equally */
+    padding-bottom: 20px; /* Add padding to the bottom */
 
     .logo {
         display: block;
@@ -140,6 +141,7 @@
     .nav-bar {
         width: 15%;
         max-width: none;
+        padding-bottom: 30px; /* Additional padding for mobile */
 
         nav {
             a {
@@ -168,6 +170,7 @@
     .nav-bar {
         width: 20%;
         max-width: none;
+        padding-bottom: 30px; /* Additional padding for smaller screens */
 
         nav {
             a {
@@ -196,6 +199,7 @@
     .nav-bar {
         width: 15%;
         max-width: 60px;
+        padding-bottom: 30px; /* Additional padding for landscape mode */
 
         nav {
             a {
