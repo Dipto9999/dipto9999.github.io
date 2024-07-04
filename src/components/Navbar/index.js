@@ -9,8 +9,8 @@ import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-br
 const Navbar = () => (
     <div className="nav-bar">
         <Link className="logo" to="/">
-            <img src={Muntakim_Insignia} alt="Muntakim Insignia" />
-            <img src={Muntakim_Cursive} className="sub-logo" alt="Muntakim Subtitle" />
+            <img src={Muntakim_Insignia} alt="Muntakim Insignia" id="insignia" />
+            <img src={Muntakim_Cursive} className="sub-logo" alt="Muntakim Subtitle" id="cursive" />
         </Link>
         <div className="content-container">
             <nav className="nav-links">
