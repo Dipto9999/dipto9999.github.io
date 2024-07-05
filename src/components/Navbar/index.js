@@ -15,47 +15,47 @@ const Navbar = () => (
         <div className="content-container">
             <nav className="nav-links">
                 <NavLink exact="true" activeclassname="active" to="/">
-                    <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faHome} color="#4D4D4E" />
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="experiences-link" to="/experiences">
-                    <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faBriefcase} color="#4D4D4E" />
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="projects-link" to="/projects">
-                    <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faCode} color="#4D4D4E" />
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="interests-link" to="/interests">
-                    <FontAwesomeIcon icon={faGamepad} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faGamepad} color="#4D4D4E" />
                 </NavLink>
             </nav>
             <ul className="social-links">
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://github.com/Dipto9999" className="social-icons">
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faGithub} color="#FAFAFA" />
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/muntakim-rahman/" className="social-icons">
-                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faLinkedin} color="#0077B5" />
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://twitter.com/Dipto9999" className="social-icons">
-                        <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faTwitter} color="#1DA1F2" />
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCNF7p6gRuxE0dFYeDnzxoHw" className="social-icons">
-                        <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faYoutube} color="#CC181E" />
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noreferrer" href="mailto:dipto100@alum.ubc.ca" className="social-icons">
-                        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faEnvelope} color="#EDEDED" />
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://calendly.com/muntakim-rahman" className="social-icons">
-                        <FontAwesomeIcon icon={faCalendar} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faCalendar} color="#00A2FF" />
                     </a>
                 </li>
                 <li>
