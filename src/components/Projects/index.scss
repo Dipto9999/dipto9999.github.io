@@ -106,3 +106,25 @@
         }
     }
 }
+
+@media (orientation: landscape) and (max-height: 600px) {
+    .projects-page .text-zone {
+
+        .custom-card-content {
+            img, iframe, video {
+                margin: 10px auto;
+                display: block;
+                float: none;
+            }
+
+
+            iframe, video {
+                width: 70%;
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
