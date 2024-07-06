@@ -182,10 +182,15 @@ h2 {
 
 @media (max-width: 480px) or (max-height: 690px) {
     .main-content {
-        padding-top: 10%;
         padding-left: 0;
         padding-right: 0;
         margin-right: 2%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding-top: 17%;
     }
 }
 
