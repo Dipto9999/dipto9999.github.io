@@ -115,7 +115,7 @@ h2 {
     color: #1c05c8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .main-content {
         padding-left: 15%; /* Adjust padding to leave space for the navbar */
         padding-right: 5%;
@@ -148,7 +148,7 @@ h2 {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .main-content {
         padding-left: 20%; /* Further Adjust Padding for Smaller Screens */
         padding-right: 2%;
@@ -180,7 +180,7 @@ h2 {
     }
 }
 
-@media (max-width: 480px) or (max-height: 690px) {
+@media (max-width: 600px) or (max-height: 690px) {
     .main-content {
         padding-left: 0;
         padding-right: 0;
@@ -188,7 +188,7 @@ h2 {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .main-content {
         padding-top: 17%;
     }

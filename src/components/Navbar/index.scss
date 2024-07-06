@@ -142,7 +142,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .nav-bar {
         width: 15%;
         max-width: none;
@@ -169,7 +169,13 @@
     }
 }
 
-@media (max-width: 480px) or (max-height: 690px) {
+@media (max-width: 1470px) {
+    .nav-bar {
+        width: 17%;
+    }
+}
+
+@media (max-width: 600px) or (max-height: 690px) {
     .nav-bar {
         width: 100%;
         height: auto;
@@ -248,7 +254,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .nav-bar {
         width: 100%;
         height: auto;

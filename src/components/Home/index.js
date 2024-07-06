@@ -62,9 +62,11 @@ const Home = () => {
 
                     <div className="custom-card-content">
                         <h2 className="custom-card-text">
-                            My name is Muntakim and I'm an Electrical Engineering undergraduate with an appetite for software development.
-                            I'm passionate about developing innovative technologies that integrate software and hardware. My experiences are in data science and embedded systems;
-                            I love working on projects that leverage the intersection of these fields! <br /><br />
+                            My name is Muntakim and I'm an Electrical Engineering undergraduate with an appetite for software development.&nbsp;
+                            <span className="not-on-mobile">
+                                I'm passionate about developing innovative technologies that integrate software and hardware. My experiences are in data science and embedded systems;
+                                I love working on projects that leverage the intersection of these fields! <br /><br />
+                            </span>
                             I've found that I thrive in environments that require first principles thinking, especially in the realm of big data. Whether working on satellite firmware or designing data-centric user interfaces,
                             my goal is to bring robust and scalable solutions to intricate engineering challenges.
                         </h2>
