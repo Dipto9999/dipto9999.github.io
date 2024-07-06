@@ -172,6 +172,12 @@
 @media (max-height: 1250px) and (max-width: 1400px) {
     .nav-bar {
         min-width: 130px;
+
+        .content-container {
+            #icon-padding {
+                padding: 50px;
+            }
+        }
     }
 }
 
