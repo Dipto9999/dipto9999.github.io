@@ -39,7 +39,7 @@ const Navbar = () => (
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/Dipto9999" className="social-icons">
+                    <a target="_blank" rel="noreferrer" href="https://x.com/Dipto9999" className="social-icons">
                         <FontAwesomeIcon icon={faTwitter} color="#1DA1F2" />
                     </a>
                 </li>

@@ -174,8 +174,12 @@
         min-width: 130px;
 
         .content-container {
-            #icon-padding {
-                padding: 50px;
+            .social-links {
+                li {
+                    #icon-padding {
+                        padding: 50px;
+                    }
+                }
             }
         }
     }
