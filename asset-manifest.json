@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5b95fbe2.css",
-    "main.js": "/static/js/main.fb423932.js",
+    "main.js": "/static/js/main.44708139.js",
     "static/js/453.3a56e9bc.chunk.js": "/static/js/453.3a56e9bc.chunk.js",
     "static/media/UBC_Orbit_2019.jpg": "/static/media/UBC_Orbit_2019.4968c3cfde8dce344477.jpg",
     "static/media/Geotab_Volleyball_2022.jpg": "/static/media/Geotab_Volleyball_2022.03afda7417ed095f1ec0.jpg",
@@ -16,18 +16,18 @@
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/Golang.svg": "/static/media/Golang.7fb621ad3bc70707614bfba39d236e57.svg",
-    "static/media/Verilog.svg": "/static/media/Verilog.f550579cf38103f3ed0a51f895b4210a.svg",
+    "static/media/Verilog.svg": "/static/media/Verilog.a3f6695ffc400013c3d39d8b1507f674.svg",
     "static/media/SQL.svg": "/static/media/SQL.1b81652d3bb4d5f7dfdfd624375ceff4.svg",
-    "static/media/ASM.svg": "/static/media/ASM.7f9619578dfed3a2755f2bdec38ebe9f.svg",
+    "static/media/ASM.svg": "/static/media/ASM.7e35ca6fd5baf14a7f99074ce9ede83a.svg",
     "static/media/C.svg": "/static/media/C.ac27de8477fe6c13739a9e3f385b75cc.svg",
     "static/media/Python.svg": "/static/media/Python.14f5a10cd798d37370e148820ac33a75.svg",
     "index.html": "/index.html",
     "main.5b95fbe2.css.map": "/static/css/main.5b95fbe2.css.map",
-    "main.fb423932.js.map": "/static/js/main.fb423932.js.map",
+    "main.44708139.js.map": "/static/js/main.44708139.js.map",
     "453.3a56e9bc.chunk.js.map": "/static/js/453.3a56e9bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b95fbe2.css",
-    "static/js/main.fb423932.js"
+    "static/js/main.44708139.js"
   ]
 }
