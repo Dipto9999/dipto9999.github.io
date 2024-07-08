@@ -12,21 +12,24 @@ const Navbar = () => (
             <img src={Muntakim_Insignia} alt="Muntakim Insignia" id="insignia" />
             <img src={Muntakim_Cursive} className="sub-logo" alt="Muntakim Subtitle" id="signature" />
         </Link>
+
+
         <div className="content-container">
             <nav className="nav-links">
-                <NavLink exact="true" activeclassname="active" to="/">
-                    <FontAwesomeIcon icon={faHome} color="#4D4D4E" />
+                <NavLink exact="true" activeclassname="active" to="/" id="home-link">
+                    <FontAwesomeIcon icon={faHome} className="nav-icon" />
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" className="experiences-link" to="/experiences">
-                    <FontAwesomeIcon icon={faBriefcase} color="#4D4D4E" />
+                <NavLink exact="true" activeclassname="active" to="/experiences" id="experiences-link">
+                    <FontAwesomeIcon icon={faBriefcase} className="nav-icon" />
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" className="projects-link" to="/projects">
-                    <FontAwesomeIcon icon={faCode} color="#4D4D4E" />
+                <NavLink exact="true" activeclassname="active" to="/projects" id="projects-link">
+                    <FontAwesomeIcon icon={faCode} className="nav-icon" />
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" className="interests-link" to="/interests">
-                    <FontAwesomeIcon icon={faGamepad} color="#4D4D4E" />
+                <NavLink exact="true" activeclassname="active" to="/interests" id="interests-link">
+                    <FontAwesomeIcon icon={faGamepad} className="nav-icon" />
                 </NavLink>
             </nav>
+
             <ul className="social-links">
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://github.com/Dipto9999" className="social-icons">
@@ -57,9 +60,6 @@ const Navbar = () => (
                     <a target="_blank" rel="noreferrer" href="https://calendly.com/muntakim-rahman" className="social-icons">
                         <FontAwesomeIcon icon={faCalendar} color="#00A2FF" />
                     </a>
-                </li>
-                <li>
-                    <span id="icon-padding"><br/></span>
                 </li>
             </ul>
         </div>
