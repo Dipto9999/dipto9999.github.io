@@ -1,14 +1,15 @@
 .nav-bar {
     background: #141331;
+    position: fixed; /* Fixed Position to Stay in Place While Scrolling */
+    top: 0;
+    display: flex;
+    justify-content: space-between; /* Distribute Space Equally */
+    z-index: 3;
+
     width: 12%;
     max-width: 120px;
-    height: 100vh; /* Use full viewport height */
-    position: fixed; /* Fixed position to stay in place while scrolling */
-    top: 0;
-    z-index: 3;
-    display: flex;
+    height: 100vh; /* Use Full Height of the Viewport */
     flex-direction: column;
-    justify-content: space-between; /* Distribute space equally */
 
     .logo {
         display: flex;
@@ -35,6 +36,30 @@
             flex-direction: column;
             align-items: center;
             flex-grow: 1; /* Allow to Grow and Take Available Space */
+
+            a#experiences-link {
+                &:after {
+                    content: 'Experiences';
+                }
+            }
+
+            a#projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a#interests-link {
+                &:after {
+                    content: 'Interests';
+                }
+            }
+
+            a.active {
+                svg {
+                    color: #3EA542;
+                }
+            }
         }
 
         .social-links {
@@ -57,10 +82,6 @@
                     &:hover svg {
                         color: #D9FEC0;
                     }
-                }
-
-                #icon-padding {
-                    padding: 10px;
                 }
             }
         }
@@ -115,30 +136,6 @@
                 }
             }
         }
-
-        a.experiences-link {
-            &:after {
-                content: 'Experiences';
-            }
-        }
-
-        a.projects-link {
-            &:after {
-                content: 'Projects';
-            }
-        }
-
-        a.interests-link {
-            &:after {
-                content: 'Interests';
-            }
-        }
-
-        a.active {
-            svg {
-                color: #3EA542;
-            }
-        }
     }
 }
 
@@ -156,7 +153,7 @@
                 }
             }
 
-            a.experiences-link {
+            a#experiences-link {
                 &:after {
                     content: 'Work';
                 }
@@ -165,22 +162,6 @@
 
         ul li a {
             font-size: 20px;
-        }
-    }
-}
-
-@media (min-height: 1200px) and (min-width: 1350px) {
-    .nav-bar {
-        min-width: 130px;
-
-        .content-container {
-            .social-links {
-                li {
-                    #icon-padding {
-                        padding: 50px;
-                    }
-                }
-            }
         }
     }
 }
@@ -255,7 +236,7 @@
                 }
             }
 
-            a.experiences-link {
+            a#experiences-link {
                 &:after {
                     content: 'Work';
                 }
@@ -282,7 +263,7 @@
                 }
             }
 
-            a.experiences-link {
+            a#experiences-link {
                 &:after {
                     content: 'Work';
                 }
@@ -323,7 +304,7 @@
                 }
             }
 
-            a.experiences-link {
+            a#experiences-link {
                 &:after {
                     content: 'Work';
                 }
