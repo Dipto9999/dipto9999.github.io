@@ -1,4 +1,4 @@
-.footer {
+.iconbar {
     text-align: right;
     z-index: 100;
     position: fixed;
@@ -33,13 +33,13 @@
 }
 
 @media (max-height: 690px) and (min-width: 600px) {
-    .footer {
+    .iconbar {
         display: none;
     }
 }
 
 @media (max-width: 600px) {
-    .footer {
+    .iconbar {
         top: auto;
         bottom: 0;
         right: 0;

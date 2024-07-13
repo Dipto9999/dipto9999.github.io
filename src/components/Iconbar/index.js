@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-const Footer = () => (
-    <span className="footer">
+const Iconbar = () => (
+    <span className="iconbar">
         <ul className="social-links">
             <li>
                 <a target="_blank" rel="noreferrer" href="https://github.com/Dipto9999">
@@ -40,4 +40,4 @@ const Footer = () => (
     </span>
 );
 
-export default Footer;
+export default Iconbar;

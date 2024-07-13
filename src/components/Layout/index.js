@@ -2,7 +2,7 @@
 
 import './index.scss';
 import Navbar from '../Navbar';
-import Footer from '../Footer';
+import Iconbar from '../Iconbar';
 import { Outlet } from 'react-router-dom';
 const Layout = () => {
     return (
@@ -13,7 +13,7 @@ const Layout = () => {
                 <Outlet />
             </div>
 
-            <Footer />
+            <Iconbar />
         </div>
     );
 }
