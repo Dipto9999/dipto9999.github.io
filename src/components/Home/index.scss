@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh; /* Ensure minimum height */
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -14,13 +14,15 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         width: 100%;
         max-width: 90%;
         text-align: left;
-        overflow-y: hidden; /* Ensure No Overflow */
         margin: 0 auto;
         padding: 20px 0;
+        flex-grow: 1; /* Allow text-zone to expand */
+        flex-shrink: 0; /* Prevent shrinking */
+        justify-content: center; /* Center content vertically */
 
         h1 {
             font-size: 50px;
@@ -99,10 +101,11 @@
         width: 150px;
         height: 150px;
         perspective: 2000px;
-        right: 20px; /* Adjust right alignment as needed */
+        right: 20px; /* Adjust Right Alignment as Needed */
         top: 50%;
         transform: translateY(-50%);
         margin-left: 75%;
+        padding-right: 4%;
     }
 
     .cubespinner {
@@ -111,6 +114,9 @@
         position: relative;
         transform-style: preserve-3d;
         animation: spincube 17.5s infinite ease-in-out;
+        transform-origin: 100px 100px 0;
+        margin-left: calc(50% - 100px);
+        margin-top: calc(65%);
 
         div {
             position: absolute;
@@ -144,13 +150,20 @@
     }
 
     @media (min-width: 770px) {
-        .text-zone .custom-card-content {
-            font-size: 1.5em;
-            text-align: center;
-            bottom: 20px;
+        .text-zone {
+            .custom-card-content {
+                font-size: 1.5em;
+                text-align: center;
+                bottom: 20px;
+            }
         }
     }
 
+    @media (max-width: 600px) or (max-height: 690px) {
+        .cubespinner {
+            margin-top: calc(100%);
+        }
+    }
 
     @media (max-width: 770px) {
         .home-page {
@@ -212,57 +225,16 @@
         }
     }
 
-    @media (max-width: 600px) {
-        .text-zone {
-            h1 {
-                font-size: 25px;
-            }
-
-            h2 {
-                font-size: 14px;
-            }
-
-            .custom-card-content {
-                font-size: 0.9em;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-
-                .not-on-mobile {
-                    display: none;
-                }
-            }
-
-            .profile-img {
-                width: 75%;
-                margin: 10px auto;
-                display: block;
-                text-align: center;
-            }
-        }
-
-        .stage-cube-container {
-            width: 50px;
-            height: 50px;
-            margin: 20px auto;
-        }
-
-        .cubespinner {
-            div {
-                width: 120px;
-                height: 120px;
-            }
-        }
-    }
-
     @media (orientation: landscape) and (max-height: 600px) {
         .text-zone {
             h1 {
                 font-size: 20px;
+                margin-bottom: 10px; /* Adjusted margin to prevent cutoff */
             }
 
             h2 {
                 font-size: 12px;
+                margin-bottom: 10px; /* Adjusted margin to prevent cutoff */
             }
 
             .custom-card-content {
@@ -270,7 +242,7 @@
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                padding-bottom: 100%;
+                padding-bottom: 20px; /* Adjusted padding to prevent cutoff */
 
                 .not-on-mobile {
                     display: none;
@@ -282,20 +254,6 @@
                 margin: 10px auto;
                 display: block;
                 text-align: center;
-            }
-        }
-
-        .stage-cube-container {
-            width: 100px;
-            height: 100px;
-            margin: 10px auto;
-        }
-
-        .cubespinner {
-            div {
-                width: 70px;
-                height: 70px;
-                font-size: 15px;
             }
         }
     }
