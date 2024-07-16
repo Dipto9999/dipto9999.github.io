@@ -23,7 +23,7 @@ const Iconbar = () => (
             </li>
             <li>
                 <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCNF7p6gRuxE0dFYeDnzxoHw">
-                    <FontAwesomeIcon icon={faYoutube} color="#CC181E" className="social-icon" />
+                    <FontAwesomeIcon icon={faYoutube} color="#FF0000" className="social-icon" />
                 </a>
             </li>
             <li>
