@@ -165,6 +165,17 @@
         }
     }
 
+    @media (max-width: 500px) {
+        .cubespinner {
+            margin-top: 0;
+        }
+
+        .text-zone {
+            padding-top: 25%;
+        }
+    }
+
+
     @media (max-width: 770px) {
         .home-page {
             padding-top: 0;
