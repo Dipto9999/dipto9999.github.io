@@ -5,6 +5,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+import { Tooltip } from 'react-tooltip';
 
 import './index.scss';
 
@@ -13,15 +14,6 @@ const gameImageCount = 36; // Number of Steam Game Images
 const Interests = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const [gameImages, setGameImages] = useState([]);
-
-    for (let i = 1; i <= gameImageCount; i++) {
-        try {
-            const imagePath = require(`../../assets/images/Games/Games_${i}.jpeg`);
-            gameImages.push(imagePath);
-        } catch (error) {
-            console.error(`Error loading image Games_${i}.jpeg: ${error}`);
-        }
-    }
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -34,7 +26,7 @@ const Interests = () => {
             for (let i = 1; i <= gameImageCount; i++) {
                 try {
                     const imagePath = require(`../../assets/images/Games/Games_${i}.jpeg`);
-                    to_load.push(imagePath);
+                    to_load.push({ src: imagePath, alt: `Game ${i}` });
                 } catch (error) {
                     console.error(`Error loading image Games_${i}.jpeg: ${error}`);
                 }
@@ -83,7 +75,12 @@ const Interests = () => {
                         <Slider {...settings}>
                             {gameImages.map((image, index) => (
                                 <div key={index} className="photo-item">
-                                    <img src={image} alt={`Game ${index + 1}`} />
+                                    <img
+                                        src={image.src}
+                                        alt={image.alt}
+                                        data-tip={image.alt}
+                                    />
+                                    <Tooltip />
                                 </div>
                             ))}
                         </Slider>
