@@ -2,7 +2,7 @@
     .text-zone {
         position: relative;
         width: 100%;
-        max-width: 100%; /* Ensure It Takes Full Width */
+        max-width: 90%; /* Ensure It Takes Full Width */
         text-align: left;
         overflow: hidden; /* Prevent Overflow */
         margin: 0 auto;
@@ -22,47 +22,84 @@
     .photo-gallery {
         margin: 25px;
         border: 2.5px solid white; /* Adds a White Border Around Image Container */
+        height: 300px; /* Set Fixed Height for Image Container */
 
         .photo-item {
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden; /* Ensures images do not overflow their containers */
-            height: 300px; /* Set a fixed height for the images */
-        }
+            overflow: hidden; /* Ensures Images Do Not Overflow Container */
+            height: 300px; /* Set Fixed Height for Images */
 
-        .photo-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensures Images Cover the Area Without Stretching */
-            border: 0.5px solid white; /* Adds a Thin White Border Around Images */
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Ensures Images Cover the Area Without Stretching */
+                border: 2px solid white; /* Adds a White Border Around Images */
+            }
         }
 
         .slick-list {
-            padding: 0; /* Remove padding to avoid overflow */
+            padding: 0; /* Remove Padding to Avoid Overflow */
         }
 
         .slick-dots {
-            bottom: -30px; /* Adjust this value as needed to fit within the container */
-            white-space: nowrap; /* Prevent dots from wrapping to the next line */
-            text-align: center; /* Center the dots */
-            width: 100%; /* Ensure dots container takes full width */
+            bottom: -30px; /* Adjust To Fit Within Container */
+            white-space: nowrap; /* Prevent Dots from Wrapping */
+            text-align: center; /* Center Dots */
+            width: 100%; /* Ensure Dots Container Takes Full Width */
         }
 
         .slick-dots li {
             display: inline-block;
-            margin: 0 3px; /* Adjust the spacing between dots as needed */
+            margin: 0 3px; /* Adjust Spacing Between Dots */
         }
 
         .slick-dots li button:before {
-            font-size: 12px; /* Adjust the size of the dots as needed */
-            color: #000; /* Change the color of the dots */
+            font-size: 12px; /* Adjust Size of Dots */
+            color: #FFFFFF; /* Change Color of Inactive Dots */
         }
 
         .slick-dots li.slick-active button:before {
-            color: #000; /* Change the color of active dots if needed */
+            color: #000000; /* Change Color of Active Dots */
         }
     }
+}
 
+@media (max-width: 770px) {
+    .interests-page {
+        .text-zone {
+            padding: 10px;
 
+            h1 {
+                font-size: 35px;
+            }
+        }
+
+        .photo-gallery {
+            height: 200px; /* Adjust Height of Image Container */
+            .photo-item img {
+                height: 200px; /* Adjust Height of Images */
+            }
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .interests-page {
+        .text-zone {
+            padding: 5px;
+
+            h1 {
+                font-size: 25px;
+            }
+        }
+
+        .photo-gallery {
+            height: 100px; /* Adjust Height of Image Container */
+            .photo-item img {
+                height: 100px; /* Adjust Height of Images */
+            }
+        }
+    }
 }
