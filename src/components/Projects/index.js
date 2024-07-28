@@ -1,7 +1,8 @@
-import AnimatedLetters from "../AnimatedLetters"
-import Data_Collection_App from "../../assets/images/Data_Collection_App.jpeg"
 import { useEffect, useState } from 'react';
 import Loader from 'react-loaders'
+import AnimatedLetters from "../AnimatedLetters"
+
+import Data_Collection_App from "../../assets/images/Data_Collection_App.jpeg"
 import './index.scss';
 
 const Projects = () => {

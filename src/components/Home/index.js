@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
+
 import Muntakim_Algonquin from '../../assets/images/Muntakim_Algonquin_2020.jpg';
 import Python from '../../assets/images/Python.svg';
 import SQL from '../../assets/images/SQL.svg';

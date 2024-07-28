@@ -1,11 +1,12 @@
+import { useEffect, useState } from 'react';
+import Loader from 'react-loaders'
 import AnimatedLetters from "../AnimatedLetters"
+
 import Muntakim_UBC from "../../assets/images/Muntakim_Headshot_2019.jpg"
 import Tesla_Interns_2023 from "../../assets/images/Tesla_Interns_2023.jpg"
 import Geotab_Volleyball_2022 from "../../assets/images/Geotab_Volleyball_2022.jpg"
 import UBC_Orbit_2019 from "../../assets/images/UBC_Orbit_2019.jpg"
 import Optimus from "../../assets/images/Optimus.jpg"
-import { useEffect, useState } from 'react';
-import Loader from 'react-loaders'
 
 import './index.scss';
 

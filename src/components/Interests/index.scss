@@ -1,0 +1,68 @@
+.interests-page {
+    .text-zone {
+        position: relative;
+        width: 100%;
+        max-width: 100%; /* Ensure It Takes Full Width */
+        text-align: left;
+        overflow: hidden; /* Prevent Overflow */
+        margin: 0 auto;
+        padding: 20px 0;
+
+        h1 {
+            font-size: 50px;
+            font-family: 'Coolvetica';
+            color: #000000;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 40px;
+            position: relative;
+        }
+    }
+
+    .photo-gallery {
+        margin: 25px;
+        border: 2.5px solid white; /* Adds a White Border Around Image Container */
+
+        .photo-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; /* Ensures images do not overflow their containers */
+            height: 300px; /* Set a fixed height for the images */
+        }
+
+        .photo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures Images Cover the Area Without Stretching */
+            border: 0.5px solid white; /* Adds a Thin White Border Around Images */
+        }
+
+        .slick-list {
+            padding: 0; /* Remove padding to avoid overflow */
+        }
+
+        .slick-dots {
+            bottom: -30px; /* Adjust this value as needed to fit within the container */
+            white-space: nowrap; /* Prevent dots from wrapping to the next line */
+            text-align: center; /* Center the dots */
+            width: 100%; /* Ensure dots container takes full width */
+        }
+
+        .slick-dots li {
+            display: inline-block;
+            margin: 0 3px; /* Adjust the spacing between dots as needed */
+        }
+
+        .slick-dots li button:before {
+            font-size: 12px; /* Adjust the size of the dots as needed */
+            color: #000; /* Change the color of the dots */
+        }
+
+        .slick-dots li.slick-active button:before {
+            color: #000; /* Change the color of active dots if needed */
+        }
+    }
+
+
+}

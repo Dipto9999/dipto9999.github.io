@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Ensure minimum height */
+    min-height: 100vh; /* Ensure Minimum Height */
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -33,6 +33,7 @@
             margin-bottom: 40px;
             position: relative;
         }
+
         h2 {
             font-size: 18px;
             font-family: 'Coolvetica';
@@ -215,8 +216,8 @@
             }
 
             .profile-img {
-                width: 50%;
-                margin: 20px auto;
+                width: 100%;
+                margin: 5px auto;
                 display: block;
                 text-align: center;
             }
@@ -266,8 +267,8 @@
             }
 
             .profile-img {
-                width: 50%;
-                margin: 10px auto;
+                width: 75%;
+                margin: 5px auto;
                 display: block;
                 text-align: center;
             }

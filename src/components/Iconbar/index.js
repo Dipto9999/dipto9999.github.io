@@ -18,7 +18,7 @@ const Iconbar = () => (
             </li>
             <li>
                 <a target="_blank" rel="noreferrer" href="https://x.com/Dipto9999">
-                    <FontAwesomeIcon icon={faTwitter} color="#1DA1F2" className="social-icon" />
+                    <FontAwesomeIcon icon={faTwitter} color="#000000" className="social-icon" />
                 </a>
             </li>
             <li>
@@ -33,7 +33,7 @@ const Iconbar = () => (
             </li>
             <li>
                 <a target="_blank" rel="noreferrer" href="https://calendly.com/muntakim-rahman">
-                    <FontAwesomeIcon icon={faCalendar} color="#00A2FF" className="social-icon" />
+                    <FontAwesomeIcon icon={faCalendar} color="#0077B5" className="social-icon" />
                 </a>
             </li>
         </ul>

@@ -1,9 +1,8 @@
-// src/components/Layout/index.js
-
-import './index.scss';
 import Navbar from '../Navbar';
 import Iconbar from '../Iconbar';
 import { Outlet } from 'react-router-dom';
+import './index.scss';
+
 const Layout = () => {
     return (
         <div className="App">
