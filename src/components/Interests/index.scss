@@ -21,26 +21,36 @@
 
     .photo-gallery {
         margin: 25px;
-        border: 2.5px solid white; /* Adds a White Border Around Image Container */
+        border-top: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        border-left: 1.0px solid black;
+        border-right: 2.5px solid black;
+
         height: 300px; /* Set Fixed Height for Image Container */
 
-        .photo-item {
+        .slick-list {
+            padding: 0; /* Remove Padding to Avoid Overflow */
+        }
+
+        .slick-track {
+            display: flex; /* Ensure items are in a row */
+        }
+
+        .photo-items {
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden; /* Ensures Images Do Not Overflow Container */
             height: 300px; /* Set Fixed Height for Images */
+            position: relative;
 
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover; /* Ensures Images Cover the Area Without Stretching */
-                border: 2px solid white; /* Adds a White Border Around Images */
+                border-left: 2.5px solid black;
+                border-right: 2.5px solid black;
             }
-        }
-
-        .slick-list {
-            padding: 0; /* Remove Padding to Avoid Overflow */
         }
 
         .slick-dots {
@@ -78,7 +88,7 @@
 
         .photo-gallery {
             height: 200px; /* Adjust Height of Image Container */
-            .photo-item img {
+            .photo-items img {
                 height: 200px; /* Adjust Height of Images */
             }
         }
@@ -97,9 +107,20 @@
 
         .photo-gallery {
             height: 150px; /* Adjust Height of Image Container */
-            .photo-item img {
+            .photo-items img {
                 height: 150px; /* Adjust Height of Images */
             }
         }
     }
+}
+
+/* Customize tooltip */
+.__react_component_tooltip {
+    max-width: 200px; /* Adjust the max-width as needed */
+    text-align: center; /* Center-align the text */
+    padding: 8px; /* Add padding for better appearance */
+    position: absolute !important; /* Ensure tooltip is positioned absolutely within the image */
+    top: 0; /* Position at the top of the image */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
 }

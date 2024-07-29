@@ -74,7 +74,7 @@ const Interests = () => {
                     <div className="photo-gallery">
                         <Slider {...settings}>
                             {gameImages.map((image, index) => (
-                                <div key={index} className="photo-item">
+                                <div key={index} className="photo-items">
                                     <img
                                         src={image.src}
                                         alt={image.alt}
