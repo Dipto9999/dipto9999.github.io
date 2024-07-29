@@ -71,8 +71,6 @@
     .game-highlights {
         display: flex;
         justify-content: space-between;
-        // align-items: stretch; /* Ensure images stretch to the same height */
-        // margin: 20px 0;
 
         flex: 1;
         margin: 0 10px;
@@ -126,15 +124,6 @@
                 }
             }
         }
-
-        .game-highlights {
-            flex-direction: column;
-
-            .game-achievements {
-                max-width: 80%;
-                margin: 10px 0;
-            }
-        }
     }
 }
 
@@ -165,15 +154,6 @@
             .slick-dots li button:before {
                 font-size: 5px; /* Adjust Size of Dots */
                 color: #FFFFFF; /* Change Color of Inactive Dots */
-            }
-        }
-
-        .game-highlights {
-            flex-direction: column;
-
-            .game-achievements {
-                max-width: 80%;
-                margin: 10px 0;
             }
         }
     }
