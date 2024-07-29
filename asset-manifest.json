@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f74a5961.css",
-    "main.js": "/static/js/main.57c8a6c5.js",
+    "main.css": "/static/css/main.651cbcd4.css",
+    "main.js": "/static/js/main.9d809773.js",
     "static/js/453.4a1b4550.chunk.js": "/static/js/453.4a1b4550.chunk.js",
     "static/media/Games_18.jpeg": "/static/media/Games_18.e2079c0cdac8d30c1e2d.jpeg",
     "static/media/Games_32.jpeg": "/static/media/Games_32.9b3a1405cf9a97119c74.jpeg",
@@ -45,7 +45,10 @@
     "static/media/Games_25.jpeg": "/static/media/Games_25.c5eb64df2f0eb203f71f.jpeg",
     "static/media/Games_23.jpeg": "/static/media/Games_23.b48edc10261bb8bcce70.jpeg",
     "static/media/Data_Collection_App.jpeg": "/static/media/Data_Collection_App.9ec9402683d219e411f7.jpeg",
+    "static/media/LOTRO.png": "/static/media/LOTRO.3bebc97dde452a82fe55.png",
     "static/media/Muntakim_Algonquin_2020.jpg": "/static/media/Muntakim_Algonquin_2020.01a93ddc99135006adfb.jpg",
+    "static/media/Batman.png": "/static/media/Batman.e1da1f38109c146ed3ce.png",
+    "static/media/Skyrim.png": "/static/media/Skyrim.bc14c81fc9ba155a1b73.png",
     "static/media/Muntakim_Cursive.png": "/static/media/Muntakim_Cursive.d1bfaa51dc98b9b4caf1.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
@@ -96,12 +99,12 @@
     "static/media/Games_33.txt": "/static/media/Games_33.a15d47b2b0d72102cd1f.txt",
     "static/media/Games_34.txt": "/static/media/Games_34.a15d47b2b0d72102cd1f.txt",
     "static/media/Games_35.txt": "/static/media/Games_35.a15d47b2b0d72102cd1f.txt",
-    "main.f74a5961.css.map": "/static/css/main.f74a5961.css.map",
-    "main.57c8a6c5.js.map": "/static/js/main.57c8a6c5.js.map",
+    "main.651cbcd4.css.map": "/static/css/main.651cbcd4.css.map",
+    "main.9d809773.js.map": "/static/js/main.9d809773.js.map",
     "453.4a1b4550.chunk.js.map": "/static/js/453.4a1b4550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f74a5961.css",
-    "static/js/main.57c8a6c5.js"
+    "static/css/main.651cbcd4.css",
+    "static/js/main.9d809773.js"
   ]
 }
