@@ -70,14 +70,16 @@
 
     .tooltip {
         position: absolute;
-        background: #FFFFFF;
-        color: #000000;
+        background: #000000; /* Tooltip Background Color is Black */
+        color: #0e92e5; /* Change tooltip text color to white */
         padding: 5px 10px;
         border-radius: 5px;
-        transform: translate(-50%, -100%);
+        transform: translate(-50%, -10px); /* Adjust transform to move tooltip slightly above the top */
         white-space: nowrap;
-        z-index: 1000;
         pointer-events: none;
+        top: -10px; /* Position tooltip above the image */
+        left: 50%; /* Center horizontally */
+        z-index: 1000;
     }
 }
 
@@ -144,4 +146,10 @@
             }
         }
     }
+}
+
+/* Adjust the position if necessary */
+.__react_component_tooltip[data-place="top"] {
+    transform: translateX(-50%);
+    left: 50%;
 }
