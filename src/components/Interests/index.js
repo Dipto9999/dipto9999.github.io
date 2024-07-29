@@ -20,23 +20,25 @@ const Interests = () => {
             setLetterClass('text-animate-hover');
         }, 3000);
 
-        // Load Images Dynamically
-        const loadImages = () => {
+        // Load Images and Alt Descriptions Dynamically
+        const loadGameFiles = async () => {
             const to_load = [];
             for (let i = 1; i <= gameImageCount; i++) {
                 try {
                     const imagePath = require(`../../assets/images/Games/Games_${i}.jpeg`);
-                    to_load.push({ src: imagePath, alt: `Game ${i}` });
+                    const descriptionPath = require(`../../assets/images/Games/Games_${i}.txt`);
+                    const description = await fetch(descriptionPath).then(response => response.text());
+                    to_load.push({ src: imagePath, alt: description });
                 } catch (error) {
-                    console.error(`Error loading image Games_${i}.jpeg: ${error}`);
+                    console.error(`Error loading image or description for Games_${i}: ${error}`);
                 }
             }
             setGameImages(to_load);
         };
 
-        loadImages();
+        loadGameFiles();
 
-        // Clear the Timeout.
+        // Clear the Timeout
         return () => clearTimeout(timeoutId);
     }, []);
 
@@ -87,9 +89,17 @@ const Interests = () => {
                     </h1>
 
                     <div className="photo-gallery">
+                            {
+                                tooltip.visible
+                                && (
+                                    <div className="tooltip" style={{ top: tooltip.position.top, left: tooltip.position.left}}>
+                                        {tooltip.content}
+                                    </div>
+                                )
+                            }
                         <Slider {...settings}>
                             {gameImages.map((image, index) => (
-                                <div className="photo-items">
+                                <div className="photo-items" key={index}>
                                     <img
                                         src={image.src}
                                         alt={image.alt}
@@ -102,16 +112,6 @@ const Interests = () => {
                     </div>
                 </div>
 
-                {
-                    tooltip.visible && (
-                        <div
-                            className="tooltip"
-                            style={{ top: tooltip.position.top, left: tooltip.position.left }}
-                        >
-                            {tooltip.content}
-                        </div>
-                    )
-                }
 
                 <span className="tags bottom-tags">&#125;</span>
             </div>

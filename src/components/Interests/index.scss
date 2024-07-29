@@ -67,15 +67,15 @@
             color: #000000; /* Change Color of Active Dots */
         }
     }
+
     .tooltip {
-        position: absolute;
+        display: inline-block;
+        text-align: center;
+        font-size : 12px;
         background: #000000; /* Tooltip Background Color is Black */
         color: #0e92e5; /* Tooltip Text Color */
-        padding: 5px 10px;
-        border-radius: 5px;
-        white-space: nowrap;
-        pointer-events: none;
-        z-index: 1000;
+        margin : 2px;
+        border-radius: 1px;
     }
 }
 
@@ -112,7 +112,7 @@
     }
 }
 
-@media ((max-width: 600px) and (max-height: 900px)) {
+@media (max-width: 600px) {
     .interests-page {
         .text-zone {
             padding: 5px;
@@ -140,30 +140,6 @@
                 font-size: 5px; /* Adjust Size of Dots */
                 color: #FFFFFF; /* Change Color of Inactive Dots */
             }
-        }
-    }
-}
-
-@media ((max-width: 770px) and (min-height: 900px))  {
-    .interests-page {
-        .tooltip {
-            transform: translate(-250%, -150%);
-        }
-    }
-}
-
-@media ((min-width: 770px) and (min-height: 900px))  {
-    .interests-page {
-        .tooltip {
-            transform: translate(-200%, 100%);
-        }
-    }
-}
-
-@media ((min-width: 770px) and (max-height: 900px)) {
-    .interests-page {
-        .tooltip {
-            transform: translateX(-400%);
         }
     }
 }
