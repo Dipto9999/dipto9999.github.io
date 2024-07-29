@@ -67,6 +67,18 @@
             color: #000000; /* Change Color of Active Dots */
         }
     }
+
+    .tooltip {
+        position: absolute;
+        background: #FFFFFF;
+        color: #000000;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transform: translate(-50%, -100%);
+        white-space: nowrap;
+        z-index: 1000;
+        pointer-events: none;
+    }
 }
 
 @media (max-width: 770px) {
@@ -86,7 +98,7 @@
 
             .photo-items {
                 height: 200px;
-                border : 2px solid black;
+                border: 2px solid black;
 
                 img {
                     height: 200px;
@@ -119,7 +131,7 @@
 
             .photo-items {
                 height: 125px;
-                border : 1.75px solid black;
+                border: 1.75px solid black;
 
                 img {
                     max-height: 125px;
@@ -132,21 +144,4 @@
             }
         }
     }
-}
-
-/* Customize tooltip */
-.__react_component_tooltip {
-    max-width: 200px; /* Adjust the max-width as needed */
-    text-align: center; /* Center-align the text */
-    padding: 8px; /* Add padding for better appearance */
-    position: absolute !important; /* Ensure tooltip is positioned absolutely within the image */
-    top: 0; /* Position at the top of the image */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-}
-
-/* Adjust the position if necessary */
-.__react_component_tooltip[data-place="top"] {
-    transform: translateX(-50%);
-    left: 50%;
 }
