@@ -102,15 +102,16 @@ const Interests = () => {
                     </div>
                 </div>
 
-
-                {tooltip.visible && (
-                    <div
-                    className="tooltip"
-                    style={{ top: tooltip.position.top, left: tooltip.position.left }}
-                    >
-                        {tooltip.content}
-                    </div>
-                )}
+                {
+                    tooltip.visible && (
+                        <div
+                            className="tooltip"
+                            style={{ top: tooltip.position.top, left: tooltip.position.left }}
+                        >
+                            {tooltip.content}
+                        </div>
+                    )
+                }
 
                 <span className="tags bottom-tags">&#125;</span>
             </div>

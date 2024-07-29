@@ -67,18 +67,14 @@
             color: #000000; /* Change Color of Active Dots */
         }
     }
-
     .tooltip {
         position: absolute;
         background: #000000; /* Tooltip Background Color is Black */
-        color: #0e92e5; /* Change tooltip text color to white */
+        color: #0e92e5; /* Tooltip Text Color */
         padding: 5px 10px;
         border-radius: 5px;
-        transform: translate(-50%, -10px); /* Adjust transform to move tooltip slightly above the top */
         white-space: nowrap;
         pointer-events: none;
-        top: -10px; /* Position tooltip above the image */
-        left: 50%; /* Center horizontally */
         z-index: 1000;
     }
 }
@@ -116,7 +112,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media ((max-width: 600px) and (max-height: 900px)) {
     .interests-page {
         .text-zone {
             padding: 5px;
@@ -148,8 +144,26 @@
     }
 }
 
-/* Adjust the position if necessary */
-.__react_component_tooltip[data-place="top"] {
-    transform: translateX(-50%);
-    left: 50%;
+@media ((max-width: 770px) and (min-height: 900px))  {
+    .interests-page {
+        .tooltip {
+            transform: translate(-250%, -150%);
+        }
+    }
+}
+
+@media ((min-width: 770px) and (min-height: 900px))  {
+    .interests-page {
+        .tooltip {
+            transform: translate(-200%, 100%);
+        }
+    }
+}
+
+@media ((min-width: 770px) and (max-height: 900px)) {
+    .interests-page {
+        .tooltip {
+            transform: translateX(-400%);
+        }
+    }
 }
