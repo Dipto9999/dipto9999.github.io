@@ -8,7 +8,7 @@ import Slider from 'react-slick';
 
 import './index.scss';
 
-const gameImageCount = 36; // Number of Steam Game Images
+const gameImageCount = 35; // Number of Steam Game Images
 
 const Interests = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
