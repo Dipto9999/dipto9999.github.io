@@ -20,16 +20,12 @@
     }
 
     .photo-gallery {
+        height: 400px; /* Set Fixed Height for Image Container */
         margin: 25px;
-        border-top: 2.5px solid black;
-        border-bottom: 2.5px solid black;
-        border-left: 1.0px solid black;
-        border-right: 2.5px solid black;
 
-        height: 300px; /* Set Fixed Height for Image Container */
 
         .slick-list {
-            padding: 0; /* Remove Padding to Avoid Overflow */
+            padding: 0 !important; /* Remove padding to avoid overflow */
         }
 
         .slick-track {
@@ -37,19 +33,17 @@
         }
 
         .photo-items {
-            display: flex;
+            height: 300px; /* Set Fixed Height for Images */
             justify-content: center;
             align-items: center;
             overflow: hidden; /* Ensures Images Do Not Overflow Container */
-            height: 300px; /* Set Fixed Height for Images */
             position: relative;
+            border: 3px solid black; /* Add Border Around Images */
 
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover; /* Ensures Images Cover the Area Without Stretching */
-                border-left: 2.5px solid black;
-                border-right: 2.5px solid black;
             }
         }
 
@@ -87,15 +81,24 @@
         }
 
         .photo-gallery {
-            height: 200px; /* Adjust Height of Image Container */
-            .photo-items img {
-                height: 200px; /* Adjust Height of Images */
+            height: 250px;
+            justify-content: center;
+            align-items: center;
+
+            .photo-items {
+                height: 200px;
+                border : 2px solid black;
+
+                img {
+                    height: 200px;
+                    max-height: 200px; /* Set maximum height */
+                }
             }
         }
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 600px) {
     .interests-page {
         .text-zone {
             padding: 5px;
@@ -106,9 +109,17 @@
         }
 
         .photo-gallery {
-            height: 150px; /* Adjust Height of Image Container */
-            .photo-items img {
-                height: 150px; /* Adjust Height of Images */
+            height: 150px;
+            justify-content: center;
+            align-items: center;
+
+            .photo-items {
+                height: 100px;
+                border : 1.75px solid black;
+
+                img {
+                    max-height: 100px;
+                }
             }
         }
     }
