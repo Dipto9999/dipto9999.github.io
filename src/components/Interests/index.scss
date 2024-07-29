@@ -93,6 +93,11 @@
                     height: 200px;
                     max-height: 200px; /* Set maximum height */
                 }
+
+                .slick-dots li button:before {
+                    font-size: 8px; /* Adjust Size of Dots */
+                    color: #FFFFFF; /* Change Color of Inactive Dots */
+                }
             }
         }
     }
@@ -120,6 +125,11 @@
                 img {
                     max-height: 100px;
                 }
+            }
+
+            .slick-dots li button:before {
+                font-size: 5px; /* Adjust Size of Dots */
+                color: #FFFFFF; /* Change Color of Inactive Dots */
             }
         }
     }
