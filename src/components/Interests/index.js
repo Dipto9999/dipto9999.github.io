@@ -52,7 +52,6 @@ const Interests = () => {
         cssEase   : 'linear'
     };
 
-
     return (
         <>
             <div className="loader">
@@ -80,9 +79,10 @@ const Interests = () => {
                                             src={image.src}
                                             alt={image.alt}
                                             data-tip={image.alt}
+                                            data-tooltip-content={image.alt}
                                         />
                                     </div>
-                                    <Tooltip />
+                                    <Tooltip id={`tooltip-${index}`} place="top" type="dark" effect="float" />
                                 </div>
                             ))}
                         </Slider>
