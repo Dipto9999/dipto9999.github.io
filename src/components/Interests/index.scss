@@ -68,13 +68,30 @@
         }
     }
 
+    .game-highlights {
+        display: flex;
+        justify-content: space-between;
+        // align-items: stretch; /* Ensure images stretch to the same height */
+        // margin: 20px 0;
+
+        flex: 1;
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-width: 33%;
+            border: 2px solid #FFFFFF; /* Add white border */
+        }
+    }
+
     .tooltip {
         display: inline-block;
         text-align: center;
-        font-size : 12px;
+        font-size: 12px;
         background: #000000; /* Tooltip Background Color is Black */
         color: #0e92e5; /* Tooltip Text Color */
-        margin : 2px;
+        margin: 2px;
         border-radius: 1px;
     }
 }
@@ -109,6 +126,15 @@
                 }
             }
         }
+
+        .game-highlights {
+            flex-direction: column;
+
+            .game-achievements {
+                max-width: 80%;
+                margin: 10px 0;
+            }
+        }
     }
 }
 
@@ -139,6 +165,15 @@
             .slick-dots li button:before {
                 font-size: 5px; /* Adjust Size of Dots */
                 color: #FFFFFF; /* Change Color of Inactive Dots */
+            }
+        }
+
+        .game-highlights {
+            flex-direction: column;
+
+            .game-achievements {
+                max-width: 80%;
+                margin: 10px 0;
             }
         }
     }

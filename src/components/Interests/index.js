@@ -6,6 +6,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 
+import Batman from '../../assets/images/Games/Batman.png';
+import LOTRO from '../../assets/images/Games/LOTRO.png';
+import Skyrim from '../../assets/images/Games/Skyrim.png';
+
 import './index.scss';
 
 const gameImageCount = 35; // Number of Steam Game Images
@@ -87,6 +91,12 @@ const Interests = () => {
                             idx={1}
                         />
                     </h1>
+
+                    <div class = "game-highlights">
+                        <img src={Skyrim} className="game-achievements" alt="The Elder Scrolls V: Skyrim"/>
+                        <img src={Batman} className="game-achievements" alt="Batman: Arkham City" />
+                        <img src={LOTRO} className="game-achievements" alt="The Lord of the Rings Online" />
+                    </div>
 
                     <div className="photo-gallery">
                             {
