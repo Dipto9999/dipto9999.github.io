@@ -2,9 +2,9 @@
     .text-zone {
         position: relative;
         width: 100%;
-        max-width: 90%; /* Ensure It Takes Full Width */
+        max-width: 90%;
         text-align: left;
-        overflow: hidden; /* Prevent Overflow */
+        overflow: hidden;
         margin: 0 auto;
         padding: 20px 0;
 
@@ -20,66 +20,51 @@
     }
 
     .photo-gallery {
-        height: 400px; /* Set Fixed Height for Image Container */
+        height: 400px;
         margin: 25px;
 
         .slick-list {
-            padding: 0 !important; /* Remove padding to avoid overflow */
+            padding: 0 !important;
         }
 
         .slick-track {
-            display: flex; /* Ensure items are in a row */
+            display: flex;
         }
 
         .photo-items {
-            height: 300px; /* Set Fixed Height for Images */
+            height: 300px;
             justify-content: center;
             align-items: center;
-            overflow: hidden; /* Ensures Images Do Not Overflow Container */
+            overflow: hidden;
             position: relative;
-            border: 3px solid black; /* Add Border Around Images */
+            border: 3px solid black;
 
             img {
                 width: 100%;
                 height: 100%;
-                object-fit: cover; /* Ensures Images Cover the Area Without Stretching */
+                object-fit: cover;
             }
         }
 
         .slick-dots {
-            bottom: -30px; /* Adjust To Fit Within Container */
-            white-space: nowrap; /* Prevent Dots from Wrapping */
-            text-align: center; /* Center Dots */
-            width: 100%; /* Ensure Dots Container Takes Full Width */
+            bottom: -30px;
+            white-space: nowrap;
+            text-align: center;
+            width: 100%;
         }
 
         .slick-dots li {
             display: inline-block;
-            margin: 0 3px; /* Adjust Spacing Between Dots */
+            margin: 0 3px;
         }
 
         .slick-dots li button:before {
-            font-size: 12px; /* Adjust Size of Dots */
-            color: #FFFFFF; /* Change Color of Inactive Dots */
+            font-size: 12px;
+            color: #FFFFFF;
         }
 
         .slick-dots li.slick-active button:before {
-            color: #000000; /* Change Color of Active Dots */
-        }
-    }
-
-    .game-highlights {
-        display: flex;
-        justify-content: space-between;
-
-        flex: 1;
-        margin: 0 10px;
-        display: flex;
-        justify-content: center;
-
-        img {
-            max-width: 33%;
-            border: 2px solid #FFFFFF; /* Add white border */
+            color: #000000;
         }
     }
 
@@ -87,10 +72,21 @@
         display: inline-block;
         text-align: center;
         font-size: 12px;
-        background: #000000; /* Tooltip Background Color is Black */
-        color: #0e92e5; /* Tooltip Text Color */
+        background: #000000;
+        color: #0e92e5;
         margin: 2px;
         border-radius: 1px;
+    }
+
+    /* Vega-Lite visualization styles */
+    #vis.vega-embed {
+        width: 100%;
+        display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+        position: relative;
     }
 }
 
@@ -115,12 +111,12 @@
 
                 img {
                     height: 200px;
-                    max-height: 200px; /* Set maximum height */
+                    max-height: 200px;
                 }
 
                 .slick-dots li button:before {
-                    font-size: 8px; /* Adjust Size of Dots */
-                    color: #FFFFFF; /* Change Color of Inactive Dots */
+                    font-size: 8px;
+                    color: #FFFFFF;
                 }
             }
         }
@@ -152,8 +148,8 @@
             }
 
             .slick-dots li button:before {
-                font-size: 5px; /* Adjust Size of Dots */
-                color: #FFFFFF; /* Change Color of Inactive Dots */
+                font-size: 5px;
+                color: #FFFFFF;
             }
         }
     }

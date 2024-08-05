@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-26154e4df75ff9a35b42d85a483593b2"}, "mark": {"type": "text", "align": "center", "baseline": "middle", "color": "#141331", "fontSize": 80, "fontWeight": "bold"}, "encoding": {"text": {"field": "Value", "type": "quantitative"}, "x": {"axis": null, "field": "Metric", "type": "nominal"}, "y": {"value": 50}}, "height": 150, "title": {"text": "Played Games", "anchor": "middle", "fontSize": 20}, "width": 300, "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json", "datasets": {"data-26154e4df75ff9a35b42d85a483593b2": [{"Metric": "Played Games", "Value": 37}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
