@@ -19,6 +19,13 @@
         }
     }
 
+    .vega-chart {
+        display: flex;
+        justify-content: center; /* Center Horizontally */
+        align-items: center; /* Center Vertically */
+        margin: 0 auto;
+    }
+
     .photo-gallery {
         height: 400px;
         margin: 25px;
@@ -78,7 +85,7 @@
         border-radius: 1px;
     }
 
-    /* Vega-Lite visualization styles */
+    /* Vega-Lite Visualization Styles */
     #vis.vega-embed {
         width: 100%;
         display: flex;
