@@ -1,6 +1,13 @@
 import { VegaLite } from 'react-vega';
 
 const SteamDashboard = () => {
+    var supertitleFontSize = 50;
+    var titleFontSize = 30;
+    var subtitleFontSize = 20;
+
+    var bigNumberFontSize = 80;
+    var legendFontSize = 10;
+
     const dashboardSpec = {
         config: {
             view: {
@@ -9,13 +16,9 @@ const SteamDashboard = () => {
                 strokeOpacity: 0,
                 strokeWidth: 1.5,
             },
-            axis: {
-                labelFontSize: 12,
-                titleFontSize: 16,
-            },
             legend: {
-                labelFontSize: 12,
-                titleFontSize: 16,
+                labelFontSize: legendFontSize,
+                titleFontSize: subtitleFontSize,
             },
         },
         background: null,
@@ -31,7 +34,7 @@ const SteamDashboard = () => {
                             align: 'center',
                             baseline: 'middle',
                             color: '#141331',
-                            fontSize: 80,
+                            fontSize: bigNumberFontSize,
                             fontWeight: 'bold',
                         },
                         encoding: {
@@ -52,7 +55,7 @@ const SteamDashboard = () => {
                         title: {
                             text: 'Player Level',
                             anchor: 'middle',
-                            fontSize: 20,
+                            fontSize: titleFontSize,
                         },
                         width: 300,
                     },
@@ -65,7 +68,7 @@ const SteamDashboard = () => {
                             align: 'center',
                             baseline: 'middle',
                             color: '#141331',
-                            fontSize: 80,
+                            fontSize: bigNumberFontSize,
                             fontWeight: 'bold',
                         },
                         encoding: {
@@ -86,16 +89,11 @@ const SteamDashboard = () => {
                         title: {
                             text: 'Played Games',
                             anchor: 'middle',
-                            fontSize: 20,
+                            fontSize: titleFontSize,
                         },
                         width: 300,
                     },
                 ],
-                title: {
-                    text: 'Player Stats',
-                    anchor: 'middle',
-                    fontSize: 50,
-                },
             },
             {
                 data: {
@@ -118,7 +116,7 @@ const SteamDashboard = () => {
                         },
                         title: 'Games',
                         type: 'nominal',
-                        legend: null, // Hide the legend
+                        // legend: null, // Hide Legend
                     },
                     theta: {
                         field: 'playtime_percentage',
@@ -146,9 +144,9 @@ const SteamDashboard = () => {
                 title: {
                     text: "Dipto9999's Top 15 Steam Games",
                     anchor: 'middle',
-                    fontSize: 20,
+                    fontSize: titleFontSize,
                     subtitle: ['Total Playtime: 1450.21 Hours'],
-                    subtitleFontSize: 16,
+                    subtitleFontSize: subtitleFontSize,
                 },
                 width: 400,
             },
@@ -156,7 +154,7 @@ const SteamDashboard = () => {
         title: {
             text: "Dipto9999's Steam Dashboard",
             anchor: 'middle',
-            fontSize: 60,
+            fontSize: supertitleFontSize,
         },
         $schema: 'https://vega.github.io/schema/vega-lite/v5.17.0.json',
         datasets: {
