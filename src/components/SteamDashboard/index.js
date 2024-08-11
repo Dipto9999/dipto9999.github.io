@@ -1,4 +1,3 @@
-
 import { VegaLite } from 'react-vega';
 
 const SteamDashboard = () => {
@@ -14,7 +13,7 @@ const SteamDashboard = () => {
                 labelFontSize: 12,
                 titleFontSize: 16,
             },
-            legend:{
+            legend: {
                 labelFontSize: 12,
                 titleFontSize: 16,
             },
@@ -119,6 +118,7 @@ const SteamDashboard = () => {
                         },
                         title: 'Games',
                         type: 'nominal',
+                        legend: null, // Hide the legend
                     },
                     theta: {
                         field: 'playtime_percentage',
