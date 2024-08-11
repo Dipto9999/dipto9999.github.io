@@ -1,20 +1,39 @@
 import { VegaLite } from 'react-vega';
 
 const SteamDashboard = () => {
-    var supertitleFontSize = 50;
-    var titleFontSize = 30;
-    var subtitleFontSize = 20;
+    var screenWidth = window.innerWidth;
+    var screenHeight = window.innerHeight;
 
-    var bigNumberFontSize = 80;
-    var legendFontSize = 10;
+    var supertitleFontSize;
+    var titleFontSize;
+    var subtitleFontSize;
+
+    var bigNumberFontSize;
+    var legendFontSize;
+
+    if (screenWidth > 700) {
+        supertitleFontSize = 50;
+        titleFontSize = 30;
+        subtitleFontSize = 20;
+
+        bigNumberFontSize = 80;
+        legendFontSize = 8;
+    } else {
+        supertitleFontSize = 30;
+        titleFontSize = 20;
+        subtitleFontSize = 15;
+
+        bigNumberFontSize = 40;
+        legendFontSize = 5;
+    }
+
 
     const dashboardSpec = {
         config: {
             view: {
-                continuousWidth: 300,
-                continuousHeight: 300,
+                // continuousWidth: 300,
+                // continuousHeight: 300,
                 strokeOpacity: 0,
-                strokeWidth: 1.5,
             },
             legend: {
                 labelFontSize: legendFontSize,
@@ -33,7 +52,7 @@ const SteamDashboard = () => {
                             type: 'text',
                             align: 'center',
                             baseline: 'middle',
-                            color: '#141331',
+                            color: '#00008B',
                             fontSize: bigNumberFontSize,
                             fontWeight: 'bold',
                         },
@@ -48,16 +67,16 @@ const SteamDashboard = () => {
                                 type: 'nominal',
                             },
                             y: {
-                                value: 50,
+                                value: 30,
                             },
                         },
-                        height: 150,
+                        height: 75,
                         title: {
                             text: 'Player Level',
                             anchor: 'middle',
                             fontSize: titleFontSize,
                         },
-                        width: 300,
+                        // width: 300,
                     },
                     {
                         data: {
@@ -67,7 +86,7 @@ const SteamDashboard = () => {
                             type: 'text',
                             align: 'center',
                             baseline: 'middle',
-                            color: '#141331',
+                            color: '#00008B',
                             fontSize: bigNumberFontSize,
                             fontWeight: 'bold',
                         },
@@ -82,16 +101,16 @@ const SteamDashboard = () => {
                                 type: 'nominal',
                             },
                             y: {
-                                value: 50,
+                                value: 0,
                             },
                         },
-                        height: 150,
+                        // height: 150,
                         title: {
                             text: 'Played Games',
                             anchor: 'middle',
                             fontSize: titleFontSize,
                         },
-                        width: 300,
+                        // width: 300,
                     },
                 ],
             },
@@ -110,8 +129,8 @@ const SteamDashboard = () => {
                         scale: {
                             range: [
                                 '#808080', '#32CD32', '#00CED1', '#ADD8E6', '#0000FF',
-                                '#00008B', '#800080', '#FFA500', '#FF4500', '#8B4513',
-                                '#006400', '#8B0000', '#FFD700', '#4682B4', '#2E8B57',
+                                '#006400', '#800080', '#FFA500', '#FF4500', '#8B4513',
+                                '#00008B', '#8B0000', '#FFD700', '#4682B4', '#2E8B57',
                             ],
                         },
                         title: 'Games',
@@ -140,7 +159,7 @@ const SteamDashboard = () => {
                         },
                     ],
                 },
-                height: 400,
+                // height: 400,
                 title: {
                     text: "Dipto9999's Top 15 Steam Games",
                     anchor: 'middle',
@@ -148,7 +167,7 @@ const SteamDashboard = () => {
                     subtitle: ['Total Playtime: 1450.21 Hours'],
                     subtitleFontSize: subtitleFontSize,
                 },
-                width: 400,
+                // width: 400,
             },
         ],
         title: {
