@@ -22,7 +22,6 @@ const SteamDashboard = () => {
         bigNumberFontSize = 40;
         chartLength = 150;
 
-        legendConfig = null;
     } else {
         supertitleFontSize = 50;
         titleFontSize = 30;
@@ -34,7 +33,11 @@ const SteamDashboard = () => {
         } else {
             chartLength = 350;
         }
+    }
 
+    if (screenWidth <= 400) {
+        legendConfig = null;
+    } else {
         legendConfig = {
             labelFontSize: 10,
             titleFontSize: 12,
