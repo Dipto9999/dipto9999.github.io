@@ -3,42 +3,51 @@ import { VegaLite } from 'react-vega';
 const SteamDashboard = () => {
     var screenWidth = window.innerWidth;
     var screenHeight = window.innerHeight;
+    // console.log(`Screen Width: ${screenWidth}, Screen Height: ${screenHeight}`)
 
     var supertitleFontSize;
     var titleFontSize;
     var subtitleFontSize;
 
     var bigNumberFontSize;
-    var legendFontSize;
+    var chartLength;
 
-    if (screenWidth > 700) {
+    var legendConfig;
+
+    if (screenHeight <= 400 || screenWidth <= 400) {
+        supertitleFontSize = 20;
+        titleFontSize = 15;
+        subtitleFontSize = 10;
+
+        bigNumberFontSize = 40;
+        chartLength = 150;
+
+        legendConfig = null;
+    } else {
         supertitleFontSize = 50;
         titleFontSize = 30;
         subtitleFontSize = 20;
 
         bigNumberFontSize = 80;
-        legendFontSize = 8;
-    } else {
-        supertitleFontSize = 30;
-        titleFontSize = 20;
-        subtitleFontSize = 15;
+        if (screenHeight <= 800 || screenWidth <= 800) {
+            chartLength = 300;
+        } else {
+            chartLength = 350;
+        }
 
-        bigNumberFontSize = 40;
-        legendFontSize = 5;
+        legendConfig = {
+            labelFontSize: 10,
+            titleFontSize: 12,
+        };
     }
-
 
     const dashboardSpec = {
         config: {
             view: {
-                // continuousWidth: 300,
-                // continuousHeight: 300,
+                continuousWidth: chartLength,
+                continuousHeight: chartLength,
                 strokeOpacity: 0,
-            },
-            legend: {
-                labelFontSize: legendFontSize,
-                titleFontSize: subtitleFontSize,
-            },
+            }
         },
         background: null,
         hconcat: [
@@ -135,7 +144,7 @@ const SteamDashboard = () => {
                         },
                         title: 'Games',
                         type: 'nominal',
-                        // legend: null, // Hide Legend
+                        legend: legendConfig
                     },
                     theta: {
                         field: 'playtime_percentage',
