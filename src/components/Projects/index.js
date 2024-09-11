@@ -58,12 +58,12 @@ const Projects = () => {
                     </p>
 
                     <p className="custom-card-content">
-                        <strong>Remote Controlled, Metal Detecting Robot <a href="https://github.com/TZlindra/ELEC291Project2" className="external-links">[Github Repository]</a></strong>
+                        <strong>Metal Detector Robot <a href="https://github.com/TZlindra/ELEC291Project2" className="external-links">[Github Repository]</a></strong>
 
                         <hr className="hr-separator"/>
 
                         <iframe
-                            title="Remote Controlled, Metal Detecting Robot"
+                            title="Metal Detector Robot"
                             src="https://www.youtube.com/embed/mVCBSWdCpsY"
                             className="float-right"
                             frameBorder="0"
