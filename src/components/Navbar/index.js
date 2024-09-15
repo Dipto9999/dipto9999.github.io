@@ -13,7 +13,6 @@ const Navbar = () => (
             <img src={Muntakim_Cursive} className="sub-logo" alt="Muntakim Subtitle" id="signature" />
         </Link>
 
-
         <div className="content-container">
             <nav className="nav-links">
                 <NavLink exact="true" activeclassname="active" to="/" id="home-link">
