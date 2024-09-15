@@ -175,6 +175,12 @@
                     font-size: 14px;
                 }
             }
+
+            a#experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
         }
 
         ul li a {
@@ -253,13 +259,16 @@
             }
         }
 
-        nav {
+        .nav-links {
             a {
                 font-size: 20px;
                 height: auto;
                 width: auto;
-                // line-height: normal;
                 margin: 0 10px;
+
+                &:hover:after {
+                    top: -30px;
+                }
 
                 &:after {
                     font-size: 14px;
@@ -271,7 +280,6 @@
                     }
                 }
             }
-
         }
     }
 }
