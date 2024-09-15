@@ -42,12 +42,6 @@
                 margin: 10px 0; /* Add Margin to Space Out Links */
             }
 
-            a#experiences-link {
-                &:after {
-                    content: 'Experiences';
-                }
-            }
-
             a#projects-link {
                 &:after {
                     content: 'Projects';
@@ -144,6 +138,30 @@
     }
 }
 
+/* Change Experiences Page Hovering Text. */
+@media (min-width: 925px) {
+    .nav-bar {
+        nav {
+            a#experiences-link {
+                &:after {
+                    content: 'Experiences';
+                }
+            }
+        }
+    }
+}
+@media (max-width: 925px) {
+    .nav-bar {
+        nav {
+            a#experiences-link {
+                &:after {
+                    content: 'Work';
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 770px) {
     .nav-bar {
         width: 15%;
@@ -155,12 +173,6 @@
 
                 &:after {
                     font-size: 14px;
-                }
-            }
-
-            a#experiences-link {
-                &:after {
-                    content: 'Work';
                 }
             }
         }
@@ -241,24 +253,25 @@
             }
         }
 
-        .nav-links {
+        nav {
             a {
                 font-size: 20px;
                 height: auto;
                 width: auto;
-                line-height: normal;
+                // line-height: normal;
                 margin: 0 10px;
 
                 &:after {
                     font-size: 14px;
                 }
-            }
 
-            a#experiences-link {
-                &:after {
-                    content: 'Work';
+                a#experiences-link {
+                    &:after {
+                        content: 'Work';
+                    }
                 }
             }
+
         }
     }
 }
