@@ -42,18 +42,6 @@
                 margin: 10px 0; /* Add Margin to Space Out Links */
             }
 
-            a#projects-link {
-                &:after {
-                    content: 'Projects';
-                }
-            }
-
-            a#interests-link {
-                &:after {
-                    content: 'Interests';
-                }
-            }
-
             a.active {
                 svg {
                     color: #3EA542;
@@ -138,8 +126,8 @@
     }
 }
 
-/* Change Experiences Page Hovering Text. */
-@media (min-width: 925px) {
+/* Change Hovering Text Based on Screen Size. */
+@media (min-width: 925px) or (min-height: 690px) {
     .nav-bar {
         nav {
             a#experiences-link {
@@ -147,15 +135,39 @@
                     content: 'Experiences';
                 }
             }
+
+            a#projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a#interests-link {
+                &:after {
+                    content: 'Interests';
+                }
+            }
         }
     }
 }
-@media (max-width: 925px) {
+@media (max-width: 925px) or (max-height: 690px) {
     .nav-bar {
         nav {
             a#experiences-link {
                 &:after {
                     content: 'Work';
+                }
+            }
+
+            a#projects-link {
+                &:after {
+                    content: 'Projects';
+                }
+            }
+
+            a#interests-link {
+                &:after {
+                    content: 'Fun';
                 }
             }
         }
@@ -173,12 +185,6 @@
 
                 &:after {
                     font-size: 14px;
-                }
-            }
-
-            a#experiences-link {
-                &:after {
-                    content: 'Work';
                 }
             }
         }
@@ -268,16 +274,11 @@
 
                 &:hover:after {
                     top: -30px;
+                    left: -10px;
                 }
 
                 &:after {
-                    font-size: 14px;
-                }
-
-                a#experiences-link {
-                    &:after {
-                        content: 'Work';
-                    }
+                    font-size: 10px;
                 }
             }
         }
