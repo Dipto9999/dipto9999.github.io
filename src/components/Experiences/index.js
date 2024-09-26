@@ -90,7 +90,7 @@ const Experiences = () => {
                         <br/>
 
                         <span className="custom-card-text">
-                            I coordinated UX research initiatives across Product Management teams to help develop vehicle telematics hardware and software solutions. I presented product insights, from both
+                            I coordinated UX research initiatives to help develop vehicle telematics technology and software platforms. I presented product insights, from both
                             customer interviews and statistical analysis, to developers, product managers, and executives in informing roadmap decisions.
                             <br/><br/>
                             I also participated as a speaker for the Junior Student Summer Program, providing secondary school students an Introduction to Big Data.
@@ -109,7 +109,7 @@ const Experiences = () => {
                         <br/>
 
                         <span className="custom-card-text">
-                            At university, I've had the opportunity to work on the ALEASAT project as part of the Command and Data-Handling (CDH) subteam. I worked on developing the onboard-computer telemetry functionality, intended to address
+                            I've had the opportunity to work on the ALEASAT project as part of the Command and Data-Handling (CDH) subteam. I worked on developing the onboard-computer telemetry functionality, intended to address
                             system failure risks and ensure critical orbital tasks were performed with deterministic execution.
                         </span>
                     </p>
