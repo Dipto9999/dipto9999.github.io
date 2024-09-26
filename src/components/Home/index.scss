@@ -55,12 +55,6 @@
                 flex: 1;
                 text-align: left;
             }
-
-            .profile-img {
-                width: 30%;
-                height: auto;
-                align-self: center;
-            }
         }
 
         img {
@@ -157,6 +151,12 @@
                 text-align: center;
                 bottom: 20px;
             }
+
+            .profile-img {
+                width: 30%;
+                height: auto;
+                align-self: center;
+            }
         }
     }
 
@@ -216,8 +216,8 @@
             }
 
             .profile-img {
-                width: 100%;
-                margin: 5px auto;
+                width: 60%;
+                margin: 15px auto;
                 display: block;
                 text-align: center;
             }
@@ -267,8 +267,8 @@
             }
 
             .profile-img {
-                width: 75%;
-                margin: 5px auto;
+                width: 60%;
+                margin: 15px auto;
                 display: block;
                 text-align: center;
             }

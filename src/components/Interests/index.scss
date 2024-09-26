@@ -19,17 +19,6 @@
         }
     }
 
-    .vega-chart {
-        width: 100%;
-        max-width: 90%;
-        margin: 0 auto;  // This centers the container horizontally
-        padding: 20px 0;
-        display: flex;   // Use flexbox for better centering
-        justify-content: center;  // Center the content horizontally
-        align-items: center;      // Center the content vertically
-        text-align: center;       // Ensure text inside the chart is centered
-    }
-
     .photo-gallery {
         height: 400px;
         margin: 25px;

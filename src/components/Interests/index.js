@@ -90,9 +90,7 @@ const Interests = () => {
                     </h1>
 
                     {/* Vega-Lite Visualization */}
-                    <div className="vega-chart">
-                        <SteamDashboard />
-                    </div>
+                    <SteamDashboard />
 
                     <div className="photo-gallery">
                             {
