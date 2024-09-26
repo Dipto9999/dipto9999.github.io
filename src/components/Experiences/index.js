@@ -109,7 +109,7 @@ const Experiences = () => {
                         <br/>
 
                         <span className="custom-card-text">
-                            I've had the opportunity to work on the ALEASAT project as part of the Command and Data-Handling (CDH) subteam. I worked on developing the onboard-computer telemetry functionality, intended to address
+                            I've had the opportunity to work on the ALEASAT project as part of the Command and Data-Handling (CDH) subteam. I worked on developing the onboard-computer telemetry, to address
                             system failure risks and ensure critical orbital tasks were performed with deterministic execution.
                         </span>
                     </p>
