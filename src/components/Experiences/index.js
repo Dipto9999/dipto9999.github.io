@@ -61,6 +61,7 @@ const Experiences = () => {
                         <hr className="hr-separator"/>
                         <img
                             src={Tesla_Interns_2023}
+                            id="Tesla_Interns_2023"
                             className="float-left"
                             alt="Tesla Deer Creek Interns Fall 2023"
                         />
@@ -68,8 +69,11 @@ const Experiences = () => {
                         <br/>
 
                         <span className="custom-card-text">
-                            As part of the Industrial Energy Storage organization, I developed software automation and tools to analyze project performance metrics and generate reports. I helped standardize data management best practices in reporting
-                            key performance indicators to partner engineering teams and org leadership.
+                            I worked on performance testing for utility-scale energy storage systems. Working with partner engineering teams, I helped standardize
+                            data management best practices for reporting KPI fleet metrics to stakeholder groups, including org leadership. I also worked with Asset Management teams
+                            to prototype and productize a software application for accurately assessing project performance.
+                            <br/><br/>
+                            During my recent internship, I took on the scope to support new feature implementation for customer-facing telemetry.
                         </span>
                     </p>
 
@@ -78,6 +82,7 @@ const Experiences = () => {
                         <hr className="hr-separator"/>
                         <img
                             src={Geotab_Volleyball_2022}
+                            id="Geotab_Volleyball_2022"
                             className="float-right"
                             alt="GEOTAB Interns 2022"
                         />
@@ -86,8 +91,9 @@ const Experiences = () => {
 
                         <span className="custom-card-text">
                             I coordinated UX research initiatives across Product Management teams to help develop vehicle telematics hardware and software solutions. I presented product insights, from both
-                            customer interviews and statistical analysis, to developers, product managers, and executives in informing roadmap decisions. During my time here, I also participated as a speaker for the Summer Junior Student Program,
-                            and provided secondary school students an Introduction to Big Data.
+                            customer interviews and statistical analysis, to developers, product managers, and executives in informing roadmap decisions.
+                            <br/><br/>
+                            I also participated as a speaker for the Junior Student Summer Program, providing secondary school students an Introduction to Big Data.
                         </span>
                     </p>
 
