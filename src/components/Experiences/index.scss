@@ -51,13 +51,6 @@
             }
         }
 
-        #Tesla_Interns_2023 {
-            width: 40%;
-        }
-        #Geotab_Volleyball_2022 {
-            width: 40%;
-        }
-
         #Muntakim_UBC {
             border-radius: 50%;
         }
@@ -67,6 +60,19 @@
         color: #ffffff;
         border: 1.5px solid #141331;
         margin: 20px 0;
+    }
+}
+
+@media (min-width: 770px) {
+    .experiences-page {
+        .custom-card-content {
+            #Tesla_Interns_2023 {
+                width: 40%;
+            }
+            #Geotab_Volleyball_2022 {
+                width: 40%;
+            }
+        }
     }
 }
 
