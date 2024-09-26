@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.475759fc.css",
-    "main.js": "/static/js/main.f8598a9b.js",
+    "main.css": "/static/css/main.5890eb4b.css",
+    "main.js": "/static/js/main.0d58e8e1.js",
     "static/js/453.4a1b4550.chunk.js": "/static/js/453.4a1b4550.chunk.js",
     "static/media/Games_18.jpeg": "/static/media/Games_18.e2079c0cdac8d30c1e2d.jpeg",
     "static/media/Games_32.jpeg": "/static/media/Games_32.9b3a1405cf9a97119c74.jpeg",
@@ -96,12 +96,12 @@
     "static/media/Games_33.txt": "/static/media/Games_33.a15d47b2b0d72102cd1f.txt",
     "static/media/Games_34.txt": "/static/media/Games_34.a15d47b2b0d72102cd1f.txt",
     "static/media/Games_35.txt": "/static/media/Games_35.a15d47b2b0d72102cd1f.txt",
-    "main.475759fc.css.map": "/static/css/main.475759fc.css.map",
-    "main.f8598a9b.js.map": "/static/js/main.f8598a9b.js.map",
+    "main.5890eb4b.css.map": "/static/css/main.5890eb4b.css.map",
+    "main.0d58e8e1.js.map": "/static/js/main.0d58e8e1.js.map",
     "453.4a1b4550.chunk.js.map": "/static/js/453.4a1b4550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.475759fc.css",
-    "static/js/main.f8598a9b.js"
+    "static/css/main.5890eb4b.css",
+    "static/js/main.0d58e8e1.js"
   ]
 }
