@@ -1,5 +1,5 @@
 import './App.scss';
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -9,18 +9,21 @@ import Interests from './components/Interests';
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="experiences" element={<Experiences />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="interests" element={<Interests />} />
-        </Route>
-      </Routes>
-      <Footer />
-    </>
-  )
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="experiences" element={<Experiences />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="interests" element={<Interests />} />
+          </Route>
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
