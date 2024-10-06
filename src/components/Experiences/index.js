@@ -9,6 +9,7 @@ import UBC_Orbit_2019 from "../../assets/images/UBC_Orbit_2019.jpg"
 import Optimus from "../../assets/images/Optimus.jpg"
 
 import './index.scss';
+import Resume from '../Resume';
 
 const Experiences = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -46,7 +47,6 @@ const Experiences = () => {
                             id="Muntakim_UBC"
                             alt="Muntakim Rahman : UBC Sauder School Headshot"
                         />
-
                         <br/>
 
                         <span className="custom-card-text">
@@ -54,6 +54,9 @@ const Experiences = () => {
                             with an expected graduation in May 2026. My academic background also includes a <strong><a href="https://extendedlearning.ubc.ca/programs-credentials/key-capabilities-data-science-certificate" className="external-links">Certificate in Data Science</a></strong>,
                             where I enhanced my skills in data analytics and visualization, as well as some machine learning. ⚡
                         </span>
+                        <br/>
+
+                        <br/><Resume />
                     </p>
 
                     <p className="custom-card-content">
