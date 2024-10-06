@@ -15,16 +15,16 @@ const Navbar = () => (
 
         <div className="content-container">
             <nav className="nav-links">
-                <NavLink exact="true" activeclassname="active" to="/" id="home-link">
+                <NavLink activeclassname="active" to="/" id="home-link">
                     <FontAwesomeIcon icon={faHome} className="nav-icon" />
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" to="/experiences" id="experiences-link">
+                <NavLink activeclassname="active" to="/experiences" id="experiences-link">
                     <FontAwesomeIcon icon={faBriefcase} className="nav-icon" />
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" to="/projects" id="projects-link">
+                <NavLink activeclassname="active" to="/projects" id="projects-link">
                     <FontAwesomeIcon icon={faCode} className="nav-icon" />
                 </NavLink>
-                <NavLink exact="true" activeclassname="active" to="/interests" id="interests-link">
+                <NavLink activeclassname="active" to="/interests" id="interests-link">
                     <FontAwesomeIcon icon={faGamepad} className="nav-icon" />
                 </NavLink>
             </nav>
