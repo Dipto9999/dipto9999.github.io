@@ -1,6 +1,21 @@
 # Muntakim Rahman : Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ## Contents
+
+* [Overview](#Overview)
+* [Dashboards](#Dashboards)
+
+## Overview
+
+This is my portfolio website, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Dashboards
+
+These `vega-chart` visualizations were generated with `altair` in the [`fetch_steam.py`](src/assets/data/steam/fetch_steam.py) **Python** script. The initial [`Dipto9999_Steam_Dashboard.jpg`](src/assets/data/steam/Dipto9999_Steam_Dashboard.jpg) data visualizations were migrated to the **React** application and adjusted for browser responsiveness.
+
+<div align="center">
+    <img src="src/assets/data/steam/Dipto9999_Steam_Dashboard.jpg" width=500 height=300 title="Dipto9999 Steam Dashboard">
+</div>
 
 ## Available Scripts
 
