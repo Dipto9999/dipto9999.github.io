@@ -79,6 +79,48 @@ const Projects = () => {
                     </p>
 
                     <p className="custom-card-content contains-video">
+                        <strong>Stock Portfolio - Desktop App <a href="https://github.com/Dipto9999/Stock_Portfolio_App" className="external-links">[Github Repository]</a></strong>
+
+                        <hr className="hr-separator"/>
+
+                        <iframe
+                            title="Stock Portfolio - Desktop App"
+                            src="https://www.youtube.com/embed/CrgSIBPTlN8"
+                            className="float-left"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+
+                        <br/>
+
+                        <span className="custom-card-text">
+                            A <span className="tech-highlight">Tkinter</span> desktop application for monitoring and analyzing stock market trends to support investment decisions.
+                        </span>
+                    </p>
+
+                    <p className="custom-card-content">
+                        <strong>Student Data Collection - Web App <a href="https://github.com/Dipto9999/Data_Collection_App" className="external-links">[Github Repository]</a></strong>
+
+                        <hr className="hr-separator"/>
+
+                        <iframe
+                            title="Student Data Collection - Web App"
+                            src="https://www.youtube.com/embed/v5BKOoV6Blw"
+                            className="float-right"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+
+                        <br/>
+
+                        <span className="custom-card-text">
+                            An <span className="tech-highlight">oTree</span> web application that collects user reported COVID-19 survey data in order to make economic decisions.
+                        </span>
+                    </p>
+
+                    <p className="custom-card-content contains-video">
                         <strong>STM32 Morse Code Translator <a href="https://github.com/Dipto9999/STM32-Morse_Translator" className="external-links">[Github Repository]</a></strong>
 
                         <hr className="hr-separator"/>
@@ -118,48 +160,6 @@ const Projects = () => {
 
                         <span className="custom-card-text">
                             A simplified implementation of Google's PageRank algorithm in <span className="tech-highlight">C</span>, which ranks web pages with a <span className="tech-highlight">MATLAB</span> engine based on hyperlink structure.
-                        </span>
-                    </p>
-
-                    <p className="custom-card-content contains-video">
-                        <strong>Stock Portfolio - Desktop App <a href="https://github.com/Dipto9999/Stock_Portfolio_App" className="external-links">[Github Repository]</a></strong>
-
-                        <hr className="hr-separator"/>
-
-                        <video controls className="float-left">
-                            <source
-                                title="Stock Portfolio - Desktop App"
-                                src="https://user-images.githubusercontent.com/52113009/197423041-074e3278-a808-49dd-a7a9-8ad1b2a625b8.mp4"
-                                type="video/mp4"
-                            />
-                            <i>This video is not supported by your browser.</i>
-                        </video>
-
-                        <br/>
-
-                        <span className="custom-card-text">
-                            A <span className="tech-highlight">Tkinter</span> desktop application for monitoring and analyzing stock market trends to support investment decisions.
-                        </span>
-                    </p>
-
-                    <p className="custom-card-content">
-                        <strong>Student Data Collection - Web App <a href="https://github.com/Dipto9999/Data_Collection_App" className="external-links">[Github Repository]</a></strong>
-
-                        <hr className="hr-separator"/>
-
-                        <iframe
-                            title="Student Data Collection - Web App"
-                            src="https://www.youtube.com/embed/v5BKOoV6Blw"
-                            className="float-right"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                        ></iframe>
-
-                        <br/>
-
-                        <span className="custom-card-text">
-                            An <span className="tech-highlight">oTree</span> web application that collects user reported COVID-19 survey data in order to make economic decisions.
                         </span>
                     </p>
                 </div>
