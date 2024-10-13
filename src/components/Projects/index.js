@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import Loader from 'react-loaders'
 import AnimatedLetters from "../AnimatedLetters"
 
-import Data_Collection_App from "../../assets/images/Data_Collection_App.jpeg"
 import './index.scss';
 
 const Projects = () => {
@@ -123,13 +122,13 @@ const Projects = () => {
                     </p>
 
                     <p className="custom-card-content contains-video">
-                        <strong>Stock Portfolio App <a href="https://github.com/Dipto9999/Stock_Portfolio_App" className="external-links">[Github Repository]</a></strong>
+                        <strong>Stock Portfolio - Desktop App <a href="https://github.com/Dipto9999/Stock_Portfolio_App" className="external-links">[Github Repository]</a></strong>
 
                         <hr className="hr-separator"/>
 
                         <video controls className="float-left">
                             <source
-                                title="Stock Portfolio App"
+                                title="Stock Portfolio - Desktop App"
                                 src="https://user-images.githubusercontent.com/52113009/197423041-074e3278-a808-49dd-a7a9-8ad1b2a625b8.mp4"
                                 type="video/mp4"
                             />
@@ -144,20 +143,23 @@ const Projects = () => {
                     </p>
 
                     <p className="custom-card-content">
-                        <strong>Data Collection App <a href="https://github.com/Dipto9999/Data_Collection_App" className="external-links">[Github Repository]</a></strong>
+                        <strong>Student Data Collection - Web App <a href="https://github.com/Dipto9999/Data_Collection_App" className="external-links">[Github Repository]</a></strong>
 
                         <hr className="hr-separator"/>
 
-                        <img
-                            src={Data_Collection_App}
+                        <iframe
+                            title="Student Data Collection - Web App"
+                            src="https://www.youtube.com/embed/v5BKOoV6Blw"
                             className="float-right"
-                            alt="Data Collection App"
-                        />
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
 
                         <br/>
 
                         <span className="custom-card-text">
-                            A <span className="tech-highlight">Django</span> web application that collects user reported COVID-19 survey data in order to make economic decisions.
+                            An <span className="tech-highlight">oTree</span> web application that collects user reported COVID-19 survey data in order to make economic decisions.
                         </span>
                     </p>
                 </div>
