@@ -65,7 +65,7 @@ const Home = () => {
                         <h2 className="custom-card-text">
                             <img src={Muntakim_Algonquin} alt="Muntakim Rahman at Algonquin Park, 2020" className="profile-img" />
 
-                            My name is Muntakim and I'm an Electrical Engineering undergraduate with an appetite for software development.&nbsp;
+                            My name is Muntakim and I'm an electrical engineering undergraduate with an appetite for software development.&nbsp;
                             <span className="not-on-mobile">
                                 I'm passionate about developing innovative technologies that integrate software and hardware. My experiences are in data science and embedded systems;
                                 I love working on projects that leverage the intersection of these fields! <br /><br />
