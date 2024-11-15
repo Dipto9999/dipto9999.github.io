@@ -60,7 +60,7 @@ const Experiences = () => {
                     </p>
 
                     <p className="custom-card-content">
-                        <strong>Software Applications Engineering Intern @ <a href="https://www.tesla.com/en_eu/megapack" className="external-links">TESLA, Inc</a> 🔋 </strong>(Jan 2023 - Jan 2024,&nbsp;May 2024 - Aug 2024)
+                        <strong>Software Application Engineering Intern @ <a href="https://www.tesla.com/en_eu/megapack" className="external-links">TESLA, Inc</a> 🔋 </strong>(Jan 2023 - Jan 2024,&nbsp;May 2024 - Aug 2024)
                         <hr className="hr-separator"/>
                         <img
                             src={Tesla_Interns_2023}
