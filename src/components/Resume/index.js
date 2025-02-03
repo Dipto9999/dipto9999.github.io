@@ -16,7 +16,7 @@ const Resume = () => {
             setShowCheckmark(true);
 
             // Download Resume
-            window.location.href = 'https://drive.usercontent.google.com/uc?id=1yRhiuFHrN6sypAu8CX8y7U4O1krd0JJ2&export=download';
+            window.location.href = 'https://drive.usercontent.google.com/download?id=17o-Kef0g3lDtNlOCnz5x6ZwKcqL7AkD7';
 
             // Remove Checkmark After 5 s.
             setTimeout(() => {
