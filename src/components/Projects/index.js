@@ -33,6 +33,52 @@ const Projects = () => {
                         />
                     </h1>
 
+                    <p className="custom-card-content contains-video">
+                        <strong>Introducing WALL-E<a href="https://github.com/Dipto9999/Self_Balancing_Robot" className="external-links">[Github Repository]</a></strong>
+
+                        <hr className="hr-separator"/>
+
+                        <iframe
+                            title="WALL-E : Self Balancing Robot"
+                            src="https://youtube.com/embed/UMmxqQl_EAc"
+                            className="float-left"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+
+                        <br/>
+
+                        <span className="custom-card-text">
+                            <span className="tech-highlight">WALL-E</span> is a <span className="tech-highlight">Bluetooth</span> controlled robot with
+                            autonomous balancing capabilities, live video streaming, and secure <span className="tech-highlight">RFID</span> authentication.
+                            The robot system is comprised of an <span className="tech-highlight">Arduino Nano 33 BLE Sense</span>, <span className="tech-highlight">STM32</span>, and <span className="tech-highlight">Raspberry Pi Zero</span>.
+                            Together, these enable WALL-E to avoid obstacles in real time and stream live video via <span className="tech-highlight">HTTP</span>, uploading
+                            saved footage to <span className="tech-highlight">AWS S3</span> for secure storage.
+                        </span>
+                    </p>
+
+                    <p className="custom-card-content">
+                        <strong>TCP Chat Server - Desktop App<a href="https://github.com/Dipto9999/TCP_Chat_Application" className="external-links">[Github Repository]</a></strong>
+
+                        <hr className="hr-separator"/>
+
+                        <iframe
+                            title="TCP Chat Server - Desktop App"
+                            src="https://www.youtube.com/embed/xPEcu-LOH6w"
+                            className="float-right"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                        <br/>
+                        <span className="custom-card-text">
+                            A TCP chat application build with <span className="tech-highlight">Python</span>'s concurrency implementations.
+                            This uses <span className="tech-highlight">multiprocessing</span> for isolated client/server processes and <span className="tech-highlight">multithreading</span> for concurrent message handling.
+                            The design supports error handling for disconnects, client reconnection, and synchronized message delivery using shared memory.
+                        </span>
+                    </p>
+
                     <p className="custom-card-content">
                         <strong>Reflow Oven Controller <a href="https://github.com/TZlindra/ELEC291Project1Code" className="external-links">[Github Repository]</a></strong>
 
@@ -119,51 +165,7 @@ const Projects = () => {
                             An <span className="tech-highlight">oTree</span> web application that collects user reported COVID-19 survey data in order to make economic decisions.
                         </span>
                     </p>
-
-                    <p className="custom-card-content contains-video">
-                        <strong>STM32 Morse Code Translator <a href="https://github.com/Dipto9999/STM32-Morse_Translator" className="external-links">[Github Repository]</a></strong>
-
-                        <hr className="hr-separator"/>
-
-                        <video controls className="float-left">
-                            <source
-                                title="STM32 Morse Code Translator"
-                                src="https://user-images.githubusercontent.com/52113009/130340990-af157688-376e-429a-9239-4267415a930c.mp4"
-                                type="video/mp4"
-                            />
-                            <i>This video is not supported by your browser.</i>
-                        </video>
-
-                        <br/>
-
-                        <span className="custom-card-text">
-                            A <span className="tech-highlight">C</span> program which acquires a stream of ASCII characters from serial port via <span className="tech-highlight">UART</span>, and outputs the corresponding Morse code on
-                            an <span className="tech-highlight">STM32L4 Nucleo</span> board LED.
-                        </span>
-                    </p>
-
-                    <p className="custom-card-content contains-video">
-                        <strong>Google PageRank Engine <a href="https://github.com/Dipto9999/Google_PageRank" className="external-links">[Github Repository]</a></strong>
-
-                        <hr className="hr-separator"/>
-
-                        <video controls className="float-right">
-                            <source
-                                title="Google PageRank Engine"
-                                src="https://user-images.githubusercontent.com/52113009/135669850-cdea2f2d-a0b1-475c-9969-27d526ef226e.mp4"
-                                type="video/mp4"
-                            />
-                            <i>This video is not supported by your browser.</i>
-                        </video>
-
-                        <br/>
-
-                        <span className="custom-card-text">
-                            A simplified implementation of Google's PageRank algorithm in <span className="tech-highlight">C</span>, which ranks web pages with a <span className="tech-highlight">MATLAB</span> engine based on hyperlink structure.
-                        </span>
-                    </p>
                 </div>
-
                 <span className='tags bottom-tags'>&#125;</span>
             </div>
         </>
