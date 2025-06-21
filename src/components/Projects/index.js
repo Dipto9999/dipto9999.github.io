@@ -34,7 +34,7 @@ const Projects = () => {
                     </h1>
 
                     <p className="custom-card-content contains-video">
-                        <strong>Introducing WALL-E<a href="https://github.com/Dipto9999/Self_Balancing_Robot" className="external-links">[Github Repository]</a></strong>
+                        <strong>Introducing WALL-E<a href="https://github.com/Dipto9999/Self_Balancing_Robot" className="external-links"> [Github Repository]</a></strong>
 
                         <hr className="hr-separator"/>
 
@@ -59,7 +59,7 @@ const Projects = () => {
                     </p>
 
                     <p className="custom-card-content">
-                        <strong>TCP Chat Server - Desktop App<a href="https://github.com/Dipto9999/TCP_Chat_Application" className="external-links">[Github Repository]</a></strong>
+                        <strong>TCP Chat Server - Desktop App<a href="https://github.com/Dipto9999/TCP_Chat_Application" className="external-links"> [Github Repository]</a></strong>
 
                         <hr className="hr-separator"/>
 
