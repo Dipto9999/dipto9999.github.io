@@ -1,0 +1,147 @@
+{
+  "background": null,
+  "config": {
+    "view": {
+      "continuousWidth": 130,
+      "continuousHeight": 130,
+      "strokeOpacity": 0,
+      "strokeWidth": 1.5
+    },
+    "axis": {
+      "labelFontSize": 10,
+      "titleFontSize": 11
+    }
+  },
+  "hconcat": [
+    {
+      "vconcat": [
+        {
+          "data": { "name": "data-ce2f25787bade8ca3fba4cb14335a451" },
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "middle",
+            "color": "#141331",
+            "fontSize": 20,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "text": { "field": "Value", "type": "quantitative" },
+            "x": { "axis": null, "field": "Metric", "type": "nominal" },
+            "y": { "value": 45 }
+          },
+          "height": 60,
+          "title": {
+            "text": "Level",
+            "anchor": "middle",
+            "fontSize": 16
+          },
+          "width": 130
+        },
+        {
+          "data": { "name": "data-92b892d679d5fbeaa0a56e1238c7fc12" },
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "middle",
+            "color": "#141331",
+            "fontSize": 20,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "text": { "field": "Value", "type": "quantitative" },
+            "x": { "axis": null, "field": "Metric", "type": "nominal" },
+            "y": { "value": 45 }
+          },
+          "height": 60,
+          "title": {
+            "text": "Played",
+            "anchor": "middle",
+            "fontSize": 16
+          },
+          "width": 130
+        }
+      ],
+      "title": {
+        "text": "Stats",
+        "anchor": "middle",
+        "fontSize": 18
+      }
+    },
+    {
+      "data": { "name": "data-b2da6c3eee8efb20e4c0e498a7d77a12" },
+      "mark": {
+        "type": "arc",
+        "stroke": "black",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "name",
+          "legend": null,
+          "scale": {
+            "range": [
+              "#00008B", "#32CD32", "#00CED1", "#A8D7E7", "#808080",
+              "#FF4500", "#0000FF", "#3D3A38", "#800080", "#FFA500",
+              "#006400", "#8B0000", "#FFD700", "#4682B4", "#2E8B57"
+            ]
+          },
+          "sort": null,
+          "type": "nominal"
+        },
+        "theta": { "field": "playtime_percentage", "type": "quantitative" },
+        "tooltip": [
+          { "field": "name", "title": "Game", "type": "nominal" },
+          { "field": "playtime_forever", "format": ".1f", "title": "Time (Hrs)", "type": "quantitative" },
+          { "field": "playtime_percentage", "format": ".2f", "title": "Playtime (%)", "type": "quantitative" }
+        ]
+      },
+      "height": 130,
+      "title": {
+        "text": "Top 15 Games",
+        "anchor": "middle",
+        "fontSize": 18,
+        "subtitle": "Total Playtime: 1415.2 Hours",
+        "subtitleFontSize": 13
+      },
+      "width": 130
+    }
+  ],
+  "padding": {
+    "left": 10,
+    "right": 10,
+    "top": 0,
+    "bottom": 0
+  },
+  "title": {
+    "text": "Dipto9999's Steam Dashboard",
+    "anchor": "middle",
+    "fontSize": 18
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-ce2f25787bade8ca3fba4cb14335a451": [
+      { "Metric": "Level", "Value": 18 }
+    ],
+    "data-92b892d679d5fbeaa0a56e1238c7fc12": [
+      { "Metric": "Played", "Value": 43 }
+    ],
+    "data-b2da6c3eee8efb20e4c0e498a7d77a12": [
+      { "name": "The Elder Scrolls V: Skyrim", "playtime_forever": 845.28, "appid": 72850, "playtime_percentage": 59.73 },
+      { "name": "Batman: Arkham Knight", "playtime_forever": 96.47, "appid": 208650, "playtime_percentage": 6.82 },
+      { "name": "The Lord of the Rings Online", "playtime_forever": 91.02, "appid": 212500, "playtime_percentage": 6.43 },
+      { "name": "Telltale: Batman", "playtime_forever": 66.22, "appid": 498240, "playtime_percentage": 4.68 },
+      { "name": "Stardew Valley", "playtime_forever": 49.5, "appid": 413150, "playtime_percentage": 3.5 },
+      { "name": "Telltale: Game of Thrones", "playtime_forever": 47.68, "appid": 330840, "playtime_percentage": 3.37 },
+      { "name": "Telltale: The Walking Dead", "playtime_forever": 40.52, "appid": 207610, "playtime_percentage": 2.86 },
+      { "name": "Shadow of Mordor", "playtime_forever": 37.05, "appid": 241930, "playtime_percentage": 2.62 },
+      { "name": "Telltale: Batman The Enemy Within", "playtime_forever": 35.93, "appid": 675260, "playtime_percentage": 2.54 },
+      { "name": "Batman: Arkham City", "playtime_forever": 21.1, "appid": 200260, "playtime_percentage": 1.49 },
+      { "name": "DOOM", "playtime_forever": 20.92, "appid": 379720, "playtime_percentage": 1.48 },
+      { "name": "Trine 2", "playtime_forever": 19.88, "appid": 35720, "playtime_percentage": 1.4 },
+      { "name": "Tomb Raider", "playtime_forever": 17.98, "appid": 203160, "playtime_percentage": 1.27 },
+      { "name": "Batman: Arkham Asylum", "playtime_forever": 13.38, "appid": 35140, "playtime_percentage": 0.95 },
+      { "name": "Telltale: The Walking Dead S2", "playtime_forever": 12.25, "appid": 261030, "playtime_percentage": 0.87 }
+    ]
+  }
+}
