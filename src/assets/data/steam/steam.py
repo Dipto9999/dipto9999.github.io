@@ -388,7 +388,8 @@ class SteamDashboard:
                 anchor = 'middle', fontSize = 40
             ),
         ).configure_view(
-            strokeWidth = 1.5, strokeOpacity = 0
+            strokeWidth = 1.5,
+            strokeOpacity = 0,
         ).configure_axis(
             labelFontSize = 12, titleFontSize = 16
         ).configure_legend(
@@ -415,7 +416,7 @@ class SteamDashboard:
         with open(f"Charts/{filename}.json", 'r') as f:
             spec = json.load(f)
 
-        self.dashboard = alt.Chart.from_dict(spec) # alt.Chart.from_json(json_str)
+        self.dashboard = alt.Chart.from_dict(spec)
 
         # Save as HTML (Interactive)
         with open(f"Charts/{filename}.html", 'w') as f:

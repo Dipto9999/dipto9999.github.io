@@ -1,7 +1,7 @@
 import React, { useMemo, useEffect, useState } from 'react';
 import { VegaLite } from 'react-vega';
 
-import defaultSpec from "../../assets/data/steam/Charts/Dipto9999_Default.json";
+import defaultSpec from "../../assets/data/steam/Charts/Dipto9999_Dashboard.json";
 import portraitSpec from "../../assets/data/steam/Charts/Dipto9999_Portrait.json";
 import landscapeSpec from "../../assets/data/steam/Charts/Dipto9999_Landscape.json";
 
