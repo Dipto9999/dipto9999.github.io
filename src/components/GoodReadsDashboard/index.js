@@ -1,10 +1,10 @@
 import React, { useMemo, useEffect, useState } from 'react';
 import { VegaLite } from 'react-vega';
 
-import defaultSteam from "../../assets/data/steam/Charts/Dipto9999_Dashboard.json";
-import portraitSteam from "../../assets/data/steam/Charts/Dipto9999_Portrait.json";
-import landscapeSteam from "../../assets/data/steam/Charts/Dipto9999_Landscape.json";
-import tabletSteam from "../../assets/data/steam/Charts/Dipto9999_Tablet.json";
+import defaultGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Dashboard.json";
+import portraitGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Portrait.json";
+import landscapeGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Landscape.json";
+import tabletGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Tablet.json";
 
 import './index.scss';
 
@@ -15,14 +15,14 @@ const chartContainerStyle = {
   width: '100%',
 };
 
-const getSteamSpec = (width, height) => {
-  if (width <= 550 && height >= width) return portraitSteam; // Mobile Portrait
-  if (width <= 900 && width > height) return landscapeSteam;  // Mobile Landscape
-  if (width <= 1200) return tabletSteam; // Tablet Portrait
-  return defaultSteam; // Default Desktop Steam
+const getGoodReadsSpec = (width, height) => {
+  if (width <= 550 && height >= width) return portraitGoodReads; // Mobile Portrait
+  if (width <= 900 && width > height) return landscapeGoodReads;  // Mobile Landscape
+  if (width <= 1200) return tabletGoodReads; // Tablet Portrait
+  return defaultGoodReads; // Default Desktop Spec
 };
 
-const SteamDashboard = () => {
+const GoodReadsDashboard = () => {
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -39,10 +39,10 @@ const SteamDashboard = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Pick Steam Dynamically Based on Dimensions
+  // Pick Spec Dynamically Based on Dimensions
   const spec = useMemo(() => {
     return JSON.parse(JSON.stringify(
-      getSteamSpec(dimensions.width, dimensions.height)
+      getGoodReadsSpec(dimensions.width, dimensions.height)
     ));
   }, [dimensions]);
 
@@ -53,4 +53,4 @@ const SteamDashboard = () => {
   );
 };
 
-export default SteamDashboard;
+export default GoodReadsDashboard;

@@ -8,6 +8,7 @@ import Slider from 'react-slick';
 
 import './index.scss';
 import SteamDashboard from '../SteamDashboard';
+import GoodReadsDashboard from '../GoodReadsDashboard';
 
 const gameImageCount = 35; // Number of Steam Game Images
 
@@ -115,6 +116,8 @@ const Interests = () => {
                         </Slider>
                     </div>
                 </div>
+
+                <GoodReadsDashboard />
 
                 <span className="tags bottom-tags">&#125;</span>
             </div>

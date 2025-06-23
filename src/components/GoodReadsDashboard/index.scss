@@ -1,0 +1,10 @@
+.vega-chart {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;  // Center Chart
+    padding: 20px 0;
+    display: flex;  // Use Flexbox for Better Centering
+    justify-content: center; // Center Content Horizontally
+    align-items: center; // Center Content Vertically
+    text-align: center; // Center Text
+}

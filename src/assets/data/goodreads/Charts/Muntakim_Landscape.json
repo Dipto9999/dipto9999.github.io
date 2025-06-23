@@ -1,0 +1,145 @@
+{
+  "background": null,
+  "config": {
+    "view": {
+      "continuousWidth": 200,
+      "continuousHeight": 120,
+      "strokeOpacity": 0,
+      "strokeWidth": 1.5
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "orient": "bottom"
+    }
+  },
+  "hconcat": [
+    {
+      "data": { "name": "data-26ef6fd35988b53c5090f9c6ca44a4ba" },
+      "mark": { "type": "bar", "size": 6 },
+      "encoding": {
+        "color": {
+          "field": "Reviewer",
+          "legend": {
+            "labelFontSize": 11,
+            "symbolSize": 80,
+            "symbolType": "square",
+            "title": "Reviewer",
+            "titleFontSize": 12
+          },
+          "scale": {
+            "domain": ["Muntakim", "GoodReads Average"],
+            "range": ["seagreen", "orange"]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          { "field": "Title", "title": "Title", "type": "nominal" },
+          { "field": "Year", "title": "Year Read", "type": "quantitative" },
+          { "field": "Reviewer", "title": "Reviewer", "type": "nominal" },
+          { "field": "Rating", "title": "Rating", "type": "quantitative" }
+        ],
+        "x": {
+          "axis": { "labelFontSize": 11, "titleFontSize": 13 },
+          "field": "Rating",
+          "scale": { "domain": [0, 5] },
+          "title": "Rating",
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "labelFontSize": 11,
+            "labelLimit": 90,
+            "titleFontSize": 13
+          },
+          "field": "SummarizedTitle",
+          "sort": { "field": "Rating", "order": "descending" },
+          "title": "Book",
+          "type": "nominal"
+        },
+        "yOffset": { "field": "Reviewer", "type": "nominal" }
+      },
+      "height": 120,
+      "width": 200,
+      "title": { "text": "Ratings", "fontSize": 14 }
+    },
+    {
+      "data": { "name": "data-6c958c206645b7e22635aeb796ff59cc" },
+      "mark": { "type": "bar" },
+      "encoding": {
+        "color": {
+          "field": "Pages",
+          "legend": {
+            "labelFontSize": 11,
+            "title": "Pages (#)",
+            "titleFontSize": 12
+          },
+          "scale": { "scheme": "greens" },
+          "title": "Pages (#)",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          { "field": "Year", "title": "Year", "type": "ordinal" },
+          { "field": "Books", "title": "Books (#)", "type": "quantitative" },
+          { "field": "Pages", "title": "Pages (#)", "type": "quantitative" }
+        ],
+        "x": {
+          "axis": { "labelAngle": -45, "labelFontSize": 11, "titleFontSize": 13 },
+          "field": "Year",
+          "title": "Year",
+          "type": "nominal"
+        },
+        "y": {
+          "axis": { "labelFontSize": 11, "titleFontSize": 13 },
+          "field": "Books",
+          "title": "Books (#)",
+          "type": "quantitative"
+        }
+      },
+      "height": 120,
+      "width": 110,
+      "title": { "text": "Annual", "fontSize": 14 }
+    }
+  ],
+  "spacing": 20,
+  "padding": { "left": 20, "right": 20, "top": 8, "bottom": 10 },
+  "title": {
+    "text": "Muntakim's GoodReads",
+    "anchor": "middle",
+    "fontSize": 18
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-26ef6fd35988b53c5090f9c6ca44a4ba": [
+      { "SummarizedTitle": "The Grid", "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future", "Year": 2024, "Reviewer": "Muntakim", "Rating": 4.0 },
+      { "SummarizedTitle": "Working Backwards", "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon", "Year": 2022, "Reviewer": "Muntakim", "Rating": 5.0 },
+      { "SummarizedTitle": "Watchmen", "Title": "Watchmen", "Year": 2018, "Reviewer": "Muntakim", "Rating": 5.0 },
+      { "SummarizedTitle": "Elon Musk", "Title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future", "Year": 2023, "Reviewer": "Muntakim", "Rating": 4.0 },
+      { "SummarizedTitle": "Lean Customer Development", "Title": "Lean Customer Development: Building Products Your Customers Will Buy", "Year": 2022, "Reviewer": "Muntakim", "Rating": 4.0 },
+      { "SummarizedTitle": "The Defining Decade", "Title": "The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now", "Year": 2023, "Reviewer": "Muntakim", "Rating": 5.0 },
+      { "SummarizedTitle": "Build", "Title": "Build: An Unorthodox Guide to Making Things Worth Making", "Year": 2022, "Reviewer": "Muntakim", "Rating": 5.0 },
+      { "SummarizedTitle": "Thinking in Bets", "Title": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts", "Year": 2022, "Reviewer": "Muntakim", "Rating": 4.0 },
+      { "SummarizedTitle": "The Grid", "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future", "Year": 2024, "Reviewer": "GoodReads Average", "Rating": 3.87 },
+      { "SummarizedTitle": "Working Backwards", "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon", "Year": 2022, "Reviewer": "GoodReads Average", "Rating": 4.21 },
+      { "SummarizedTitle": "Watchmen", "Title": "Watchmen", "Year": 2018, "Reviewer": "GoodReads Average", "Rating": 4.39 },
+      { "SummarizedTitle": "Elon Musk", "Title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future", "Year": 2023, "Reviewer": "GoodReads Average", "Rating": 4.13 },
+      { "SummarizedTitle": "Lean Customer Development", "Title": "Lean Customer Development: Building Products Your Customers Will Buy", "Year": 2022, "Reviewer": "GoodReads Average", "Rating": 4.19 },
+      { "SummarizedTitle": "The Defining Decade", "Title": "The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now", "Year": 2023, "Reviewer": "GoodReads Average", "Rating": 4.1 },
+      { "SummarizedTitle": "Build", "Title": "Build: An Unorthodox Guide to Making Things Worth Making", "Year": 2022, "Reviewer": "GoodReads Average", "Rating": 4.32 },
+      { "SummarizedTitle": "Thinking in Bets", "Title": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts", "Year": 2022, "Reviewer": "GoodReads Average", "Rating": 3.82 }
+    ],
+    "data-6c958c206645b7e22635aeb796ff59cc": [
+      { "Year": 2018, "Books": 1, "Pages": 416 },
+      { "Year": 2019, "Books": 0, "Pages": 0 },
+      { "Year": 2020, "Books": 0, "Pages": 0 },
+      { "Year": 2021, "Books": 0, "Pages": 0 },
+      { "Year": 2022, "Books": 4, "Pages": 1242 },
+      { "Year": 2023, "Books": 2, "Pages": 665 },
+      { "Year": 2024, "Books": 1, "Pages": 384 }
+    ]
+  }
+}
