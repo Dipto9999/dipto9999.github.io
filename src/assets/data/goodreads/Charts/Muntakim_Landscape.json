@@ -14,7 +14,9 @@
     "legend": {
       "labelFontSize": 11,
       "titleFontSize": 12,
-      "orient": "bottom"
+      "orient": "bottom",
+      "gradientLength": 100,
+      "gradientThickness": 10
     }
   },
   "hconcat": [
@@ -108,7 +110,7 @@
   "spacing": 20,
   "padding": { "left": 20, "right": 20, "top": 8, "bottom": 10 },
   "title": {
-    "text": "Muntakim's GoodReads",
+    "text": "Muntakim's GoodReads Dashboard",
     "anchor": "middle",
     "fontSize": 18
   },

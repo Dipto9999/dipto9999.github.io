@@ -12,7 +12,9 @@
     "legend": {
       "labelFontSize": 11,
       "titleFontSize": 13,
-      "orient": "bottom"
+      "orient": "bottom",
+      "gradientLength": 150,
+      "gradientThickness": 10
     }
   },
   "hconcat": [
