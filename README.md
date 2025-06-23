@@ -22,7 +22,7 @@ I pulled my account data from the **Steam API** using the [`steam.py`](src/asset
 After fetching, the data was processed and cleaned with **pandas**, then visualized with **vega-altair**.
 
 The initial [`Dipto9999_Dashboard.json`](src/assets/data/steam/Charts/Dipto9999_Dashboard.json) and related chart assets
-were migrated to the React application and further adjusted for browser responsiveness.
+were migrated to the **React** application and further adjusted for browser responsiveness.
 
 <div align="center">
     <img src="src/assets/data/steam/Charts/Dipto9999_Dashboard.svg" width = 750 title = "Dipto9999 Steam Dashboard">
@@ -33,7 +33,7 @@ were migrated to the React application and further adjusted for browser responsi
 GoodReads doesn't provide access to its **API** for new users. I exported my user data from the website, cleaned, and visualized the data in the [`GoodReads_Stats.ipynb`](src/assets/data/goodreads/GoodReads_Stats.ipynb) **Jupyter Notebook**.
 
 The initial [`Muntakim_Dashboard.json`](src/assets/data/goodreads/Charts/Muntakim_Dashboard.json) and related chart assets
-were migrated to the React application and further adjusted for browser responsiveness.
+were migrated to the **React** application and further adjusted for browser responsiveness.
 
 <div align="center">
     <img src="src/assets/data/goodreads/Charts/Muntakim_Dashboard.svg" width = 750 title = "Muntakim GoodReads Dashboard">
