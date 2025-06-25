@@ -118,7 +118,7 @@ const Interests = () => {
                 </div>
 
                 <GoodReadsDashboard />
-
+                <br/>
                 <span className="tags bottom-tags">&#125;</span>
             </div>
         </>

@@ -1,10 +1,139 @@
 .vega-chart {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;  // Center Chart
-    padding: 20px 0;
-    display: flex;  // Use Flexbox for Better Centering
-    justify-content: center; // Center Content Horizontally
-    align-items: center; // Center Content Vertically
-    text-align: center; // Center Text
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.goodreads-dashboard {
+  padding: 0 16px;
+
+  @media (min-width: 768px) {
+    padding: 0 32px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+}
+
+.goodreads-reviews-container {
+  margin: 2rem 0;
+  background: #e3f7ff;
+  border-radius: 8px;
+  padding: 16px;
+
+  h2 {
+    font-size: 18px;
+    margin: 0 0 12px 0;
+  }
+}
+
+.goodreads-table {
+  font-size: 1.07rem;
+  overflow-x: auto;
+  width: 100%;
+
+  .rdt_TableHeadRow {
+    font-size: 1.33em;
+    font-weight: 700;
+    background: #f4f8fb;
+    letter-spacing: 0.02em;
+  }
+  .rdt_TableRow {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  th, td {
+    padding: 10px 12px;
+    white-space: pre-line;
+    word-break: break-word;
+  }
+
+  // Display Table on Screen Widths > 800px
+  @media (max-width: 800px) {
+    display: none !important;
+  }
+
+  // Medium Sizes Screens
+  @media (min-width: 801px) and (max-width: 899px) {
+    font-size: 1.13rem;
+    .rdt_TableHeadRow { font-size: 1.28em; }
+    th, td {
+      font-size: 1em;
+      min-width: 120px;
+      padding: 10px 16px;
+    }
+    .rdt_TableCol:nth-child(2), .rdt_TableCell:nth-child(2) { min-width: 180px; }
+    .rdt_TableCol:nth-child(5), .rdt_TableCell:nth-child(5) { min-width: 280px; }
+  }
+
+  // Larger Screens
+  @media (min-width: 900px) {
+    font-size: 1.25rem;
+    .rdt_TableHeadRow { font-size: 1.5em; }
+    th, td {
+      font-size: 1.06em;
+      min-width: 140px;
+      padding: 14px 22px;
+    }
+    .rdt_TableCol:nth-child(1), .rdt_TableCell:nth-child(1) { min-width: 250px; }
+    .rdt_TableCol:nth-child(4), .rdt_TableCell:nth-child(4) { min-width: 370px; }
+  }
+}
+
+.goodreads-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 0.5rem;
+
+  // Display Cards on Screen Widths <= 800px
+  @media (min-width: 801px) {
+    display: none;
+  }
+}
+
+.goodreads-card {
+  background: #f9fbfd;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  font-size: 1rem;
+  word-break: break-word;
+  text-align: left;
+
+  .goodreads-card-title {
+    font-size: 1.1em;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+  }
+
+  .goodreads-card-author-date {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .goodreads-card-author {
+    color: #444;
+  }
+
+  .goodreads-card-date {
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  .goodreads-card-divider {
+    margin: 8px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
 }

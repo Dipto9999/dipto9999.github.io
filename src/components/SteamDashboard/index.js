@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect, useState } from 'react';
+import { useMemo, useEffect, useState } from 'react';
 import { VegaLite } from 'react-vega';
 
 import defaultSteam from "../../assets/data/steam/Charts/Dipto9999_Dashboard.json";

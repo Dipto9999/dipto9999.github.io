@@ -39,6 +39,7 @@
         },
         "tooltip": [
           { "field": "Title", "title": "Title", "type": "nominal" },
+          { "field": "Authors", "title": "Author(s)", "type": "nominal" },
           { "field": "Year", "title": "Year Read", "type": "quantitative" },
           { "field": "Reviewer", "title": "Reviewer", "type": "nominal" },
           { "field": "Rating", "title": "Rating", "type": "quantitative" }
@@ -115,22 +116,134 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
     "data-26ef6fd35988b53c5090f9c6ca44a4ba": [
-      { "SummarizedTitle": "The Grid", "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future", "Year": 2024, "Reviewer": "Muntakim", "Rating": 4.0 },
-      { "SummarizedTitle": "Working Backwards", "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon", "Year": 2022, "Reviewer": "Muntakim", "Rating": 5.0 },
-      { "SummarizedTitle": "Watchmen", "Title": "Watchmen", "Year": 2018, "Reviewer": "Muntakim", "Rating": 5.0 },
-      { "SummarizedTitle": "Elon Musk", "Title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future", "Year": 2023, "Reviewer": "Muntakim", "Rating": 4.0 },
-      { "SummarizedTitle": "Lean Customer Development", "Title": "Lean Customer Development: Building Products Your Customers Will Buy", "Year": 2022, "Reviewer": "Muntakim", "Rating": 4.0 },
-      { "SummarizedTitle": "The Defining Decade", "Title": "The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now", "Year": 2023, "Reviewer": "Muntakim", "Rating": 5.0 },
-      { "SummarizedTitle": "Build", "Title": "Build: An Unorthodox Guide to Making Things Worth Making", "Year": 2022, "Reviewer": "Muntakim", "Rating": 5.0 },
-      { "SummarizedTitle": "Thinking in Bets", "Title": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts", "Year": 2022, "Reviewer": "Muntakim", "Rating": 4.0 },
-      { "SummarizedTitle": "The Grid", "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future", "Year": 2024, "Reviewer": "GoodReads Average", "Rating": 3.87 },
-      { "SummarizedTitle": "Working Backwards", "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon", "Year": 2022, "Reviewer": "GoodReads Average", "Rating": 4.21 },
-      { "SummarizedTitle": "Watchmen", "Title": "Watchmen", "Year": 2018, "Reviewer": "GoodReads Average", "Rating": 4.39 },
-      { "SummarizedTitle": "Elon Musk", "Title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future", "Year": 2023, "Reviewer": "GoodReads Average", "Rating": 4.13 },
-      { "SummarizedTitle": "Lean Customer Development", "Title": "Lean Customer Development: Building Products Your Customers Will Buy", "Year": 2022, "Reviewer": "GoodReads Average", "Rating": 4.19 },
-      { "SummarizedTitle": "The Defining Decade", "Title": "The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now", "Year": 2023, "Reviewer": "GoodReads Average", "Rating": 4.1 },
-      { "SummarizedTitle": "Build", "Title": "Build: An Unorthodox Guide to Making Things Worth Making", "Year": 2022, "Reviewer": "GoodReads Average", "Rating": 4.32 },
-      { "SummarizedTitle": "Thinking in Bets", "Title": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts", "Year": 2022, "Reviewer": "GoodReads Average", "Rating": 3.82 }
+      {
+        "SummarizedTitle": "The Grid",
+        "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future",
+        "Authors": "Gretchen Bakke",
+        "Year": 2024,
+        "Reviewer": "Muntakim",
+        "Rating": 4.0
+      },
+      {
+        "SummarizedTitle": "Working Backwards",
+        "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon",
+        "Authors": "Colin Bryar | Bill Carr",
+        "Year": 2022,
+        "Reviewer": "Muntakim",
+        "Rating": 5.0
+      },
+      {
+        "SummarizedTitle": "Watchmen",
+        "Title": "Watchmen",
+        "Authors": "Alan             Moore | Dave Gibbons | John    Higgins",
+        "Year": 2018,
+        "Reviewer": "Muntakim",
+        "Rating": 5.0
+      },
+      {
+        "SummarizedTitle": "Elon Musk",
+        "Title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+        "Authors": "Ashlee Vance",
+        "Year": 2023,
+        "Reviewer": "Muntakim",
+        "Rating": 4.0
+      },
+      {
+        "SummarizedTitle": "Lean Customer Development",
+        "Title": "Lean Customer Development: Building Products Your Customers Will Buy",
+        "Authors": "Cindy Alvarez",
+        "Year": 2022,
+        "Reviewer": "Muntakim",
+        "Rating": 4.0
+      },
+      {
+        "SummarizedTitle": "The Defining Decade",
+        "Title": "The Defining Decade: Why Your Twenties Matter\u2014And How to Make the Most of Them Now",
+        "Authors": "Meg Jay",
+        "Year": 2023,
+        "Reviewer": "Muntakim",
+        "Rating": 5.0
+      },
+      {
+        "SummarizedTitle": "Build",
+        "Title": "Build: An Unorthodox Guide to Making Things Worth Making",
+        "Authors": "Tony Fadell",
+        "Year": 2022,
+        "Reviewer": "Muntakim",
+        "Rating": 5.0
+      },
+      {
+        "SummarizedTitle": "Thinking in Bets",
+        "Title": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts",
+        "Authors": "Annie Duke",
+        "Year": 2022,
+        "Reviewer": "Muntakim",
+        "Rating": 4.0
+      },
+      {
+        "SummarizedTitle": "The Grid",
+        "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future",
+        "Authors": "Gretchen Bakke",
+        "Year": 2024,
+        "Reviewer": "GoodReads Average",
+        "Rating": 3.87
+      },
+      {
+        "SummarizedTitle": "Working Backwards",
+        "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon",
+        "Authors": "Colin Bryar | Bill Carr",
+        "Year": 2022,
+        "Reviewer": "GoodReads Average",
+        "Rating": 4.21
+      },
+      {
+        "SummarizedTitle": "Watchmen",
+        "Title": "Watchmen",
+        "Authors": "Alan             Moore | Dave Gibbons | John    Higgins",
+        "Year": 2018,
+        "Reviewer": "GoodReads Average",
+        "Rating": 4.39
+      },
+      {
+        "SummarizedTitle": "Elon Musk",
+        "Title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+        "Authors": "Ashlee Vance",
+        "Year": 2023,
+        "Reviewer": "GoodReads Average",
+        "Rating": 4.13
+      },
+      {
+        "SummarizedTitle": "Lean Customer Development",
+        "Title": "Lean Customer Development: Building Products Your Customers Will Buy",
+        "Authors": "Cindy Alvarez",
+        "Year": 2022,
+        "Reviewer": "GoodReads Average",
+        "Rating": 4.19
+      },
+      {
+        "SummarizedTitle": "The Defining Decade",
+        "Title": "The Defining Decade: Why Your Twenties Matter\u2014And How to Make the Most of Them Now",
+        "Authors": "Meg Jay",
+        "Year": 2023,
+        "Reviewer": "GoodReads Average",
+        "Rating": 4.1
+      },
+      {
+        "SummarizedTitle": "Build",
+        "Title": "Build: An Unorthodox Guide to Making Things Worth Making",
+        "Authors": "Tony Fadell",
+        "Year": 2022,
+        "Reviewer": "GoodReads Average",
+        "Rating": 4.32
+      },
+      {
+        "SummarizedTitle": "Thinking in Bets",
+        "Title": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts",
+        "Authors": "Annie Duke",
+        "Year": 2022,
+        "Reviewer": "GoodReads Average",
+        "Rating": 3.82
+      }
     ],
     "data-6c958c206645b7e22635aeb796ff59cc": [
       { "Year": 2018, "Books": 1, "Pages": 416 },
