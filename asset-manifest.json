@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b491cd55.css",
-    "main.js": "/static/js/main.3ba38ba1.js",
+    "main.css": "/static/css/main.3290d642.css",
+    "main.js": "/static/js/main.9868c81c.js",
     "static/js/453.4a1b4550.chunk.js": "/static/js/453.4a1b4550.chunk.js",
     "static/media/Games_18.jpeg": "/static/media/Games_18.e2079c0cdac8d30c1e2d.jpeg",
     "static/media/Games_32.jpeg": "/static/media/Games_32.9b3a1405cf9a97119c74.jpeg",
@@ -52,6 +52,7 @@
     "static/media/Golang.svg": "/static/media/Golang.7fb621ad3bc70707614bfba39d236e57.svg",
     "static/media/Verilog.svg": "/static/media/Verilog.a3f6695ffc400013c3d39d8b1507f674.svg",
     "static/media/SQL.svg": "/static/media/SQL.1b81652d3bb4d5f7dfdfd624375ceff4.svg",
+    "static/media/goodreads_reviews.csv": "/static/media/goodreads_reviews.1579f813e340765c8244.csv",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/ASM.svg": "/static/media/ASM.7e35ca6fd5baf14a7f99074ce9ede83a.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -95,12 +96,12 @@
     "static/media/Games_33.txt": "/static/media/Games_33.a15d47b2b0d72102cd1f.txt",
     "static/media/Games_34.txt": "/static/media/Games_34.a15d47b2b0d72102cd1f.txt",
     "static/media/Games_35.txt": "/static/media/Games_35.a15d47b2b0d72102cd1f.txt",
-    "main.b491cd55.css.map": "/static/css/main.b491cd55.css.map",
-    "main.3ba38ba1.js.map": "/static/js/main.3ba38ba1.js.map",
+    "main.3290d642.css.map": "/static/css/main.3290d642.css.map",
+    "main.9868c81c.js.map": "/static/js/main.9868c81c.js.map",
     "453.4a1b4550.chunk.js.map": "/static/js/453.4a1b4550.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b491cd55.css",
-    "static/js/main.3ba38ba1.js"
+    "static/css/main.3290d642.css",
+    "static/js/main.9868c81c.js"
   ]
 }
