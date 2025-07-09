@@ -60,7 +60,7 @@ const Experiences = () => {
                     </p>
 
                     <p className="custom-card-content">
-                        <strong>Software Application Engineering Intern @ <a href="https://www.tesla.com/en_eu/megapack" className="external-links">TESLA, Inc</a> 🔋 </strong>(Jan 2023 - Jan 2024,&nbsp;May 2024 - Aug 2024)
+                        <strong>3x Application Engineering Intern @ <a href="https://www.tesla.com/en_eu/megapack" className="external-links">TESLA, Inc</a> 🔋 </strong> [Jan 2023] - [Jan 2024],&nbsp; (May - Aug) [2024, 2025]
                         <hr className="hr-separator"/>
                         <img
                             src={Tesla_Interns_2023}
@@ -76,12 +76,12 @@ const Experiences = () => {
                             data management best practices for reporting KPI fleet metrics to stakeholder groups, including org leadership. I also worked with Asset Management teams
                             to prototype and productize a software application for accurately assessing project performance.
                             <br/><br/>
-                            During my recent internship, I took on the scope to support new feature implementation for customer-facing telemetry.
+                            During my recent internships, I took on the scope to expose new telemetry data on customer interfaces and update supporting documentation.
                         </span>
                     </p>
 
                     <p className="custom-card-content">
-                        <strong>Product Coordinator Intern @ <a href="https://www.geotab.com/" className="external-links">GEOTAB, Inc</a> 🌐 </strong>(Jan 2022 - Jan 2023)
+                        <strong>Product Coordinator Intern @ <a href="https://www.geotab.com/" className="external-links">GEOTAB, Inc</a> 🌐 </strong> (Jan - Dec) [2022]
                         <hr className="hr-separator"/>
                         <img
                             src={Geotab_Volleyball_2022}
@@ -101,7 +101,7 @@ const Experiences = () => {
                     </p>
 
                     <p className="custom-card-content">
-                        <strong>Firmware Developer @ <a href="https://www.ubcorbit.com/" className="external-links">UBC Orbit</a> 🛰️ </strong>(Sept 2019 - Nov 2022)
+                        <strong>Firmware Developer @ <a href="https://www.ubcorbit.com/" className="external-links">UBC Orbit</a> 🛰️ </strong> [Sept 2019] - [Nov 2022]
                         <hr className="hr-separator"/>
                         <img
                             src={UBC_Orbit_2019}
