@@ -40,7 +40,7 @@ const Experiences = () => {
                         />
                     </h1>
 
-                    <p className="custom-card-content">
+                    <div className="custom-card-content">
                         <img
                             src={Muntakim_UBC}
                             className="float-right"
@@ -50,17 +50,17 @@ const Experiences = () => {
                         <br/>
 
                         <span className="custom-card-text">
-                            ⚡ I'm currently pursuing a <strong>Bachelors in Electrical Engineering</strong> at the <strong><a href="https://ece.ubc.ca/undergraduates/programs/electrical-engineering-program/" className="external-links">University of British Columbia</a></strong>,
-                            with an expected graduation in May 2026. My academic background also includes a <strong><a href="https://extendedlearning.ubc.ca/programs-credentials/key-capabilities-data-science-certificate" className="external-links">Certificate in Data Science</a></strong>,
+                            ⚡ I'm currently pursuing a <strong>Bachelors in Electrical Engineering</strong> at the <strong><a href="https://ece.ubc.ca/undergraduates/programs/electrical-engineering-program/" className = "external-links">University of British Columbia</a></strong>,
+                            with an expected graduation in May 2026. My academic background also includes a <strong><a href="https://extendedlearning.ubc.ca/programs-credentials/key-capabilities-data-science-certificate" className = "external-links">Certificate in Data Science</a></strong>,
                             where I enhanced my skills in data analytics and visualization, as well as some machine learning. ⚡
                         </span>
                         <br/>
 
                         <br/><Resume />
-                    </p>
+                    </div>
 
-                    <p className="custom-card-content">
-                        <strong>3x Application Engineering Intern @ <a href="https://www.tesla.com/en_eu/megapack" className="external-links">TESLA, Inc</a> 🔋 </strong> [Jan 2023] - [Jan 2024],&nbsp; (May - Aug) [2024, 2025]
+                    <div className="custom-card-content">
+                        <strong>3x Application Engineering Intern @ <a href="https://www.tesla.com/en_eu/megapack" className = "external-links">TESLA</a> </strong> 🔋<span className = "exp-details"> [Jan 2023] - [Jan 2024],&nbsp;(May - Aug) [2024, 2025]</span>
                         <hr className="hr-separator"/>
                         <img
                             src={Tesla_Interns_2023}
@@ -78,10 +78,10 @@ const Experiences = () => {
                             <br/><br/>
                             During my recent internships, I took on the scope to expose new telemetry data on customer interfaces and update supporting documentation.
                         </span>
-                    </p>
+                    </div>
 
-                    <p className="custom-card-content">
-                        <strong>Product Coordinator Intern @ <a href="https://www.geotab.com/" className="external-links">GEOTAB, Inc</a> 🌐 </strong> (Jan - Dec) [2022]
+                    <div className="custom-card-content">
+                        <strong>Product Coordinator Intern @ <a href="https://www.geotab.com/" className = "external-links">GEOTAB</a> 🌐</strong> <span className = "exp-details">(Jan - Dec) [2022]</span>
                         <hr className="hr-separator"/>
                         <img
                             src={Geotab_Volleyball_2022}
@@ -98,10 +98,10 @@ const Experiences = () => {
                             <br/><br/>
                             I also participated as a speaker for the Junior Student Summer Program, providing secondary school students an Introduction to Big Data.
                         </span>
-                    </p>
+                    </div>
 
-                    <p className="custom-card-content">
-                        <strong>Firmware Developer @ <a href="https://www.ubcorbit.com/" className="external-links">UBC Orbit</a> 🛰️ </strong> [Sept 2019] - [Nov 2022]
+                    <div className="custom-card-content">
+                        <strong>Firmware Developer @ <a href="https://www.ubcorbit.com/" className = "external-links">UBC Orbit</a> 🛰️</strong> <span className = "exp-details">[Sept 2019] - [Nov 2022]</span>
                         <hr className="hr-separator"/>
                         <img
                             src={UBC_Orbit_2019}
@@ -115,9 +115,9 @@ const Experiences = () => {
                             I've had the opportunity to work on the ALEASAT project as part of the Command and Data-Handling (CDH) subteam. I worked on developing the onboard-computer telemetry, to address
                             system failure risks and ensure critical orbital tasks were performed with deterministic execution.
                         </span>
-                    </p>
+                    </div>
 
-                    <p className="custom-card-content">
+                    <div className="custom-card-content">
                         <hr className="hr-separator"/>
                         <img
                             src={Optimus}
@@ -131,7 +131,7 @@ const Experiences = () => {
                             A potential market that excites me is the emerging field of humanoid and autonomous robots! 🤖 I am keen to
                             closely follow new developments in this technological space!
                         </span>
-                    </p>
+                    </div>
                 </div>
 
                 <span className='tags bottom-tags'>&#125;</span>

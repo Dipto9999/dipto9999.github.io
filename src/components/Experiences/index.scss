@@ -83,6 +83,11 @@
         .custom-card-content {
             font-size: 18px;
 
+            .exp-details::before {
+                content: "\A";
+                white-space: pre;
+            }
+
             img {
                 width: 50%;
                 margin: 10px auto;
