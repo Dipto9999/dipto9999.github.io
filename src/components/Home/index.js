@@ -7,8 +7,8 @@ import Python from '../../assets/images/Python.svg';
 import SQL from '../../assets/images/SQL.svg';
 import C from '../../assets/images/C.svg';
 import Golang from '../../assets/images/Golang.svg';
+import Rust from '../../assets/images/Rust.svg';
 import ASM from '../../assets/images/ASM.svg';
-import Verilog from '../../assets/images/Verilog.svg';
 
 import './index.scss';
 
@@ -41,7 +41,7 @@ const Home = () => {
                         <div className="face2"><img src={SQL} alt="SQL" /></div>
                         <div className="face3"><img src={C} alt="C" /></div>
                         <div className="face4"><img src={Golang} alt="Golang" /></div>
-                        <div className="face5"><img src={Verilog} alt="Verilog" /></div>
+                        <div className="face5"><img src={Rust} alt="Rust" /></div>
                         <div className="face6"><img src={ASM} alt="ASM" /></div>
                     </div>
                 </div>
