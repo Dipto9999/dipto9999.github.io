@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b73626de.css",
-    "main.js": "/static/js/main.5900261d.js",
+    "main.js": "/static/js/main.eb73282d.js",
     "static/js/453.4a1b4550.chunk.js": "/static/js/453.4a1b4550.chunk.js",
     "static/media/Games_18.jpeg": "/static/media/Games_18.e2079c0cdac8d30c1e2d.jpeg",
     "static/media/Games_32.jpeg": "/static/media/Games_32.9b3a1405cf9a97119c74.jpeg",
@@ -50,9 +50,9 @@
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/Golang.svg": "/static/media/Golang.7fb621ad3bc70707614bfba39d236e57.svg",
-    "static/media/Verilog.svg": "/static/media/Verilog.a3f6695ffc400013c3d39d8b1507f674.svg",
     "static/media/SQL.svg": "/static/media/SQL.1b81652d3bb4d5f7dfdfd624375ceff4.svg",
     "static/media/goodreads_reviews.csv": "/static/media/goodreads_reviews.1579f813e340765c8244.csv",
+    "static/media/Rust.svg": "/static/media/Rust.d1a18d425b946eba30631af41f48947e.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/ASM.svg": "/static/media/ASM.7e35ca6fd5baf14a7f99074ce9ede83a.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -97,11 +97,11 @@
     "static/media/Games_34.txt": "/static/media/Games_34.a15d47b2b0d72102cd1f.txt",
     "static/media/Games_35.txt": "/static/media/Games_35.a15d47b2b0d72102cd1f.txt",
     "main.b73626de.css.map": "/static/css/main.b73626de.css.map",
-    "main.5900261d.js.map": "/static/js/main.5900261d.js.map",
+    "main.eb73282d.js.map": "/static/js/main.eb73282d.js.map",
     "453.4a1b4550.chunk.js.map": "/static/js/453.4a1b4550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b73626de.css",
-    "static/js/main.5900261d.js"
+    "static/js/main.eb73282d.js"
   ]
 }
