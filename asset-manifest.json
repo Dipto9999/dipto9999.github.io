@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b73626de.css",
-    "main.js": "/static/js/main.eb73282d.js",
+    "main.js": "/static/js/main.44831ada.js",
     "static/js/453.4a1b4550.chunk.js": "/static/js/453.4a1b4550.chunk.js",
     "static/media/Games_18.jpeg": "/static/media/Games_18.e2079c0cdac8d30c1e2d.jpeg",
     "static/media/Games_32.jpeg": "/static/media/Games_32.9b3a1405cf9a97119c74.jpeg",
@@ -49,16 +49,16 @@
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "static/media/Golang.svg": "/static/media/Golang.7fb621ad3bc70707614bfba39d236e57.svg",
-    "static/media/SQL.svg": "/static/media/SQL.1b81652d3bb4d5f7dfdfd624375ceff4.svg",
-    "static/media/goodreads_reviews.csv": "/static/media/goodreads_reviews.1579f813e340765c8244.csv",
+    "static/media/Golang.svg": "/static/media/Golang.b2c003595bf12b9087e133dbd48adb57.svg",
+    "static/media/goodreads_reviews.csv": "/static/media/goodreads_reviews.1d513bfb991a5f3af062.csv",
+    "static/media/SQL.svg": "/static/media/SQL.cc8e32e805d80fc2b5ebc3fffa24ae76.svg",
     "static/media/Rust.svg": "/static/media/Rust.d1a18d425b946eba30631af41f48947e.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/ASM.svg": "/static/media/ASM.7e35ca6fd5baf14a7f99074ce9ede83a.svg",
+    "static/media/ASM.svg": "/static/media/ASM.7f9619578dfed3a2755f2bdec38ebe9f.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
-    "static/media/C.svg": "/static/media/C.ac27de8477fe6c13739a9e3f385b75cc.svg",
+    "static/media/C.svg": "/static/media/C.06a7aa15451c5da63b9e5eddd4365598.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/Python.svg": "/static/media/Python.14f5a10cd798d37370e148820ac33a75.svg",
     "static/media/Games_22.txt": "/static/media/Games_22.21425ec534ed4a85d2f2.txt",
@@ -97,11 +97,11 @@
     "static/media/Games_34.txt": "/static/media/Games_34.a15d47b2b0d72102cd1f.txt",
     "static/media/Games_35.txt": "/static/media/Games_35.a15d47b2b0d72102cd1f.txt",
     "main.b73626de.css.map": "/static/css/main.b73626de.css.map",
-    "main.eb73282d.js.map": "/static/js/main.eb73282d.js.map",
+    "main.44831ada.js.map": "/static/js/main.44831ada.js.map",
     "453.4a1b4550.chunk.js.map": "/static/js/453.4a1b4550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b73626de.css",
-    "static/js/main.eb73282d.js"
+    "static/js/main.44831ada.js"
   ]
 }
