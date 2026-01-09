@@ -18,20 +18,6 @@ class SteamAPI:
     def __init__(self, api_key):
         self.api_key = api_key
         self.base_url = "http://api.steampowered.com"
-        self.apps_df = self.getApps()
-
-    def getApps(self) -> pd.DataFrame:
-        """Get List of Steam Applications"""
-        try:
-            response = requests.get(f"{self.base_url}/ISteamApps/GetAppList/v2/")
-            response.raise_for_status()
-
-            self.apps_df = pd.DataFrame(response.json()['applist']['apps'])
-        except requests.RequestException as e:
-            print(f"Failed to Load Steam Apps: {e}")
-            self.apps_df = pd.DataFrame()
-
-        return self.apps_df
 
     def getSteamID(self, username: str) -> Optional[str]:
         """Convert Steam Username to ID"""
@@ -53,6 +39,8 @@ class SteamAPI:
         params = {
             'key': self.api_key,
             'steamID': steam_id,
+            "include_appinfo": 1,
+            "include_played_free_games": 1,
             'format': 'json'
         }
 
@@ -62,7 +50,7 @@ class SteamAPI:
 
             data = response.json()
             if 'games' in data.get('response', {}): # Check for Games
-                return self._mergeAppNames(pd.DataFrame(data['response']['games']))
+                return pd.DataFrame(data['response']['games'])
             else:
                 print(f"No Games Found for Steam ID: {steam_id}")
                 return pd.DataFrame()
@@ -76,6 +64,8 @@ class SteamAPI:
         params = {
             'key': self.api_key,
             'steamID': steam_id,
+            "include_appinfo": 1,
+            "include_played_free_games": 1,
             'format': 'json'
         }
 
@@ -85,7 +75,7 @@ class SteamAPI:
 
             data = response.json()
             if 'games' in data.get('response', {}): # Check for Games
-                return self._mergeAppNames(pd.DataFrame(data['response']['games']))
+                return pd.DataFrame(data['response']['games'])
             else:
                 print(f"No Recently Played Games Found for Steam ID: {steam_id}")
                 return pd.DataFrame()
@@ -132,14 +122,6 @@ class SteamAPI:
         except requests.RequestException as e:
             print(f"Failed to Get Player Level: {e}")
             return -1
-
-    def _mergeAppNames(self, games_df: pd.DataFrame) -> pd.DataFrame:
-        """Merge Game Data with App Names"""
-        if games_df.empty or self.apps_df.empty:
-            return games_df
-        return games_df.merge(self.apps_df, on = 'appid', how = 'left')
-
-
 class SteamUser:
     """Represents a Steam User and Their Gaming Data"""
 
@@ -327,8 +309,8 @@ class SteamDashboard:
         ).properties(
             width = 700, height = 400,
             title = alt.TitleParams(
-                text = f"Top {top_n} Games",
-                subtitle = f"Total Playtime: {total_playtime:.1f} Hours",
+                text = f"Top Games",
+                subtitle = f"Total Playtime: {total_playtime:.1f} Hrs",
                 anchor = 'middle', fontSize = 20, subtitleFontSize = 16
             )
         )
