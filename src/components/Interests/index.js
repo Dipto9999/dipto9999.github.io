@@ -9,8 +9,9 @@ import Slider from 'react-slick';
 import './index.scss';
 import SteamDashboard from '../SteamDashboard';
 import GoodReadsDashboard from '../GoodReadsDashboard';
+import SpotifyDashboard from '../SpotifyDashboard';
 
-const gameImageCount = 35; // Number of Steam Game Images
+const gameImageCount = 41; // Number of Steam Game Images
 
 const Interests = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -119,6 +120,7 @@ const Interests = () => {
 
                 <GoodReadsDashboard />
                 <br/>
+                <SpotifyDashboard />
                 <span className="tags bottom-tags">&#125;</span>
             </div>
         </>
