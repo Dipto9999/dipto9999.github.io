@@ -4,7 +4,7 @@ import DataTable from 'react-data-table-component';
 import Papa from 'papaparse';
 
 // Import Data
-import defaultGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Dashboard.json";
+import defaultGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Standard.json";
 import portraitGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Portrait.json";
 import landscapeGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Landscape.json";
 import tabletGoodReads from "../../assets/data/goodreads/Charts/Muntakim_Tablet.json";
