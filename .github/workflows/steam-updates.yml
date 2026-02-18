@@ -1,0 +1,89 @@
+name: Update Steam Data and Deploy
+
+on:
+  schedule:
+    # Run Every Monday at 6 AM UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch: # Allows Manual Trigger
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/assets/data/steam/**'
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set Up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Cache Python Dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r src/assets/data/steam/requirements.txt
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install Node.js Dependencies
+      run: npm ci
+
+    - name: Create .env file for Steam API
+      run: |
+        echo "STEAM_API_KEY=${{ secrets.STEAM_API_KEY }}" > src/assets/data/steam/.env
+
+    - name: Run Steam Data Update
+      run: |
+        cd src/assets/data/steam
+        python steam.py
+
+    - name: Check for Changes
+      id: changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "no_changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "no_changes=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and Push Changes
+      if: steps.changes.outputs.no_changes == 'false'
+      run: |
+        git commit -m "🎮 Update Steam dashboard data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+
+    - name: Build React App
+      run: |
+        npm run build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+        commit_message: '🚀 Deploy updated Steam dashboard'

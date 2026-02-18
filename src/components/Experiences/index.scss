@@ -1,4 +1,35 @@
 .experiences-page {
+    .intro-card {
+        display: flex;
+        align-items: center; // Vertically Centers Content
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    /* Desktop Layout */
+    @media (min-width: 901px) {
+        .intro-card {
+            flex-direction: row;
+        }
+    }
+
+    /* Mobile Layout */
+    @media (max-width: 900px) {
+        .intro-card {
+            flex-direction: column-reverse; // Stack Image First on Mobile
+            align-items: flex-start;
+        }
+    }
+
+    #Muntakim_UBC {
+        width: 320px;
+        border-radius: 50%;
+    }
+
+    .intro-text {
+        flex: 1;
+    }
+
     .text-zone {
         position: relative;
         width: 100%;
