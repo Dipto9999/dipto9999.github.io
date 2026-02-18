@@ -1,4 +1,4 @@
-name: Update Steam Data and Deploy
+name: steam-dashboard-updates
 
 on:
   schedule:
