@@ -386,6 +386,56 @@ class SteamDashboard:
             labelFontSize = 12, titleFontSize = 16
         )
 
+    def updateTemplate(self, template_json: dict, output_path: str) -> None:
+        """Update Existing JSON Template with Fresh Data while Preserving Structure"""
+        def _get_keys(current_json: dict) -> dict:
+            keys_dict = {
+                'Level': None,
+                'Played': None,
+                'Games': None
+            }
+            for key, data in current_json['datasets'].items():
+                if isinstance(data, list) and len(data) > 0 and isinstance(data[0], dict):
+                    if (data[0].get('Metric') == 'Level'):
+                        keys_dict['Level'] = key
+                    elif (data[0].get('Metric') == 'Played'):
+                        keys_dict['Played'] = key
+                    elif ('name' in data[0]) and ('playtime_forever' in data[0]):
+                        keys_dict['Games'] = key
+            return keys_dict
+
+        try:
+            # Load Dashboard JSON with Fresh Data
+            dashboard_json = self.dashboard.to_dict()
+            dashboard_datasets = dashboard_json.get('datasets', {})
+
+            # Identify Keys for Level, Played, Games Data in Template
+            template_keys = _get_keys(template_json)
+            dashboard_keys = _get_keys(dashboard_json)
+
+            # Identify Data Keys in Dashboard JSON
+            if (not dashboard_keys['Level']):
+                print("ERROR: Could Not Identify Level Key in Template")
+            if (not dashboard_keys['Played']):
+                print("ERROR: Could Not Identify Played Key in Template")
+            if (not dashboard_keys['Games']):
+                print("ERROR: Could Not Identify Games Key in Template")
+
+            for key in template_keys.keys():
+                updated_key = dashboard_keys[key]
+                if key and updated_key:
+                    template_json['datasets'][template_keys[key]] = dashboard_datasets[updated_key]
+                else:
+                    print(f"Warning: Missing Data for Key '{key}' - Skipping Update for this Dataset")
+
+            # Save Updated JSON
+            with open(output_path, 'w') as f:
+                json.dump(template_json, f, indent = 2)
+
+            print(f"Template Updated Successfully: {output_path}")
+        except Exception as e:
+            print(f"Error Updating Template: {e}")
+
     def save(self, filename: Optional[str] = None) -> None:
         """Save Dashboard to File"""
         if self.dashboard is None:
@@ -398,9 +448,8 @@ class SteamDashboard:
         if not os.path.exists('Charts'):
             os.makedirs('Charts')
 
-        # Save as Vega-Lite JSON
-        # with open(f"Charts/{filename}.json", 'w') as f:
-        #     json.dump(self.dashboard.to_dict(), f, indent = 2)
+        with open(f"Charts/{filename}.json", 'w') as f:
+            json.dump(self.dashboard.to_dict(), f, indent = 2)
 
         # Load Dashboard from JSON File
         with open(f"Charts/{filename}.json", 'r') as f:
@@ -414,6 +463,16 @@ class SteamDashboard:
 
         self.dashboard.save(f"Charts/{filename}.png") # Save as PNG (Static)
         self.dashboard.save(f"Charts/{filename}.svg") # Save as SVG (Vector)
+
+        # Replace All JSON with Fresh Data while Preserving Structure
+        for file in os.listdir('Charts'):
+            if file.endswith('.json'):
+                template_path = os.path.join('Charts', file)
+
+                with open(template_path, 'r') as f:
+                    template_json = json.load(f)
+
+                self.updateTemplate(template_json, template_path)
 
 if __name__ == '__main__':
     load_dotenv()

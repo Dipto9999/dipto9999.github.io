@@ -20,7 +20,9 @@
     {
       "vconcat": [
         {
-          "data": { "name": "data-ce2f25787bade8ca3fba4cb14335a451" },
+          "data": {
+            "name": "data-ce2f25787bade8ca3fba4cb14335a451"
+          },
           "mark": {
             "type": "text",
             "align": "center",
@@ -30,9 +32,18 @@
             "fontWeight": "bold"
           },
           "encoding": {
-            "text": { "field": "Value", "type": "quantitative" },
-            "x": { "axis": null, "field": "Metric", "type": "nominal" },
-            "y": { "value": 50 }
+            "text": {
+              "field": "Value",
+              "type": "quantitative"
+            },
+            "x": {
+              "axis": null,
+              "field": "Metric",
+              "type": "nominal"
+            },
+            "y": {
+              "value": 50
+            }
           },
           "height": 150,
           "title": {
@@ -43,7 +54,9 @@
           "width": 300
         },
         {
-          "data": { "name": "data-92b892d679d5fbeaa0a56e1238c7fc12" },
+          "data": {
+            "name": "data-92b892d679d5fbeaa0a56e1238c7fc12"
+          },
           "mark": {
             "type": "text",
             "align": "center",
@@ -53,9 +66,18 @@
             "fontWeight": "bold"
           },
           "encoding": {
-            "text": { "field": "Value", "type": "quantitative" },
-            "x": { "axis": null, "field": "Metric", "type": "nominal" },
-            "y": { "value": 50 }
+            "text": {
+              "field": "Value",
+              "type": "quantitative"
+            },
+            "x": {
+              "axis": null,
+              "field": "Metric",
+              "type": "nominal"
+            },
+            "y": {
+              "value": 50
+            }
           },
           "height": 150,
           "title": {
@@ -98,19 +120,48 @@
           },
           "scale": {
             "range": [
-              "#00008B", "#32CD32", "#00CED1", "#A8D7E7", "#808080",
-              "#FF4500", "#0000FF", "#3D3A38", "#800080", "#FFA500",
-              "#006400", "#8B0000", "#FFD700", "#4682B4", "#2E8B57"
+              "#00008B",
+              "#32CD32",
+              "#00CED1",
+              "#A8D7E7",
+              "#808080",
+              "#FF4500",
+              "#0000FF",
+              "#3D3A38",
+              "#800080",
+              "#FFA500",
+              "#006400",
+              "#8B0000",
+              "#FFD700",
+              "#4682B4",
+              "#2E8B57"
             ]
           },
           "sort": null,
           "type": "nominal"
         },
-        "theta": { "field": "playtime_percentage", "type": "quantitative" },
+        "theta": {
+          "field": "playtime_percentage",
+          "type": "quantitative"
+        },
         "tooltip": [
-          { "field": "name", "title": "Game", "type": "nominal" },
-          { "field": "playtime_forever", "format": ".1f", "title": "Time (Hrs)", "type": "quantitative" },
-          { "field": "playtime_percentage", "format": ".2f", "title": "Playtime (%)", "type": "quantitative" }
+          {
+            "field": "name",
+            "title": "Game",
+            "type": "nominal"
+          },
+          {
+            "field": "playtime_forever",
+            "format": ".1f",
+            "title": "Time (Hrs)",
+            "type": "quantitative"
+          },
+          {
+            "field": "playtime_percentage",
+            "format": ".2f",
+            "title": "Playtime (%)",
+            "type": "quantitative"
+          }
         ]
       },
       "height": 400,
@@ -138,27 +189,108 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
     "data-ce2f25787bade8ca3fba4cb14335a451": [
-      { "Metric": "Level", "Value": 18 }
+      {
+        "Metric": "Level",
+        "Value": 21
+      }
     ],
     "data-92b892d679d5fbeaa0a56e1238c7fc12": [
-      { "Metric": "Played", "Value": 45 }
+      {
+        "Metric": "Played",
+        "Value": 48
+      }
     ],
     "data-b2da6c3eee8efb20e4c0e498a7d77a12": [
-      { "name": "The Elder Scrolls V: Skyrim", "playtime_forever": 845.28, "appid": 72850, "playtime_percentage": 58.66 },
-      { "name": "Batman: Arkham Knight", "playtime_forever": 96.47, "appid": 208650, "playtime_percentage": 6.69 },
-      { "name": "The Lord of the Rings Online", "playtime_forever": 91.02, "appid": 212500, "playtime_percentage": 6.32 },
-      { "name": "Telltale: Batman", "playtime_forever": 66.22, "appid": 498240, "playtime_percentage": 4.6 },
-      { "name": "Stardew Valley", "playtime_forever": 49.5, "appid": 413150, "playtime_percentage": 3.44 },
-      { "name": "Telltale: Game of Thrones", "playtime_forever": 47.68, "appid": 330840, "playtime_percentage": 3.31 },
-      { "name": "Telltale: The Walking Dead", "playtime_forever": 40.52, "appid": 207610, "playtime_percentage": 2.81 },
-      { "name": "Shadow of Mordor", "playtime_forever": 37.05, "appid": 241930, "playtime_percentage": 2.57 },
-      { "name": "Telltale: Batman The Enemy Within", "playtime_forever": 35.93, "appid": 675260, "playtime_percentage": 2.49},
-      { "name": "Batman: Arkham Origins", "playtime_forever": 32.75, "appid": 209000, "playtime_percentage": 2.27 },
-      { "name": "Batman: Arkham City", "playtime_forever": 21.1, "appid": 200260, "playtime_percentage": 1.46 },
-      { "name": "DOOM", "playtime_forever": 20.92, "appid": 379720, "playtime_percentage": 1.45 },
-      { "name": "Trine 2", "playtime_forever": 19.88, "appid": 35720, "playtime_percentage": 1.38 },
-      { "name": "Rise of the Tomb Raider", "playtime_forever": 18.63, "appid": 391220, "playtime_percentage": 1.29 },
-      { "name": "Tomb Raider", "playtime_forever": 17.98, "appid": 203160, "playtime_percentage": 1.25 }
+      {
+        "name": "Skyrim",
+        "playtime_forever": 845.28,
+        "appid": 72850,
+        "playtime_percentage": 58.21
+      },
+      {
+        "name": "Batman: Arkham Knight",
+        "playtime_forever": 96.58,
+        "appid": 208650,
+        "playtime_percentage": 6.65
+      },
+      {
+        "name": "The Lord of the Rings Online",
+        "playtime_forever": 91.02,
+        "appid": 212500,
+        "playtime_percentage": 6.27
+      },
+      {
+        "name": "Telltale: Batman",
+        "playtime_forever": 66.22,
+        "appid": 498240,
+        "playtime_percentage": 4.56
+      },
+      {
+        "name": "Stardew Valley",
+        "playtime_forever": 49.5,
+        "appid": 413150,
+        "playtime_percentage": 3.41
+      },
+      {
+        "name": "Telltale: Game of Thrones",
+        "playtime_forever": 47.68,
+        "appid": 330840,
+        "playtime_percentage": 3.28
+      },
+      {
+        "name": "Telltale: The Walking Dead",
+        "playtime_forever": 40.52,
+        "appid": 207610,
+        "playtime_percentage": 2.79
+      },
+      {
+        "name": "Shadow of Mordor",
+        "playtime_forever": 37.05,
+        "appid": 241930,
+        "playtime_percentage": 2.55
+      },
+      {
+        "name": "Telltale: Batman The Enemy Within",
+        "playtime_forever": 35.93,
+        "appid": 675260,
+        "playtime_percentage": 2.47
+      },
+      {
+        "name": "Batman: Arkham Origins",
+        "playtime_forever": 32.75,
+        "appid": 209000,
+        "playtime_percentage": 2.26
+      },
+      {
+        "name": "Shadow of the Tomb Raider",
+        "playtime_forever": 28.8,
+        "appid": 750920,
+        "playtime_percentage": 1.98
+      },
+      {
+        "name": "Batman: Arkham City",
+        "playtime_forever": 21.1,
+        "appid": 200260,
+        "playtime_percentage": 1.45
+      },
+      {
+        "name": "DOOM",
+        "playtime_forever": 20.92,
+        "appid": 379720,
+        "playtime_percentage": 1.44
+      },
+      {
+        "name": "Trine 2",
+        "playtime_forever": 20.08,
+        "appid": 35720,
+        "playtime_percentage": 1.38
+      },
+      {
+        "name": "Rise of the Tomb Raider",
+        "playtime_forever": 18.63,
+        "appid": 391220,
+        "playtime_percentage": 1.28
+      }
     ]
   }
 }
