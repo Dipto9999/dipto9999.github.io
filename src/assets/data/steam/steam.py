@@ -134,6 +134,21 @@ class SteamUser:
 
     SKYRIM_ID = 72850
     SKYRIM_SE_ID = 489830
+
+    CUSTOM_NAMES = {
+        'The Elder Scrolls V: Skyrim': 'Skyrim',
+        'Batman™: Arkham Knight': 'Batman: Arkham Knight',
+        'Batman™: Arkham Origins': 'Batman: Arkham Origins',
+        'Batman: Arkham City GOTY': 'Batman: Arkham City',
+        'The Lord of the Rings Online\u2122' : 'LOTR Online',
+        'Middle-earth™: Shadow of Mordor™': 'Shadow of Mordor',
+        'Batman - The Telltale Series': 'Telltale: Batman',
+        'Batman: The Enemy Within - The Telltale Series': 'Telltale: Batman The Enemy Within',
+        'The Walking Dead': 'Telltale: TheWalking Dead',
+        'Game of Thrones - A Telltale Games Series': 'Telltale: Game of Thrones',
+        'The Witcher 3: Wild Hunt': 'The Witcher 3'
+    }
+
     def __init__(self, username: str, api_client: SteamAPI):
         self.username = username
         self.api_client = api_client
@@ -148,6 +163,24 @@ class SteamUser:
         self.stats_df = pd.DataFrame()
 
         self._getData()
+
+    def _renameGames(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Apply Custom Game Name Mappings to DataFrame"""
+        if df.empty or ('name' not in df.columns):
+            return df
+
+        mapped_df = df.copy()
+
+        # Apply Mappings
+        for steam_name, custom_name in self.CUSTOM_NAMES.items():
+            mapped_df.loc[mapped_df['name'] == steam_name, 'name'] = custom_name
+        return mapped_df
+
+    def getCurrentGameNames(self) -> list:
+        """Get Current Game Names for Mapping Reference"""
+        if self.stats_df.empty:
+            return []
+        return sorted(self.stats_df['name'].unique().tolist())
 
     def _getData(self) -> None:
         """Get All User Data from Steam API"""
@@ -205,7 +238,8 @@ class SteamUser:
 
         stats_df['playtime_forever'] = (stats_df['playtime_forever'] / 60.0).round(2)
 
-        self.stats_df = stats_df.fillna(0).sort_values('playtime_forever', ascending = False)
+        stats_df = stats_df.fillna(0).sort_values('playtime_forever', ascending = False)
+        self.stats_df = self._renameGames(stats_df)
 
         self.saveData()
 
