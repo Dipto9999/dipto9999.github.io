@@ -144,7 +144,7 @@ class SteamUser:
         'Middle-earth™: Shadow of Mordor™': 'Shadow of Mordor',
         'Batman - The Telltale Series': 'Telltale: Batman',
         'Batman: The Enemy Within - The Telltale Series': 'Telltale: Batman The Enemy Within',
-        'The Walking Dead': 'Telltale: TheWalking Dead',
+        'The Walking Dead': 'Telltale: The Walking Dead',
         'Game of Thrones - A Telltale Games Series': 'Telltale: Game of Thrones',
         'The Witcher 3: Wild Hunt': 'The Witcher 3'
     }
