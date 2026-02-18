@@ -19,7 +19,6 @@ from dotenv import load_dotenv
 from typing import Optional
 
 from IPython.display import display
-
 class SteamAPI:
     """Handles Steam API Interactions"""
 
@@ -177,9 +176,9 @@ class SteamUser:
     def _loadFromCSV(self) -> None:
         """Load Data from Backup CSV if API Fails"""
         csv_file = f"{self.username}_SteamData.csv"
-        if os.path.exists(csv_file):
+        if os.path.exists(os.path.join(PWD, csv_file)):
             print(f"Loading Data from CSV File: {csv_file}")
-            self.stats_df = pd.read_csv(csv_file)
+            self.stats_df = pd.read_csv(os.path.join(PWD, csv_file))
             if not self.stats_df.empty:
                 self.player_level = self.stats_df['player_level'].iloc[0]
         else:
@@ -258,7 +257,7 @@ class SteamUser:
             filename = f"{self.username}_SteamData.csv"
 
         if not self.stats_df.empty:
-            self.stats_df.to_csv(filename, index = False)
+            self.stats_df.to_csv(os.path.join(PWD, filename), index = False)
             print(f"Data Saved to {filename}")
 
     def getTopData(self, n: int = 15) -> pd.DataFrame:
@@ -445,29 +444,29 @@ class SteamDashboard:
         if filename is None:
             filename = f"{self.user.username}_Dashboard"
 
-        if not os.path.exists('Charts'):
-            os.makedirs('Charts')
+        if not os.path.exists(os.path.join(PWD, 'Charts')):
+            os.makedirs(os.path.join(PWD, 'Charts'))
 
-        with open(f"Charts/{filename}.json", 'w') as f:
+        with open(os.path.join(PWD, f"Charts/{filename}.json"), 'w') as f:
             json.dump(self.dashboard.to_dict(), f, indent = 2)
 
         # Load Dashboard from JSON File
-        with open(f"Charts/{filename}.json", 'r') as f:
+        with open(os.path.join(PWD, f"Charts/{filename}.json"), 'r') as f:
             spec = json.load(f)
 
         self.dashboard = alt.Chart.from_dict(spec)
 
         # Save as HTML (Interactive)
-        with open(f"Charts/{filename}.html", 'w') as f:
+        with open(os.path.join(PWD, f"Charts/{filename}.html"), 'w') as f:
             f.write(self.dashboard.to_html())
 
-        self.dashboard.save(f"Charts/{filename}.png") # Save as PNG (Static)
-        self.dashboard.save(f"Charts/{filename}.svg") # Save as SVG (Vector)
+        self.dashboard.save(os.path.join(PWD, f"Charts/{filename}.png")) # Save as PNG (Static)
+        self.dashboard.save(os.path.join(PWD, f"Charts/{filename}.svg")) # Save as SVG (Vector)
 
         # Replace All JSON with Fresh Data while Preserving Structure
-        for file in os.listdir('Charts'):
+        for file in os.listdir(os.path.join(PWD, 'Charts')):
             if file.endswith('.json'):
-                template_path = os.path.join('Charts', file)
+                template_path = os.path.join(PWD, 'Charts', file)
 
                 with open(template_path, 'r') as f:
                     template_json = json.load(f)
@@ -480,6 +479,7 @@ if __name__ == '__main__':
     USERNAME = 'Dipto9999'
     API_KEY = os.getenv("STEAM_API_KEY")
 
+    PWD = os.path.dirname(os.path.abspath(__file__))
     try:
         user = SteamUser(USERNAME, SteamAPI(API_KEY))
         SteamDashboard(user).save()
