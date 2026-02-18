@@ -1,3 +1,11 @@
+"""
+Steam Dashboard Generator
+Author: Muntakim Rahman
+Description: Interacts with Steam Web API to Fetch User Data
+    (Owned Games, Recently Played, Badges, Level) and Generates Visualizations using Altair.
+    Data is Saved to CSV for Backup and Dashboard is Exported as JSON, HTML, PNG, SVG.
+"""
+
 # Import Packages
 import pandas as pd
 import altair as alt
