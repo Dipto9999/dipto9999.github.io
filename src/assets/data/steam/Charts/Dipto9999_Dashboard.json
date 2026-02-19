@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-14f7c512585a98dd93e0251d54421f98"
+        "name": "data-92a380535a2757d9325a621b327392b2"
       },
       "mark": {
         "type": "arc",
@@ -199,7 +199,7 @@
         "Value": 48
       }
     ],
-    "data-14f7c512585a98dd93e0251d54421f98": [
+    "data-92a380535a2757d9325a621b327392b2": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
@@ -237,7 +237,7 @@
         "playtime_percentage": 3.28
       },
       {
-        "name": "Telltale: TheWalking Dead",
+        "name": "Telltale: The Walking Dead",
         "playtime_forever": 40.52,
         "appid": 207610,
         "playtime_percentage": 2.79
