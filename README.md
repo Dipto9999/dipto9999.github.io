@@ -24,9 +24,18 @@ After fetching, the data was processed and cleaned with **pandas**, then visuali
 The initial [`Dipto9999_Dashboard.json`](src/assets/data/steam/Charts/Dipto9999_Dashboard.json) and related chart assets
 were migrated to the **React** application and further adjusted for browser responsiveness.
 
-<div align="center">
-    <img src="src/assets/data/steam/Charts/Dipto9999_Dashboard.svg" width = 750 title = "Dipto9999 Steam Dashboard">
+<div align = "center">
+    <img src = "src/assets/data/steam/Charts/Dipto9999_Dashboard.svg" width = 750 title = "Dipto9999 Steam Dashboard">
 </div>
+
+#### Automation
+
+This data is automatically updated with **GitHub Actions** every **Monday** at **6 AM UTC**.
+
+<div align = "center">
+    <img src = "ref/GitHub_Actions.png" width = 750 title = "GitHub Action"/>
+</div>
+
 
 ### GoodReads
 
@@ -35,6 +44,6 @@ GoodReads doesn't provide access to its **API** for new users. I exported my use
 The initial [`Muntakim_Dashboard.json`](src/assets/data/goodreads/Charts/Muntakim_Dashboard.json) and related chart assets
 were migrated to the **React** application and further adjusted for browser responsiveness.
 
-<div align="center">
-    <img src="src/assets/data/goodreads/Charts/Muntakim_Dashboard.svg" width = 750 title = "Muntakim GoodReads Dashboard">
+<div align = "center">
+    <img src = "src/assets/data/goodreads/Charts/Muntakim_Dashboard.svg" width = 750 title = "Muntakim GoodReads Dashboard">
 </div>
