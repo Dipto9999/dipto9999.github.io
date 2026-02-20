@@ -205,31 +205,31 @@
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 58.21
+        "playtime_percentage": 58.07
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 96.58,
         "appid": 208650,
-        "playtime_percentage": 6.65
+        "playtime_percentage": 6.64
       },
       {
         "name": "LOTR Online",
         "playtime_forever": 91.02,
         "appid": 212500,
-        "playtime_percentage": 6.27
+        "playtime_percentage": 6.25
       },
       {
         "name": "Telltale: Batman",
         "playtime_forever": 66.22,
         "appid": 498240,
-        "playtime_percentage": 4.56
+        "playtime_percentage": 4.55
       },
       {
         "name": "Stardew Valley",
         "playtime_forever": 49.5,
         "appid": 413150,
-        "playtime_percentage": 3.41
+        "playtime_percentage": 3.4
       },
       {
         "name": "Telltale: Game of Thrones",
@@ -241,7 +241,7 @@
         "name": "Telltale: The Walking Dead",
         "playtime_forever": 40.52,
         "appid": 207610,
-        "playtime_percentage": 2.79
+        "playtime_percentage": 2.78
       },
       {
         "name": "Shadow of Mordor",
@@ -259,13 +259,19 @@
         "name": "Batman: Arkham Origins",
         "playtime_forever": 32.75,
         "appid": 209000,
-        "playtime_percentage": 2.26
+        "playtime_percentage": 2.25
       },
       {
         "name": "Shadow of the Tomb Raider",
         "playtime_forever": 28.8,
         "appid": 750920,
         "playtime_percentage": 1.98
+      },
+      {
+        "name": "Cyberpunk 2077",
+        "playtime_forever": 22.15,
+        "appid": 1091500,
+        "playtime_percentage": 1.52
       },
       {
         "name": "Batman: Arkham City",
@@ -284,12 +290,6 @@
         "playtime_forever": 20.08,
         "appid": 35720,
         "playtime_percentage": 1.38
-      },
-      {
-        "name": "Rise of the Tomb Raider",
-        "playtime_forever": 18.63,
-        "appid": 391220,
-        "playtime_percentage": 1.28
       }
     ]
   }
