@@ -1,0 +1,104 @@
+name: spotify-dashboard-updates
+
+on:
+  schedule:
+    # Run Every Day at 6 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows Manual Trigger
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/assets/data/spotify/**'
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Set Up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Cache Python Dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r src/assets/data/spotify/requirements.txt
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install Node.js Dependencies
+      run: npm ci
+
+    - name: Create .env file for Spotify API
+      run: |
+        cat > src/assets/data/spotify/.env << EOF
+        SPOTIFY_CLIENT_ID=${{ secrets.SPOTIFY_CLIENT_ID }}
+        SPOTIFY_CLIENT_SECRET=${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        SPOTIFY_REDIRECT_URI=${{ secrets.SPOTIFY_REDIRECT_URI }}
+        SPOTIFY_DASHBOARD_USERNAME=${{ secrets.SPOTIFY_USERNAME }}
+        EOF
+
+    - name: Restore Spotify token cache
+      run: |
+        printf '%s' "${{ secrets.SPOTIFY_TOKEN_CACHE }}" > src/assets/data/spotify/.cache
+
+    - name: Run Spotify Data Update
+      run: |
+        cd src/assets/data/spotify
+        python spotify.py
+
+    - name: Check for Changes
+      id: changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "no_changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "no_changes=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and Push Changes
+      if: steps.changes.outputs.no_changes == 'false'
+      run: |
+        git commit -m "🎵 Update Spotify dashboard data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+
+    - name: Build React App
+      run: |
+        npm run build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+        commit_message: '🚀 Deploy updated Spotify dashboard'
+        cname: muntakim-rahman.xyz
