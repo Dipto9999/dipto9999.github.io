@@ -16,76 +16,7 @@
       "titleFontSize": 8
     }
   },
-  "vconcat": [
-    {
-      "layer": [
-        {
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "middle",
-            "color": "#0e7a38",
-            "fontSize": 13,
-            "fontWeight": "bold"
-          },
-          "encoding": {
-            "text": {
-              "value": "1,426 Unique Artists"
-            },
-            "x": {
-              "value": 0
-            },
-            "y": {
-              "value": 18.0
-            }
-          }
-        },
-        {
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "baseline": "middle",
-            "color": "#0e7a38",
-            "fontSize": 13,
-            "fontWeight": "bold"
-          },
-          "encoding": {
-            "text": {
-              "value": "3,452 Saved Tracks"
-            },
-            "x": {
-              "value": 260
-            },
-            "y": {
-              "value": 18.0
-            }
-          }
-        }
-      ],
-      "data": {
-        "name": "data-4f53cda18c2baa0c0354bb5f9a3ecbe5"
-      },
-      "height": 36,
-      "width": 260
-    },
-    {
-      "data": {
-        "name": "data-d285a7403ed98ae579761d64a864032b"
-      },
-      "mark": {
-        "type": "text"
-      },
-      "encoding": {
-        "text": {
-          "value": ""
-        },
-        "x": {
-          "value": 0
-        }
-      },
-      "height": 6,
-      "width": 10
-    },
+  "hconcat": [
     {
       "vconcat": [
         {
@@ -135,7 +66,7 @@
               "title": {
                 "text": "Library Growth (Tracks)",
                 "anchor": "middle",
-                "fontSize": 16
+                "fontSize": 10
               }
             },
             {
@@ -171,7 +102,7 @@
             }
           ],
           "height": 82,
-          "width": 260
+          "width": 200
         },
         {
           "layer": [
@@ -220,7 +151,7 @@
               "title": {
                 "text": "Library Growth (Artists)",
                 "anchor": "middle",
-                "fontSize": 16
+                "fontSize": 10
               }
             },
             {
@@ -254,7 +185,7 @@
             }
           ],
           "height": 68,
-          "width": 260
+          "width": 200
         }
       ],
       "data": {
@@ -263,30 +194,12 @@
     },
     {
       "data": {
-        "name": "data-d285a7403ed98ae579761d64a864032b"
-      },
-      "mark": {
-        "type": "text"
-      },
-      "encoding": {
-        "text": {
-          "value": ""
-        },
-        "x": {
-          "value": 0
-        }
-      },
-      "height": 6,
-      "width": 10
-    },
-    {
-      "data": {
         "name": "data-0fb0dc73deacbb74cd13c33c445deb63"
       },
       "mark": {
         "type": "arc",
         "innerRadius": 0,
-        "outerRadius": 88,
+        "outerRadius": 39,
         "stroke": "black",
         "strokeWidth": 1
       },
@@ -334,7 +247,7 @@
           }
         ]
       },
-      "height": 200,
+      "height": 90,
       "title": {
         "text": "Top Artists",
         "anchor": "middle",
@@ -343,17 +256,17 @@
         "subtitleColor": "#444",
         "subtitleFontSize": 8
       },
-      "width": 200
+      "width": 90
     }
   ],
   "center": true,
   "padding": {
     "left": 5,
     "right": 5,
-    "top": 10,
+    "top": 0,
     "bottom": 15
   },
-  "spacing": 8,
+  "spacing": 0,
   "title": {
     "text": "Muntakim's Spotify Dashboard",
     "anchor": "middle",
@@ -361,12 +274,6 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-4f53cda18c2baa0c0354bb5f9a3ecbe5": [],
-    "data-d285a7403ed98ae579761d64a864032b": [
-      {
-        "x": 0
-      }
-    ],
     "data-8561445b09f0beb393cd4f1a7e2eaab5": [
       {
         "time_period": "2017",

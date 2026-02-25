@@ -7,13 +7,13 @@
       "strokeWidth": 0
     },
     "axis": {
-      "labelFontSize": 9,
-      "titleFontSize": 11
+      "labelFontSize": 8,
+      "titleFontSize": 10
     },
     "legend": {
       "labelFontSize": 8,
       "labelLimit": 120,
-      "titleFontSize": 10
+      "titleFontSize": 9
     }
   },
   "vconcat": [
@@ -25,7 +25,7 @@
             "align": "left",
             "baseline": "middle",
             "color": "#0e7a38",
-            "fontSize": 17,
+            "fontSize": 14,
             "fontWeight": "bold"
           },
           "encoding": {
@@ -36,7 +36,7 @@
               "value": 0
             },
             "y": {
-              "value": 22.0
+              "value": 18.0
             }
           }
         },
@@ -46,7 +46,7 @@
             "align": "right",
             "baseline": "middle",
             "color": "#0e7a38",
-            "fontSize": 17,
+            "fontSize": 14,
             "fontWeight": "bold"
           },
           "encoding": {
@@ -54,10 +54,10 @@
               "value": "3,452 Saved Tracks"
             },
             "x": {
-              "value": 608
+              "value": 730
             },
             "y": {
-              "value": 22.0
+              "value": 18.0
             }
           }
         }
@@ -65,8 +65,8 @@
       "data": {
         "name": "data-4f53cda18c2baa0c0354bb5f9a3ecbe5"
       },
-      "height": 44,
-      "width": 608
+      "height": 36,
+      "width": 730
     },
     {
       "data": {
@@ -83,186 +83,11 @@
           "value": 0
         }
       },
-      "height": 12,
+      "height": 8,
       "width": 10
     },
     {
       "hconcat": [
-        {
-          "vconcat": [
-            {
-              "layer": [
-                {
-                  "mark": {
-                    "type": "area",
-                    "color": "#0e7a38",
-                    "opacity": 0.6,
-                    "stroke": "#0e7a38",
-                    "strokeWidth": 2
-                  },
-                  "encoding": {
-                    "tooltip": [
-                      {
-                        "field": "year",
-                        "title": "Year",
-                        "type": "ordinal"
-                      },
-                      {
-                        "field": "cumulative_tracks",
-                        "title": "Total Tracks",
-                        "type": "quantitative"
-                      }
-                    ],
-                    "x": {
-                      "axis": {
-                        "labelAngle": -45,
-                        "labelFontSize": 7,
-                        "titleFontSize": 8
-                      },
-                      "field": "year",
-                      "title": "Year",
-                      "type": "ordinal"
-                    },
-                    "y": {
-                      "axis": {
-                        "labelFontSize": 7,
-                        "titleColor": "#0e7a38",
-                        "titleFontSize": 8
-                      },
-                      "field": "cumulative_tracks",
-                      "title": "Total Tracks",
-                      "type": "quantitative"
-                    }
-                  },
-                  "title": {
-                    "text": "Library Growth (Tracks)",
-                    "anchor": "start",
-                    "fontSize": 16
-                  }
-                },
-                {
-                  "mark": {
-                    "type": "circle",
-                    "color": "#0e7a38",
-                    "size": 60,
-                    "stroke": "white",
-                    "strokeWidth": 1
-                  },
-                  "encoding": {
-                    "tooltip": [
-                      {
-                        "field": "year",
-                        "title": "Year",
-                        "type": "ordinal"
-                      },
-                      {
-                        "field": "cumulative_tracks",
-                        "title": "Total Tracks",
-                        "type": "quantitative"
-                      }
-                    ],
-                    "x": {
-                      "field": "year",
-                      "type": "ordinal"
-                    },
-                    "y": {
-                      "field": "cumulative_tracks",
-                      "type": "quantitative"
-                    }
-                  }
-                }
-              ],
-              "height": 132,
-              "width": 280
-            },
-            {
-              "layer": [
-                {
-                  "mark": {
-                    "type": "area",
-                    "color": "#1a237e",
-                    "opacity": 0.5,
-                    "stroke": "#1a237e",
-                    "strokeWidth": 2
-                  },
-                  "encoding": {
-                    "tooltip": [
-                      {
-                        "field": "year",
-                        "title": "Year",
-                        "type": "ordinal"
-                      },
-                      {
-                        "field": "cumulative_artists",
-                        "title": "Total Artists",
-                        "type": "quantitative"
-                      }
-                    ],
-                    "x": {
-                      "axis": {
-                        "labelAngle": -45,
-                        "labelFontSize": 7,
-                        "titleFontSize": 8
-                      },
-                      "field": "year",
-                      "title": "Year",
-                      "type": "ordinal"
-                    },
-                    "y": {
-                      "axis": {
-                        "labelFontSize": 7,
-                        "titleColor": "#1a237e",
-                        "titleFontSize": 8
-                      },
-                      "field": "cumulative_artists",
-                      "title": "Total Artists",
-                      "type": "quantitative"
-                    }
-                  },
-                  "title": {
-                    "text": "Library Growth (Artists)",
-                    "anchor": "start",
-                    "fontSize": 16
-                  }
-                },
-                {
-                  "mark": {
-                    "type": "circle",
-                    "color": "#1a237e",
-                    "size": 50
-                  },
-                  "encoding": {
-                    "tooltip": [
-                      {
-                        "field": "year",
-                        "title": "Year",
-                        "type": "ordinal"
-                      },
-                      {
-                        "field": "cumulative_artists",
-                        "title": "Total Artists",
-                        "type": "quantitative"
-                      }
-                    ],
-                    "x": {
-                      "field": "year",
-                      "type": "ordinal"
-                    },
-                    "y": {
-                      "field": "cumulative_artists",
-                      "type": "quantitative"
-                    }
-                  }
-                }
-              ],
-              "height": 108,
-              "width": 280
-            }
-          ],
-          "data": {
-            "name": "data-8561445b09f0beb393cd4f1a7e2eaab5"
-          }
-        },
         {
           "data": {
             "name": "data-0fb0dc73deacbb74cd13c33c445deb63"
@@ -270,7 +95,7 @@
           "mark": {
             "type": "arc",
             "innerRadius": 0,
-            "outerRadius": 79,
+            "outerRadius": 114,
             "stroke": "black",
             "strokeWidth": 1
           },
@@ -318,16 +143,16 @@
               }
             ]
           },
-          "height": 240,
+          "height": 260,
           "title": {
             "text": "Top Artists",
             "anchor": "start",
-            "fontSize": 15,
+            "fontSize": 13,
             "subtitle": "By Saved Tracks",
             "subtitleColor": "#444",
-            "subtitleFontSize": 10
+            "subtitleFontSize": 8
           },
-          "width": 180
+          "width": 280
         },
         {
           "layer": [
@@ -394,7 +219,7 @@
                 "align": "left",
                 "baseline": "middle",
                 "dx": 12,
-                "fontSize": 10
+                "fontSize": 8
               },
               "encoding": {
                 "color": {
@@ -425,7 +250,7 @@
           "data": {
             "name": "data-8fe3b25bb765269252ec92f62da1c7ea"
           },
-          "height": 240,
+          "height": 260,
           "resolve": {
             "scale": {
               "y": "shared"
@@ -437,7 +262,7 @@
             "color": "#555",
             "fontSize": 14
           },
-          "width": 120
+          "width": 160
         }
       ]
     },
@@ -456,7 +281,200 @@
           "value": 0
         }
       },
-      "height": 12,
+      "height": 8,
+      "width": 10
+    },
+    {
+      "vconcat": [
+        {
+          "layer": [
+            {
+              "mark": {
+                "type": "area",
+                "color": "#0e7a38",
+                "opacity": 0.6,
+                "stroke": "#0e7a38",
+                "strokeWidth": 2
+              },
+              "encoding": {
+                "tooltip": [
+                  {
+                    "field": "year",
+                    "title": "Year",
+                    "type": "ordinal"
+                  },
+                  {
+                    "field": "cumulative_tracks",
+                    "title": "Total Tracks",
+                    "type": "quantitative"
+                  }
+                ],
+                "x": {
+                  "axis": {
+                    "labelAngle": -45,
+                    "labelFontSize": 6,
+                    "titleFontSize": 6
+                  },
+                  "field": "year",
+                  "title": "Year",
+                  "type": "ordinal"
+                },
+                "y": {
+                  "axis": {
+                    "labelFontSize": 6,
+                    "titleColor": "#0e7a38",
+                    "titleFontSize": 6
+                  },
+                  "field": "cumulative_tracks",
+                  "title": "Total Tracks",
+                  "type": "quantitative"
+                }
+              },
+              "title": {
+                "text": "Library Growth (Tracks)",
+                "anchor": "start",
+                "fontSize": 10
+              }
+            },
+            {
+              "mark": {
+                "type": "circle",
+                "color": "#0e7a38",
+                "size": 60,
+                "stroke": "white",
+                "strokeWidth": 1
+              },
+              "encoding": {
+                "tooltip": [
+                  {
+                    "field": "year",
+                    "title": "Year",
+                    "type": "ordinal"
+                  },
+                  {
+                    "field": "cumulative_tracks",
+                    "title": "Total Tracks",
+                    "type": "quantitative"
+                  }
+                ],
+                "x": {
+                  "field": "year",
+                  "type": "ordinal"
+                },
+                "y": {
+                  "field": "cumulative_tracks",
+                  "type": "quantitative"
+                }
+              }
+            }
+          ],
+          "height": 110,
+          "width": 380
+        },
+        {
+          "layer": [
+            {
+              "mark": {
+                "type": "area",
+                "color": "#1a237e",
+                "opacity": 0.5,
+                "stroke": "#1a237e",
+                "strokeWidth": 2
+              },
+              "encoding": {
+                "tooltip": [
+                  {
+                    "field": "year",
+                    "title": "Year",
+                    "type": "ordinal"
+                  },
+                  {
+                    "field": "cumulative_artists",
+                    "title": "Total Artists",
+                    "type": "quantitative"
+                  }
+                ],
+                "x": {
+                  "axis": {
+                    "labelAngle": -45,
+                    "labelFontSize": 6,
+                    "titleFontSize": 6
+                  },
+                  "field": "year",
+                  "title": "Year",
+                  "type": "ordinal"
+                },
+                "y": {
+                  "axis": {
+                    "labelFontSize": 6,
+                    "titleColor": "#1a237e",
+                    "titleFontSize": 6
+                  },
+                  "field": "cumulative_artists",
+                  "title": "Total Artists",
+                  "type": "quantitative"
+                }
+              },
+              "title": {
+                "text": "Library Growth (Artists)",
+                "anchor": "start",
+                "fontSize": 10
+              }
+            },
+            {
+              "mark": {
+                "type": "circle",
+                "color": "#1a237e",
+                "size": 50
+              },
+              "encoding": {
+                "tooltip": [
+                  {
+                    "field": "year",
+                    "title": "Year",
+                    "type": "ordinal"
+                  },
+                  {
+                    "field": "cumulative_artists",
+                    "title": "Total Artists",
+                    "type": "quantitative"
+                  }
+                ],
+                "x": {
+                  "field": "year",
+                  "type": "ordinal"
+                },
+                "y": {
+                  "field": "cumulative_artists",
+                  "type": "quantitative"
+                }
+              }
+            }
+          ],
+          "height": 90,
+          "width": 380
+        }
+      ],
+      "data": {
+        "name": "data-8561445b09f0beb393cd4f1a7e2eaab5"
+      }
+    },
+    {
+      "data": {
+        "name": "data-d285a7403ed98ae579761d64a864032b"
+      },
+      "mark": {
+        "type": "text"
+      },
+      "encoding": {
+        "text": {
+          "value": ""
+        },
+        "x": {
+          "value": 0
+        }
+      },
+      "height": 8,
       "width": 10
     },
     {
@@ -469,7 +487,7 @@
                 "align": "center",
                 "baseline": "middle",
                 "color": "#333",
-                "fontSize": 10,
+                "fontSize": 9,
                 "fontWeight": "bold"
               },
               "encoding": {
@@ -498,7 +516,7 @@
                   "scale": {
                     "range": [
                       20,
-                      260
+                      240
                     ]
                   },
                   "title": null,
@@ -512,9 +530,9 @@
                 "align": "left",
                 "baseline": "middle",
                 "color": "#0e7a38",
-                "fontSize": 11,
+                "fontSize": 9,
                 "fontWeight": "bold",
-                "limit": 219
+                "limit": 319
               },
               "encoding": {
                 "text": {
@@ -542,7 +560,7 @@
                   "scale": {
                     "range": [
                       20,
-                      260
+                      240
                     ]
                   },
                   "title": null,
@@ -556,8 +574,8 @@
                 "align": "left",
                 "baseline": "middle",
                 "color": "#444",
-                "fontSize": 9,
-                "limit": 219,
+                "fontSize": 8,
+                "limit": 319,
                 "opacity": 0
               },
               "encoding": {
@@ -574,7 +592,7 @@
                   "scale": {
                     "range": [
                       32,
-                      272
+                      252
                     ]
                   },
                   "title": null,
@@ -586,7 +604,7 @@
           "data": {
             "name": "data-dc9dcc5aebb4c1dd5b0a4cdcf71b5d75"
           },
-          "height": 280,
+          "height": 260,
           "resolve": {
             "scale": {
               "y": "independent"
@@ -595,12 +613,12 @@
           "title": {
             "text": "Top Songs",
             "anchor": "start",
-            "fontSize": 15,
+            "fontSize": 13,
             "subtitle": "All Time",
             "subtitleColor": "#444",
-            "subtitleFontSize": 10
+            "subtitleFontSize": 8
           },
-          "width": 260
+          "width": 360
         },
         {
           "layer": [
@@ -610,7 +628,7 @@
                 "align": "center",
                 "baseline": "middle",
                 "color": "#333",
-                "fontSize": 10,
+                "fontSize": 9,
                 "fontWeight": "bold"
               },
               "encoding": {
@@ -639,7 +657,7 @@
                   "scale": {
                     "range": [
                       20,
-                      260
+                      240
                     ]
                   },
                   "title": null,
@@ -653,9 +671,9 @@
                 "align": "left",
                 "baseline": "middle",
                 "color": "#0e7a38",
-                "fontSize": 11,
+                "fontSize": 9,
                 "fontWeight": "bold",
-                "limit": 157
+                "limit": 263
               },
               "encoding": {
                 "text": {
@@ -683,7 +701,7 @@
                   "scale": {
                     "range": [
                       20,
-                      260
+                      240
                     ]
                   },
                   "title": null,
@@ -697,8 +715,8 @@
                 "align": "left",
                 "baseline": "middle",
                 "color": "#444",
-                "fontSize": 9,
-                "limit": 157,
+                "fontSize": 8,
+                "limit": 263,
                 "opacity": 0
               },
               "encoding": {
@@ -715,7 +733,7 @@
                   "scale": {
                     "range": [
                       32,
-                      272
+                      252
                     ]
                   },
                   "title": null,
@@ -729,7 +747,7 @@
                 "align": "right",
                 "baseline": "middle",
                 "color": "#555",
-                "fontSize": 9
+                "fontSize": 8
               },
               "encoding": {
                 "text": {
@@ -737,7 +755,7 @@
                   "type": "nominal"
                 },
                 "x": {
-                  "value": 250
+                  "value": 350
                 },
                 "y": {
                   "axis": null,
@@ -745,7 +763,7 @@
                   "scale": {
                     "range": [
                       20,
-                      260
+                      240
                     ]
                   },
                   "title": null,
@@ -757,7 +775,7 @@
           "data": {
             "name": "data-8c2ecebc49af563dd696ff5de580fdf2"
           },
-          "height": 280,
+          "height": 260,
           "resolve": {
             "scale": {
               "y": "independent"
@@ -766,25 +784,25 @@
           "title": {
             "text": "Recently Played",
             "anchor": "start",
-            "fontSize": 15
+            "fontSize": 13
           },
-          "width": 260
+          "width": 360
         }
       ]
     }
   ],
   "center": true,
   "padding": {
-    "left": 16,
-    "right": 16,
-    "top": 16,
-    "bottom": 24
+    "left": 14,
+    "right": 14,
+    "top": 12,
+    "bottom": 18
   },
-  "spacing": 14,
+  "spacing": 10,
   "title": {
     "text": "Muntakim's Spotify Dashboard",
     "anchor": "middle",
-    "fontSize": 24
+    "fontSize": 28
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
@@ -792,108 +810,6 @@
     "data-d285a7403ed98ae579761d64a864032b": [
       {
         "x": 0
-      }
-    ],
-    "data-8561445b09f0beb393cd4f1a7e2eaab5": [
-      {
-        "time_period": "2017",
-        "tracks_added": 334,
-        "total_duration_ms": 116206037,
-        "hours_added": 32.27945472222222,
-        "cumulative_tracks": 334,
-        "cumulative_hours": 32.27945472222222,
-        "cumulative_artists": 96,
-        "year": "2017"
-      },
-      {
-        "time_period": "2018",
-        "tracks_added": 559,
-        "total_duration_ms": 187231268,
-        "hours_added": 52.00868555555556,
-        "cumulative_tracks": 893,
-        "cumulative_hours": 84.28814027777779,
-        "cumulative_artists": 146,
-        "year": "2018"
-      },
-      {
-        "time_period": "2019",
-        "tracks_added": 712,
-        "total_duration_ms": 228075048,
-        "hours_added": 63.35418,
-        "cumulative_tracks": 1605,
-        "cumulative_hours": 147.6423202777778,
-        "cumulative_artists": 276,
-        "year": "2019"
-      },
-      {
-        "time_period": "2020",
-        "tracks_added": 229,
-        "total_duration_ms": 65897797,
-        "hours_added": 18.30494361111111,
-        "cumulative_tracks": 1834,
-        "cumulative_hours": 165.9472638888889,
-        "cumulative_artists": 375,
-        "year": "2020"
-      },
-      {
-        "time_period": "2021",
-        "tracks_added": 359,
-        "total_duration_ms": 112658282,
-        "hours_added": 31.29396722222222,
-        "cumulative_tracks": 2193,
-        "cumulative_hours": 197.24123111111112,
-        "cumulative_artists": 421,
-        "year": "2021"
-      },
-      {
-        "time_period": "2022",
-        "tracks_added": 568,
-        "total_duration_ms": 174759621,
-        "hours_added": 48.54433916666667,
-        "cumulative_tracks": 2761,
-        "cumulative_hours": 245.7855702777778,
-        "cumulative_artists": 541,
-        "year": "2022"
-      },
-      {
-        "time_period": "2023",
-        "tracks_added": 457,
-        "total_duration_ms": 131133721,
-        "hours_added": 36.42603361111111,
-        "cumulative_tracks": 3218,
-        "cumulative_hours": 282.21160388888893,
-        "cumulative_artists": 633,
-        "year": "2023"
-      },
-      {
-        "time_period": "2024",
-        "tracks_added": 88,
-        "total_duration_ms": 26603821,
-        "hours_added": 7.3899502777777775,
-        "cumulative_tracks": 3306,
-        "cumulative_hours": 289.6015541666667,
-        "cumulative_artists": 658,
-        "year": "2024"
-      },
-      {
-        "time_period": "2025",
-        "tracks_added": 118,
-        "total_duration_ms": 35303287,
-        "hours_added": 9.80646861111111,
-        "cumulative_tracks": 3424,
-        "cumulative_hours": 299.4080227777778,
-        "cumulative_artists": 691,
-        "year": "2025"
-      },
-      {
-        "time_period": "2026",
-        "tracks_added": 28,
-        "total_duration_ms": 9097543,
-        "hours_added": 2.5270952777777778,
-        "cumulative_tracks": 3452,
-        "cumulative_hours": 301.93511805555556,
-        "cumulative_artists": 696,
-        "year": "2026"
       }
     ],
     "data-0fb0dc73deacbb74cd13c33c445deb63": [
@@ -1008,6 +924,108 @@
         "artist": "Pritam",
         "label": "Pritam (119)",
         "idx": 9
+      }
+    ],
+    "data-8561445b09f0beb393cd4f1a7e2eaab5": [
+      {
+        "time_period": "2017",
+        "tracks_added": 334,
+        "total_duration_ms": 116206037,
+        "hours_added": 32.27945472222222,
+        "cumulative_tracks": 334,
+        "cumulative_hours": 32.27945472222222,
+        "cumulative_artists": 96,
+        "year": "2017"
+      },
+      {
+        "time_period": "2018",
+        "tracks_added": 559,
+        "total_duration_ms": 187231268,
+        "hours_added": 52.00868555555556,
+        "cumulative_tracks": 893,
+        "cumulative_hours": 84.28814027777779,
+        "cumulative_artists": 146,
+        "year": "2018"
+      },
+      {
+        "time_period": "2019",
+        "tracks_added": 712,
+        "total_duration_ms": 228075048,
+        "hours_added": 63.35418,
+        "cumulative_tracks": 1605,
+        "cumulative_hours": 147.6423202777778,
+        "cumulative_artists": 276,
+        "year": "2019"
+      },
+      {
+        "time_period": "2020",
+        "tracks_added": 229,
+        "total_duration_ms": 65897797,
+        "hours_added": 18.30494361111111,
+        "cumulative_tracks": 1834,
+        "cumulative_hours": 165.9472638888889,
+        "cumulative_artists": 375,
+        "year": "2020"
+      },
+      {
+        "time_period": "2021",
+        "tracks_added": 359,
+        "total_duration_ms": 112658282,
+        "hours_added": 31.29396722222222,
+        "cumulative_tracks": 2193,
+        "cumulative_hours": 197.24123111111112,
+        "cumulative_artists": 421,
+        "year": "2021"
+      },
+      {
+        "time_period": "2022",
+        "tracks_added": 568,
+        "total_duration_ms": 174759621,
+        "hours_added": 48.54433916666667,
+        "cumulative_tracks": 2761,
+        "cumulative_hours": 245.7855702777778,
+        "cumulative_artists": 541,
+        "year": "2022"
+      },
+      {
+        "time_period": "2023",
+        "tracks_added": 457,
+        "total_duration_ms": 131133721,
+        "hours_added": 36.42603361111111,
+        "cumulative_tracks": 3218,
+        "cumulative_hours": 282.21160388888893,
+        "cumulative_artists": 633,
+        "year": "2023"
+      },
+      {
+        "time_period": "2024",
+        "tracks_added": 88,
+        "total_duration_ms": 26603821,
+        "hours_added": 7.3899502777777775,
+        "cumulative_tracks": 3306,
+        "cumulative_hours": 289.6015541666667,
+        "cumulative_artists": 658,
+        "year": "2024"
+      },
+      {
+        "time_period": "2025",
+        "tracks_added": 118,
+        "total_duration_ms": 35303287,
+        "hours_added": 9.80646861111111,
+        "cumulative_tracks": 3424,
+        "cumulative_hours": 299.4080227777778,
+        "cumulative_artists": 691,
+        "year": "2025"
+      },
+      {
+        "time_period": "2026",
+        "tracks_added": 28,
+        "total_duration_ms": 9097543,
+        "hours_added": 2.5270952777777778,
+        "cumulative_tracks": 3452,
+        "cumulative_hours": 301.93511805555556,
+        "cumulative_artists": 696,
+        "year": "2026"
       }
     ],
     "data-dc9dcc5aebb4c1dd5b0a4cdcf71b5d75": [
