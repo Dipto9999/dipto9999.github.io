@@ -54,7 +54,7 @@
               "value": "3,452 Saved Tracks"
             },
             "x": {
-              "value": 390
+              "value": 480
             },
             "y": {
               "value": 18.0
@@ -66,7 +66,7 @@
         "name": "data-4f53cda18c2baa0c0354bb5f9a3ecbe5"
       },
       "height": 36,
-      "width": 390
+      "width": 480
     },
     {
       "data": {
@@ -137,7 +137,7 @@
                   "title": {
                     "text": "Library Growth (Tracks)",
                     "anchor": "start",
-                    "fontSize": 16
+                    "fontSize": 9
                   }
                 },
                 {
@@ -172,8 +172,8 @@
                   }
                 }
               ],
-              "height": 88,
-              "width": 200
+              "height": 99,
+              "width": 280
             },
             {
               "layer": [
@@ -222,7 +222,7 @@
                   "title": {
                     "text": "Library Growth (Artists)",
                     "anchor": "start",
-                    "fontSize": 16
+                    "fontSize": 9
                   }
                 },
                 {
@@ -255,8 +255,8 @@
                   }
                 }
               ],
-              "height": 72,
-              "width": 200
+              "height": 81,
+              "width": 280
             }
           ],
           "data": {
@@ -270,7 +270,7 @@
           "mark": {
             "type": "arc",
             "innerRadius": 0,
-            "outerRadius": 44,
+            "outerRadius": 79,
             "stroke": "black",
             "strokeWidth": 1
           },
@@ -318,7 +318,7 @@
               }
             ]
           },
-          "height": 160,
+          "height": 180,
           "title": {
             "text": "Top Artists",
             "anchor": "start",
@@ -327,117 +327,7 @@
             "subtitleColor": "#444",
             "subtitleFontSize": 7
           },
-          "width": 100
-        },
-        {
-          "layer": [
-            {
-              "mark": {
-                "type": "point",
-                "filled": true,
-                "size": 120,
-                "stroke": "black",
-                "strokeWidth": 1.5
-              },
-              "encoding": {
-                "color": {
-                  "field": "artist",
-                  "legend": null,
-                  "scale": {
-                    "domain": [
-                      "Alka Yagnik",
-                      "Kumar Sanu",
-                      "Udit Narayan",
-                      "Sonu Nigam",
-                      "Shreya Ghoshal",
-                      "Lata Mangeshkar",
-                      "Arijit Singh",
-                      "Kishore Kumar",
-                      "Abhijeet",
-                      "Pritam"
-                    ],
-                    "range": [
-                      "#00008B",
-                      "#FF8C00",
-                      "#32CD32",
-                      "#DC143C",
-                      "#800080",
-                      "#00CED1",
-                      "#FFA500",
-                      "#4E342E",
-                      "#00695C",
-                      "#B8860B"
-                    ]
-                  },
-                  "type": "nominal"
-                },
-                "x": {
-                  "value": 26
-                },
-                "y": {
-                  "axis": null,
-                  "field": "idx",
-                  "scale": {
-                    "range": [
-                      30,
-                      228
-                    ]
-                  },
-                  "title": null,
-                  "type": "ordinal"
-                }
-              }
-            },
-            {
-              "mark": {
-                "type": "text",
-                "align": "left",
-                "baseline": "middle",
-                "dx": 12,
-                "fontSize": 7
-              },
-              "encoding": {
-                "color": {
-                  "value": "#333"
-                },
-                "text": {
-                  "field": "label",
-                  "type": "nominal"
-                },
-                "x": {
-                  "value": 46
-                },
-                "y": {
-                  "axis": null,
-                  "field": "idx",
-                  "scale": {
-                    "range": [
-                      30,
-                      228
-                    ]
-                  },
-                  "title": null,
-                  "type": "ordinal"
-                }
-              }
-            }
-          ],
-          "data": {
-            "name": "data-8fe3b25bb765269252ec92f62da1c7ea"
-          },
-          "height": 160,
-          "resolve": {
-            "scale": {
-              "y": "shared"
-            }
-          },
-          "title": {
-            "text": "",
-            "anchor": "start",
-            "color": "#555",
-            "fontSize": 14
-          },
-          "width": 70
+          "width": 180
         }
       ]
     },
@@ -498,7 +388,7 @@
                   "scale": {
                     "range": [
                       20,
-                      150
+                      180
                     ]
                   },
                   "title": null,
@@ -514,7 +404,7 @@
                 "color": "#0e7a38",
                 "fontSize": 9,
                 "fontWeight": "bold",
-                "limit": 144
+                "limit": 194
               },
               "encoding": {
                 "text": {
@@ -542,7 +432,7 @@
                   "scale": {
                     "range": [
                       20,
-                      150
+                      180
                     ]
                   },
                   "title": null,
@@ -557,7 +447,7 @@
                 "baseline": "middle",
                 "color": "#444",
                 "fontSize": 8,
-                "limit": 144,
+                "limit": 194,
                 "opacity": 0
               },
               "encoding": {
@@ -574,7 +464,7 @@
                   "scale": {
                     "range": [
                       32,
-                      162
+                      192
                     ]
                   },
                   "title": null,
@@ -586,7 +476,7 @@
           "data": {
             "name": "data-dc9dcc5aebb4c1dd5b0a4cdcf71b5d75"
           },
-          "height": 170,
+          "height": 200,
           "resolve": {
             "scale": {
               "y": "independent"
@@ -600,7 +490,7 @@
             "subtitleColor": "#444",
             "subtitleFontSize": 7
           },
-          "width": 185
+          "width": 235
         },
         {
           "layer": [
@@ -639,7 +529,7 @@
                   "scale": {
                     "range": [
                       20,
-                      150
+                      180
                     ]
                   },
                   "title": null,
@@ -655,7 +545,7 @@
                 "color": "#0e7a38",
                 "fontSize": 9,
                 "fontWeight": "bold",
-                "limit": 88
+                "limit": 138
               },
               "encoding": {
                 "text": {
@@ -683,7 +573,7 @@
                   "scale": {
                     "range": [
                       20,
-                      150
+                      180
                     ]
                   },
                   "title": null,
@@ -698,7 +588,7 @@
                 "baseline": "middle",
                 "color": "#444",
                 "fontSize": 8,
-                "limit": 88,
+                "limit": 138,
                 "opacity": 0
               },
               "encoding": {
@@ -715,7 +605,7 @@
                   "scale": {
                     "range": [
                       32,
-                      162
+                      192
                     ]
                   },
                   "title": null,
@@ -737,7 +627,7 @@
                   "type": "nominal"
                 },
                 "x": {
-                  "value": 175
+                  "value": 225
                 },
                 "y": {
                   "axis": null,
@@ -745,7 +635,7 @@
                   "scale": {
                     "range": [
                       20,
-                      150
+                      180
                     ]
                   },
                   "title": null,
@@ -757,7 +647,7 @@
           "data": {
             "name": "data-8c2ecebc49af563dd696ff5de580fdf2"
           },
-          "height": 170,
+          "height": 200,
           "resolve": {
             "scale": {
               "y": "independent"
@@ -768,7 +658,7 @@
             "anchor": "start",
             "fontSize": 11
           },
-          "width": 185
+          "width": 235
         }
       ]
     }
@@ -956,58 +846,6 @@
         "count": 119,
         "pct": 3.0,
         "rank": 10
-      }
-    ],
-    "data-8fe3b25bb765269252ec92f62da1c7ea": [
-      {
-        "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,199)",
-        "idx": 0
-      },
-      {
-        "artist": "Kumar Sanu",
-        "label": "Kumar Sanu (821)",
-        "idx": 1
-      },
-      {
-        "artist": "Udit Narayan",
-        "label": "Udit Narayan (716)",
-        "idx": 2
-      },
-      {
-        "artist": "Sonu Nigam",
-        "label": "Sonu Nigam (303)",
-        "idx": 3
-      },
-      {
-        "artist": "Shreya Ghoshal",
-        "label": "Shreya Ghoshal (227)",
-        "idx": 4
-      },
-      {
-        "artist": "Lata Mangeshkar",
-        "label": "Lata Mangeshkar (138)",
-        "idx": 5
-      },
-      {
-        "artist": "Arijit Singh",
-        "label": "Arijit Singh (136)",
-        "idx": 6
-      },
-      {
-        "artist": "Kishore Kumar",
-        "label": "Kishore Kumar (134)",
-        "idx": 7
-      },
-      {
-        "artist": "Abhijeet",
-        "label": "Abhijeet (124)",
-        "idx": 8
-      },
-      {
-        "artist": "Pritam",
-        "label": "Pritam (119)",
-        "idx": 9
       }
     ],
     "data-dc9dcc5aebb4c1dd5b0a4cdcf71b5d75": [

@@ -747,7 +747,7 @@ class SpotifyDashboard:
                 title=alt.TitleParams(
                     text="Library Growth (Tracks)",
                     anchor=title_anchor,
-                    fontSize=16,
+                    fontSize=round(16 * font_scale),
                 )
             )
         )
@@ -780,7 +780,7 @@ class SpotifyDashboard:
                     title=alt.TitleParams(
                         text="Library Growth (Artists)",
                         anchor=title_anchor,
-                        fontSize=16,
+                        fontSize=round(16 * font_scale),
                     )
                 )
             )
@@ -1034,45 +1034,46 @@ class SpotifyDashboard:
             ),
             "tablet_portrait": dict(
                 # iPad Mini (768px), iPad Air (820px), small tablets in portrait
-                # Available content width: ~577px after sidebar (15%) + margins
-                font_scale=0.55, title_size=24, spacer_h=6, hide_rp_artist=True, hide_ts_artist=True,
-                stats_h=34,
-                growth_w=120, growth_h=160, pie_w=90, pie_h=160, legend_w=100, legend_h=160,
-                songs_w=155, songs_h=200, recent_w=155, recent_h=200,
-                axis_label=7, axis_title=9, legend_label=7, legend_title=8,
-                padding={"left": 6, "right": 6, "top": 10, "bottom": 14}, spacing=6,
+                # Vertical with pie first, songs+RP side by side
+                font_scale=0.50, title_size=28, spacer_h=5, hide_rp_artist=True, hide_ts_artist=True,
+                stats_h=28, vconcat=True, split_charts=True, hconcat_songs=True,
+                growth_w=280, growth_h=160, pie_w=200, pie_h=200, legend_w=120, legend_h=200,
+                songs_w=280, songs_h=200, recent_w=280, recent_h=200,
+                axis_label=6, axis_title=8, legend_label=6, legend_title=7,
+                padding={"left": 8, "right": 8, "top": 8, "bottom": 12}, spacing=6,
             ),
             "tablet": dict(
                 # Larger tablets, iPad Pro, small desktops (901-1200px)
-                font_scale=0.76, title_size=24, spacer_h=12, hide_rp_artist=True, hide_ts_artist=True,
-                stats_h=44,
-                growth_w=280, growth_h=240, pie_w=180, pie_h=240, legend_w=120, legend_h=240,
-                songs_w=260, songs_h=280, recent_w=260, recent_h=280,
-                axis_label=9, axis_title=11, legend_label=8, legend_title=10,
-                padding={"left": 16, "right": 16, "top": 16, "bottom": 24}, spacing=14,
+                # Vertical with pie first, songs+RP side by side
+                font_scale=0.65, title_size=28, spacer_h=8, hide_rp_artist=True, hide_ts_artist=True,
+                stats_h=36, vconcat=True, split_charts=True, hconcat_songs=True,
+                growth_w=380, growth_h=200, pie_w=280, pie_h=260, legend_w=160, legend_h=260,
+                songs_w=360, songs_h=260, recent_w=360, recent_h=260,
+                axis_label=8, axis_title=10, legend_label=8, legend_title=9,
+                padding={"left": 14, "right": 14, "top": 12, "bottom": 18}, spacing=10,
             ),
             "landscape": dict(
                 font_scale=0.57, title_size=18, spacer_h=8, hide_rp_artist=True, hide_ts_artist=True,
                 stats_h=36,
-                growth_w=200, growth_h=160, pie_w=100, pie_h=160, legend_w=70, legend_h=160,
-                songs_w=185, songs_h=170, recent_w=185, recent_h=170,
+                growth_w=280, growth_h=180, pie_w=180, pie_h=180, legend_w=0, legend_h=0,
+                songs_w=235, songs_h=200, recent_w=235, recent_h=200,
                 axis_label=7, axis_title=9, legend_label=6, legend_title=8,
                 padding={"left": 10, "right": 10, "top": 12, "bottom": 18}, spacing=10,
             ),
             "portrait": dict(
                 # Single-column stacked layout — each chart spans full width
                 # Legend is REMOVED on portrait to match Steam mobile pattern
-                font_scale=0.60, title_size=14, spacer_h=6,
-                stats_h=36,
-                growth_w=260, growth_h=150,              # full-width growth
-                pie_w=200,    pie_h=200,                  # wider pie (no legend on mobile)
+                font_scale=0.60, title_size=14, spacer_h=0,
+                stats_h=0,
+                growth_w=200, growth_h=150,              # narrower growth for hconcat
+                pie_w=90,     pie_h=90,                   # compact pie (no legend on mobile)
                 legend_w=0,   legend_h=0,                 # legend removed
                 songs_w=260,  songs_h=220,                # full-width songs (taller for readability)
                 recent_w=260, recent_h=220,               # full-width recently played (taller)
                 axis_label=8, axis_title=9, legend_label=7, legend_title=8,
                 hide_rp_artist=False, hide_ts_artist=True,  # no RP on portrait (cards instead)
                 title_anchor="middle",                     # center sub-chart titles on mobile
-                padding={"left": 5, "right": 5, "top": 10, "bottom": 15}, spacing=8,
+                padding={"left": 5, "right": 5, "top": 0, "bottom": 15}, spacing=0,
             ),
         }
 
@@ -1091,16 +1092,46 @@ class SpotifyDashboard:
         recently_played = self._recently_played_chart(width=s["recent_w"], height=s["recent_h"], font_scale=fs, hide_artist=s.get("hide_rp_artist", False))
 
         if layout.lower() == "portrait":
-            # Single-column stacked: banner / growth / pie (no legend on mobile)
+            # Desktop-style: growth charts | pie (no legend, no stats on mobile)
             # Songs + Recently Played are rendered as React cards on mobile
-            banner_w = s["songs_w"]
-            stats_banner = self._annual_stats_chart(width=banner_w, height=s["stats_h"], font_scale=fs)
-            self.dashboard = (stats_banner & spacer & yearly_growth & spacer & pie)
+            growth_pie_row = yearly_growth | pie
+            if s["stats_h"] > 0:
+                banner_w = s["songs_w"]
+                stats_banner = self._annual_stats_chart(width=banner_w, height=s["stats_h"], font_scale=fs)
+                self.dashboard = (stats_banner & spacer & growth_pie_row)
+            else:
+                self.dashboard = growth_pie_row
             # Store card data metadata for React to extract from datasets
             self._card_data = {
                 "topSongs": top_songs,
                 "recentlyPlayed": recently_played,
             }
+        elif s.get("vconcat"):
+            if s.get("split_charts"):
+                # Vertical with pie first: banner / pie+legend / growth / songs(+RP)
+                if s.get("hconcat_songs"):
+                    banner_w = s["songs_w"] + s["recent_w"] + s["spacing"]
+                else:
+                    banner_w = max(s["songs_w"], s["pie_w"] + s["legend_w"] + s["spacing"])
+                stats_banner = self._annual_stats_chart(width=banner_w, height=s["stats_h"], font_scale=fs)
+                if pie_legend is not None:
+                    pie_row = pie | pie_legend
+                else:
+                    pie_row = pie
+                if s.get("hconcat_songs"):
+                    bottom_row = top_songs | recently_played
+                    self.dashboard = (stats_banner & spacer & pie_row & spacer & yearly_growth & spacer & bottom_row)
+                else:
+                    self.dashboard = (stats_banner & spacer & pie_row & spacer & yearly_growth & spacer & top_songs & spacer & recently_played)
+            else:
+                # Vertical stacked: banner / (growth | pie | legend) / songs / recently_played
+                banner_w = s["growth_w"] + s["pie_w"] + s["legend_w"] + 2 * s["spacing"]
+                stats_banner = self._annual_stats_chart(width=banner_w, height=s["stats_h"], font_scale=fs)
+                if pie_legend is not None:
+                    growth_row = yearly_growth | pie | pie_legend
+                else:
+                    growth_row = yearly_growth | pie
+                self.dashboard = (stats_banner & spacer & growth_row & spacer & top_songs & spacer & recently_played)
         else:
             # Side-by-side: banner / (growth | pie | legend) / (songs | recent)
             banner_w = s["growth_w"] + s["pie_w"] + s["legend_w"] + 2 * s["spacing"]
