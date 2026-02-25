@@ -1,0 +1,98 @@
+.vega-chart {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-x: auto;
+}
+
+/* ── Mobile card view for Top Songs / Recently Played ── */
+
+.spotify-cards-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 16px 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.spotify-card-section {
+  width: 100%;
+}
+
+.spotify-card-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #141331;
+  margin: 0 0 2px 0;
+}
+
+.spotify-card-section-subtitle {
+  font-size: 0.8rem;
+  color: #555;
+  margin: 0 0 10px 0;
+}
+
+.spotify-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.spotify-track-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.spotify-track-rank {
+  width: 22px;
+  flex-shrink: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+  text-align: center;
+}
+
+.spotify-track-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.spotify-track-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #1a7a3a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spotify-track-artist {
+  font-size: 0.78rem;
+  color: #444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spotify-track-time {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  color: #555;
+  white-space: nowrap;
+}

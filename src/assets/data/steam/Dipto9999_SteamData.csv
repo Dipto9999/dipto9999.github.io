@@ -10,7 +10,7 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 675260,Telltale: Batman The Enemy Within,35.93,c53d5014995576b7b7f784998940da736cb7f357,0,0,0,0,1533589289,0,0,True,0,0.0,21
 209000,Batman: Arkham Origins,32.75,76dac70a2206de1a80da4950da43e1b05ea302a8,569,0,1310,1310,1766364824,0,2676,True,0,0.0,21
 750920,Shadow of the Tomb Raider,28.8,7db38cff16091c9c058892fcfeee102a6ed589d9,0,0,1728,1728,1768373676,"[2, 5]",0,True,0,0.0,21
-1091500,Cyberpunk 2077,23.98,42b9b33fa0f0d997beb299c6157592a8fe7d8f68,814,0,625,625,1771664594,"[1, 2, 5]",53,True,0,1022.0,21
+1091500,Cyberpunk 2077,25.25,42b9b33fa0f0d997beb299c6157592a8fe7d8f68,814,0,701,701,1771923710,"[1, 2, 5]",53,True,0,962.0,21
 200260,Batman: Arkham City,21.1,746ecf3ce44b2525eb7ad643e76a3b60913d2662,0,0,0,0,1530488890,0,0,True,0,0.0,21
 379720,DOOM,20.92,b6e72ff47d1990cb644700751eeeff14e0aba6dc,1255,0,0,0,1615158918,"[2, 5]",0,True,0,0.0,21
 35720,Trine 2,20.08,061ecbbd7c70ae1c052377bad136c7759cbb708d,0,0,11,11,1768197881,0,1,True,0,0.0,21
@@ -21,8 +21,8 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 866800,The Walking Dead: The Final Season,10.08,1b3b4649490d5112ef907c6dd660036d55a866b6,204,0,400,400,1768869865,"[2, 5]",46,True,0,0.0,21
 536220,The Walking Dead: A New Frontier,8.57,9d1a710175bdc5ecf10885100728e44cd4ad0942,514,0,0,0,1618346376,"[2, 5]",0,True,0,0.0,21
 20900,The Witcher: Enhanced Edition,6.75,746d1cd48fb2e57d579b05b6e9eccba95859e549,0,0,0,0,1496537456,"[1, 2, 5]",0,0,0,0.0,21
-2623190,The Elder Scrolls IV: Oblivion Remastered,6.27,bad7d3e3c722ffc68af54cbe545dcc5978d87638,376,0,0,0,1746679460,"[2, 5]",0,True,0,0.0,21
 292030,The Witcher 3,6.27,78d0ff98b67851f24539cdf2402cf147679134f4,223,0,152,152,1770450224,"[1, 5]",0,True,0,0.0,21
+2623190,The Elder Scrolls IV: Oblivion Remastered,6.27,bad7d3e3c722ffc68af54cbe545dcc5978d87638,376,0,0,0,1746679460,"[2, 5]",0,True,0,0.0,21
 550,Left 4 Dead 2,5.88,7d5a243f9500d2f8467312822f8af2a2928777ed,0,0,0,0,1491624553,"[2, 5]",0,True,0,0.0,21
 7000,Tomb Raider: Legend,5.17,df2e4400b953ab62c43ddd590684ecafd339134d,0,0,38,38,1768470464,0,0,0,0,0.0,21
 356190,Middle-earth™: Shadow of War™,4.97,316c479e5d51d21e15eb8f82338fce82c42c4115,28,0,269,269,1768254193,"[2, 5]",1,True,0,0.0,21
@@ -45,78 +45,78 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 8000,Tomb Raider: Anniversary,0.25,13243b33c45bbde67ed6538641173e556548aac3,0,0,0,0,1511676526,0,0,0,0,0.0,21
 291550,Brawlhalla,0.2,c43fac31b8bf8821764603a14d09412bc3d45f66,0,0,0,0,1490842659,0,0,True,0,0.0,21
 500,Left 4 Dead,0.17,428df26bc35b09319e31b1ffb712487b20b3245c,0,0,0,0,1490160415,"[2, 5]",0,True,0,0.0,21
-1172380,STAR WARS Jedi: Fallen Order™ ,0.13,0ea1d285a8ee6fbeef0e8f7f3b2d7fa4cbcb423b,0,0,8,8,1770895060,0,0,True,0,8.0,21
+1172380,STAR WARS Jedi: Fallen Order™ ,0.13,0ea1d285a8ee6fbeef0e8f7f3b2d7fa4cbcb423b,0,0,8,8,1770895060,0,0,True,0,7.0,21
 218620,PAYDAY 2,0.03,a6abc0d0c1e79c0b5b0f5c8ab81ce9076a542414,0,0,0,0,1498800445,"[2, 5]",0,True,0,0.0,21
-8200,Sam & Max 101: Culture Shock,0.0,5a50b3323f27700cfc9819aaffce64163e7baf71,0,0,0,0,0,0,0,0,0,0.0,21
-6020,STAR WARS™ Jedi Knight: Jedi Academy™,0.0,2e359a8df71ea18ddd77fda3f6b307e6e86ef910,0,0,0,0,0,0,0,0,0,0.0,21
-3830,Psychonauts,0.0,460b6471db7d83ee6943c1a87f7a9f2898634952,0,0,0,0,0,0,0,True,0,0.0,21
+8230,Sam & Max 104: Abe Lincoln Must Die!,0.0,b0358d1d0677eff960ae7ea474b2c1659850f4a2,0,0,0,0,0,0,0,0,0,0.0,21
+448510,Overcooked,0.0,0f8cb2d03134bfbc0536dcc9a476d9ba3a1e67f5,0,0,0,0,0,0,0,True,0,0.0,21
+429570,The Walking Dead: Michonne,0.0,f75fb34d85b69cf28c5e8283a52d40aa09a33b01,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
+8240,Sam & Max 105: Reality 2.0,0.0,71f6aa0229ef7811891da0d329efc66a1ff50a57,0,0,0,0,0,0,0,0,0,0.0,21
+409720,BioShock 2 Remastered,0.0,97527a02b36f8ac4aba21005c2d953cc908a08e1,0,0,0,0,0,[5],0,True,0,0.0,21
+409710,BioShock Remastered,0.0,eb72262cd3ccc3219dd76392be3b60a4b6cbfd38,0,0,0,0,0,0,0,True,0,0.0,21
+8250,Sam & Max 106: Bright Side of the Moon,0.0,b990384aaed21561b980f639e4304adfe94119c8,0,0,0,0,0,0,0,0,0,0.0,21
+391540,Undertale,0.0,2ce672b89b63ec1e70d2f12862e72eb4a33e9268,0,0,0,0,0,0,0,0,0,0.0,21
+8210,Sam & Max 102: Situation: Comedy,0.0,3a147dba083ba6afef23b62a663ffc400fd02af4,0,0,0,0,0,0,0,0,0,0.0,21
+8260,Sam & Max 201: Ice Station Santa,0.0,883cbc08a6b43e4700beaa5b45d38cd37e67287a,0,0,0,0,0,0,0,0,0,0.0,21
+8270,Sam & Max 202: Moai Better Blues,0.0,e3cc48139012d31287b6fe7fe977a3f995cb1c3b,0,0,0,0,0,0,0,0,0,0.0,21
+8280,Sam & Max 203: Night of the Raving Dead,0.0,81d700cbfe6a6efa8d638f82c99e9f7468fa2250,0,0,0,0,0,0,0,0,0,0.0,21
+330830,Tales from the Borderlands,0.0,620dbf286a2ef353c9c93e5b7c047027b18f1475,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
+8290,Sam & Max 204: Chariots of the Dogs,0.0,a953f143763395a867c4fec7abe03ec89120c1df,0,0,0,0,0,0,0,0,0,0.0,21
+8300,Sam & Max 205: What's New Beelzebub?,0.0,ff4df5dbfcc2ca9d6fbdb5e5d37d48bce74e943d,0,0,0,0,0,0,0,0,0,0.0,21
+8220,"Sam & Max 103: The Mole, the Mob and the Meatball",0.0,4597164a33a872bda12690f3381e341b5be3ed88,0,0,0,0,0,0,0,0,0,0.0,21
+31260,Sam & Max 305: The City that Dares not Sleep,0.0,9e41c6d0c777cd0a7fb4e96da4f20d2227841725,0,0,0,0,0,0,0,0,0,0.0,21
+553850,HELLDIVERS™ 2,0.0,c3dff088e090f81d6e3d88eabbb67732647c69cf,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
 1250,Killing Floor,0.0,d8a2d777cb4c59cf06aa244166db232336520547,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
+320,Half-Life 2: Deathmatch,0.0,795e85364189511f4990861b578084deef086cb1,0,0,0,0,0,"[2, 5]",0,0,0,0.0,21
+360,Half-Life Deathmatch: Source,0.0,40b8a62efff5a9ab356e5c56f5c8b0532c8e1aa3,0,0,0,0,0,"[2, 5]",0,0,0,0.0,21
+2362420,Mass Effect 2 (2010) Edition,0.0,0ffd2038ba90c573d5ba82290e8f193f1433090e,0,0,0,0,0,"[1, 2, 5]",0,0,0,0.0,21
+1774580,STAR WARS Jedi: Survivor™,0.0,25578ffb2c6070c5d4e6569624efaadb8a0f5538,0,0,0,0,0,0,0,True,0,0.0,21
+1436700,Trine 5: A Clockwork Conspiracy,0.0,3ef869db216460baed5dcd9caedc3d86510db597,0,0,0,0,0,0,0,True,0,0.0,21
+1224020,Creepy Tale,0.0,d436365f006f8a247e37002d4563f6943e74c3c2,0,0,0,0,0,0,0,True,0,0.0,21
+883710,Resident Evil 2,0.0,86ef2fdebeced746313994ccf2d7afb1f2887bf0,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
+271590,Grand Theft Auto V Legacy,0.0,1e72f87eb927fa1485e68aefaff23c7fd7178251,0,0,0,0,0,[5],0,True,0,0.0,21
+3830,Psychonauts,0.0,460b6471db7d83ee6943c1a87f7a9f2898634952,0,0,0,0,0,0,0,True,0,0.0,21
+6020,STAR WARS™ Jedi Knight: Jedi Academy™,0.0,2e359a8df71ea18ddd77fda3f6b307e6e86ef910,0,0,0,0,0,0,0,0,0,0.0,21
 6030,STAR WARS™ Jedi Knight II: Jedi Outcast™,0.0,7f6bf88e9eca8e206b3659fd52d1a07324ee27cb,0,0,0,0,0,0,0,0,0,0.0,21
 7670,BioShock,0.0,9a7c9f640a76e6a32592277dbbc36a0f6da05372,0,0,0,0,0,0,0,0,0,0.0,21
-360,Half-Life Deathmatch: Source,0.0,40b8a62efff5a9ab356e5c56f5c8b0532c8e1aa3,0,0,0,0,0,"[2, 5]",0,0,0,0.0,21
-8210,Sam & Max 102: Situation: Comedy,0.0,3a147dba083ba6afef23b62a663ffc400fd02af4,0,0,0,0,0,0,0,0,0,0.0,21
-8220,"Sam & Max 103: The Mole, the Mob and the Meatball",0.0,4597164a33a872bda12690f3381e341b5be3ed88,0,0,0,0,0,0,0,0,0,0.0,21
+690640,Trine 4: The Nightmare Prince,0.0,afe71b7d8dd5ceb78d971d1996266c6307ec5fd0,0,0,0,0,0,0,0,True,0,0.0,21
+8200,Sam & Max 101: Culture Shock,0.0,5a50b3323f27700cfc9819aaffce64163e7baf71,0,0,0,0,0,0,0,0,0,0.0,21
+617290,Remnant: From the Ashes,0.0,0fec2d481028011910bf6fc35c61d19386695128,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
+8310,Bone: Out from Boneville,0.0,874f73d9ea6699ebc230288ee903f1ac5a27c1a1,0,0,0,0,0,0,0,0,0,0.0,21
+31270,Puzzle Agent,0.0,d0cae0b07b2512302968bd7625a9bf12cebdfba8,0,0,0,0,0,0,0,0,0,0.0,21
+31240,Sam & Max 303: They Stole Max's Brain!,0.0,bf1ebfe347a80e2ac31577e0569de3aa201cd17f,0,0,0,0,0,0,0,0,0,0.0,21
+94610,Hector: Ep 2,0.0,0bfad503074efc1c46755d05d36be4755945f8fe,0,0,0,0,0,"[1, 2, 5]",0,0,0,0.0,21
+94600,Hector: Ep 1,0.0,aa0a113e80b8cdeff47a523a87dd2fad1f43d73e,0,0,0,0,0,"[1, 2, 5]",0,0,0,0.0,21
+94590,Puzzle Agent 2,0.0,d558eb6bddeb55f5f145822f3949ab50bc02aff9,0,0,0,0,0,0,0,True,0,0.0,21
+31230,Sam & Max 302: The Tomb of Sammun-Mak,0.0,e83fbb799f46b349586ca55fcf612350cc88ffe7,0,0,0,0,0,0,0,0,0,0.0,21
 65930,The Bureau: XCOM Declassified,0.0,854f133d072a65e5577c2a21bf25ba863e4a6a23,0,0,0,0,0,0,0,True,0,0.0,21
 55100,Homefront,0.0,52d4f669d6aa00c92406457d430ed5aa6a035c54,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
 48700,Mount & Blade: Warband,0.0,0773e90a6991a5427df4ee516687d832d92b050e,0,0,0,0,0,0,0,True,0,0.0,21
 35700,Trine,0.0,298185d8ef9d688fe96a5fa15ee8174892f1c000,0,0,0,0,0,0,0,True,0,0.0,21
+250320,The Wolf Among Us,0.0,dee5f1476ddd237ed9faab86b59cb9ca9b275faa,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
 35420,Killing Floor Mod: Defence Alliance 2,0.0,ae7580a60cf77b754c723c72d5e31d530fbe7804,0,0,0,0,0,0,0,True,0,0.0,21
-32380,STAR WARS™ Jedi Knight: Dark Forces II,0.0,be8c3aab8f42f91a84aef316027fd545638f9e13,0,0,0,0,0,0,0,0,0,0.0,21
-32390,STAR WARS™ Jedi Knight: Mysteries of the Sith™,0.0,e5af0881e086756eb98a963c8baed05830594f91,0,0,0,0,0,0,0,0,0,0.0,21
-32400,STAR WARS™: Dark Forces,0.0,be8c3aab8f42f91a84aef316027fd545638f9e13,0,0,0,0,0,0,0,0,0,0.0,21
-31280,Poker Night at the Inventory (2010 Original Version),0.0,7d50bd1f5e7cfe68397e9ca0041836ad18153dfb,0,0,0,0,0,0,0,True,0,0.0,21
-31270,Puzzle Agent,0.0,d0cae0b07b2512302968bd7625a9bf12cebdfba8,0,0,0,0,0,0,0,0,0,0.0,21
-31260,Sam & Max 305: The City that Dares not Sleep,0.0,9e41c6d0c777cd0a7fb4e96da4f20d2227841725,0,0,0,0,0,0,0,0,0,0.0,21
-32370,STAR WARS™ Knights of the Old Republic™,0.0,018b6650c8de8c9c36d957cf6f8bc11d0c21d083,0,0,0,0,0,0,0,0,0,0.0,21
 31250,Sam & Max 304: Beyond the Alley of the Dolls,0.0,d4f834ac9d48cd59645f453d0cb30655dee6f629,0,0,0,0,0,0,0,0,0,0.0,21
+32400,STAR WARS™: Dark Forces,0.0,be8c3aab8f42f91a84aef316027fd545638f9e13,0,0,0,0,0,0,0,0,0,0.0,21
+32390,STAR WARS™ Jedi Knight: Mysteries of the Sith™,0.0,e5af0881e086756eb98a963c8baed05830594f91,0,0,0,0,0,0,0,0,0,0.0,21
+32380,STAR WARS™ Jedi Knight: Dark Forces II,0.0,be8c3aab8f42f91a84aef316027fd545638f9e13,0,0,0,0,0,0,0,0,0,0.0,21
+32370,STAR WARS™ Knights of the Old Republic™,0.0,018b6650c8de8c9c36d957cf6f8bc11d0c21d083,0,0,0,0,0,0,0,0,0,0.0,21
+31280,Poker Night at the Inventory (2010 Original Version),0.0,7d50bd1f5e7cfe68397e9ca0041836ad18153dfb,0,0,0,0,0,0,0,True,0,0.0,21
+220,Half-Life 2,0.0,fcfb366051782b8ebf2aa297f3b746395858cb62,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
+104900,ORION: Prelude,0.0,2e934d58e275379f19f36ddc1676aedc2ef5e862,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
+107100,Bastion,0.0,8377b4460f19465c261673f76f2656bdb3288273,0,0,0,0,0,0,0,True,0,0.0,21
 31220,Sam & Max 301: The Penal Zone,0.0,2c9c4ac6dfa50c4c479b6b436f04974a372588f7,0,0,0,0,0,0,0,0,0,0.0,21
-31230,Sam & Max 302: The Tomb of Sammun-Mak,0.0,e83fbb799f46b349586ca55fcf612350cc88ffe7,0,0,0,0,0,0,0,0,0,0.0,21
-31240,Sam & Max 303: They Stole Max's Brain!,0.0,bf1ebfe347a80e2ac31577e0569de3aa201cd17f,0,0,0,0,0,0,0,0,0,0.0,21
 8320,Bone: The Great Cow Race,0.0,dc41c95dbe719e8a8b92235558bfb973c230191f,0,0,0,0,0,0,0,0,0,0.0,21
 8330,Telltale Texas Hold'Em,0.0,4d89e4c932d44e3d5c70d54618a99f3b7f844d0f,0,0,0,0,0,0,0,0,0,0.0,21
-8310,Bone: Out from Boneville,0.0,874f73d9ea6699ebc230288ee903f1ac5a27c1a1,0,0,0,0,0,0,0,0,0,0.0,21
-20920,The Witcher 2: Assassins of Kings Enhanced Edition,0.0,62dd5c627664df1bcabc47727c7dcd7ccab353e9,0,0,0,0,0,"[1, 2, 5]",0,True,True,0.0,21
+238320,Outlast,0.0,46bd3df92d4693d3b2af113bf8f31c2cbdadb20a,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
+234710,Poker Night 2,0.0,b3073e6f089447a9cf1eeabf7579600061546322,0,0,0,0,0,0,0,True,0,0.0,21
+234140,Mad Max,0.0,71a4dd52273b749f96913a48dd6f439fb5ddc23e,0,0,0,0,0,0,0,True,0,0.0,21
+225260,Brütal Legend,0.0,e3f25fba8538e5fb1ead751e767c2774df4fb0b4,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
+218680,Scribblenauts Unlimited,0.0,e933a9993b7d0b905dbb37636a97339a2c277e0f,0,0,0,0,0,0,0,True,0,0.0,21
+214490,Alien: Isolation,0.0,7bf964858835da75630a43ac0ddbf0f66a40902f,0,0,0,0,0,[5],0,True,0,0.0,21
 8850,BioShock 2,0.0,f5eda925c0e57373aaea4cae17b6f175115a8d54,0,0,0,0,0,0,0,True,0,0.0,21
+210770,Sanctum 2,0.0,4cdfa1d19be460374a111b718ce3a204f21ea1dc,0,0,0,0,0,0,0,True,True,0.0,21
 8870,BioShock Infinite,0.0,4ebaf5f9ee74f50152f7ff361debef7553fa0e4e,0,0,0,0,0,0,0,True,0,0.0,21
 12210,Grand Theft Auto IV: The Complete Edition,0.0,a3cf6a64c73f991898a9e34681d0db8226eaa191,0,0,0,0,0,0,0,True,0,0.0,21
 12250,Grand Theft Auto: San Andreas,0.0,,0,0,0,0,0,0,0,0,0,0.0,21
-8230,Sam & Max 104: Abe Lincoln Must Die!,0.0,b0358d1d0677eff960ae7ea474b2c1659850f4a2,0,0,0,0,0,0,0,0,0,0.0,21
-8240,Sam & Max 105: Reality 2.0,0.0,71f6aa0229ef7811891da0d329efc66a1ff50a57,0,0,0,0,0,0,0,0,0,0.0,21
-8250,Sam & Max 106: Bright Side of the Moon,0.0,b990384aaed21561b980f639e4304adfe94119c8,0,0,0,0,0,0,0,0,0,0.0,21
-8260,Sam & Max 201: Ice Station Santa,0.0,883cbc08a6b43e4700beaa5b45d38cd37e67287a,0,0,0,0,0,0,0,0,0,0.0,21
-8270,Sam & Max 202: Moai Better Blues,0.0,e3cc48139012d31287b6fe7fe977a3f995cb1c3b,0,0,0,0,0,0,0,0,0,0.0,21
-8280,Sam & Max 203: Night of the Raving Dead,0.0,81d700cbfe6a6efa8d638f82c99e9f7468fa2250,0,0,0,0,0,0,0,0,0,0.0,21
-8290,Sam & Max 204: Chariots of the Dogs,0.0,a953f143763395a867c4fec7abe03ec89120c1df,0,0,0,0,0,0,0,0,0,0.0,21
-8300,Sam & Max 205: What's New Beelzebub?,0.0,ff4df5dbfcc2ca9d6fbdb5e5d37d48bce74e943d,0,0,0,0,0,0,0,0,0,0.0,21
-220,Half-Life 2,0.0,fcfb366051782b8ebf2aa297f3b746395858cb62,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
-320,Half-Life 2: Deathmatch,0.0,795e85364189511f4990861b578084deef086cb1,0,0,0,0,0,"[2, 5]",0,0,0,0.0,21
-330830,Tales from the Borderlands,0.0,620dbf286a2ef353c9c93e5b7c047027b18f1475,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
-225260,Brütal Legend,0.0,e3f25fba8538e5fb1ead751e767c2774df4fb0b4,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
-234710,Poker Night 2,0.0,b3073e6f089447a9cf1eeabf7579600061546322,0,0,0,0,0,0,0,True,0,0.0,21
-234140,Mad Max,0.0,71a4dd52273b749f96913a48dd6f439fb5ddc23e,0,0,0,0,0,0,0,True,0,0.0,21
-238320,Outlast,0.0,46bd3df92d4693d3b2af113bf8f31c2cbdadb20a,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
-250320,The Wolf Among Us,0.0,dee5f1476ddd237ed9faab86b59cb9ca9b275faa,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
+20920,The Witcher 2: Assassins of Kings Enhanced Edition,0.0,62dd5c627664df1bcabc47727c7dcd7ccab353e9,0,0,0,0,0,"[1, 2, 5]",0,True,True,0.0,21
 201830,Jurassic Park: The Game,0.0,a01c4cd4cd09c140ecfc41d360abea823b36b9b4,0,0,0,0,0,0,0,True,0,0.0,21
-107100,Bastion,0.0,8377b4460f19465c261673f76f2656bdb3288273,0,0,0,0,0,0,0,True,0,0.0,21
-104900,ORION: Prelude,0.0,2e934d58e275379f19f36ddc1676aedc2ef5e862,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
 94620,Hector: Ep 3,0.0,aa0a113e80b8cdeff47a523a87dd2fad1f43d73e,0,0,0,0,0,"[1, 2, 5]",0,0,0,0.0,21
-94600,Hector: Ep 1,0.0,aa0a113e80b8cdeff47a523a87dd2fad1f43d73e,0,0,0,0,0,"[1, 2, 5]",0,0,0,0.0,21
-94610,Hector: Ep 2,0.0,0bfad503074efc1c46755d05d36be4755945f8fe,0,0,0,0,0,"[1, 2, 5]",0,0,0,0.0,21
-210770,Sanctum 2,0.0,4cdfa1d19be460374a111b718ce3a204f21ea1dc,0,0,0,0,0,0,0,True,True,0.0,21
-214490,Alien: Isolation,0.0,7bf964858835da75630a43ac0ddbf0f66a40902f,0,0,0,0,0,[5],0,True,0,0.0,21
-94590,Puzzle Agent 2,0.0,d558eb6bddeb55f5f145822f3949ab50bc02aff9,0,0,0,0,0,0,0,True,0,0.0,21
-271590,Grand Theft Auto V Legacy,0.0,1e72f87eb927fa1485e68aefaff23c7fd7178251,0,0,0,0,0,[5],0,True,0,0.0,21
-218680,Scribblenauts Unlimited,0.0,e933a9993b7d0b905dbb37636a97339a2c277e0f,0,0,0,0,0,0,0,True,0,0.0,21
-391540,Undertale,0.0,2ce672b89b63ec1e70d2f12862e72eb4a33e9268,0,0,0,0,0,0,0,0,0,0.0,21
-409710,BioShock Remastered,0.0,eb72262cd3ccc3219dd76392be3b60a4b6cbfd38,0,0,0,0,0,0,0,True,0,0.0,21
-409720,BioShock 2 Remastered,0.0,97527a02b36f8ac4aba21005c2d953cc908a08e1,0,0,0,0,0,[5],0,True,0,0.0,21
-429570,The Walking Dead: Michonne,0.0,f75fb34d85b69cf28c5e8283a52d40aa09a33b01,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
-448510,Overcooked,0.0,0f8cb2d03134bfbc0536dcc9a476d9ba3a1e67f5,0,0,0,0,0,0,0,True,0,0.0,21
-690640,Trine 4: The Nightmare Prince,0.0,afe71b7d8dd5ceb78d971d1996266c6307ec5fd0,0,0,0,0,0,0,0,True,0,0.0,21
-617290,Remnant: From the Ashes,0.0,0fec2d481028011910bf6fc35c61d19386695128,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
-553850,HELLDIVERS™ 2,0.0,c3dff088e090f81d6e3d88eabbb67732647c69cf,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
-883710,Resident Evil 2,0.0,86ef2fdebeced746313994ccf2d7afb1f2887bf0,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
-1774580,STAR WARS Jedi: Survivor™,0.0,25578ffb2c6070c5d4e6569624efaadb8a0f5538,0,0,0,0,0,0,0,True,0,0.0,21
-1436700,Trine 5: A Clockwork Conspiracy,0.0,3ef869db216460baed5dcd9caedc3d86510db597,0,0,0,0,0,0,0,True,0,0.0,21
-1224020,Creepy Tale,0.0,d436365f006f8a247e37002d4563f6943e74c3c2,0,0,0,0,0,0,0,True,0,0.0,21
-2362420,Mass Effect 2 (2010) Edition,0.0,0ffd2038ba90c573d5ba82290e8f193f1433090e,0,0,0,0,0,"[1, 2, 5]",0,0,0,0.0,21

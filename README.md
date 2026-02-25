@@ -5,7 +5,8 @@
 * [Overview](#Overview)
 * [Dashboards](#Dashboards)
     * [Steam](#Steam)
-    * [Steam](#GoodReads)
+    * [Spotify](#Spotify)
+    * [GoodReads](#GoodReads)
 
 ## Overview
 
@@ -35,6 +36,23 @@ This data is automatically updated with **GitHub Actions** every **Monday** at *
 <div align = "center">
     <img src = "ref/GitHub_Actions.png" width = 750 title = "GitHub Action"/>
 </div>
+
+
+### Spotify
+
+I pulled my account data from the **Spotify API** using the [`spotify.py`](src/assets/data/spotify/spotify.py) **Python** script.
+After fetching, the data was processed and cleaned with **pandas**, then visualized with **vega-altair**.
+
+The initial [`Muntakim_Dashboard.json`](src/assets/data/spotify/Charts/Muntakim_Dashboard.json) and related chart assets
+were migrated to the **React** application and further adjusted for browser responsiveness.
+
+<div align = "center">
+    <img src = "src/assets/data/spotify/Charts/Muntakim_Dashboard.svg" width = 750 title = "Muntakim Spotify Dashboard">
+</div>
+
+#### Automation
+
+This data is automatically updated with **GitHub Actions** every day at **6 AM UTC**.
 
 
 ### GoodReads
