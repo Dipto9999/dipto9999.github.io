@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-02-25T06:38:44.749019+00:00",
+  "generated_at": "2026-02-25T07:54:02.035659+00:00",
   "username": "Muntakim",
   "recently_played": [
+    {
+      "id": "2XYyriLyJSuGj4FN7QoNmM",
+      "track": "Khudaya Khair",
+      "album": "Billu",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
+      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
+      "duration_ms": 280557,
+      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
+      "played_at": "2026-02-25T07:53:24.979Z"
+    },
     {
       "id": "3CVsfCGtVJGLH9UQMKmBMC",
       "track": "Meri Mehbooba",
@@ -241,16 +251,6 @@
       "duration_ms": 372293,
       "spotify_url": "https://open.spotify.com/track/0miSLow0cmXZJcOMbw9DO3",
       "played_at": "2026-02-24T04:51:55.999Z"
-    },
-    {
-      "id": "1uRTH9LeFh40tFYlq48vcy",
-      "track": "Saiyaara Reprise - Female",
-      "album": "Saiyaara",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2732fc1f0e56f80b5e7cc388b3c",
-      "artists": "Tanishk Bagchi, Faheem Abdullah, Arslan Nizami, Shreya Ghoshal, Irshad Kamil",
-      "duration_ms": 183072,
-      "spotify_url": "https://open.spotify.com/track/1uRTH9LeFh40tFYlq48vcy",
-      "played_at": "2026-02-24T04:45:42.759Z"
     }
   ],
   "top_tracks_short": [
@@ -623,13 +623,13 @@
   ],
   "total_hours": 2.1,
   "stats": {
-    "generated_at": "2026-02-25T06:38:44.749019+00:00",
+    "generated_at": "2026-02-25T07:54:02.035659+00:00",
     "total_recent_plays": 25,
     "n_songs": 10,
     "n_artists": 10,
     "top_artist_long": "Kumar Sanu",
     "top_track_long": "Maine Tumse Pyaar (From \"Barsaat\") — Alka Yagnik, Nadeem Shravan",
-    "last_played_at": "2026-02-24T23:06:29.930Z"
+    "last_played_at": "2026-02-25T07:53:24.979Z"
   },
   "saved_tracks": [
     {

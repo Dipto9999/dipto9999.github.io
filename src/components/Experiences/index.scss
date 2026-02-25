@@ -17,7 +17,7 @@
     @media (max-width: 900px) {
         .intro-card {
             flex-direction: column-reverse; // Stack Image First on Mobile
-            align-items: flex-start;
+            align-items: center; // Center Content on Mobile
         }
     }
 
