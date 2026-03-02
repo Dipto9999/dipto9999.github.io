@@ -54,7 +54,7 @@
         },
         {
           "data": {
-            "name": "data-57d1e6f0fcf5b2b4c1082adc4bd069ec"
+            "name": "data-ea608dc9479915ea0f740e6008063223"
           },
           "mark": {
             "type": "text",
@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-547c1e2a31a1bc33cf2a89167908fcaa"
+        "name": "data-40f43fa70128c8c9c28ee094fef60c87"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1457.4 Hrs",
+        "subtitle": "Total Playtime: 1468.8 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -193,102 +193,102 @@
         "Value": 21
       }
     ],
-    "data-57d1e6f0fcf5b2b4c1082adc4bd069ec": [
+    "data-ea608dc9479915ea0f740e6008063223": [
       {
         "Metric": "Played",
-        "Value": 48
+        "Value": 49
       }
     ],
-    "data-547c1e2a31a1bc33cf2a89167908fcaa": [
+    "data-40f43fa70128c8c9c28ee094fef60c87": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 58.0
+        "playtime_percentage": 57.55
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 96.58,
         "appid": 208650,
-        "playtime_percentage": 6.63
+        "playtime_percentage": 6.58
       },
       {
         "name": "LOTR Online",
         "playtime_forever": 91.02,
         "appid": 212500,
-        "playtime_percentage": 6.25
+        "playtime_percentage": 6.2
       },
       {
         "name": "Telltale: Batman",
         "playtime_forever": 66.22,
         "appid": 498240,
-        "playtime_percentage": 4.54
+        "playtime_percentage": 4.51
       },
       {
         "name": "Stardew Valley",
         "playtime_forever": 49.5,
         "appid": 413150,
-        "playtime_percentage": 3.4
+        "playtime_percentage": 3.37
       },
       {
         "name": "Telltale: Game of Thrones",
         "playtime_forever": 47.68,
         "appid": 330840,
-        "playtime_percentage": 3.27
+        "playtime_percentage": 3.25
       },
       {
         "name": "Telltale: The Walking Dead",
         "playtime_forever": 40.52,
         "appid": 207610,
-        "playtime_percentage": 2.78
+        "playtime_percentage": 2.76
       },
       {
         "name": "Shadow of Mordor",
         "playtime_forever": 37.05,
         "appid": 241930,
-        "playtime_percentage": 2.54
+        "playtime_percentage": 2.52
       },
       {
         "name": "Telltale: Batman The Enemy Within",
         "playtime_forever": 35.93,
         "appid": 675260,
-        "playtime_percentage": 2.47
+        "playtime_percentage": 2.45
+      },
+      {
+        "name": "Cyberpunk 2077",
+        "playtime_forever": 35.42,
+        "appid": 1091500,
+        "playtime_percentage": 2.41
       },
       {
         "name": "Batman: Arkham Origins",
         "playtime_forever": 32.75,
         "appid": 209000,
-        "playtime_percentage": 2.25
+        "playtime_percentage": 2.23
       },
       {
         "name": "Shadow of the Tomb Raider",
         "playtime_forever": 28.8,
         "appid": 750920,
-        "playtime_percentage": 1.98
-      },
-      {
-        "name": "Cyberpunk 2077",
-        "playtime_forever": 23.98,
-        "appid": 1091500,
-        "playtime_percentage": 1.65
+        "playtime_percentage": 1.96
       },
       {
         "name": "Batman: Arkham City",
         "playtime_forever": 21.1,
         "appid": 200260,
-        "playtime_percentage": 1.45
+        "playtime_percentage": 1.44
       },
       {
         "name": "DOOM",
         "playtime_forever": 20.92,
         "appid": 379720,
-        "playtime_percentage": 1.44
+        "playtime_percentage": 1.42
       },
       {
         "name": "Trine 2",
         "playtime_forever": 20.08,
         "appid": 35720,
-        "playtime_percentage": 1.38
+        "playtime_percentage": 1.37
       }
     ]
   }
