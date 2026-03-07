@@ -1,321 +1,126 @@
 {
-  "generated_at": "2026-02-25T07:54:02.035659+00:00",
+  "generated_time": "2026-03-07T05:02:48.833899+00:00",
   "username": "Muntakim",
   "recently_played": [
     {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-25T07:53:24.979Z"
+      "id": "6TFpAEOudk45ucg1HFxDdP",
+      "track": "Besabri",
+      "album": "Besabri",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2738e0bbb19f82bb9d84c368db5",
+      "artists": "Anwesshaa & Abhay Jodhpurkar",
+      "duration_ms": 222000,
+      "spotify_url": "https://open.spotify.com/track/6TFpAEOudk45ucg1HFxDdP",
+      "played_at": "2026-03-07T04:18:21.464Z"
     },
     {
-      "id": "3CVsfCGtVJGLH9UQMKmBMC",
-      "track": "Meri Mehbooba",
-      "album": "Pardes (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273a9df849755dad656e002852e",
-      "artists": "Kumar Sanu, Alka Yagnik",
-      "duration_ms": 415906,
-      "spotify_url": "https://open.spotify.com/track/3CVsfCGtVJGLH9UQMKmBMC",
-      "played_at": "2026-02-24T23:06:29.930Z"
+      "id": "0BTq3SmPRKdTrJXHAtq2S5",
+      "track": "No Entry: Ishq Di Galli Vich",
+      "album": "No Entry (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273fe8d8f6bd4de23b08042d350",
+      "artists": "Sonu Nigam, Alisha Chinai",
+      "duration_ms": 368840,
+      "spotify_url": "https://open.spotify.com/track/0BTq3SmPRKdTrJXHAtq2S5",
+      "played_at": "2026-03-07T04:14:38.825Z"
     },
     {
-      "id": "3Kl8p2PxVf8eAayLwTxOIm",
-      "track": "Dil Ibaadat",
-      "album": "Tum Mile (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273bcb8ec035de7b2dda0f74660",
+      "id": "4vgCpNUUcpEIBifidhQOnR",
+      "track": "Haan Tu Hain",
+      "album": "Jannat (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273727d531901c07a499498c544",
       "artists": "Pritam, KK, Sayeed Quadri",
-      "duration_ms": 329386,
-      "spotify_url": "https://open.spotify.com/track/3Kl8p2PxVf8eAayLwTxOIm",
-      "played_at": "2026-02-24T22:59:32.771Z"
+      "duration_ms": 324880,
+      "spotify_url": "https://open.spotify.com/track/4vgCpNUUcpEIBifidhQOnR",
+      "played_at": "2026-03-07T04:08:22.414Z"
     },
     {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T22:54:02.568Z"
+      "id": "1evMGNQ6lFIqzi0IVPsl3p",
+      "track": "Ishq Hai Zindagi",
+      "album": "Ishq Hai Tumse (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273f41f7910ba4b68194c59271a",
+      "artists": "Himesh Reshammiya, Udit Narayan, Alka Yagnik, Vinod Rathod",
+      "duration_ms": 419373,
+      "spotify_url": "https://open.spotify.com/track/1evMGNQ6lFIqzi0IVPsl3p",
+      "played_at": "2026-03-07T04:02:04.483Z"
     },
     {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T22:49:11.332Z"
+      "id": "7sSYkaAXRgnzoQYrGgrvlX",
+      "track": "Yeh Hum Aa Gaye Hain Kahaan",
+      "album": "Veer - Zaara",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
+      "artists": "Madan Mohan, Lata Mangeshkar, Udit Narayan, Javed Akhtar",
+      "duration_ms": 343066,
+      "spotify_url": "https://open.spotify.com/track/7sSYkaAXRgnzoQYrGgrvlX",
+      "played_at": "2026-03-07T03:53:57.880Z"
     },
     {
-      "id": "4YwGnKgtq7V0EI1hYNOirm",
-      "track": "O Bekhabar",
-      "album": "Action Replayy",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d278ff3936ad81ae44503b98",
-      "artists": "Pritam, Shreya Ghoshal",
-      "duration_ms": 267251,
-      "spotify_url": "https://open.spotify.com/track/4YwGnKgtq7V0EI1hYNOirm",
-      "played_at": "2026-02-24T22:48:54.181Z"
+      "id": "6RqqhR63dMY58th6g1KL3Z",
+      "track": "Tumhein Dekhen Meri Aankhen",
+      "album": "Rang (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273bd2293acbdb847bc57e5ebe9",
+      "artists": "Alka Yagnik, P Sunanda, Kumar Sanu",
+      "duration_ms": 410013,
+      "spotify_url": "https://open.spotify.com/track/6RqqhR63dMY58th6g1KL3Z",
+      "played_at": "2026-03-07T03:48:14.944Z"
     },
     {
-      "id": "4MXbapIy7rkrO3XqeSchts",
-      "track": "Hum Tumko Nigahon Mein",
-      "album": "Garv- Pride &amp; Honour",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e743391e0d47a799e2f58869",
-      "artists": "Udit Narayan, Shreya Ghoshal",
-      "duration_ms": 362373,
-      "spotify_url": "https://open.spotify.com/track/4MXbapIy7rkrO3XqeSchts",
-      "played_at": "2026-02-24T06:16:58.046Z"
-    },
-    {
-      "id": "5iE056ZoYobQuzKRDHQwTt",
-      "track": "Hai Dil Ye Mera (From \"Hate Story 2\")",
-      "album": "Arijit Singh Broken Strings",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273c486f7fc6299f158d632e613",
-      "artists": "Arijit Singh",
-      "duration_ms": 297712,
-      "spotify_url": "https://open.spotify.com/track/5iE056ZoYobQuzKRDHQwTt",
-      "played_at": "2026-02-24T06:10:54.912Z"
-    },
-    {
-      "id": "42OnkdXwkKo5NzkdOmvE75",
-      "track": "Main Agar Saamne",
-      "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
-      "artists": "Abhijeet, Alka Yagnik",
-      "duration_ms": 346000,
-      "spotify_url": "https://open.spotify.com/track/42OnkdXwkKo5NzkdOmvE75",
-      "played_at": "2026-02-24T06:01:00.169Z"
-    },
-    {
-      "id": "5gtzcVyUAp8LzzfRdxUJFx",
-      "track": "Aisi Deewangi (From \"Deewana\")",
-      "album": "Best of Bollywood Singers - Shaan & Vinod Rathod",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d0024672330772090b9856e4",
-      "artists": "Vinod Rathod, Alka Yagnik",
-      "duration_ms": 415476,
-      "spotify_url": "https://open.spotify.com/track/5gtzcVyUAp8LzzfRdxUJFx",
-      "played_at": "2026-02-24T05:55:13.733Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:48:11.821Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:39:06.887Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:38:51.399Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:38:31.792Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:38:29.801Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:35:46.596Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:31:00.953Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:26:19.820Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:21:39.957Z"
-    },
-    {
-      "id": "2XYyriLyJSuGj4FN7QoNmM",
-      "track": "Khudaya Khair",
-      "album": "Billu",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273e2337cce8459c3539f16987a",
-      "artists": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-      "duration_ms": 280557,
-      "spotify_url": "https://open.spotify.com/track/2XYyriLyJSuGj4FN7QoNmM",
-      "played_at": "2026-02-24T05:16:53.617Z"
-    },
-    {
-      "id": "56zZ48jdyY2oDXHVnwg5Di",
-      "track": "Tum Hi Ho",
-      "album": "Aashiqui 2",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2736404721c1943d5069f0805f3",
-      "artists": "Arijit Singh, Mithoon",
-      "duration_ms": 261974,
-      "spotify_url": "https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di",
-      "played_at": "2026-02-24T05:12:04.131Z"
-    },
-    {
-      "id": "25UzkhkcAbvyG8gCMZrzuO",
-      "track": "Dil Ke Badle Sanam",
-      "album": "Kyon Ki - It's Fate",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2737a2b2cbaa17b9e930f02e52b",
+      "id": "5M1MM8UEHPo3wXVYhLatPK",
+      "track": "Tadpati Hai, Tarsati Hai",
+      "album": "Tera Mera Saath Rahen (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273ce697f4811b11a1b591161d6",
       "artists": "Udit Narayan, Alka Yagnik",
-      "duration_ms": 257360,
-      "spotify_url": "https://open.spotify.com/track/25UzkhkcAbvyG8gCMZrzuO",
-      "played_at": "2026-02-24T05:07:41.347Z"
+      "duration_ms": 306000,
+      "spotify_url": "https://open.spotify.com/track/5M1MM8UEHPo3wXVYhLatPK",
+      "played_at": "2026-03-07T03:41:23.472Z"
     },
     {
-      "id": "3qTlcDR5n5NCExaJMun20V",
-      "track": "Ghoonghat Ki Aadh Se",
-      "album": "Hum Hain Rahi Pyar Ke (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2735a5d99f08ec514c24dc3ac01",
+      "id": "6gS93FIGBFQ8KnGhTART4S",
+      "track": "Is Pyar Se Meri Taraf Na Dekho - Duet Version",
+      "album": "Chamatkar (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2734659141462fecd4e373f8ca4",
       "artists": "Kumar Sanu, Alka Yagnik",
-      "duration_ms": 376560,
-      "spotify_url": "https://open.spotify.com/track/3qTlcDR5n5NCExaJMun20V",
-      "played_at": "2026-02-24T05:03:23.465Z"
+      "duration_ms": 323840,
+      "spotify_url": "https://open.spotify.com/track/6gS93FIGBFQ8KnGhTART4S",
+      "played_at": "2026-03-07T03:36:17.600Z"
     },
     {
-      "id": "1GFVnE2TsLbyporXxFEn1I",
-      "track": "Chori Chori Sapnon Mein (From \"Chal Mere Bhai\")",
-      "album": "Romantic Hits Of Abhijeet Bhattacharya",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27374710d1a165eaed17fc4b506",
-      "artists": "Abhijeet, Alka Yagnik",
-      "duration_ms": 300675,
-      "spotify_url": "https://open.spotify.com/track/1GFVnE2TsLbyporXxFEn1I",
-      "played_at": "2026-02-24T04:57:06.256Z"
+      "id": "3sDg1KeX7i3VEJvQiQP6l6",
+      "track": "Main Haar Giyan (Female Version)",
+      "album": "Kabhi Main Kabhi Tum (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2730217dbd38af8e9a677ee0599",
+      "artists": "Naseebo Lal",
+      "duration_ms": 240792,
+      "spotify_url": "https://open.spotify.com/track/3sDg1KeX7i3VEJvQiQP6l6",
+      "played_at": "2026-03-07T03:30:52.760Z"
     },
     {
-      "id": "0miSLow0cmXZJcOMbw9DO3",
-      "track": "Dil Hai Ki Manta Nahin (From \"Dil Hai Ke Manta Nahin\")",
-      "album": "Ultimate Romantic Duet - Kumar Sanu & Anuradha Paudwal",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27316af621290a2ff0418f60066",
+      "id": "5MN2XZvOxpbduVcOAMHmFI",
+      "track": "Mohabbat Ho Gayee (From \"Baadshah\")",
+      "album": "Sensational Duets (Abhijeet & Alka Yagnik)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273e502f2e2b6e5560e2f67208c",
+      "artists": "Abhijeet",
+      "duration_ms": 359223,
+      "spotify_url": "https://open.spotify.com/track/5MN2XZvOxpbduVcOAMHmFI",
+      "played_at": "2026-03-07T03:26:51.694Z"
+    },
+    {
+      "id": "3MJWKUehhPaqiCzUCNLTre",
+      "track": "Zara Aankhon Mein Kaajal",
+      "album": "Hum Aapke Dil Mein Rahte Hain",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273979464b020439c116f3a9451",
       "artists": "Anuradha Paudwal, Kumar Sanu",
-      "duration_ms": 372293,
-      "spotify_url": "https://open.spotify.com/track/0miSLow0cmXZJcOMbw9DO3",
-      "played_at": "2026-02-24T04:51:55.999Z"
-    }
-  ],
-  "top_tracks_short": [
-    {
-      "id": "50Y5r1HqboahNCmLfEAeda",
-      "track": "Onek Shadhona Pore",
-      "album": "Onek Shadhona Pore",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d1466268b7dcccb33148393e",
-      "artists": "Imran Mahmudul, Nancy",
-      "duration_ms": 270000,
-      "spotify_url": "https://open.spotify.com/track/50Y5r1HqboahNCmLfEAeda"
+      "duration_ms": 371426,
+      "spotify_url": "https://open.spotify.com/track/3MJWKUehhPaqiCzUCNLTre",
+      "played_at": "2026-03-07T03:20:52.543Z"
     },
     {
-      "id": "04mONf1PfPkTAg74YD7j0p",
-      "track": "Tu Nikla Chhupa Rustam",
-      "album": "Chhupa Rustam (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273a612777316f35fdde6d4d5e7",
-      "artists": "Alka Yagnik",
-      "duration_ms": 306102,
-      "spotify_url": "https://open.spotify.com/track/04mONf1PfPkTAg74YD7j0p"
-    },
-    {
-      "id": "7rlUYt3JTteF5OqEnx1UYf",
-      "track": "Aapke Pyaar Mein Hum",
-      "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
-      "artists": "Alka Yagnik",
-      "duration_ms": 328000,
-      "spotify_url": "https://open.spotify.com/track/7rlUYt3JTteF5OqEnx1UYf"
-    },
-    {
-      "id": "0btSn1i81ONWKeMxUhWSij",
-      "track": "Love Me Love Me",
-      "album": "Wanted",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2739e1e22b81c6cced756ea3f9c",
-      "artists": "Wajid, Amrita Kak, Sajid-Wajid, Jalees Sherwani",
-      "duration_ms": 244412,
-      "spotify_url": "https://open.spotify.com/track/0btSn1i81ONWKeMxUhWSij"
-    },
-    {
-      "id": "60nIb2CJJkJDq5UouyTqJ9",
-      "track": "Jonom Jonom",
-      "album": "Porshi 3",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273ddc3644ea76c9e852b20f666",
-      "artists": "Porshi, Imran Mahmudul",
-      "duration_ms": 329258,
-      "spotify_url": "https://open.spotify.com/track/60nIb2CJJkJDq5UouyTqJ9"
-    },
-    {
-      "id": "6NfXjIsNGXaRaDzdbdxY4m",
-      "track": "Jo Bhi Kasmein",
-      "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
-      "artists": "Alka Yagnik, Udit Narayan",
-      "duration_ms": 339840,
-      "spotify_url": "https://open.spotify.com/track/6NfXjIsNGXaRaDzdbdxY4m"
-    },
-    {
-      "id": "2UIiEabMB6xianI3mHPHmx",
-      "track": "Onek Shadhonar Pore",
-      "album": "Bhalobasi Tomake (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27319611e2f43c425992754ecbb",
-      "artists": "Khaled Hasan Milu, Kanak Chapa",
-      "duration_ms": 307803,
-      "spotify_url": "https://open.spotify.com/track/2UIiEabMB6xianI3mHPHmx"
+      "id": "4iVD0Dnk2iqaAm0hpSasMW",
+      "track": "Kahin Pyaar Na Ho Jaye - From \"Kahin Pyaar Na Ho Jaaye\"",
+      "album": "Legendary Hits of Kumar Sanu & Alka Yagnik",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273fdc712431d79bcacf01d6131",
+      "artists": "Kumar Sanu, Alka Yagnik",
+      "duration_ms": 318546,
+      "spotify_url": "https://open.spotify.com/track/4iVD0Dnk2iqaAm0hpSasMW",
+      "played_at": "2026-03-07T03:14:40.768Z"
     },
     {
       "id": "6Kb2jbGMqs3zL7cgv9dket",
@@ -324,28 +129,131 @@
       "album_image": "https://i.scdn.co/image/ab67616d0000b273a987bb655cb167d9edb31ec6",
       "artists": "Kumar Sanu",
       "duration_ms": 443000,
-      "spotify_url": "https://open.spotify.com/track/6Kb2jbGMqs3zL7cgv9dket"
+      "spotify_url": "https://open.spotify.com/track/6Kb2jbGMqs3zL7cgv9dket",
+      "played_at": "2026-03-07T03:09:10.549Z"
     },
     {
-      "id": "1fAcwdvJs9WqzimQR6wOJ7",
-      "track": "Chalte Chalte",
-      "album": "Chalte Chalte",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b2735a781cddf53875af527d2cc7",
-      "artists": "Abhijeet, Alka Yagnik",
-      "duration_ms": 327400,
-      "spotify_url": "https://open.spotify.com/track/1fAcwdvJs9WqzimQR6wOJ7"
+      "id": "4ZVfIGaZP93t0stmBj4FqA",
+      "track": "Teri Yaadon Mein",
+      "album": "The Killer",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2731b79f578c973abf93d5d4dbc",
+      "artists": "KK, Shreya Ghoshal",
+      "duration_ms": 287213,
+      "spotify_url": "https://open.spotify.com/track/4ZVfIGaZP93t0stmBj4FqA",
+      "played_at": "2026-03-07T03:01:22.013Z"
     },
     {
-      "id": "2MO7hjVgkQiqqJbfg871as",
-      "track": "Main Hoon Na (From \"Main Hoon Na\")",
-      "album": "Bollywood Best Duet Songs Sonu Nigam,Shreya Ghoshal",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273b6f6540124ca74490e654f80",
-      "artists": "Sonu Nigam, Shreya Ghoshal",
-      "duration_ms": 361066,
-      "spotify_url": "https://open.spotify.com/track/2MO7hjVgkQiqqJbfg871as"
+      "id": "7CDP4uXu6mkBDzaTOx9yTS",
+      "track": "Aadat Se Majboor",
+      "album": "Ladies vs Ricky Bahl",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273ab14def19a5dc364cb191342",
+      "artists": "Salim–Sulaiman, Benny Dayal, Ranveer Singh, Amitabh Bhattacharya",
+      "duration_ms": 277760,
+      "spotify_url": "https://open.spotify.com/track/7CDP4uXu6mkBDzaTOx9yTS",
+      "played_at": "2026-03-07T02:56:34.422Z"
+    },
+    {
+      "id": "2cNeEQhITgmjkk5SHd5IXY",
+      "track": "Kyon Hawa",
+      "album": "Veer - Zaara",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
+      "artists": "Madan Mohan, Yash Chopra, Lata Mangeshkar, Sonu Nigam, Javed Akhtar",
+      "duration_ms": 371957,
+      "spotify_url": "https://open.spotify.com/track/2cNeEQhITgmjkk5SHd5IXY",
+      "played_at": "2026-03-07T02:51:45.852Z"
+    },
+    {
+      "id": "2cNeEQhITgmjkk5SHd5IXY",
+      "track": "Kyon Hawa",
+      "album": "Veer - Zaara",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
+      "artists": "Madan Mohan, Yash Chopra, Lata Mangeshkar, Sonu Nigam, Javed Akhtar",
+      "duration_ms": 371957,
+      "spotify_url": "https://open.spotify.com/track/2cNeEQhITgmjkk5SHd5IXY",
+      "played_at": "2026-03-06T22:13:32.848Z"
+    },
+    {
+      "id": "2cNeEQhITgmjkk5SHd5IXY",
+      "track": "Kyon Hawa",
+      "album": "Veer - Zaara",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
+      "artists": "Madan Mohan, Yash Chopra, Lata Mangeshkar, Sonu Nigam, Javed Akhtar",
+      "duration_ms": 371957,
+      "spotify_url": "https://open.spotify.com/track/2cNeEQhITgmjkk5SHd5IXY",
+      "played_at": "2026-03-06T22:07:08.358Z"
+    },
+    {
+      "id": "2cNeEQhITgmjkk5SHd5IXY",
+      "track": "Kyon Hawa",
+      "album": "Veer - Zaara",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
+      "artists": "Madan Mohan, Yash Chopra, Lata Mangeshkar, Sonu Nigam, Javed Akhtar",
+      "duration_ms": 371957,
+      "spotify_url": "https://open.spotify.com/track/2cNeEQhITgmjkk5SHd5IXY",
+      "played_at": "2026-03-06T22:01:06.178Z"
+    },
+    {
+      "id": "1VvGJIAjhGdB7InVP9NA7V",
+      "track": "Haareya",
+      "album": "Meri Pyaari Bindu",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273d2f3f606e8d06c7a6a340a48",
+      "artists": "Sachin-Jigar, Arijit Singh, Priya Saraiya",
+      "duration_ms": 214735,
+      "spotify_url": "https://open.spotify.com/track/1VvGJIAjhGdB7InVP9NA7V",
+      "played_at": "2026-03-06T05:53:05.795Z"
+    },
+    {
+      "id": "1x7T34ntvHETqgVeYVK2Jm",
+      "track": "Chori Chori",
+      "album": "Lucky: No Time For Love",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273455859f3fee39ff82591b361",
+      "artists": "Alka Yagnik, Sonu Nigam",
+      "duration_ms": 324880,
+      "spotify_url": "https://open.spotify.com/track/1x7T34ntvHETqgVeYVK2Jm",
+      "played_at": "2026-03-06T05:49:30.733Z"
+    },
+    {
+      "id": "5MNyk1SflYP2lVyjr52yEU",
+      "track": "Rabba O Rabba",
+      "album": "Akhiyon Se Goli Maare",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273db586f8b138b701075e42351",
+      "artists": "Udit Narayan, Alka Yagnik",
+      "duration_ms": 309589,
+      "spotify_url": "https://open.spotify.com/track/5MNyk1SflYP2lVyjr52yEU",
+      "played_at": "2026-03-06T05:43:47.442Z"
+    },
+    {
+      "id": "5CoiDSO02aRNqDalWB0SIc",
+      "track": "Yahan Ke Hum Sikandar",
+      "album": "Jo Jeeta Wohi Sikandar (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b2733b1a73787cb4c73ddc92b302",
+      "artists": "Udit Narayan, Sadhana Sargam, Jatin-Lalit",
+      "duration_ms": 328400,
+      "spotify_url": "https://open.spotify.com/track/5CoiDSO02aRNqDalWB0SIc",
+      "played_at": "2026-03-06T05:38:37.184Z"
+    },
+    {
+      "id": "6zlk1lBmFwP4h1v4XEaqWz",
+      "track": "Kichu Kichu Kotha Mukhe",
+      "album": "Bhalobasar Choan (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273ddbb693de2686cd7b0c02238",
+      "artists": "Kumar Sanu, Anuradha Paudwal",
+      "duration_ms": 294680,
+      "spotify_url": "https://open.spotify.com/track/6zlk1lBmFwP4h1v4XEaqWz",
+      "played_at": "2026-03-06T05:33:08.032Z"
+    },
+    {
+      "id": "6WvdfYCOHdM5p72uYRh1ir",
+      "track": "Tere Ishq Mein Naachenge",
+      "album": "Raja Hindustani (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273261cc572f6df52bfd2ad5743",
+      "artists": "Kumar Sanu, Alisha Chinai, Sapna Mukherjee",
+      "duration_ms": 494360,
+      "spotify_url": "https://open.spotify.com/track/6WvdfYCOHdM5p72uYRh1ir",
+      "played_at": "2026-03-06T05:28:13.046Z"
     }
   ],
-  "top_tracks_long": [
+  "top_tracks": [
     {
       "id": "4bLt9VOat8nNztKBhR605X",
       "track": "Maine Tumse Pyaar (From \"Barsaat\")",
@@ -356,15 +264,6 @@
       "spotify_url": "https://open.spotify.com/track/4bLt9VOat8nNztKBhR605X"
     },
     {
-      "id": "5M1MM8UEHPo3wXVYhLatPK",
-      "track": "Tadpati Hai, Tarsati Hai",
-      "album": "Tera Mera Saath Rahen (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273ce697f4811b11a1b591161d6",
-      "artists": "Udit Narayan, Alka Yagnik",
-      "duration_ms": 306000,
-      "spotify_url": "https://open.spotify.com/track/5M1MM8UEHPo3wXVYhLatPK"
-    },
-    {
       "id": "6byRW2mzuc4nBTZ6TN6APu",
       "track": "Pasoori Nu (From \"Satyaprem Ki Katha\")",
       "album": "Pasoori Nu (From \"Satyaprem Ki Katha\")",
@@ -372,6 +271,15 @@
       "artists": "Arijit Singh, Rochak Kohli, Tulsi Kumar",
       "duration_ms": 197171,
       "spotify_url": "https://open.spotify.com/track/6byRW2mzuc4nBTZ6TN6APu"
+    },
+    {
+      "id": "5M1MM8UEHPo3wXVYhLatPK",
+      "track": "Tadpati Hai, Tarsati Hai",
+      "album": "Tera Mera Saath Rahen (Original Motion Picture Soundtrack)",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b273ce697f4811b11a1b591161d6",
+      "artists": "Udit Narayan, Alka Yagnik",
+      "duration_ms": 306000,
+      "spotify_url": "https://open.spotify.com/track/5M1MM8UEHPo3wXVYhLatPK"
     },
     {
       "id": "5LwlAJEkUeJEDBbN14RV6o",
@@ -392,10 +300,19 @@
       "spotify_url": "https://open.spotify.com/track/5XhurUCCVimKqszDzNXxoh"
     },
     {
+      "id": "0Bz7dfqPY4JOGZO3O1j8Wh",
+      "track": "Bulleya",
+      "album": "Ae Dil Hai Mushkil (Original Motion Picture Soundtrack) [Deluxe Edition]",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27358397d59e15b5149adf86033",
+      "artists": "Pritam, Amit Mishra, Shilpa Rao",
+      "duration_ms": 348965,
+      "spotify_url": "https://open.spotify.com/track/0Bz7dfqPY4JOGZO3O1j8Wh"
+    },
+    {
       "id": "6NfXjIsNGXaRaDzdbdxY4m",
       "track": "Jo Bhi Kasmein",
       "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27337ac245a831acd2f2981e580",
       "artists": "Alka Yagnik, Udit Narayan",
       "duration_ms": 339840,
       "spotify_url": "https://open.spotify.com/track/6NfXjIsNGXaRaDzdbdxY4m"
@@ -419,15 +336,6 @@
       "spotify_url": "https://open.spotify.com/track/7Fq769JN9wwaVHUgVdkxNg"
     },
     {
-      "id": "0Bz7dfqPY4JOGZO3O1j8Wh",
-      "track": "Bulleya",
-      "album": "Ae Dil Hai Mushkil (Original Motion Picture Soundtrack) [Deluxe Edition]",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b27358397d59e15b5149adf86033",
-      "artists": "Pritam, Amit Mishra, Shilpa Rao",
-      "duration_ms": 348965,
-      "spotify_url": "https://open.spotify.com/track/0Bz7dfqPY4JOGZO3O1j8Wh"
-    },
-    {
       "id": "1ax8ZuwRVkSdzzsIqyCNWQ",
       "track": "Tumse Milke Dil Ka",
       "album": "Main Hoon Na",
@@ -437,99 +345,7 @@
       "spotify_url": "https://open.spotify.com/track/1ax8ZuwRVkSdzzsIqyCNWQ"
     }
   ],
-  "top_artists_short": [
-    {
-      "id": "4K6blSRoklNdpw4mzLxwfn",
-      "name": "Kumar Sanu",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5ebc7d2a4212ee745b2c72298e0",
-      "spotify_url": "https://open.spotify.com/artist/4K6blSRoklNdpw4mzLxwfn"
-    },
-    {
-      "id": "3gBKY0y3dFFVRqicLnVZYz",
-      "name": "Alka Yagnik",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb935b2dd507212bd72a71d7f9",
-      "spotify_url": "https://open.spotify.com/artist/3gBKY0y3dFFVRqicLnVZYz"
-    },
-    {
-      "id": "70B80Lwx2sxti0M1Ng9e8K",
-      "name": "Udit Narayan",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8de0e6e7e55d7773931ab7f4",
-      "spotify_url": "https://open.spotify.com/artist/70B80Lwx2sxti0M1Ng9e8K"
-    },
-    {
-      "id": "1dVygo6tRFXC8CSWURQJq2",
-      "name": "Sonu Nigam",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5ebbc959d7569618ec2af2210f5",
-      "spotify_url": "https://open.spotify.com/artist/1dVygo6tRFXC8CSWURQJq2"
-    },
-    {
-      "id": "1wRPtKGflJrBx9BmLsSwlU",
-      "name": "Pritam",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca",
-      "spotify_url": "https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"
-    },
-    {
-      "id": "2ZRrPOjBIWoKK5rHedLijj",
-      "name": "Abhijeet",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb20508d4335cdc0a3ec65a3aa",
-      "spotify_url": "https://open.spotify.com/artist/2ZRrPOjBIWoKK5rHedLijj"
-    },
-    {
-      "id": "4YgUVg4p7xtMOrOS4GjiJZ",
-      "name": "Jatin-Lalit",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb1dc3081fe7fea3d0e55f3d85",
-      "spotify_url": "https://open.spotify.com/artist/4YgUVg4p7xtMOrOS4GjiJZ"
-    },
-    {
-      "id": "4YRxDV8wJFPHPTeXepOstw",
-      "name": "Arijit Singh",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7",
-      "spotify_url": "https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw"
-    },
-    {
-      "id": "5as8A4G47Ohu9NSWs3Je8U",
-      "name": "Asha Bhosle",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb7c6855a92b408b6f82f3e6d1",
-      "spotify_url": "https://open.spotify.com/artist/5as8A4G47Ohu9NSWs3Je8U"
-    },
-    {
-      "id": "0GF4shudTAFv8ak9eWdd4Y",
-      "name": "Kishore Kumar",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5ebc9ac92d87de28795c1c49730",
-      "spotify_url": "https://open.spotify.com/artist/0GF4shudTAFv8ak9eWdd4Y"
-    }
-  ],
-  "top_artists_long": [
+  "top_artists": [
     {
       "id": "4K6blSRoklNdpw4mzLxwfn",
       "name": "Kumar Sanu",
@@ -603,15 +419,6 @@
       "spotify_url": "https://open.spotify.com/artist/61JrslREXq98hurYL2hYoc"
     },
     {
-      "id": "2ZRrPOjBIWoKK5rHedLijj",
-      "name": "Abhijeet",
-      "genres": "",
-      "popularity": 0,
-      "followers": 0,
-      "image": "https://i.scdn.co/image/ab6761610000e5eb20508d4335cdc0a3ec65a3aa",
-      "spotify_url": "https://open.spotify.com/artist/2ZRrPOjBIWoKK5rHedLijj"
-    },
-    {
       "id": "4YgUVg4p7xtMOrOS4GjiJZ",
       "name": "Jatin-Lalit",
       "genres": "",
@@ -619,17 +426,25 @@
       "followers": 0,
       "image": "https://i.scdn.co/image/ab6761610000e5eb1dc3081fe7fea3d0e55f3d85",
       "spotify_url": "https://open.spotify.com/artist/4YgUVg4p7xtMOrOS4GjiJZ"
+    },
+    {
+      "id": "2ZRrPOjBIWoKK5rHedLijj",
+      "name": "Abhijeet",
+      "genres": "",
+      "popularity": 0,
+      "followers": 0,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb20508d4335cdc0a3ec65a3aa",
+      "spotify_url": "https://open.spotify.com/artist/2ZRrPOjBIWoKK5rHedLijj"
     }
   ],
-  "total_hours": 2.1,
   "stats": {
-    "generated_at": "2026-02-25T07:54:02.035659+00:00",
+    "generated_time": "2026-03-07T05:02:48.833899+00:00",
     "total_recent_plays": 25,
     "n_songs": 10,
     "n_artists": 10,
-    "top_artist_long": "Kumar Sanu",
-    "top_track_long": "Maine Tumse Pyaar (From \"Barsaat\") — Alka Yagnik, Nadeem Shravan",
-    "last_played_at": "2026-02-25T07:53:24.979Z"
+    "top_artist": "Kumar Sanu",
+    "top_track": "Maine Tumse Pyaar (From \"Barsaat\") — Alka Yagnik, Nadeem Shravan",
+    "last_played": "2026-03-07T04:18:21.464Z"
   },
   "saved_tracks": [
     {
@@ -1086,7 +901,7 @@
       "id": "2NxH2xxK8nXQ313usuRRT1",
       "track": "Pyaar Se Pyar Hum",
       "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27337ac245a831acd2f2981e580",
       "artists": "Abhijeet",
       "duration_ms": 330000,
       "spotify_url": "https://open.spotify.com/track/2NxH2xxK8nXQ313usuRRT1",
@@ -3747,7 +3562,7 @@
       "track": "Ilahi",
       "album": "Yeh Jawaani Hai Deewani",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273707ea5b8023ac77d31756ed4",
-      "artists": "Pritam, Arijit Singh",
+      "artists": "Pritam, Arijit Singh, Amitabh Bhattacharya",
       "duration_ms": 228982,
       "spotify_url": "https://open.spotify.com/track/5cgKosPPj5Cs9a2JQufUc1",
       "added_at": "2023-10-12T15:01:35Z"
@@ -8256,7 +8071,7 @@
       "id": "6NfXjIsNGXaRaDzdbdxY4m",
       "track": "Jo Bhi Kasmein",
       "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27337ac245a831acd2f2981e580",
       "artists": "Alka Yagnik, Udit Narayan",
       "duration_ms": 339840,
       "spotify_url": "https://open.spotify.com/track/6NfXjIsNGXaRaDzdbdxY4m",
@@ -9046,7 +8861,7 @@
       "id": "42OnkdXwkKo5NzkdOmvE75",
       "track": "Main Agar Saamne",
       "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27337ac245a831acd2f2981e580",
       "artists": "Abhijeet, Alka Yagnik",
       "duration_ms": 346000,
       "spotify_url": "https://open.spotify.com/track/42OnkdXwkKo5NzkdOmvE75",
@@ -9176,7 +8991,7 @@
       "id": "02nbJMpnovYSXre1J1SfRm",
       "track": "Itna Main Chaahoon - Duet Version",
       "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27337ac245a831acd2f2981e580",
       "artists": "Alka Yagnik, Udit Narayan",
       "duration_ms": 321000,
       "spotify_url": "https://open.spotify.com/track/02nbJMpnovYSXre1J1SfRm",
@@ -10526,7 +10341,7 @@
       "id": "7rlUYt3JTteF5OqEnx1UYf",
       "track": "Aapke Pyaar Mein Hum",
       "album": "Raaz (Original Motion Picture Soundtrack)",
-      "album_image": "https://i.scdn.co/image/ab67616d0000b273d30096abb1be88b190f6f518",
+      "album_image": "https://i.scdn.co/image/ab67616d0000b27337ac245a831acd2f2981e580",
       "artists": "Alka Yagnik",
       "duration_ms": 328000,
       "spotify_url": "https://open.spotify.com/track/7rlUYt3JTteF5OqEnx1UYf",
@@ -17777,7 +17592,7 @@
       "track": "Dilliwaali Girlfriend",
       "album": "Yeh Jawaani Hai Deewani",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273707ea5b8023ac77d31756ed4",
-      "artists": "Pritam, Arijit Singh, Sunidhi Chauhan",
+      "artists": "Pritam, Arijit Singh, Sunidhi Chauhan, Kumaar",
       "duration_ms": 260552,
       "spotify_url": "https://open.spotify.com/track/3W1XPf7mvuQcWQB7U7MbTM",
       "added_at": "2020-10-01T14:42:14Z"
@@ -19157,7 +18972,7 @@
       "track": "Balam Pichkari",
       "album": "Yeh Jawaani Hai Deewani",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273707ea5b8023ac77d31756ed4",
-      "artists": "Pritam, Vishal Dadlani, Shalmali Kholgade",
+      "artists": "Pritam, Vishal Dadlani, Shalmali Kholgade, Amitabh Bhattacharya",
       "duration_ms": 288902,
       "spotify_url": "https://open.spotify.com/track/18e3XXYCv4Tx8uUl1mP3CN",
       "added_at": "2019-12-24T06:37:34Z"
@@ -19167,7 +18982,7 @@
       "track": "Badtameez Dil",
       "album": "Yeh Jawaani Hai Deewani",
       "album_image": "https://i.scdn.co/image/ab67616d0000b273707ea5b8023ac77d31756ed4",
-      "artists": "Pritam, Benny Dayal, Shefali Alvares",
+      "artists": "Pritam, Benny Dayal, Shefali Alvares, Amitabh Bhattacharya",
       "duration_ms": 252760,
       "spotify_url": "https://open.spotify.com/track/4eu27jAU2bbnyHUC3G75U8",
       "added_at": "2019-12-24T06:37:31Z"
@@ -35164,43 +34979,43 @@
     "top_saved_artists": [
       {
         "artist": "Alka Yagnik",
-        "saved_tracks_count": 1199
+        "track_count": 1199
       },
       {
         "artist": "Kumar Sanu",
-        "saved_tracks_count": 821
+        "track_count": 821
       },
       {
         "artist": "Udit Narayan",
-        "saved_tracks_count": 716
+        "track_count": 716
       },
       {
         "artist": "Sonu Nigam",
-        "saved_tracks_count": 303
+        "track_count": 303
       },
       {
         "artist": "Shreya Ghoshal",
-        "saved_tracks_count": 227
+        "track_count": 227
       },
       {
         "artist": "Lata Mangeshkar",
-        "saved_tracks_count": 138
+        "track_count": 138
       },
       {
         "artist": "Arijit Singh",
-        "saved_tracks_count": 136
+        "track_count": 136
       },
       {
         "artist": "Kishore Kumar",
-        "saved_tracks_count": 134
+        "track_count": 134
       },
       {
         "artist": "Abhijeet",
-        "saved_tracks_count": 124
+        "track_count": 124
       },
       {
         "artist": "Pritam",
-        "saved_tracks_count": 119
+        "track_count": 119
       }
     ],
     "library_growth_timeline": [
@@ -36015,7 +35830,7 @@
         "hours_added": 63.35418,
         "cumulative_tracks": 1605,
         "cumulative_hours": 147.6423202777778,
-        "cumulative_artists": 276
+        "cumulative_artists": 277
       },
       {
         "time_period": "2020",

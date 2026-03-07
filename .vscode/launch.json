@@ -12,6 +12,15 @@
             "skipFiles": [
                 "<node_internals>/**"
             ]
+        },
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Python: Current File",
+            "program": "${file}",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}"
         }
     ]
 }

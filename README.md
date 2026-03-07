@@ -50,6 +50,8 @@ were migrated to the **React** application and further adjusted for browser resp
     <img src = "src/assets/data/spotify/Charts/Muntakim_Dashboard.svg" width = 750 title = "Muntakim Spotify Dashboard">
 </div>
 
+<i>This section was almost completely AI generated and programmed by training Claude Code on my previous dashboards.</i>
+
 #### Automation
 
 This data is automatically updated with **GitHub Actions** every day at **6 AM UTC**.

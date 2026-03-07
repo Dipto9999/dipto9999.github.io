@@ -18,79 +18,10 @@
   },
   "vconcat": [
     {
-      "layer": [
-        {
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "middle",
-            "color": "#0e7a38",
-            "fontSize": 11,
-            "fontWeight": "bold"
-          },
-          "encoding": {
-            "text": {
-              "value": "1,426 Unique Artists"
-            },
-            "x": {
-              "value": 0
-            },
-            "y": {
-              "value": 14.0
-            }
-          }
-        },
-        {
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "baseline": "middle",
-            "color": "#0e7a38",
-            "fontSize": 11,
-            "fontWeight": "bold"
-          },
-          "encoding": {
-            "text": {
-              "value": "3,452 Saved Tracks"
-            },
-            "x": {
-              "value": 566
-            },
-            "y": {
-              "value": 14.0
-            }
-          }
-        }
-      ],
-      "data": {
-        "name": "data-4f53cda18c2baa0c0354bb5f9a3ecbe5"
-      },
-      "height": 28,
-      "width": 566
-    },
-    {
-      "data": {
-        "name": "data-d285a7403ed98ae579761d64a864032b"
-      },
-      "mark": {
-        "type": "text"
-      },
-      "encoding": {
-        "text": {
-          "value": ""
-        },
-        "x": {
-          "value": 0
-        }
-      },
-      "height": 5,
-      "width": 10
-    },
-    {
       "hconcat": [
         {
           "data": {
-            "name": "data-0fb0dc73deacbb74cd13c33c445deb63"
+            "name": "data-bbdc59af19e598e4847835253dfe4eab"
           },
           "mark": {
             "type": "arc",
@@ -322,7 +253,6 @@
                 "y": {
                   "axis": {
                     "labelFontSize": 4,
-                    "titleColor": "#0e7a38",
                     "titleFontSize": 5
                   },
                   "field": "cumulative_tracks",
@@ -407,7 +337,6 @@
                 "y": {
                   "axis": {
                     "labelFontSize": 4,
-                    "titleColor": "#1a237e",
                     "titleFontSize": 5
                   },
                   "field": "cumulative_artists",
@@ -456,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-8561445b09f0beb393cd4f1a7e2eaab5"
+        "name": "data-da4b4562f4f35aa714cc9c63adde82dd"
       }
     },
     {
@@ -602,7 +531,7 @@
             }
           ],
           "data": {
-            "name": "data-dc9dcc5aebb4c1dd5b0a4cdcf71b5d75"
+            "name": "data-234ba8eedcb14850865a2f3af404ff47"
           },
           "height": 200,
           "resolve": {
@@ -614,7 +543,7 @@
             "text": "Top Songs",
             "anchor": "start",
             "fontSize": 10,
-            "subtitle": "All Time",
+            "subtitle": "Past Year",
             "subtitleColor": "#444",
             "subtitleFontSize": 6
           },
@@ -773,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-c83b8a94cdc20977577e2f00d7e84e15"
+            "name": "data-5e79217d161ff8317bf4d1d43b38c097"
           },
           "height": 200,
           "resolve": {
@@ -806,72 +735,56 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-4f53cda18c2baa0c0354bb5f9a3ecbe5": [],
-    "data-d285a7403ed98ae579761d64a864032b": [
-      {
-        "x": 0
-      }
-    ],
-    "data-0fb0dc73deacbb74cd13c33c445deb63": [
+    "data-bbdc59af19e598e4847835253dfe4eab": [
       {
         "artist": "Alka Yagnik",
         "count": 1199,
-        "pct": 30.6,
-        "rank": 1
+        "pct": 30.6
       },
       {
         "artist": "Kumar Sanu",
         "count": 821,
-        "pct": 21.0,
-        "rank": 2
+        "pct": 21.0
       },
       {
         "artist": "Udit Narayan",
         "count": 716,
-        "pct": 18.3,
-        "rank": 3
+        "pct": 18.3
       },
       {
         "artist": "Sonu Nigam",
         "count": 303,
-        "pct": 7.7,
-        "rank": 4
+        "pct": 7.7
       },
       {
         "artist": "Shreya Ghoshal",
         "count": 227,
-        "pct": 5.8,
-        "rank": 5
+        "pct": 5.8
       },
       {
         "artist": "Lata Mangeshkar",
         "count": 138,
-        "pct": 3.5,
-        "rank": 6
+        "pct": 3.5
       },
       {
         "artist": "Arijit Singh",
         "count": 136,
-        "pct": 3.5,
-        "rank": 7
+        "pct": 3.5
       },
       {
         "artist": "Kishore Kumar",
         "count": 134,
-        "pct": 3.4,
-        "rank": 8
+        "pct": 3.4
       },
       {
         "artist": "Abhijeet",
         "count": 124,
-        "pct": 3.2,
-        "rank": 9
+        "pct": 3.2
       },
       {
         "artist": "Pritam",
         "count": 119,
-        "pct": 3.0,
-        "rank": 10
+        "pct": 3.0
       }
     ],
     "data-8fe3b25bb765269252ec92f62da1c7ea": [
@@ -926,260 +839,215 @@
         "idx": 9
       }
     ],
-    "data-8561445b09f0beb393cd4f1a7e2eaab5": [
+    "data-d285a7403ed98ae579761d64a864032b": [
+      {
+        "x": 0
+      }
+    ],
+    "data-da4b4562f4f35aa714cc9c63adde82dd": [
       {
         "time_period": "2017",
         "tracks_added": 334,
-        "total_duration_ms": 116206037,
-        "hours_added": 32.27945472222222,
         "cumulative_tracks": 334,
-        "cumulative_hours": 32.27945472222222,
         "cumulative_artists": 96,
         "year": "2017"
       },
       {
         "time_period": "2018",
         "tracks_added": 559,
-        "total_duration_ms": 187231268,
-        "hours_added": 52.00868555555556,
         "cumulative_tracks": 893,
-        "cumulative_hours": 84.28814027777779,
         "cumulative_artists": 146,
         "year": "2018"
       },
       {
         "time_period": "2019",
         "tracks_added": 712,
-        "total_duration_ms": 228075048,
-        "hours_added": 63.35418,
         "cumulative_tracks": 1605,
-        "cumulative_hours": 147.6423202777778,
-        "cumulative_artists": 276,
+        "cumulative_artists": 277,
         "year": "2019"
       },
       {
         "time_period": "2020",
         "tracks_added": 229,
-        "total_duration_ms": 65897797,
-        "hours_added": 18.30494361111111,
         "cumulative_tracks": 1834,
-        "cumulative_hours": 165.9472638888889,
         "cumulative_artists": 375,
         "year": "2020"
       },
       {
         "time_period": "2021",
         "tracks_added": 359,
-        "total_duration_ms": 112658282,
-        "hours_added": 31.29396722222222,
         "cumulative_tracks": 2193,
-        "cumulative_hours": 197.24123111111112,
         "cumulative_artists": 421,
         "year": "2021"
       },
       {
         "time_period": "2022",
         "tracks_added": 568,
-        "total_duration_ms": 174759621,
-        "hours_added": 48.54433916666667,
         "cumulative_tracks": 2761,
-        "cumulative_hours": 245.7855702777778,
         "cumulative_artists": 541,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
-        "total_duration_ms": 131133721,
-        "hours_added": 36.42603361111111,
         "cumulative_tracks": 3218,
-        "cumulative_hours": 282.21160388888893,
         "cumulative_artists": 633,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
-        "total_duration_ms": 26603821,
-        "hours_added": 7.3899502777777775,
         "cumulative_tracks": 3306,
-        "cumulative_hours": 289.6015541666667,
         "cumulative_artists": 658,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
-        "total_duration_ms": 35303287,
-        "hours_added": 9.80646861111111,
         "cumulative_tracks": 3424,
-        "cumulative_hours": 299.4080227777778,
         "cumulative_artists": 691,
         "year": "2025"
       },
       {
         "time_period": "2026",
         "tracks_added": 28,
-        "total_duration_ms": 9097543,
-        "hours_added": 2.5270952777777778,
         "cumulative_tracks": 3452,
-        "cumulative_hours": 301.93511805555556,
         "cumulative_artists": 696,
         "year": "2026"
       }
     ],
-    "data-dc9dcc5aebb4c1dd5b0a4cdcf71b5d75": [
+    "data-234ba8eedcb14850865a2f3af404ff47": [
       {
         "rank": 1,
         "song": "Maine Tumse Pyaar (From \"Barsaat\")",
         "artist": "Alka Yagnik, Nadeem Shravan",
-        "y_pos": 0,
-        "full_track": "Maine Tumse Pyaar (From \"Barsaat\") by Alka Yagnik, Nadeem Shravan"
+        "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Tadpati Hai, Tarsati Hai",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "y_pos": 1,
-        "full_track": "Tadpati Hai, Tarsati Hai by Udit Narayan, Alka Yagnik"
+        "song": "Pasoori Nu (From \"Satyaprem Ki Katha\")",
+        "artist": "Arijit Singh, Rochak Kohli, Tulsi Kumar",
+        "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Pasoori Nu (From \"Satyaprem Ki Katha\")",
-        "artist": "Arijit Singh, Rochak Kohli, Tulsi Kumar",
-        "y_pos": 2,
-        "full_track": "Pasoori Nu (From \"Satyaprem Ki Katha\") by Arijit Singh, Rochak Kohli, Tulsi Kumar"
+        "song": "Tadpati Hai, Tarsati Hai",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "y_pos": 2
       },
       {
         "rank": 4,
         "song": "Saanson Ko",
         "artist": "Shaarib Toshi, Arijit Singh",
-        "y_pos": 3,
-        "full_track": "Saanson Ko by Shaarib Toshi, Arijit Singh"
+        "y_pos": 3
       },
       {
         "rank": 5,
         "song": "Humsafar",
         "artist": "Sachet-Parampara, Sachet Tandon, Parampara Tandon, Irshad Kamil, Prashant Pandey",
-        "y_pos": 4,
-        "full_track": "Humsafar by Sachet-Parampara, Sachet Tandon, Parampara Tandon, Irshad Kamil, Prashant Pandey"
+        "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Jo Bhi Kasmein",
-        "artist": "Alka Yagnik, Udit Narayan",
-        "y_pos": 5,
-        "full_track": "Jo Bhi Kasmein by Alka Yagnik, Udit Narayan"
+        "song": "Bulleya",
+        "artist": "Pritam, Amit Mishra, Shilpa Rao",
+        "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Maahi - Rock with Me",
-        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
-        "y_pos": 6,
-        "full_track": "Maahi - Rock with Me by Shaarib Toshi, Toshi Sabri, Sayeed Quadri"
+        "song": "Jo Bhi Kasmein",
+        "artist": "Alka Yagnik, Udit Narayan",
+        "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Sauda Khara Khara - From \"Good Newwz\"",
-        "artist": "Diljit Dosanjh, Sukhbir, Dhvani Bhanushali, Dj Chetas, Lijo George, Kumaar",
-        "y_pos": 7,
-        "full_track": "Sauda Khara Khara - From \"Good Newwz\" by Diljit Dosanjh, Sukhbir, Dhvani Bhanushali, Dj Chetas, Lijo George, Kumaar"
+        "song": "Maahi - Rock with Me",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Bulleya",
-        "artist": "Pritam, Amit Mishra, Shilpa Rao",
-        "y_pos": 8,
-        "full_track": "Bulleya by Pritam, Amit Mishra, Shilpa Rao"
+        "song": "Sauda Khara Khara - From \"Good Newwz\"",
+        "artist": "Diljit Dosanjh, Sukhbir, Dhvani Bhanushali, Dj Chetas, Lijo George, Kumaar",
+        "y_pos": 8
       },
       {
         "rank": 10,
         "song": "Tumse Milke Dil Ka",
         "artist": "Sonu Nigam, Sabri Brothers",
-        "y_pos": 9,
-        "full_track": "Tumse Milke Dil Ka by Sonu Nigam, Sabri Brothers"
+        "y_pos": 9
       }
     ],
-    "data-c83b8a94cdc20977577e2f00d7e84e15": [
+    "data-5e79217d161ff8317bf4d1d43b38c097": [
       {
         "rank": 1,
-        "song": "Khudaya Khair",
-        "artist": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-        "time": "07:53 UTC",
-        "y_pos": 0,
-        "full_track": "Khudaya Khair by Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar"
+        "song": "Besabri",
+        "artist": "Anwesshaa & Abhay Jodhpurkar",
+        "time": "04:18 UTC",
+        "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Meri Mehbooba",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "23:06 UTC",
-        "y_pos": 1,
-        "full_track": "Meri Mehbooba by Kumar Sanu, Alka Yagnik"
+        "song": "No Entry: Ishq Di Galli Vich",
+        "artist": "Sonu Nigam, Alisha Chinai",
+        "time": "04:14 UTC",
+        "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Dil Ibaadat",
+        "song": "Haan Tu Hain",
         "artist": "Pritam, KK, Sayeed Quadri",
-        "time": "22:59 UTC",
-        "y_pos": 2,
-        "full_track": "Dil Ibaadat by Pritam, KK, Sayeed Quadri"
+        "time": "04:08 UTC",
+        "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Khudaya Khair",
-        "artist": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-        "time": "22:54 UTC",
-        "y_pos": 3,
-        "full_track": "Khudaya Khair by Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar"
+        "song": "Ishq Hai Zindagi",
+        "artist": "Himesh Reshammiya, Udit Narayan, Alka Yagnik, Vinod Rathod",
+        "time": "04:02 UTC",
+        "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Khudaya Khair",
-        "artist": "Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar",
-        "time": "22:49 UTC",
-        "y_pos": 4,
-        "full_track": "Khudaya Khair by Pritam, Soham Chakraborty, Akriti Kakar, Monali Thakur, Gulzar"
+        "song": "Yeh Hum Aa Gaye Hain Kahaan",
+        "artist": "Madan Mohan, Lata Mangeshkar, Udit Narayan, Javed Akhtar",
+        "time": "03:53 UTC",
+        "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "O Bekhabar",
-        "artist": "Pritam, Shreya Ghoshal",
-        "time": "22:48 UTC",
-        "y_pos": 5,
-        "full_track": "O Bekhabar by Pritam, Shreya Ghoshal"
+        "song": "Tumhein Dekhen Meri Aankhen",
+        "artist": "Alka Yagnik, P Sunanda, Kumar Sanu",
+        "time": "03:48 UTC",
+        "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Hum Tumko Nigahon Mein",
-        "artist": "Udit Narayan, Shreya Ghoshal",
-        "time": "06:16 UTC",
-        "y_pos": 6,
-        "full_track": "Hum Tumko Nigahon Mein by Udit Narayan, Shreya Ghoshal"
+        "song": "Tadpati Hai, Tarsati Hai",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "03:41 UTC",
+        "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Hai Dil Ye Mera (From \"Hate Story 2\")",
-        "artist": "Arijit Singh",
-        "time": "06:10 UTC",
-        "y_pos": 7,
-        "full_track": "Hai Dil Ye Mera (From \"Hate Story 2\") by Arijit Singh"
+        "song": "Is Pyar Se Meri Taraf Na Dekho - Duet Version",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "03:36 UTC",
+        "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Main Agar Saamne",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "06:01 UTC",
-        "y_pos": 8,
-        "full_track": "Main Agar Saamne by Abhijeet, Alka Yagnik"
+        "song": "Main Haar Giyan (Female Version)",
+        "artist": "Naseebo Lal",
+        "time": "03:30 UTC",
+        "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Aisi Deewangi (From \"Deewana\")",
-        "artist": "Vinod Rathod, Alka Yagnik",
-        "time": "05:55 UTC",
-        "y_pos": 9,
-        "full_track": "Aisi Deewangi (From \"Deewana\") by Vinod Rathod, Alka Yagnik"
+        "song": "Mohabbat Ho Gayee (From \"Baadshah\")",
+        "artist": "Abhijeet",
+        "time": "03:26 UTC",
+        "y_pos": 9
       }
     ]
   },
