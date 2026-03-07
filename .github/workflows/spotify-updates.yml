@@ -88,6 +88,7 @@ jobs:
       if: steps.changes.outputs.no_changes == 'false'
       run: |
         git commit -m "🎵 Update Spotify dashboard data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git pull --rebase origin main
         git push
 
     - name: Build React App
