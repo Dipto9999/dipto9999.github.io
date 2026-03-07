@@ -7,10 +7,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
-/* ── Mobile card view for Top Songs / Recently Played ── */
+/* ── Mobile Card View for Top Songs / Recently Played ── */
 
 .spotify-cards-row {
   display: flex;
