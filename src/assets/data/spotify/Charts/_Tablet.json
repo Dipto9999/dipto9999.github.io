@@ -1,0 +1,477 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300,
+      "strokeOpacity": 0,
+      "strokeWidth": 0
+    },
+    "axis": {
+      "labelFontSize": 8,
+      "titleFontSize": 10
+    },
+    "legend": {
+      "labelFontSize": 8,
+      "labelLimit": 120,
+      "titleFontSize": 9
+    }
+  },
+  "vconcat": [
+    {
+      "hconcat": [
+        {
+          "data": {
+            "name": "data-9fcaf7047265dd77bc1ea630de7d790d"
+          },
+          "mark": {
+            "type": "arc"
+          },
+          "encoding": {
+            "theta": {
+              "field": "share",
+              "type": "quantitative"
+            }
+          },
+          "height": 260,
+          "width": 280
+        },
+        {
+          "data": {
+            "name": "data-d99c4912686bc8c72639afcb6873a14a"
+          },
+          "mark": {
+            "type": "text"
+          },
+          "encoding": {
+            "text": {
+              "field": "t",
+              "type": "nominal"
+            }
+          },
+          "height": 260,
+          "width": 160
+        }
+      ]
+    },
+    {
+      "data": {
+        "name": "data-d285a7403ed98ae579761d64a864032b"
+      },
+      "mark": {
+        "type": "text"
+      },
+      "encoding": {
+        "text": {
+          "value": ""
+        },
+        "x": {
+          "value": 0
+        }
+      },
+      "height": 8,
+      "width": 10
+    },
+    {
+      "data": {
+        "name": "data-b6f93e8ac7ccdbf7bc1b4dc03dad8d5f"
+      },
+      "mark": {
+        "type": "text"
+      },
+      "encoding": {
+        "text": {
+          "field": "text",
+          "type": "nominal"
+        }
+      },
+      "height": 200,
+      "width": 380
+    },
+    {
+      "data": {
+        "name": "data-d285a7403ed98ae579761d64a864032b"
+      },
+      "mark": {
+        "type": "text"
+      },
+      "encoding": {
+        "text": {
+          "value": ""
+        },
+        "x": {
+          "value": 0
+        }
+      },
+      "height": 8,
+      "width": 10
+    },
+    {
+      "hconcat": [
+        {
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "color": "#333",
+                "fontSize": 9,
+                "fontWeight": "bold"
+              },
+              "encoding": {
+                "text": {
+                  "field": "rank",
+                  "type": "ordinal"
+                },
+                "tooltip": [
+                  {
+                    "field": "song",
+                    "title": "Song",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "artist",
+                    "title": "Artist",
+                    "type": "nominal"
+                  }
+                ],
+                "x": {
+                  "value": 18
+                },
+                "y": {
+                  "axis": null,
+                  "field": "y_pos",
+                  "scale": {
+                    "range": [
+                      20,
+                      240
+                    ]
+                  },
+                  "title": null,
+                  "type": "ordinal"
+                }
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "color": "#0e7a38",
+                "fontSize": 9,
+                "fontWeight": "bold",
+                "limit": 319
+              },
+              "encoding": {
+                "text": {
+                  "field": "song",
+                  "type": "nominal"
+                },
+                "tooltip": [
+                  {
+                    "field": "song",
+                    "title": "Song",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "artist",
+                    "title": "Artist",
+                    "type": "nominal"
+                  }
+                ],
+                "x": {
+                  "value": 36
+                },
+                "y": {
+                  "axis": null,
+                  "field": "y_pos",
+                  "scale": {
+                    "range": [
+                      20,
+                      240
+                    ]
+                  },
+                  "title": null,
+                  "type": "ordinal"
+                }
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "color": "#444",
+                "fontSize": 8,
+                "limit": 319,
+                "opacity": 0
+              },
+              "encoding": {
+                "text": {
+                  "field": "artist",
+                  "type": "nominal"
+                },
+                "x": {
+                  "value": 36
+                },
+                "y": {
+                  "axis": null,
+                  "field": "y_pos",
+                  "scale": {
+                    "range": [
+                      32,
+                      252
+                    ]
+                  },
+                  "title": null,
+                  "type": "ordinal"
+                }
+              }
+            }
+          ],
+          "data": {
+            "name": "data-1cdeb1c18a2b2b0fba53cc76cdf0d545"
+          },
+          "height": 260,
+          "resolve": {
+            "scale": {
+              "y": "independent"
+            }
+          },
+          "title": {
+            "text": "Top Songs",
+            "anchor": "start",
+            "fontSize": 13,
+            "subtitle": "Past Year",
+            "subtitleColor": "#444",
+            "subtitleFontSize": 8
+          },
+          "width": 360
+        },
+        {
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "color": "#333",
+                "fontSize": 9,
+                "fontWeight": "bold"
+              },
+              "encoding": {
+                "text": {
+                  "field": "rank",
+                  "type": "ordinal"
+                },
+                "tooltip": [
+                  {
+                    "field": "song",
+                    "title": "Song",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "artist",
+                    "title": "Artist",
+                    "type": "nominal"
+                  }
+                ],
+                "x": {
+                  "value": 18
+                },
+                "y": {
+                  "axis": null,
+                  "field": "y_pos",
+                  "scale": {
+                    "range": [
+                      20,
+                      240
+                    ]
+                  },
+                  "title": null,
+                  "type": "ordinal"
+                }
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "color": "#0e7a38",
+                "fontSize": 9,
+                "fontWeight": "bold",
+                "limit": 263
+              },
+              "encoding": {
+                "text": {
+                  "field": "song",
+                  "type": "nominal"
+                },
+                "tooltip": [
+                  {
+                    "field": "song",
+                    "title": "Song",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "artist",
+                    "title": "Artist",
+                    "type": "nominal"
+                  }
+                ],
+                "x": {
+                  "value": 36
+                },
+                "y": {
+                  "axis": null,
+                  "field": "y_pos",
+                  "scale": {
+                    "range": [
+                      20,
+                      240
+                    ]
+                  },
+                  "title": null,
+                  "type": "ordinal"
+                }
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "color": "#444",
+                "fontSize": 8,
+                "limit": 263,
+                "opacity": 0
+              },
+              "encoding": {
+                "text": {
+                  "field": "artist",
+                  "type": "nominal"
+                },
+                "x": {
+                  "value": 36
+                },
+                "y": {
+                  "axis": null,
+                  "field": "y_pos",
+                  "scale": {
+                    "range": [
+                      32,
+                      252
+                    ]
+                  },
+                  "title": null,
+                  "type": "ordinal"
+                }
+              }
+            },
+            {
+              "mark": {
+                "type": "text",
+                "align": "right",
+                "baseline": "middle",
+                "color": "#555",
+                "fontSize": 8
+              },
+              "encoding": {
+                "text": {
+                  "field": "time",
+                  "type": "nominal"
+                },
+                "x": {
+                  "value": 350
+                },
+                "y": {
+                  "axis": null,
+                  "field": "y_pos",
+                  "scale": {
+                    "range": [
+                      20,
+                      240
+                    ]
+                  },
+                  "title": null,
+                  "type": "ordinal"
+                }
+              }
+            }
+          ],
+          "data": {
+            "name": "data-71983a4137cb46a83b94845a51b9d4f1"
+          },
+          "height": 260,
+          "resolve": {
+            "scale": {
+              "y": "independent"
+            }
+          },
+          "title": {
+            "text": "Recently Played",
+            "anchor": "start",
+            "fontSize": 13
+          },
+          "width": 360
+        }
+      ]
+    }
+  ],
+  "center": true,
+  "padding": {
+    "left": 14,
+    "right": 14,
+    "top": 12,
+    "bottom": 18
+  },
+  "spacing": 10,
+  "title": {
+    "text": "'s Spotify Dashboard",
+    "anchor": "middle",
+    "fontSize": 28
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-9fcaf7047265dd77bc1ea630de7d790d": [
+      {
+        "name": "No data",
+        "share": 1
+      }
+    ],
+    "data-d99c4912686bc8c72639afcb6873a14a": [
+      {
+        "t": ""
+      }
+    ],
+    "data-d285a7403ed98ae579761d64a864032b": [
+      {
+        "x": 0
+      }
+    ],
+    "data-b6f93e8ac7ccdbf7bc1b4dc03dad8d5f": [
+      {
+        "text": "No Annual Library Growth Data"
+      }
+    ],
+    "data-1cdeb1c18a2b2b0fba53cc76cdf0d545": [
+      {
+        "rank": 1,
+        "song": "No data",
+        "artist": "",
+        "y_pos": 0
+      }
+    ],
+    "data-71983a4137cb46a83b94845a51b9d4f1": [
+      {
+        "rank": 1,
+        "song": "No recent plays",
+        "artist": "",
+        "time": "",
+        "y_pos": 0
+      }
+    ]
+  },
+  "background": null
+}

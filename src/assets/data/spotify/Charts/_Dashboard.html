@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeOpacity": 0, "strokeWidth": 0}, "axis": {"labelFontSize": 11, "titleFontSize": 14}, "legend": {"labelFontSize": 10, "labelLimit": 120, "titleFontSize": 12}}, "vconcat": [{"hconcat": [{"data": {"name": "data-b6f93e8ac7ccdbf7bc1b4dc03dad8d5f"}, "mark": {"type": "text"}, "encoding": {"text": {"field": "text", "type": "nominal"}}, "height": 320, "width": 400}, {"data": {"name": "data-9fcaf7047265dd77bc1ea630de7d790d"}, "mark": {"type": "arc"}, "encoding": {"theta": {"field": "share", "type": "quantitative"}}, "height": 320, "width": 300}, {"data": {"name": "data-d99c4912686bc8c72639afcb6873a14a"}, "mark": {"type": "text"}, "encoding": {"text": {"field": "t", "type": "nominal"}}, "height": 320, "width": 180}]}, {"data": {"name": "data-d285a7403ed98ae579761d64a864032b"}, "mark": {"type": "text"}, "encoding": {"text": {"value": ""}, "x": {"value": 0}}, "height": 16, "width": 10}, {"hconcat": [{"layer": [{"mark": {"type": "text", "align": "center", "baseline": "middle", "color": "#333", "fontSize": 13, "fontWeight": "bold"}, "encoding": {"text": {"field": "rank", "type": "ordinal"}, "tooltip": [{"field": "song", "title": "Song", "type": "nominal"}, {"field": "artist", "title": "Artist", "type": "nominal"}], "x": {"value": 18}, "y": {"axis": null, "field": "y_pos", "scale": {"range": [20, 360]}, "title": null, "type": "ordinal"}}}, {"mark": {"type": "text", "align": "left", "baseline": "middle", "color": "#0e7a38", "fontSize": 14, "fontWeight": "bold", "limit": 329}, "encoding": {"text": {"field": "song", "type": "nominal"}, "tooltip": [{"field": "song", "title": "Song", "type": "nominal"}, {"field": "artist", "title": "Artist", "type": "nominal"}], "x": {"value": 36}, "y": {"axis": null, "field": "y_pos", "scale": {"range": [20, 360]}, "title": null, "type": "ordinal"}}}, {"mark": {"type": "text", "align": "left", "baseline": "middle", "color": "#444", "fontSize": 12, "limit": 329, "opacity": 0}, "encoding": {"text": {"field": "artist", "type": "nominal"}, "x": {"value": 36}, "y": {"axis": null, "field": "y_pos", "scale": {"range": [32, 372]}, "title": null, "type": "ordinal"}}}], "data": {"name": "data-1cdeb1c18a2b2b0fba53cc76cdf0d545"}, "height": 380, "resolve": {"scale": {"y": "independent"}}, "title": {"text": "Top Songs", "anchor": "start", "fontSize": 20, "subtitle": "Past Year", "subtitleColor": "#444", "subtitleFontSize": 13}, "width": 370}, {"layer": [{"mark": {"type": "text", "align": "center", "baseline": "middle", "color": "#333", "fontSize": 13, "fontWeight": "bold"}, "encoding": {"text": {"field": "rank", "type": "ordinal"}, "tooltip": [{"field": "song", "title": "Song", "type": "nominal"}, {"field": "artist", "title": "Artist", "type": "nominal"}], "x": {"value": 18}, "y": {"axis": null, "field": "y_pos", "scale": {"range": [20, 360]}, "title": null, "type": "ordinal"}}}, {"mark": {"type": "text", "align": "left", "baseline": "middle", "color": "#0e7a38", "fontSize": 14, "fontWeight": "bold", "limit": 251}, "encoding": {"text": {"field": "song", "type": "nominal"}, "tooltip": [{"field": "song", "title": "Song", "type": "nominal"}, {"field": "artist", "title": "Artist", "type": "nominal"}], "x": {"value": 36}, "y": {"axis": null, "field": "y_pos", "scale": {"range": [20, 360]}, "title": null, "type": "ordinal"}}}, {"mark": {"type": "text", "align": "left", "baseline": "middle", "color": "#444", "fontSize": 12, "limit": 251, "opacity": 0}, "encoding": {"text": {"field": "artist", "type": "nominal"}, "x": {"value": 36}, "y": {"axis": null, "field": "y_pos", "scale": {"range": [32, 372]}, "title": null, "type": "ordinal"}}}, {"mark": {"type": "text", "align": "right", "baseline": "middle", "color": "#555", "fontSize": 12}, "encoding": {"text": {"field": "time", "type": "nominal"}, "x": {"value": 360}, "y": {"axis": null, "field": "y_pos", "scale": {"range": [20, 360]}, "title": null, "type": "ordinal"}}}], "data": {"name": "data-71983a4137cb46a83b94845a51b9d4f1"}, "height": 380, "resolve": {"scale": {"y": "independent"}}, "title": {"text": "Recently Played", "anchor": "start", "fontSize": 20}, "width": 370}]}], "center": true, "padding": {"left": 30, "right": 30, "top": 20, "bottom": 30}, "spacing": 20, "title": {"text": "'s Spotify Dashboard", "anchor": "middle", "fontSize": 40}, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-b6f93e8ac7ccdbf7bc1b4dc03dad8d5f": [{"text": "No Annual Library Growth Data"}], "data-9fcaf7047265dd77bc1ea630de7d790d": [{"name": "No data", "share": 1}], "data-d99c4912686bc8c72639afcb6873a14a": [{"t": ""}], "data-d285a7403ed98ae579761d64a864032b": [{"x": 0}], "data-1cdeb1c18a2b2b0fba53cc76cdf0d545": [{"rank": 1, "song": "No data", "artist": "", "y_pos": 0}], "data-71983a4137cb46a83b94845a51b9d4f1": [{"rank": 1, "song": "No recent plays", "artist": "", "time": "", "y_pos": 0}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
