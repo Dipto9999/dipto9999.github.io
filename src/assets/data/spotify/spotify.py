@@ -791,6 +791,18 @@ class SpotifyDashboard:
         charts_dir = os.path.join(script_dir, "Charts")
         os.makedirs(charts_dir, exist_ok = True)
 
+        def cleanup():
+            """Cleanup Temporary Files or Resources if Needed"""
+            # Remove .cache
+            cache_path = os.path.join(script_dir, ".cache")
+            if os.path.isfile(cache_path):
+                os.remove(cache_path)
+
+            # Remove __pycache__
+            pycache_path = os.path.join(script_dir, "__pycache__")
+            if os.path.isdir(pycache_path):
+                shutil.rmtree(pycache_path)
+
         # Generate and Save Responsive Layouts
         responsive_layouts = ["standard", "tablet", "tablet_portrait", "landscape", "portrait"]
         layout_labels = {
@@ -853,6 +865,8 @@ class SpotifyDashboard:
         # Export Static PNG/SVG of Dashboard
         self.dashboard.save(os.path.join(charts_dir, f"{filename}.png"))
         self.dashboard.save(os.path.join(charts_dir, f"{filename}.svg"))
+
+        cleanup()
 
 
 if __name__ == '__main__':
