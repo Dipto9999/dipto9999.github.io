@@ -61,9 +61,11 @@ jobs:
         SPOTIFY_DASHBOARD_USERNAME=${{ secrets.SPOTIFY_USERNAME }}
         EOF
 
-    - name: Restore Spotify token cache
+    - name: Restore Spotify Token Cache
+      env:
+        SPOTIFY_CACHE: ${{ secrets.SPOTIFY_TOKEN_CACHE }}
       run: |
-        printf '%s' "${{ secrets.SPOTIFY_TOKEN_CACHE }}" > src/assets/data/spotify/.cache
+        printenv SPOTIFY_CACHE > src/assets/data/spotify/.cache
 
     - name: Run Spotify Data Update
       run: |
