@@ -874,7 +874,6 @@ if __name__ == '__main__':
     load_dotenv(os.path.join(_script_dir, ".env"))
 
     # Environment Variables for Spotify API Credentials
-    USERNAME = os.getenv("SPOTIFY_DASHBOARD_USERNAME", "Muntakim")
     CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
     CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
     REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")
@@ -890,7 +889,7 @@ if __name__ == '__main__':
             )
 
         client = SpotifyClient(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
-        user = SpotifyUser(USERNAME, client)
+        user = SpotifyUser(username = "Muntakim", api_client = client)
         SpotifyDashboard(user).save()
         print("Spotify Dashboard Generated Successfully!")
 
