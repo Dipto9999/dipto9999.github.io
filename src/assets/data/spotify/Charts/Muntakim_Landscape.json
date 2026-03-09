@@ -189,12 +189,12 @@
             }
           ],
           "data": {
-            "name": "data-da4b4562f4f35aa714cc9c63adde82dd"
+            "name": "data-7156abc841dd0b82e030bae73a086f4e"
           }
         },
         {
           "data": {
-            "name": "data-bbdc59af19e598e4847835253dfe4eab"
+            "name": "data-0c2b33969d09b65aa8d3ffa61da32637"
           },
           "mark": {
             "type": "arc",
@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-e598d637fe765747d3a0df38101f7b58"
+            "name": "data-3949dfdea54b073d78f1fdb3749879c9"
           },
           "height": 200,
           "resolve": {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-da4b4562f4f35aa714cc9c63adde82dd": [
+    "data-7156abc841dd0b82e030bae73a086f4e": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -673,13 +673,13 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 28,
-        "cumulative_tracks": 3452,
+        "tracks_added": 30,
+        "cumulative_tracks": 3454,
         "cumulative_artists": 696,
         "year": "2026"
       }
     ],
-    "data-bbdc59af19e598e4847835253dfe4eab": [
+    "data-0c2b33969d09b65aa8d3ffa61da32637": [
       {
         "artist": "Alka Yagnik",
         "count": 1199,
@@ -688,7 +688,7 @@
       {
         "artist": "Kumar Sanu",
         "count": 821,
-        "pct": 21.0
+        "pct": 20.9
       },
       {
         "artist": "Udit Narayan",
@@ -697,12 +697,12 @@
       },
       {
         "artist": "Sonu Nigam",
-        "count": 303,
-        "pct": 7.7
+        "count": 304,
+        "pct": 7.8
       },
       {
         "artist": "Shreya Ghoshal",
-        "count": 227,
+        "count": 228,
         "pct": 5.8
       },
       {
@@ -727,8 +727,8 @@
       },
       {
         "artist": "Pritam",
-        "count": 119,
-        "pct": 3.0
+        "count": 120,
+        "pct": 3.1
       }
     ],
     "data-d285a7403ed98ae579761d64a864032b": [
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-e598d637fe765747d3a0df38101f7b58": [
+    "data-3949dfdea54b073d78f1fdb3749879c9": [
       {
         "rank": 1,
-        "song": "Khata Toh Jab Ho",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "21:56 UTC",
+        "song": "Sajde",
+        "artist": "Shankar-Ehsaan-Loy, Arijit Singh, Nihira Joshi, Gulzar",
+        "time": "06:22 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Khata Toh Jab Ho",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "21:01 UTC",
+        "song": "Teri Chunnariya",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "06:16 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Khata Toh Jab Ho",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "20:55 UTC",
+        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "06:05 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Yeh Ghadi Sanam",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "03:25 UTC",
+        "song": "Suraj Hua Maddham",
+        "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
+        "time": "06:00 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Agar Tum Na Hote - Female Version",
-        "artist": "R. D. Burman, Lata Mangeshkar",
-        "time": "03:17 UTC",
+        "song": "Humko Sirf Tumse",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "05:53 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Saagar Jaisi Aankhonwali - From \"Saagar\"",
-        "artist": "Kishore Kumar, R. D. Burman",
-        "time": "03:12 UTC",
+        "song": "Hai Dil",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "05:43 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Aankh Teri Chalke Toh",
-        "artist": "Alka Yagnik, Udit Narayan",
-        "time": "03:05 UTC",
+        "song": "Meri Mehbooba",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "05:38 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Moner Katha_(From\"Sathihara\")",
-        "artist": "Udit Narayan, Sadhana Sargam",
-        "time": "02:58 UTC",
+        "song": "Shukran Allah",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Shreya Ghoshal, Salim Merchant",
+        "time": "05:31 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Baadshah O Baadshah",
-        "artist": "Abhijeet",
-        "time": "02:54 UTC",
+        "song": "Shukran Allah",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Shreya Ghoshal, Salim Merchant",
+        "time": "05:26 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Bahar Baras Raha Hai",
-        "artist": "Maya Govind",
-        "time": "02:47 UTC",
+        "song": "Kal Ho Naa Ho (From \"Kal Ho Naa Ho\")",
+        "artist": "Shankar-Ehsaan-Loy, Sonu Nigam",
+        "time": "23:47 UTC",
         "y_pos": 9
       }
     ]
