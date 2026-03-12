@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-7156abc841dd0b82e030bae73a086f4e"
+        "name": "data-a11e0a53078aa3ca37df123c5af50a9a"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-84de34dd266a66db45556fb73d5b63ae"
+            "name": "data-029b31ef598a968f4aa8d69bddde04f3"
           },
           "height": 260,
           "resolve": {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-7156abc841dd0b82e030bae73a086f4e": [
+    "data-a11e0a53078aa3ca37df123c5af50a9a": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -882,37 +882,37 @@
       },
       {
         "time_period": "2022",
-        "tracks_added": 568,
-        "cumulative_tracks": 2761,
-        "cumulative_artists": 541,
+        "tracks_added": 567,
+        "cumulative_tracks": 2760,
+        "cumulative_artists": 540,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
-        "cumulative_tracks": 3218,
-        "cumulative_artists": 633,
+        "cumulative_tracks": 3217,
+        "cumulative_artists": 632,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
-        "cumulative_tracks": 3306,
-        "cumulative_artists": 658,
+        "cumulative_tracks": 3305,
+        "cumulative_artists": 657,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
-        "cumulative_tracks": 3424,
-        "cumulative_artists": 691,
+        "cumulative_tracks": 3423,
+        "cumulative_artists": 690,
         "year": "2025"
       },
       {
         "time_period": "2026",
         "tracks_added": 30,
-        "cumulative_tracks": 3454,
-        "cumulative_artists": 696,
+        "cumulative_tracks": 3453,
+        "cumulative_artists": 695,
         "year": "2026"
       }
     ],
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-84de34dd266a66db45556fb73d5b63ae": [
+    "data-029b31ef598a968f4aa8d69bddde04f3": [
       {
         "rank": 1,
-        "song": "Dagariya Chalo",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "23:57 UTC",
+        "song": "Savariya",
+        "artist": "Kamal Khan, Alka Yagnik",
+        "time": "05:33 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Tumse Milke Dil Ka (From \"Main Hoon Na\")",
-        "artist": "Sonu Nigam, Sabri Brothers",
-        "time": "22:09 UTC",
+        "song": "Dagariya Chalo",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "05:27 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Kuch To Hua Hai",
-        "artist": "Shankar-Ehsaan-Loy, Alka Yagnik, Shaan",
-        "time": "22:03 UTC",
+        "song": "Tumse Milke Dil Ka (From \"Main Hoon Na\")",
+        "artist": "Sonu Nigam, Sabri Brothers",
+        "time": "05:21 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Mujhse Dosti Karoge",
-        "artist": "Rahul Sharma, Asha Bhosle, Alka Yagnik, Udit Narayan, Anand Bakshi",
-        "time": "21:58 UTC",
+        "song": "Tumse Milke Dil Ka (From \"Main Hoon Na\")",
+        "artist": "Sonu Nigam, Sabri Brothers",
+        "time": "05:08 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
         "song": "Mujhse Dosti Karoge",
         "artist": "Rahul Sharma, Asha Bhosle, Alka Yagnik, Udit Narayan, Anand Bakshi",
-        "time": "21:52 UTC",
+        "time": "05:07 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "You Are My Soniya",
-        "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
-        "time": "21:42 UTC",
+        "song": "Mera Dil Bhi Kitna Pagal Hai (From \"Saajan\")",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "05:02 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
         "song": "You Are My Soniya",
         "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
-        "time": "21:40 UTC",
+        "time": "04:56 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
         "song": "Chalte Chalte",
         "artist": "Abhijeet, Alka Yagnik",
-        "time": "05:02 UTC",
+        "time": "04:51 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Chori Chori",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "04:48 UTC",
+        "song": "No Entry: Ishq Di Galli Vich",
+        "artist": "Sonu Nigam, Alisha Chinai",
+        "time": "04:45 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Main Agar Saamne",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "04:43 UTC",
+        "song": "Banke Tera Jogi",
+        "artist": "Jatin-Lalit, Alka Yagnik, Sonu Nigam",
+        "time": "04:39 UTC",
         "y_pos": 9
       }
     ]
