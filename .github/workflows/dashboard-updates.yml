@@ -1,13 +1,14 @@
-name: steam-dashboard-updates
+name: dashboard-updates
 
 on:
   schedule:
-    # Run Every Monday at 6 AM UTC
-    - cron: '0 6 * * 1'
-  workflow_dispatch: # Allows Manual Trigger
+    - cron: '0 6 * * *' # 6 AM — Steam + Spotify
+    - cron: '0 18 * * *' # 6 PM — Spotify only
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths:
+      - 'src/assets/data/spotify/**'
       - 'src/assets/data/steam/**'
 
 jobs:
@@ -28,7 +29,7 @@ jobs:
     - name: Set Up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.11'
 
     - name: Cache Python Dependencies
       uses: actions/cache@v3
@@ -38,9 +39,15 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
 
-    - name: Install Python Dependencies
+    - name: Install Spotify Python Dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install -r src/assets/data/spotify/requirements.txt
+
+    - name: Install Steam Python Dependencies
+      # Only Install at 6 AM / Manual Trigger
+      if: github.event.schedule != '0 18 * * *'
+      run: |
         pip install -r src/assets/data/steam/requirements.txt
 
     - name: Set Up Node.js
@@ -52,15 +59,41 @@ jobs:
     - name: Install Node.js Dependencies
       run: npm ci
 
+    # Steam ETL
     - name: Create .env file for Steam API
+      # Only Create at 6 AM / Manual Trigger
+      if: github.event.schedule != '0 18 * * *'
       run: |
         echo "STEAM_API_KEY=${{ secrets.STEAM_API_KEY }}" > src/assets/data/steam/.env
 
     - name: Run Steam Data Update
+      # Only Run at 6 AM / Manual Trigger
+      if: github.event.schedule != '0 18 * * *'
       run: |
         cd src/assets/data/steam
         python steam.py
 
+    # Spotify ETL
+    - name: Create .env file for Spotify API
+      run: |
+        cat > src/assets/data/spotify/.env << EOF
+        SPOTIFY_CLIENT_ID=${{ secrets.SPOTIFY_CLIENT_ID }}
+        SPOTIFY_CLIENT_SECRET=${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        SPOTIFY_REDIRECT_URI=${{ secrets.SPOTIFY_REDIRECT_URI }}
+        EOF
+
+    - name: Restore Spotify Token Cache
+      env:
+        SPOTIFY_CACHE: ${{ secrets.SPOTIFY_TOKEN_CACHE }}
+      run: |
+        printenv SPOTIFY_CACHE > src/assets/data/spotify/.cache
+
+    - name: Run Spotify Data Update
+      run: |
+        cd src/assets/data/spotify
+        python spotify.py
+
+    # Commit + Deploy
     - name: Check for Changes
       id: changes
       run: |
@@ -76,20 +109,23 @@ jobs:
     - name: Commit and Push Changes
       if: steps.changes.outputs.no_changes == 'false'
       run: |
-        git commit -m "🎮 Update Steam dashboard data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git commit -m "📊 Update Dashboard Data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git pull --rebase origin main
         git push
 
     - name: Build React App
-      run: |
-        npm run build
+      # Only Build If There Are Changes to Deploy
+      if: steps.changes.outputs.no_changes == 'false'
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
+      # Only Deploy If There Are Changes to Deploy
+      if: github.ref == 'refs/heads/main' && steps.changes.outputs.no_changes == 'false'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        commit_message: '🚀 Deploy updated Steam dashboard'
+        commit_message: '🚀 Deploy Updated Dashboard(s)'
         cname: muntakim-rahman.xyz
