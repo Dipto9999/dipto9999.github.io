@@ -1,9 +1,9 @@
 appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_forever,playtime_linux_forever,playtime_deck_forever,rtime_last_played,content_descriptorids,playtime_disconnected,has_community_visible_stats,has_leaderboards,playtime_2weeks,player_level
 72850,Skyrim,845.28,b9aca8a189abd8d6aaf09047dbb0f57582683e1c,0,0,0,0,1623092117,"[1, 5]",0,True,0,0.0,21
-208650,Batman: Arkham Knight,99.63,f6c2ce13796844750dfbd01685fb009eeac4bf70,214,0,189,189,1773379126,0,0,True,0,182.0,21
+208650,Batman: Arkham Knight,105.78,f6c2ce13796844750dfbd01685fb009eeac4bf70,214,0,558,558,1773462744,0,0,True,0,552.0,21
 212500,LOTR Online,91.02,6dbff8345f6b3e5f092a834985c8f851859bfbf2,891,0,0,0,1744946910,0,1,0,0,0.0,21
 498240,Telltale: Batman,66.22,f7d48a2727c415d45412c50dcb228252f57f689b,0,0,0,0,1529389252,0,0,True,0,0.0,21
-1091500,Cyberpunk 2077,59.75,42b9b33fa0f0d997beb299c6157592a8fe7d8f68,2153,0,1431,1431,1773354066,"[1, 2, 5]",54,True,0,2072.0,21
+1091500,Cyberpunk 2077,59.75,42b9b33fa0f0d997beb299c6157592a8fe7d8f68,2153,0,1431,1431,1773354066,"[1, 2, 5]",54,True,0,1664.0,21
 413150,Stardew Valley,49.5,35d1377200084a4034238c05b0c8930451e2fb40,2970,0,0,0,1623094263,0,0,True,0,0.0,21
 330840,Telltale: Game of Thrones,47.68,b981849ef37118e0cef6388f0c893d381323e4b3,0,0,0,0,1507484856,0,0,True,0,0.0,21
 207610,Telltale: The Walking Dead,40.52,87a13ae0a2a76488792924aa8bb0dd8a7760f931,856,0,0,0,1617658345,"[2, 5]",0,True,0,0.0,21
@@ -44,7 +44,7 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 1426210,It Takes Two,0.27,6b15f6d81c4fc52056f4928b363b7fac591a945b,16,0,0,0,1735164107,0,0,True,0,0.0,21
 8000,Tomb Raider: Anniversary,0.25,13243b33c45bbde67ed6538641173e556548aac3,0,0,0,0,1511676526,0,0,0,0,0.0,21
 291550,Brawlhalla,0.2,c43fac31b8bf8821764603a14d09412bc3d45f66,0,0,0,0,1490842659,0,0,True,0,0.0,21
-2556990,Beyond Good and Evil - 20th Anniversary Edition,0.18,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,11,11,1772173732,0,0,True,0,5.0,21
+2556990,Beyond Good and Evil - 20th Anniversary Edition,0.18,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,11,11,1772173732,0,0,True,0,0.0,21
 500,Left 4 Dead,0.17,428df26bc35b09319e31b1ffb712487b20b3245c,0,0,0,0,1490160415,"[2, 5]",0,True,0,0.0,21
 1172380,STAR WARS Jedi: Fallen Order™ ,0.13,0ea1d285a8ee6fbeef0e8f7f3b2d7fa4cbcb423b,0,0,8,8,1770895060,0,0,True,0,0.0,21
 218620,PAYDAY 2,0.03,a6abc0d0c1e79c0b5b0f5c8ab81ce9076a542414,0,0,0,0,1498800445,"[2, 5]",0,True,0,0.0,21
