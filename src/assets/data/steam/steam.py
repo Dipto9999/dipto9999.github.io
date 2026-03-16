@@ -321,7 +321,7 @@ class SteamDashboard:
         self.dashboard = None
         self.generateDashboard()
 
-    def generatePlaytimeChart(self, top_n: int = 15) -> alt.Chart:
+    def generatePlaytimeChart(self, top_n: int = 10) -> alt.Chart:
         """Generate Pie Chart of Top Games by Playtime"""
         top_df = self.user.getTopData(top_n).copy()
         total_playtime = top_df['playtime_forever'].sum()
