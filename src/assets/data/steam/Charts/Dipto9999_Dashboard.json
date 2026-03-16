@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-8af0ac49f83eec07ed7b4a0c2451e2ef"
+        "name": "data-8b257853a10d6dfc16950cafa6307081"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1507.1 Hrs",
+        "subtitle": "Total Playtime: 1383.5 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,96 +199,66 @@
         "Value": 50
       }
     ],
-    "data-8af0ac49f83eec07ed7b4a0c2451e2ef": [
+    "data-8b257853a10d6dfc16950cafa6307081": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 56.08
+        "playtime_percentage": 61.1
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 110.55,
         "appid": 208650,
-        "playtime_percentage": 7.34
+        "playtime_percentage": 7.99
       },
       {
         "name": "LOTR Online",
         "playtime_forever": 91.02,
         "appid": 212500,
-        "playtime_percentage": 6.04
+        "playtime_percentage": 6.58
       },
       {
         "name": "Telltale: Batman",
         "playtime_forever": 66.22,
         "appid": 498240,
-        "playtime_percentage": 4.39
+        "playtime_percentage": 4.79
       },
       {
         "name": "Cyberpunk 2077",
         "playtime_forever": 59.75,
         "appid": 1091500,
-        "playtime_percentage": 3.96
+        "playtime_percentage": 4.32
       },
       {
         "name": "Stardew Valley",
         "playtime_forever": 49.5,
         "appid": 413150,
-        "playtime_percentage": 3.28
+        "playtime_percentage": 3.58
       },
       {
         "name": "Telltale: Game of Thrones",
         "playtime_forever": 47.68,
         "appid": 330840,
-        "playtime_percentage": 3.16
+        "playtime_percentage": 3.45
       },
       {
         "name": "Telltale: The Walking Dead",
         "playtime_forever": 40.52,
         "appid": 207610,
-        "playtime_percentage": 2.69
+        "playtime_percentage": 2.93
       },
       {
         "name": "Shadow of Mordor",
         "playtime_forever": 37.05,
         "appid": 241930,
-        "playtime_percentage": 2.46
+        "playtime_percentage": 2.68
       },
       {
         "name": "Telltale: Batman The Enemy Within",
         "playtime_forever": 35.93,
         "appid": 675260,
-        "playtime_percentage": 2.38
-      },
-      {
-        "name": "Batman: Arkham Origins",
-        "playtime_forever": 32.75,
-        "appid": 209000,
-        "playtime_percentage": 2.17
-      },
-      {
-        "name": "Shadow of the Tomb Raider",
-        "playtime_forever": 28.8,
-        "appid": 750920,
-        "playtime_percentage": 1.91
-      },
-      {
-        "name": "Batman: Arkham City",
-        "playtime_forever": 21.1,
-        "appid": 200260,
-        "playtime_percentage": 1.4
-      },
-      {
-        "name": "DOOM",
-        "playtime_forever": 20.92,
-        "appid": 379720,
-        "playtime_percentage": 1.39
-      },
-      {
-        "name": "Trine 2",
-        "playtime_forever": 20.08,
-        "appid": 35720,
-        "playtime_percentage": 1.33
+        "playtime_percentage": 2.6
       }
     ]
   }
