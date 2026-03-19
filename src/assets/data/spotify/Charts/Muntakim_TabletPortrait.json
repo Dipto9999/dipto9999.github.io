@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-0c2b33969d09b65aa8d3ffa61da32637"
+            "name": "data-84cfca3c08a83afcb3f3f5c3c36b9399"
           },
           "mark": {
             "type": "arc",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-609cd56783c19b343ae3bba4235e5e9e"
+            "name": "data-e53e683096c3924ab8c0c704df479b0e"
           },
           "height": 200,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-a11e0a53078aa3ca37df123c5af50a9a"
+        "name": "data-0baf2ae123a478bd05c67d4ceeeb2a86"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-15f270e27da26f9af3719465b4d1a793"
+            "name": "data-fbb591cc451c64fd48be4bcd0e026344"
           },
           "height": 200,
           "resolve": {
@@ -735,16 +735,16 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-0c2b33969d09b65aa8d3ffa61da32637": [
+    "data-84cfca3c08a83afcb3f3f5c3c36b9399": [
       {
         "artist": "Alka Yagnik",
-        "count": 1199,
+        "count": 1200,
         "pct": 30.6
       },
       {
         "artist": "Kumar Sanu",
-        "count": 821,
-        "pct": 20.9
+        "count": 822,
+        "pct": 21.0
       },
       {
         "artist": "Udit Narayan",
@@ -787,15 +787,15 @@
         "pct": 3.1
       }
     ],
-    "data-609cd56783c19b343ae3bba4235e5e9e": [
+    "data-e53e683096c3924ab8c0c704df479b0e": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,199)",
+        "label": "Alka Yagnik (1,200)",
         "idx": 0
       },
       {
         "artist": "Kumar Sanu",
-        "label": "Kumar Sanu (821)",
+        "label": "Kumar Sanu (822)",
         "idx": 1
       },
       {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-a11e0a53078aa3ca37df123c5af50a9a": [
+    "data-0baf2ae123a478bd05c67d4ceeeb2a86": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,8 +910,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 30,
-        "cumulative_tracks": 3453,
+        "tracks_added": 31,
+        "cumulative_tracks": 3454,
         "cumulative_artists": 695,
         "year": "2026"
       }
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-15f270e27da26f9af3719465b4d1a793": [
+    "data-fbb591cc451c64fd48be4bcd0e026344": [
       {
         "rank": 1,
-        "song": "Main Hoon Na",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "08:36 UTC",
+        "song": "Zara Aankhon Mein Kaajal",
+        "artist": "Anuradha Paudwal, Kumar Sanu",
+        "time": "05:33 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Main Hoon Na",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "08:30 UTC",
+        "song": "Are Re Are",
+        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
+        "time": "05:22 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Main Hoon Na",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "08:24 UTC",
+        "song": "Pehle Kabhi Na Mera Haal",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "05:14 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Main Hoon Na",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "08:18 UTC",
+        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
+        "artist": "Kumar Sanu",
+        "time": "05:10 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Main Hoon Na",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "08:12 UTC",
+        "song": "Hai Mera Dil",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "05:02 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Pyar Hone Laga Hai",
-        "artist": "Sonu Nigam, Alka Yagnik",
-        "time": "22:51 UTC",
+        "song": "Dil Lagane Ki Saza",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "04:58 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Aisi Deewangi (From \"Deewana\")",
-        "artist": "Vinod Rathod, Alka Yagnik",
-        "time": "22:47 UTC",
+        "song": "Raah Mein Unse Mulaqat",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "04:52 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Aapke Pyaar Mein Hum",
-        "artist": "Alka Yagnik",
-        "time": "22:42 UTC",
+        "song": "Dekha Hai Pehli Baar (From \"Saajan\")",
+        "artist": "Alka Yagnik, S. P. Balasubrahmanyam",
+        "time": "04:44 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Chori Chori Dil Tera",
-        "artist": "Kumar Sanu, Sujata Goswamy",
-        "time": "22:37 UTC",
+        "song": "Dil Gaya Haathon Se",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "04:37 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Aapke Pyaar Mein Hum",
-        "artist": "Alka Yagnik",
-        "time": "17:46 UTC",
+        "song": "Palkein Ho Khuli Ya Bandh",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "04:29 UTC",
         "y_pos": 9
       }
     ]
