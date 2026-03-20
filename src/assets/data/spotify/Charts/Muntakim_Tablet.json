@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-84cfca3c08a83afcb3f3f5c3c36b9399"
+            "name": "data-becee3ad94d8cc306f089ccd30306717"
           },
           "mark": {
             "type": "arc",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-e53e683096c3924ab8c0c704df479b0e"
+            "name": "data-306e10b9beb590212d05608a5b94a818"
           },
           "height": 260,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-0baf2ae123a478bd05c67d4ceeeb2a86"
+        "name": "data-7dc062e276be15ac341152ae7fa131f5"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-fbb591cc451c64fd48be4bcd0e026344"
+            "name": "data-642147e5563ceed63bce2f9338a12e22"
           },
           "height": 260,
           "resolve": {
@@ -735,10 +735,10 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-84cfca3c08a83afcb3f3f5c3c36b9399": [
+    "data-becee3ad94d8cc306f089ccd30306717": [
       {
         "artist": "Alka Yagnik",
-        "count": 1200,
+        "count": 1201,
         "pct": 30.6
       },
       {
@@ -754,7 +754,7 @@
       {
         "artist": "Sonu Nigam",
         "count": 304,
-        "pct": 7.8
+        "pct": 7.7
       },
       {
         "artist": "Shreya Ghoshal",
@@ -787,10 +787,10 @@
         "pct": 3.1
       }
     ],
-    "data-e53e683096c3924ab8c0c704df479b0e": [
+    "data-306e10b9beb590212d05608a5b94a818": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,200)",
+        "label": "Alka Yagnik (1,201)",
         "idx": 0
       },
       {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-0baf2ae123a478bd05c67d4ceeeb2a86": [
+    "data-7dc062e276be15ac341152ae7fa131f5": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,8 +910,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 31,
-        "cumulative_tracks": 3454,
+        "tracks_added": 32,
+        "cumulative_tracks": 3455,
         "cumulative_artists": 695,
         "year": "2026"
       }
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-fbb591cc451c64fd48be4bcd0e026344": [
+    "data-642147e5563ceed63bce2f9338a12e22": [
       {
         "rank": 1,
-        "song": "Zara Aankhon Mein Kaajal",
-        "artist": "Anuradha Paudwal, Kumar Sanu",
-        "time": "05:33 UTC",
+        "song": "Yeh Hum Aa Gaye Hain Kahaan",
+        "artist": "Madan Mohan, Lata Mangeshkar, Udit Narayan, Javed Akhtar",
+        "time": "05:19 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Are Re Are",
-        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
-        "time": "05:22 UTC",
+        "song": "Aayega Maza Ab Barsaat Ka (From \"Andaaz\")",
+        "artist": "Alka Yagnik, Babul Supriyo, Nadeem Shravan",
+        "time": "05:13 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Pehle Kabhi Na Mera Haal",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "05:14 UTC",
+        "song": "Ladki Badi Anjani Hai",
+        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik",
+        "time": "05:08 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
-        "artist": "Kumar Sanu",
-        "time": "05:10 UTC",
+        "song": "Barsaat Ke Din Aaye (From \"Barsaat\")",
+        "artist": "Kumar Sanu, Alka Yagnik, Nadeem Shravan",
+        "time": "04:56 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Hai Mera Dil",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "05:02 UTC",
+        "song": "O Sahiba O Sahiba",
+        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Sonu Nigam, Sameer Anjaan",
+        "time": "04:51 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Dil Lagane Ki Saza",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "04:58 UTC",
+        "song": "Mohabbat Dil Ka Sakoon",
+        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Udit Narayan, Sameer Anjaan",
+        "time": "04:46 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Raah Mein Unse Mulaqat",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "04:52 UTC",
+        "song": "O Sahiba O Sahiba",
+        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Sonu Nigam, Sameer Anjaan",
+        "time": "04:39 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Dekha Hai Pehli Baar (From \"Saajan\")",
-        "artist": "Alka Yagnik, S. P. Balasubrahmanyam",
-        "time": "04:44 UTC",
+        "song": "O Sahiba O Sahiba",
+        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Sonu Nigam, Sameer Anjaan",
+        "time": "04:24 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Dil Gaya Haathon Se",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "04:37 UTC",
+        "song": "O Sahiba O Sahiba",
+        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Sonu Nigam, Sameer Anjaan",
+        "time": "04:19 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Palkein Ho Khuli Ya Bandh",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "04:29 UTC",
+        "song": "Dil Hai Tumhaara",
+        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Kumar Sanu, Sameer Anjaan",
+        "time": "04:12 UTC",
         "y_pos": 9
       }
     ]

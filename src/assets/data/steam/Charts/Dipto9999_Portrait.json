@@ -190,61 +190,61 @@
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 60.84
+        "playtime_percentage": 60.46
       },
       {
         "name": "Batman: Arkham Knight",
-        "playtime_forever": 116.37,
+        "playtime_forever": 125.05,
         "appid": 208650,
-        "playtime_percentage": 8.38
+        "playtime_percentage": 8.94
       },
       {
         "name": "LOTR Online",
         "playtime_forever": 91.02,
         "appid": 212500,
-        "playtime_percentage": 6.55
+        "playtime_percentage": 6.51
       },
       {
         "name": "Telltale: Batman",
         "playtime_forever": 66.22,
         "appid": 498240,
-        "playtime_percentage": 4.77
+        "playtime_percentage": 4.74
       },
       {
         "name": "Cyberpunk 2077",
         "playtime_forever": 59.75,
         "appid": 1091500,
-        "playtime_percentage": 4.3
+        "playtime_percentage": 4.27
       },
       {
         "name": "Stardew Valley",
         "playtime_forever": 49.5,
         "appid": 413150,
-        "playtime_percentage": 3.56
+        "playtime_percentage": 3.54
       },
       {
         "name": "Telltale: Game of Thrones",
         "playtime_forever": 47.68,
         "appid": 330840,
-        "playtime_percentage": 3.43
+        "playtime_percentage": 3.41
       },
       {
         "name": "Telltale: The Walking Dead",
         "playtime_forever": 40.52,
         "appid": 207610,
-        "playtime_percentage": 2.92
+        "playtime_percentage": 2.9
       },
       {
         "name": "Shadow of Mordor",
         "playtime_forever": 37.05,
         "appid": 241930,
-        "playtime_percentage": 2.67
+        "playtime_percentage": 2.65
       },
       {
         "name": "Telltale: Batman The Enemy Within",
         "playtime_forever": 35.93,
         "appid": 675260,
-        "playtime_percentage": 2.59
+        "playtime_percentage": 2.57
       }
     ]
   }
