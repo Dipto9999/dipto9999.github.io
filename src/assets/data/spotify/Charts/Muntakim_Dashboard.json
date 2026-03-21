@@ -189,12 +189,12 @@
             }
           ],
           "data": {
-            "name": "data-7dc062e276be15ac341152ae7fa131f5"
+            "name": "data-9a0865d5b49c506ead633aa8aca8beb8"
           }
         },
         {
           "data": {
-            "name": "data-becee3ad94d8cc306f089ccd30306717"
+            "name": "data-38d5dd769c179398878e9cc5fa599a26"
           },
           "mark": {
             "type": "arc",
@@ -352,7 +352,7 @@
             }
           ],
           "data": {
-            "name": "data-306e10b9beb590212d05608a5b94a818"
+            "name": "data-2af25887ad93946342dfe632fd6ed955"
           },
           "height": 320,
           "resolve": {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-20bf579174d6294c9409fbce3f79503f"
+            "name": "data-2abfd5deee5a5a54b80a023b1804de57"
           },
           "height": 380,
           "resolve": {
@@ -717,7 +717,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-7dc062e276be15ac341152ae7fa131f5": [
+    "data-9a0865d5b49c506ead633aa8aca8beb8": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -783,27 +783,27 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 32,
-        "cumulative_tracks": 3455,
+        "tracks_added": 33,
+        "cumulative_tracks": 3456,
         "cumulative_artists": 695,
         "year": "2026"
       }
     ],
-    "data-becee3ad94d8cc306f089ccd30306717": [
+    "data-38d5dd769c179398878e9cc5fa599a26": [
       {
         "artist": "Alka Yagnik",
-        "count": 1201,
+        "count": 1202,
         "pct": 30.6
       },
       {
         "artist": "Kumar Sanu",
         "count": 822,
-        "pct": 21.0
+        "pct": 20.9
       },
       {
         "artist": "Udit Narayan",
         "count": 716,
-        "pct": 18.3
+        "pct": 18.2
       },
       {
         "artist": "Sonu Nigam",
@@ -841,10 +841,10 @@
         "pct": 3.1
       }
     ],
-    "data-306e10b9beb590212d05608a5b94a818": [
+    "data-2af25887ad93946342dfe632fd6ed955": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,201)",
+        "label": "Alka Yagnik (1,202)",
         "idx": 0
       },
       {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-20bf579174d6294c9409fbce3f79503f": [
+    "data-2abfd5deee5a5a54b80a023b1804de57": [
       {
         "rank": 1,
-        "song": "Aaj Kehna Zaroori Hai (From \"Andaaz\")",
-        "artist": "Udit Narayan, Alka Yagnik, Nadeem Shravan",
-        "time": "17:00 UTC",
+        "song": "Jaage Jaage",
+        "artist": "Jeet-Pritam, Sonu Nigam, Alka Yagnik, Udit Narayan, Javed Akhtar",
+        "time": "05:59 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Andekhi Anjaani",
-        "artist": "Rahul Sharma, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
-        "time": "15:21 UTC",
+        "song": "Tinak Tin Tana",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "05:47 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Nazar Ke Samne",
-        "artist": "Anuradha Paudwal, Kumar Sanu, Super Cassettes Industries Private Limited, Sameer Anjaan",
-        "time": "15:15 UTC",
+        "song": "Tumse Milne Ki Tamanna Hai",
+        "artist": "S. P. Balasubrahmanyam",
+        "time": "05:21 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Yeh Hum Aa Gaye Hain Kahaan",
-        "artist": "Madan Mohan, Lata Mangeshkar, Udit Narayan, Javed Akhtar",
-        "time": "05:19 UTC",
+        "song": "Ishq Hai Zindagi",
+        "artist": "Himesh Reshammiya, Udit Narayan, Alka Yagnik, Vinod Rathod",
+        "time": "05:12 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Aayega Maza Ab Barsaat Ka (From \"Andaaz\")",
-        "artist": "Alka Yagnik, Babul Supriyo, Nadeem Shravan",
-        "time": "05:13 UTC",
+        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "05:05 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Ladki Badi Anjani Hai",
-        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik",
-        "time": "05:08 UTC",
+        "song": "Ek Ladki",
+        "artist": "Jeet-Pritam, Udit Narayan, Alka Yagnik, Javed Akhtar",
+        "time": "04:59 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Barsaat Ke Din Aaye (From \"Barsaat\")",
-        "artist": "Kumar Sanu, Alka Yagnik, Nadeem Shravan",
-        "time": "04:56 UTC",
+        "song": "Yeh Dil Aashiqana",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "04:54 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "O Sahiba O Sahiba",
-        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Sonu Nigam, Sameer Anjaan",
-        "time": "04:51 UTC",
+        "song": "Neele Neele Ambar Par - Male Version",
+        "artist": "Kalyanji-Anandji, Kishore Kumar",
+        "time": "04:47 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Mohabbat Dil Ka Sakoon",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Udit Narayan, Sameer Anjaan",
-        "time": "04:46 UTC",
+        "song": "Dil To Pagal Hai",
+        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
+        "time": "04:41 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "O Sahiba O Sahiba",
-        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Sonu Nigam, Sameer Anjaan",
-        "time": "04:39 UTC",
+        "song": "Chori Chori Chupke Chupke - From \"Chori Chori Chupke Chupke\"",
+        "artist": "Alka Yagnik, Babul Supriyo",
+        "time": "04:34 UTC",
         "y_pos": 9
       }
     ]
