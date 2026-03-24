@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-4fff5acec518b5d7b270243aaad1b6d2"
+        "name": "data-7818107c6699f30a1bee8c6fe33ab7c4"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1414.0 Hrs",
+        "subtitle": "Total Playtime: 1414.2 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,12 +199,12 @@
         "Value": 50
       }
     ],
-    "data-4fff5acec518b5d7b270243aaad1b6d2": [
+    "data-7818107c6699f30a1bee8c6fe33ab7c4": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 59.78
+        "playtime_percentage": 59.77
       },
       {
         "name": "Batman: Arkham Knight",
@@ -214,9 +214,9 @@
       },
       {
         "name": "LOTR Online",
-        "playtime_forever": 92.82,
+        "playtime_forever": 93.02,
         "appid": 212500,
-        "playtime_percentage": 6.56
+        "playtime_percentage": 6.58
       },
       {
         "name": "Telltale: Batman",

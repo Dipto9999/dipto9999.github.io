@@ -1,9 +1,9 @@
 appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_forever,playtime_linux_forever,playtime_deck_forever,rtime_last_played,content_descriptorids,playtime_disconnected,has_community_visible_stats,has_leaderboards,playtime_2weeks,player_level
 72850,Skyrim,845.28,b9aca8a189abd8d6aaf09047dbb0f57582683e1c,0,0,0,0,1623092117,"[1, 5]",0,True,0,0.0,21
 208650,Batman: Arkham Knight,139.2,f6c2ce13796844750dfbd01685fb009eeac4bf70,214,0,2564,2564,1774175614,0,0,True,0,2557.0,21
-212500,LOTR Online,92.82,6dbff8345f6b3e5f092a834985c8f851859bfbf2,891,0,108,108,1774211129,0,1,0,0,108.0,21
+212500,LOTR Online,93.02,6dbff8345f6b3e5f092a834985c8f851859bfbf2,902,0,108,108,1774308830,0,1,0,0,119.0,21
 498240,Telltale: Batman,66.22,f7d48a2727c415d45412c50dcb228252f57f689b,0,0,0,0,1529389252,0,0,True,0,0.0,21
-1091500,Cyberpunk 2077,59.75,42b9b33fa0f0d997beb299c6157592a8fe7d8f68,2153,0,1431,1431,1773354066,"[1, 2, 5]",54,True,0,567.0,21
+1091500,Cyberpunk 2077,59.75,42b9b33fa0f0d997beb299c6157592a8fe7d8f68,2153,0,1431,1431,1773354066,"[1, 2, 5]",54,True,0,396.0,21
 413150,Stardew Valley,49.5,35d1377200084a4034238c05b0c8930451e2fb40,2970,0,0,0,1623094263,0,0,True,0,0.0,21
 330840,Telltale: Game of Thrones,47.68,b981849ef37118e0cef6388f0c893d381323e4b3,0,0,0,0,1507484856,0,0,True,0,0.0,21
 207610,Telltale: The Walking Dead,40.52,87a13ae0a2a76488792924aa8bb0dd8a7760f931,856,0,0,0,1617658345,"[2, 5]",0,True,0,0.0,21
@@ -14,9 +14,9 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 200260,Batman: Arkham City,21.1,746ecf3ce44b2525eb7ad643e76a3b60913d2662,0,0,0,0,1530488890,0,0,True,0,0.0,21
 379720,DOOM,20.92,b6e72ff47d1990cb644700751eeeff14e0aba6dc,1255,0,0,0,1615158918,"[2, 5]",0,True,0,0.0,21
 35720,Trine 2,20.08,061ecbbd7c70ae1c052377bad136c7759cbb708d,0,0,11,11,1768197881,0,1,True,0,0.0,21
+2111170,STORY OF SEASONS: A Wonderful Life,19.5,64b14ab47f08ba696ca649a9e3daeea8b0dd748f,0,0,1170,1170,1774306788,0,0,True,0,1170.0,21
 391220,Rise of the Tomb Raider,18.63,0b8a37f32ed2b7c934be8aa94d53f71e274c6497,81,0,1037,1037,1767259888,0,1836,True,0,0.0,21
 203160,Tomb Raider,17.98,3ee640a8aba6992678e36f4e40cba9c71c02348b,1079,0,0,0,1617563083,0,0,True,0,0.0,21
-2111170,STORY OF SEASONS: A Wonderful Life,14.87,64b14ab47f08ba696ca649a9e3daeea8b0dd748f,0,0,892,892,1774225875,0,0,True,0,892.0,21
 35140,Batman: Arkham Asylum GOTY Edition,13.38,e52f91ecb0d3f20263e96fe188de1bcc8c91643e,0,0,0,0,1498773795,0,0,True,0,0.0,21
 261030,The Walking Dead: Season Two,12.37,8dd081faf73fb7ff57151a1498b7025e8fc85dc4,735,0,7,7,1768870726,"[2, 5]",0,True,0,0.0,21
 866800,The Walking Dead: The Final Season,10.08,1b3b4649490d5112ef907c6dd660036d55a866b6,204,0,400,400,1768869865,"[2, 5]",46,True,0,0.0,21
