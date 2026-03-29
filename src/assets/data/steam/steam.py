@@ -146,7 +146,8 @@ class SteamUser:
         'Batman: The Enemy Within - The Telltale Series': 'Telltale: Batman The Enemy Within',
         'The Walking Dead': 'Telltale: The Walking Dead',
         'Game of Thrones - A Telltale Games Series': 'Telltale: Game of Thrones',
-        'The Witcher 3: Wild Hunt': 'The Witcher 3'
+        'The Witcher 3: Wild Hunt': 'The Witcher 3',
+        'STORY OF SEASONS: A Wonderful Life': 'SoS: A Wonderful Life',
     }
 
     def __init__(self, username: str, api_client: SteamAPI):
