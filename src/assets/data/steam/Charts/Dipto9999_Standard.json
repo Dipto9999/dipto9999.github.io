@@ -205,7 +205,7 @@
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 59.62
+        "playtime_percentage": 59.59
       },
       {
         "name": "Batman: Arkham Knight",
@@ -217,7 +217,7 @@
         "name": "LOTR Online",
         "playtime_forever": 93.82,
         "appid": 212500,
-        "playtime_percentage": 6.62
+        "playtime_percentage": 6.61
       },
       {
         "name": "Telltale: Batman",
@@ -256,10 +256,10 @@
         "playtime_percentage": 2.61
       },
       {
-        "name": "Telltale: Batman The Enemy Within",
-        "playtime_forever": 35.93,
-        "appid": 675260,
-        "playtime_percentage": 2.53
+        "name": "STORY OF SEASONS: A Wonderful Life",
+        "playtime_forever": 36.47,
+        "appid": 2111170,
+        "playtime_percentage": 2.57
       }
     ]
   }
