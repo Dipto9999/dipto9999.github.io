@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-9242f5ff95f9e7ce3551564f9b8291b2"
+        "name": "data-26e253b14f6af66c317b295f4563c9d9"
       },
       "mark": {
         "type": "arc",
@@ -199,7 +199,7 @@
         "Value": 50
       }
     ],
-    "data-9242f5ff95f9e7ce3551564f9b8291b2": [
+    "data-26e253b14f6af66c317b295f4563c9d9": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
@@ -255,7 +255,7 @@
         "playtime_percentage": 2.61
       },
       {
-        "name": "STORY OF SEASONS: A Wonderful Life",
+        "name": "SoS: A Wonderful Life",
         "playtime_forever": 36.47,
         "appid": 2111170,
         "playtime_percentage": 2.57
