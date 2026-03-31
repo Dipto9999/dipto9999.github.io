@@ -190,19 +190,19 @@
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 59.54
+        "playtime_percentage": 59.5
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 139.65,
         "appid": 208650,
-        "playtime_percentage": 9.84
+        "playtime_percentage": 9.83
       },
       {
         "name": "LOTR Online",
-        "playtime_forever": 94.95,
+        "playtime_forever": 95.7,
         "appid": 212500,
-        "playtime_percentage": 6.69
+        "playtime_percentage": 6.74
       },
       {
         "name": "Telltale: Batman",
@@ -220,7 +220,7 @@
         "name": "Stardew Valley",
         "playtime_forever": 49.5,
         "appid": 413150,
-        "playtime_percentage": 3.49
+        "playtime_percentage": 3.48
       },
       {
         "name": "Telltale: Game of Thrones",

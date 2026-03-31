@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-720e7329da44ff570b263fab027ab2d6"
+            "name": "data-0f0432d2113cadd1d24bb2d2ee7df5f4"
           },
           "mark": {
             "type": "arc",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-a0ed13cdb9dec67737e1311af8b408c4"
+            "name": "data-74bce2d9d9c4c76933489b15f35d3184"
           },
           "height": 260,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-6f56b1ddf03c2137da799f91e959fa67"
+        "name": "data-fc323cc93c8463afe86c85ca0128d97f"
       }
     },
     {
@@ -531,7 +531,7 @@
             }
           ],
           "data": {
-            "name": "data-31c9e0fc91a787a8c7a360f642bc4d07"
+            "name": "data-56d7a69b9d068222f33ca36c45c047c3"
           },
           "height": 260,
           "resolve": {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-68f9551ee2e770343c766c86412f1e2b"
+            "name": "data-f60fde6ea0a8ade34c7990b814e2c25f"
           },
           "height": 260,
           "resolve": {
@@ -735,15 +735,15 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-720e7329da44ff570b263fab027ab2d6": [
+    "data-0f0432d2113cadd1d24bb2d2ee7df5f4": [
       {
         "artist": "Alka Yagnik",
-        "count": 1203,
-        "pct": 30.6
+        "count": 1205,
+        "pct": 30.7
       },
       {
         "artist": "Kumar Sanu",
-        "count": 823,
+        "count": 824,
         "pct": 21.0
       },
       {
@@ -753,8 +753,8 @@
       },
       {
         "artist": "Sonu Nigam",
-        "count": 304,
-        "pct": 7.7
+        "count": 305,
+        "pct": 7.8
       },
       {
         "artist": "Shreya Ghoshal",
@@ -787,15 +787,15 @@
         "pct": 3.1
       }
     ],
-    "data-a0ed13cdb9dec67737e1311af8b408c4": [
+    "data-74bce2d9d9c4c76933489b15f35d3184": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,203)",
+        "label": "Alka Yagnik (1,205)",
         "idx": 0
       },
       {
         "artist": "Kumar Sanu",
-        "label": "Kumar Sanu (823)",
+        "label": "Kumar Sanu (824)",
         "idx": 1
       },
       {
@@ -805,7 +805,7 @@
       },
       {
         "artist": "Sonu Nigam",
-        "label": "Sonu Nigam (304)",
+        "label": "Sonu Nigam (305)",
         "idx": 3
       },
       {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-6f56b1ddf03c2137da799f91e959fa67": [
+    "data-fc323cc93c8463afe86c85ca0128d97f": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,13 +910,13 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 34,
-        "cumulative_tracks": 3457,
+        "tracks_added": 36,
+        "cumulative_tracks": 3459,
         "cumulative_artists": 695,
         "year": "2026"
       }
     ],
-    "data-31c9e0fc91a787a8c7a360f642bc4d07": [
+    "data-56d7a69b9d068222f33ca36c45c047c3": [
       {
         "rank": 1,
         "song": "Maine Tumse Pyaar (From \"Barsaat\")",
@@ -949,20 +949,20 @@
       },
       {
         "rank": 6,
-        "song": "Saanson Ko",
-        "artist": "Shaarib Toshi, Arijit Singh",
+        "song": "Maahi - Rock with Me",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Jo Bhi Kasmein",
-        "artist": "Alka Yagnik, Udit Narayan",
+        "song": "Saanson Ko",
+        "artist": "Shaarib Toshi, Arijit Singh",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Maahi - Rock with Me",
-        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "song": "Jo Bhi Kasmein",
+        "artist": "Alka Yagnik, Udit Narayan",
         "y_pos": 7
       },
       {
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-68f9551ee2e770343c766c86412f1e2b": [
+    "data-f60fde6ea0a8ade34c7990b814e2c25f": [
       {
         "rank": 1,
-        "song": "Tujhe Sochta Hoon",
-        "artist": "Pritam, KK, Sayeed Quadri",
-        "time": "16:43 UTC",
+        "song": "Mohabbat Dil Ka Sakoon",
+        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Udit Narayan, Sameer Anjaan",
+        "time": "00:15 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Maahi - Rock with Me",
-        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
-        "time": "16:39 UTC",
+        "song": "Khwaish",
+        "artist": "Sonu Nigam, Alka Yagnik",
+        "time": "00:09 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Haan Tu Hain",
-        "artist": "Pritam, KK, Sayeed Quadri",
-        "time": "16:34 UTC",
+        "song": "Hum Pyaar Hai Tumhare",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "00:04 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Zara Sa",
-        "artist": "Pritam, KK, Sayeed Quadri",
-        "time": "05:53 UTC",
+        "song": "Tumse Milne Ki Tamanna Hai",
+        "artist": "S. P. Balasubrahmanyam",
+        "time": "23:56 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Hale Dil",
-        "artist": "Harshit Saxena, Sayeed Quadri",
-        "time": "05:48 UTC",
+        "song": "Neele Neele Ambar Par - Male Version",
+        "artist": "Kalyanji-Anandji, Kishore Kumar",
+        "time": "23:50 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Dhan Te Nan",
-        "artist": "Sukhwinder Singh, Vishal Dadlani, Robert Bob Omulo",
-        "time": "05:42 UTC",
+        "song": "Dekha Hai Pehli Baar (From \"Saajan\")",
+        "artist": "Alka Yagnik, S. P. Balasubrahmanyam",
+        "time": "23:43 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Tujhe Bhula Diya",
-        "artist": "Vishal-Shekhar, Mohit Chauhan, Shekhar Ravjiani, Shruti Pathak",
-        "time": "05:37 UTC",
+        "song": "Agar Tum Mil Jao - From \"Zeher\"",
+        "artist": "Shreya Ghoshal, Roop Kumar Rathod, Anu Malik",
+        "time": "23:36 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Tujhe Sochta Hoon",
-        "artist": "Pritam, KK, Sayeed Quadri",
-        "time": "05:32 UTC",
+        "song": "Pyar Hone Laga Hai",
+        "artist": "Sonu Nigam, Alka Yagnik",
+        "time": "23:30 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Maahi - Rock with Me",
-        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
-        "time": "05:27 UTC",
+        "song": "Jaan - E - Jigar Jaaneman",
+        "artist": "Anuradha Paudwal, Kumar Sanu, Super Cassettes Industries Private Limited, Sameer Anjaan",
+        "time": "23:24 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "05:22 UTC",
+        "song": "Teri Umeed Tera Intezar (From \"Deewana\")",
+        "artist": "Sadhana Sargam, Kumar Sanu",
+        "time": "23:19 UTC",
         "y_pos": 9
       }
     ]
