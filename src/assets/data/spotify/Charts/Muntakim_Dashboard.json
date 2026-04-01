@@ -189,12 +189,12 @@
             }
           ],
           "data": {
-            "name": "data-fc323cc93c8463afe86c85ca0128d97f"
+            "name": "data-5b5395aabe71cf12c4192d1a4c0d88dd"
           }
         },
         {
           "data": {
-            "name": "data-0f0432d2113cadd1d24bb2d2ee7df5f4"
+            "name": "data-ef9cfeaf9bfe4ff7950e83aeebf92bbc"
           },
           "mark": {
             "type": "arc",
@@ -352,7 +352,7 @@
             }
           ],
           "data": {
-            "name": "data-74bce2d9d9c4c76933489b15f35d3184"
+            "name": "data-c6a28920e0df726e34839557bd678c2a"
           },
           "height": 320,
           "resolve": {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-f60fde6ea0a8ade34c7990b814e2c25f"
+            "name": "data-6c75b2167a1254ad602809eb7539090a"
           },
           "height": 380,
           "resolve": {
@@ -717,7 +717,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-fc323cc93c8463afe86c85ca0128d97f": [
+    "data-5b5395aabe71cf12c4192d1a4c0d88dd": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -783,16 +783,16 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 36,
-        "cumulative_tracks": 3459,
+        "tracks_added": 37,
+        "cumulative_tracks": 3460,
         "cumulative_artists": 695,
         "year": "2026"
       }
     ],
-    "data-0f0432d2113cadd1d24bb2d2ee7df5f4": [
+    "data-ef9cfeaf9bfe4ff7950e83aeebf92bbc": [
       {
         "artist": "Alka Yagnik",
-        "count": 1205,
+        "count": 1206,
         "pct": 30.7
       },
       {
@@ -802,7 +802,7 @@
       },
       {
         "artist": "Udit Narayan",
-        "count": 716,
+        "count": 717,
         "pct": 18.2
       },
       {
@@ -841,10 +841,10 @@
         "pct": 3.1
       }
     ],
-    "data-74bce2d9d9c4c76933489b15f35d3184": [
+    "data-c6a28920e0df726e34839557bd678c2a": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,205)",
+        "label": "Alka Yagnik (1,206)",
         "idx": 0
       },
       {
@@ -854,7 +854,7 @@
       },
       {
         "artist": "Udit Narayan",
-        "label": "Udit Narayan (716)",
+        "label": "Udit Narayan (717)",
         "idx": 2
       },
       {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-f60fde6ea0a8ade34c7990b814e2c25f": [
+    "data-6c75b2167a1254ad602809eb7539090a": [
       {
         "rank": 1,
-        "song": "Mohabbat Dil Ka Sakoon",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Udit Narayan, Sameer Anjaan",
-        "time": "00:15 UTC",
+        "song": "Chanda Sitare",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "06:34 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Khwaish",
+        "song": "Aye Dil Bata",
         "artist": "Sonu Nigam, Alka Yagnik",
-        "time": "00:09 UTC",
+        "time": "04:10 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Hum Pyaar Hai Tumhare",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "00:04 UTC",
+        "song": "Chori Chori Sapnon Mein (From \"Chal Mere Bhai\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "23:07 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Tumse Milne Ki Tamanna Hai",
-        "artist": "S. P. Balasubrahmanyam",
-        "time": "23:56 UTC",
+        "song": "Zara Aankhon Mein Kaajal",
+        "artist": "Anuradha Paudwal, Kumar Sanu",
+        "time": "23:02 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Neele Neele Ambar Par - Male Version",
-        "artist": "Kalyanji-Anandji, Kishore Kumar",
-        "time": "23:50 UTC",
+        "song": "Chanda Sitare",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "22:55 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Dekha Hai Pehli Baar (From \"Saajan\")",
-        "artist": "Alka Yagnik, S. P. Balasubrahmanyam",
-        "time": "23:43 UTC",
+        "song": "Jab Ladka Ho Kunwara",
+        "artist": "Sonu Nigam, Alka Yagnik",
+        "time": "22:37 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Agar Tum Mil Jao - From \"Zeher\"",
-        "artist": "Shreya Ghoshal, Roop Kumar Rathod, Anu Malik",
-        "time": "23:36 UTC",
+        "song": "Jab Ladka Ho Kunwara",
+        "artist": "Sonu Nigam, Alka Yagnik",
+        "time": "22:32 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Pyar Hone Laga Hai",
-        "artist": "Sonu Nigam, Alka Yagnik",
-        "time": "23:30 UTC",
+        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "22:21 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Jaan - E - Jigar Jaaneman",
-        "artist": "Anuradha Paudwal, Kumar Sanu, Super Cassettes Industries Private Limited, Sameer Anjaan",
-        "time": "23:24 UTC",
+        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "22:20 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Teri Umeed Tera Intezar (From \"Deewana\")",
-        "artist": "Sadhana Sargam, Kumar Sanu",
-        "time": "23:19 UTC",
+        "song": "Aisi Deewangi (From \"Deewana\")",
+        "artist": "Vinod Rathod, Alka Yagnik",
+        "time": "22:15 UTC",
         "y_pos": 9
       }
     ]
