@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-dec4cd1da37fd1f53809ecb6f70059b5"
+            "name": "data-e35f95df116ee96e46ed705ec99b6f43"
           },
           "height": 200,
           "resolve": {
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-dec4cd1da37fd1f53809ecb6f70059b5": [
+    "data-e35f95df116ee96e46ed705ec99b6f43": [
       {
         "rank": 1,
         "song": "Tauba Tumhare Ishare",
         "artist": "Abhijeet, Alka Yagnik",
-        "time": "18:11 UTC",
+        "time": "06:21 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Chanda Sitare",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "18:02 UTC",
+        "song": "Tauba Tumhare Ishare",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "18:11 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
         "song": "Chanda Sitare",
         "artist": "Udit Narayan, Alka Yagnik",
-        "time": "17:55 UTC",
+        "time": "18:02 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
         "song": "Chanda Sitare",
         "artist": "Udit Narayan, Alka Yagnik",
-        "time": "06:34 UTC",
+        "time": "17:55 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Aye Dil Bata",
-        "artist": "Sonu Nigam, Alka Yagnik",
-        "time": "04:10 UTC",
+        "song": "Chanda Sitare",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "06:34 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Chori Chori Sapnon Mein (From \"Chal Mere Bhai\")",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "23:07 UTC",
+        "song": "Aye Dil Bata",
+        "artist": "Sonu Nigam, Alka Yagnik",
+        "time": "04:10 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Zara Aankhon Mein Kaajal",
-        "artist": "Anuradha Paudwal, Kumar Sanu",
-        "time": "23:02 UTC",
+        "song": "Chori Chori Sapnon Mein (From \"Chal Mere Bhai\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "23:07 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Chanda Sitare",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "22:55 UTC",
+        "song": "Zara Aankhon Mein Kaajal",
+        "artist": "Anuradha Paudwal, Kumar Sanu",
+        "time": "23:02 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Jab Ladka Ho Kunwara",
-        "artist": "Sonu Nigam, Alka Yagnik",
-        "time": "22:37 UTC",
+        "song": "Chanda Sitare",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "22:55 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
         "song": "Jab Ladka Ho Kunwara",
         "artist": "Sonu Nigam, Alka Yagnik",
-        "time": "22:32 UTC",
+        "time": "22:37 UTC",
         "y_pos": 9
       }
     ]
