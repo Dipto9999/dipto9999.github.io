@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-e3a519ce456851de15ba84519514f28b"
+            "name": "data-774ecac77909ac569f24ae14fa13fc6a"
           },
           "height": 380,
           "resolve": {
@@ -960,12 +960,12 @@
         "y_pos": 9
       }
     ],
-    "data-e3a519ce456851de15ba84519514f28b": [
+    "data-774ecac77909ac569f24ae14fa13fc6a": [
       {
         "rank": 1,
         "song": "Suraj Hua Maddham",
         "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
-        "time": "21:23 UTC",
+        "time": "14:58 UTC",
         "y_pos": 0
       },
       {
@@ -977,58 +977,58 @@
       },
       {
         "rank": 3,
-        "song": "Yeh Teri Aankhen Jhuki Jhuki",
-        "artist": "Jatin-Lalit",
-        "time": "21:17 UTC",
+        "song": "Suraj Hua Maddham",
+        "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
+        "time": "21:23 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Aapke Pyaar Mein Hum",
-        "artist": "Alka Yagnik",
-        "time": "21:14 UTC",
+        "song": "Yeh Teri Aankhen Jhuki Jhuki",
+        "artist": "Jatin-Lalit",
+        "time": "21:17 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "21:08 UTC",
+        "song": "Aapke Pyaar Mein Hum",
+        "artist": "Alka Yagnik",
+        "time": "21:14 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Pyar Kar",
-        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
-        "time": "21:03 UTC",
+        "song": "Kasam Khake Kaho",
+        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
+        "time": "21:08 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Main Duniya Bhula Doonga",
-        "artist": "Anuradha Paudwal, Kumar Sanu, Super Cassettes Industries Private Limited, Sameer Anjaan",
-        "time": "20:56 UTC",
+        "song": "Pyar Kar",
+        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
+        "time": "21:03 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Banke Tera Jogi",
-        "artist": "Jatin-Lalit, Alka Yagnik, Sonu Nigam",
-        "time": "20:45 UTC",
+        "song": "Main Duniya Bhula Doonga",
+        "artist": "Anuradha Paudwal, Kumar Sanu, Super Cassettes Industries Private Limited, Sameer Anjaan",
+        "time": "20:56 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Teri Chunnariya",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "20:40 UTC",
+        "song": "Banke Tera Jogi",
+        "artist": "Jatin-Lalit, Alka Yagnik, Sonu Nigam",
+        "time": "20:45 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Gale Lag Ja - Version 1",
-        "artist": "Javed Ali, Banjyotsna",
-        "time": "20:34 UTC",
+        "song": "Teri Chunnariya",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "20:40 UTC",
         "y_pos": 9
       }
     ]
