@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-ef9cfeaf9bfe4ff7950e83aeebf92bbc"
+            "name": "data-1dfec6a8ad7a026d6e966f9dc6803b0c"
           },
           "mark": {
             "type": "arc",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-c6a28920e0df726e34839557bd678c2a"
+            "name": "data-af13ba3f05f963535d275f617631d87c"
           },
           "height": 200,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-5b5395aabe71cf12c4192d1a4c0d88dd"
+        "name": "data-910c8e0fe1a6d59721fef73cfaa7a508"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-e7f4d29ca5ee39c9c294809778120900"
+            "name": "data-7049dd77b950d08ff30a46fab33cbc97"
           },
           "height": 200,
           "resolve": {
@@ -735,15 +735,15 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-ef9cfeaf9bfe4ff7950e83aeebf92bbc": [
+    "data-1dfec6a8ad7a026d6e966f9dc6803b0c": [
       {
         "artist": "Alka Yagnik",
-        "count": 1206,
+        "count": 1207,
         "pct": 30.7
       },
       {
         "artist": "Kumar Sanu",
-        "count": 824,
+        "count": 825,
         "pct": 21.0
       },
       {
@@ -787,15 +787,15 @@
         "pct": 3.1
       }
     ],
-    "data-c6a28920e0df726e34839557bd678c2a": [
+    "data-af13ba3f05f963535d275f617631d87c": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,206)",
+        "label": "Alka Yagnik (1,207)",
         "idx": 0
       },
       {
         "artist": "Kumar Sanu",
-        "label": "Kumar Sanu (824)",
+        "label": "Kumar Sanu (825)",
         "idx": 1
       },
       {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-5b5395aabe71cf12c4192d1a4c0d88dd": [
+    "data-910c8e0fe1a6d59721fef73cfaa7a508": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,8 +910,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 37,
-        "cumulative_tracks": 3460,
+        "tracks_added": 38,
+        "cumulative_tracks": 3461,
         "cumulative_artists": 695,
         "year": "2026"
       }
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-e7f4d29ca5ee39c9c294809778120900": [
+    "data-7049dd77b950d08ff30a46fab33cbc97": [
       {
         "rank": 1,
-        "song": "Tu Pyar Hai Kisi Aur Ka (From \"Dil Hai Ke Manta Nahin\")",
-        "artist": "Anuradha Paudwal, Kumar Sanu",
-        "time": "16:43 UTC",
+        "song": "Main Hoon Na",
+        "artist": "Sonu Nigam, Shreya Ghoshal",
+        "time": "06:26 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "O Sahiba O Sahiba",
-        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Sonu Nigam, Sameer Anjaan",
-        "time": "16:23 UTC",
+        "song": "Main Hoon Na",
+        "artist": "Sonu Nigam, Shreya Ghoshal",
+        "time": "06:20 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Yeh Hum Aa Gaye Hain Kahaan",
-        "artist": "Madan Mohan, Lata Mangeshkar, Udit Narayan, Javed Akhtar",
-        "time": "16:11 UTC",
+        "song": "Sau Rab Di",
+        "artist": "Abhijeet, Alka Yagnik, Surendra Mishra",
+        "time": "06:00 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Ek Din Teri Raahon",
-        "artist": "Javed Ali, Pritam",
-        "time": "21:45 UTC",
+        "song": "Deewana Hai Dekho",
+        "artist": "Sandesh Shandilya, Alka Yagnik, Sonu Nigam, Kareena Kapoor",
+        "time": "05:51 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Chaaya Hai Jo Dil Pe",
-        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Shaan, Sameer Anjaan",
-        "time": "21:38 UTC",
+        "song": "Savariya",
+        "artist": "Kamal Khan, Alka Yagnik",
+        "time": "05:45 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Main Tujhko Bhaga Laya",
-        "artist": "Anand-Milind, Kumar Sanu, Alka Yagnik, Sameer Anjaan",
-        "time": "21:31 UTC",
+        "song": "Ae Mere Humsafar",
+        "artist": "Alka Yagnik, Udit Narayan",
+        "time": "05:40 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Woh Meri Neend Mera Chain",
-        "artist": "Sadhana Sargam",
-        "time": "19:53 UTC",
+        "song": "Tumhein Apna Banane Ki Kasam Khai Hai (From \"Sadak\")",
+        "artist": "Anuradha Paudwal, Kumar Sanu",
+        "time": "05:34 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Dil Hai Tumhaara",
-        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Kumar Sanu, Sameer Anjaan",
-        "time": "19:48 UTC",
+        "song": "Main Yahaan Hoon",
+        "artist": "Madan Mohan, Udit Narayan, Javed Akhtar",
+        "time": "05:28 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "19:38 UTC",
+        "song": "You Are My Soniya",
+        "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
+        "time": "05:23 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "17:42 UTC",
+        "song": "Chalte Chalte",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "05:17 UTC",
         "y_pos": 9
       }
     ]
