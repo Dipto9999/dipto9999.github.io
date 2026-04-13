@@ -189,12 +189,12 @@
             }
           ],
           "data": {
-            "name": "data-0c07da3a58117784cbffb1779f10b157"
+            "name": "data-5f2f9b8c57b7325f1bcdc48694f9c223"
           }
         },
         {
           "data": {
-            "name": "data-c65ec1d84dc28444c5863e458c70fb50"
+            "name": "data-6dfbdb0cee99759dab28478984db86ba"
           },
           "mark": {
             "type": "arc",
@@ -352,7 +352,7 @@
             }
           ],
           "data": {
-            "name": "data-47b29f2aa998d164373e5d228d984095"
+            "name": "data-f3fabcda026db44488a6ce6e02421c64"
           },
           "height": 320,
           "resolve": {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-e73fdc2664c8b444c00240555588d68c"
+            "name": "data-79d3798bdd18523491199ea5493e91f9"
           },
           "height": 380,
           "resolve": {
@@ -717,7 +717,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-0c07da3a58117784cbffb1779f10b157": [
+    "data-5f2f9b8c57b7325f1bcdc48694f9c223": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -783,27 +783,27 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 42,
-        "cumulative_tracks": 3465,
+        "tracks_added": 51,
+        "cumulative_tracks": 3474,
         "cumulative_artists": 695,
         "year": "2026"
       }
     ],
-    "data-c65ec1d84dc28444c5863e458c70fb50": [
+    "data-6dfbdb0cee99759dab28478984db86ba": [
       {
         "artist": "Alka Yagnik",
-        "count": 1209,
+        "count": 1215,
         "pct": 30.7
       },
       {
         "artist": "Kumar Sanu",
-        "count": 826,
+        "count": 829,
         "pct": 21.0
       },
       {
         "artist": "Udit Narayan",
-        "count": 718,
-        "pct": 18.2
+        "count": 723,
+        "pct": 18.3
       },
       {
         "artist": "Sonu Nigam",
@@ -823,7 +823,7 @@
       {
         "artist": "Arijit Singh",
         "count": 136,
-        "pct": 3.5
+        "pct": 3.4
       },
       {
         "artist": "Kishore Kumar",
@@ -841,20 +841,20 @@
         "pct": 3.0
       }
     ],
-    "data-47b29f2aa998d164373e5d228d984095": [
+    "data-f3fabcda026db44488a6ce6e02421c64": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,209)",
+        "label": "Alka Yagnik (1,215)",
         "idx": 0
       },
       {
         "artist": "Kumar Sanu",
-        "label": "Kumar Sanu (826)",
+        "label": "Kumar Sanu (829)",
         "idx": 1
       },
       {
         "artist": "Udit Narayan",
-        "label": "Udit Narayan (718)",
+        "label": "Udit Narayan (723)",
         "idx": 2
       },
       {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-e73fdc2664c8b444c00240555588d68c": [
+    "data-79d3798bdd18523491199ea5493e91f9": [
       {
         "rank": 1,
-        "song": "Tere Dar Par Sanam - Male Version",
-        "artist": "Kumar Sanu",
-        "time": "06:48 UTC",
+        "song": "Mausam Aashiqana Hai",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "07:58 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Agar Tum Mil Jao - From \"Zeher\"",
-        "artist": "Shreya Ghoshal, Roop Kumar Rathod, Anu Malik",
-        "time": "06:42 UTC",
+        "song": "Mahfil Mein Sitaron Ki",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "07:52 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Pyar Hone Laga Hai",
-        "artist": "Sonu Nigam, Alka Yagnik",
-        "time": "06:36 UTC",
+        "song": "Tu Deewana Paagal",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "07:32 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Woh Meri Neend Mera Chain",
-        "artist": "Sadhana Sargam",
-        "time": "06:29 UTC",
+        "song": "Dil Mein Hulchul Si",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "07:16 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Aaye Ho Meri Zindagi Mein - Female Version",
-        "artist": "Alka Yagnik",
-        "time": "06:24 UTC",
+        "song": "Tu Deewana Paagal",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "07:10 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Aaye Ho Meri Zindagi Mein - Female Version",
-        "artist": "Alka Yagnik",
-        "time": "06:21 UTC",
+        "song": "Dil Mein Hulchul Si",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "07:05 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Raah Mein Unse Mulaqat",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "05:05 UTC",
+        "song": "Honthon Pe Bas",
+        "artist": "Lata Mangeshkar, Kumar Sanu",
+        "time": "06:58 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "04:56 UTC",
+        "song": "Aapke Pyaar Mein Hum",
+        "artist": "Alka Yagnik",
+        "time": "06:53 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Savariya",
-        "artist": "Kamal Khan, Alka Yagnik",
-        "time": "04:51 UTC",
+        "song": "Tere Dar Par Sanam - Male Version",
+        "artist": "Kumar Sanu",
+        "time": "06:48 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Neele Neele Ambar Par - Male Version",
-        "artist": "Kalyanji-Anandji, Kishore Kumar",
-        "time": "04:46 UTC",
+        "song": "Agar Tum Mil Jao - From \"Zeher\"",
+        "artist": "Shreya Ghoshal, Roop Kumar Rathod, Anu Malik",
+        "time": "06:42 UTC",
         "y_pos": 9
       }
     ]
