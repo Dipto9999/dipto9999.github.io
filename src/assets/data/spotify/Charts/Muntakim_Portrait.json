@@ -187,12 +187,12 @@
         }
       ],
       "data": {
-        "name": "data-5f2f9b8c57b7325f1bcdc48694f9c223"
+        "name": "data-282ef403d4cefffe257b553dde99b0b3"
       }
     },
     {
       "data": {
-        "name": "data-6dfbdb0cee99759dab28478984db86ba"
+        "name": "data-bb9b5fef9317a0a87c5660dc22652d39"
       },
       "mark": {
         "type": "arc",
@@ -272,7 +272,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-5f2f9b8c57b7325f1bcdc48694f9c223": [
+    "data-282ef403d4cefffe257b553dde99b0b3": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -338,21 +338,21 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 51,
-        "cumulative_tracks": 3474,
+        "tracks_added": 52,
+        "cumulative_tracks": 3475,
         "cumulative_artists": 695,
         "year": "2026"
       }
     ],
-    "data-6dfbdb0cee99759dab28478984db86ba": [
+    "data-bb9b5fef9317a0a87c5660dc22652d39": [
       {
         "artist": "Alka Yagnik",
-        "count": 1215,
-        "pct": 30.7
+        "count": 1216,
+        "pct": 30.8
       },
       {
         "artist": "Kumar Sanu",
-        "count": 829,
+        "count": 830,
         "pct": 21.0
       },
       {
@@ -458,75 +458,75 @@
         "y_pos": 9
       }
     ],
-    "data-44e33da797da0d4c36c0ec05eae4978b": [
+    "data-87d01dbd61d59788efc7f9b4aa7afa94": [
       {
         "rank": 1,
-        "song": "Stairway to Heaven",
-        "artist": "Led Zeppelin",
-        "time": "04:20 UTC",
+        "song": "Chori Chori",
+        "artist": "Alka Yagnik, Sonu Nigam",
+        "time": "05:22 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Nilanjana I Se Pratham Prem",
-        "artist": "Nachiketa Chakraborty",
-        "time": "03:19 UTC",
+        "song": "Chori Chori",
+        "artist": "Alka Yagnik, Sonu Nigam",
+        "time": "05:17 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Bulleya",
-        "artist": "Pritam, Amit Mishra, Shilpa Rao",
-        "time": "03:09 UTC",
+        "song": "Utha Le Jaoonga",
+        "artist": "Kumar Sanu, Anuradha Paudwal",
+        "time": "05:11 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Chori Chori Sapnon Mein (From \"Chal Mere Bhai\")",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "03:04 UTC",
+        "song": "I Am In Love",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "05:05 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Bindiya Chamke, Choodi Khanke",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "23:34 UTC",
+        "song": "I Am In Love",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "04:59 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Jadoo Hai Tera",
+        "song": "I Am In Love",
         "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "23:28 UTC",
+        "time": "04:52 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Chori Chori",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "23:20 UTC",
+        "song": "Pyar Kar",
+        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
+        "time": "03:34 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Chori Chori",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "23:15 UTC",
+        "song": "Tumse Milne Ko Dil",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "03:27 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Chori Chori",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "23:09 UTC",
+        "song": "Na Milo Kahin Pyar",
+        "artist": "Sonu Nigam, Kavita Krishnamurthy",
+        "time": "03:22 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Tu Dharti Pe Chaahe Jahan Bhi",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "23:02 UTC",
+        "song": "Tune Kaha Jab Se Haan (From \"Talaash\")",
+        "artist": "Shaan, Alka Yagnik",
+        "time": "03:12 UTC",
         "y_pos": 9
       }
     ]
@@ -534,6 +534,6 @@
   "background": null,
   "_cardData": {
     "topSongsDataset": "data-56d7a69b9d068222f33ca36c45c047c3",
-    "recentlyPlayedDataset": "data-44e33da797da0d4c36c0ec05eae4978b"
+    "recentlyPlayedDataset": "data-87d01dbd61d59788efc7f9b4aa7afa94"
   }
 }
