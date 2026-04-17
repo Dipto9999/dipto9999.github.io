@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-c812ce722848a1b8e8eb55be73ed3b1f"
+            "name": "data-4a011212e794b6643aa64d029de07d80"
           },
           "height": 200,
           "resolve": {
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-c812ce722848a1b8e8eb55be73ed3b1f": [
+    "data-4a011212e794b6643aa64d029de07d80": [
       {
         "rank": 1,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "09:27 UTC",
+        "time": "00:22 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "09:21 UTC",
+        "time": "00:17 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "09:16 UTC",
+        "time": "00:11 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "09:11 UTC",
+        "time": "00:06 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "09:05 UTC",
+        "time": "00:01 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "09:00 UTC",
+        "time": "23:57 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "08:54 UTC",
+        "time": "20:51 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "08:49 UTC",
+        "time": "20:45 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "08:43 UTC",
+        "time": "20:40 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
         "song": "Chori Chori",
         "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "08:38 UTC",
+        "time": "19:43 UTC",
         "y_pos": 9
       }
     ]
