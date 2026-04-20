@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-0d26d1cd0bf3723d2a806dd281558443"
+        "name": "data-49a6c6739f3c1a24d2b3d26a90c015f6"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1423.2 Hrs",
+        "subtitle": "Total Playtime: 1423.5 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,12 +199,12 @@
         "Value": 50
       }
     ],
-    "data-0d26d1cd0bf3723d2a806dd281558443": [
+    "data-49a6c6739f3c1a24d2b3d26a90c015f6": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 59.39
+        "playtime_percentage": 59.38
       },
       {
         "name": "Batman: Arkham Knight",
@@ -226,9 +226,9 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 62.2,
+        "playtime_forever": 62.43,
         "appid": 1091500,
-        "playtime_percentage": 4.37
+        "playtime_percentage": 4.39
       },
       {
         "name": "Stardew Valley",
