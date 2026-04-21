@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-087cb012568e54c02bd6ea18734e89fb"
+            "name": "data-4faf0ef14a0cb3172264421c124eca8d"
           },
           "height": 380,
           "resolve": {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-087cb012568e54c02bd6ea18734e89fb": [
+    "data-4faf0ef14a0cb3172264421c124eca8d": [
       {
         "rank": 1,
-        "song": "Maahi - Rock with Me",
-        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
-        "time": "04:23 UTC",
+        "song": "Tu Jaane Na",
+        "artist": "Pritam, Atif Aslam",
+        "time": "03:47 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Dil Deewana Dhoondta Hai",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "23:00 UTC",
+        "song": "Aa Jao Meri Tamanna",
+        "artist": "Javed Ali, Jojo Nathaniel, Pritam",
+        "time": "03:39 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "22:55 UTC",
+        "song": "Aa Jao Meri Tamanna",
+        "artist": "Javed Ali, Jojo Nathaniel, Pritam",
+        "time": "03:38 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Tumhe Jo Maine Dekha",
-        "artist": "Abhijeet, Shreya Ghoshal",
-        "time": "22:48 UTC",
+        "song": "Guzarish",
+        "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
+        "time": "22:17 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Main Hoon Na",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "22:43 UTC",
+        "song": "Tera Mera Rishta",
+        "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
+        "time": "22:04 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Tadpati Hai, Tarsati Hai",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "22:32 UTC",
+        "song": "Shukran Allah",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Shreya Ghoshal, Salim Merchant",
+        "time": "21:36 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Tadpati Hai, Tarsati Hai",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "22:27 UTC",
+        "song": "Humsafar",
+        "artist": "Sachet-Parampara, Sachet Tandon, Parampara Tandon, Irshad Kamil, Prashant Pandey",
+        "time": "21:28 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Tadpati Hai, Tarsati Hai",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "22:22 UTC",
+        "song": "Bekhayali (Arijit Singh Version)",
+        "artist": "Arijit Singh, Sachet-Parampara, Irshad Kamil",
+        "time": "21:04 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Tadpati Hai, Tarsati Hai",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "22:16 UTC",
+        "song": "Bulleya",
+        "artist": "Pritam, Amit Mishra, Shilpa Rao",
+        "time": "20:56 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Tadpati Hai, Tarsati Hai",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "22:09 UTC",
+        "song": "Bulleya",
+        "artist": "Pritam, Amit Mishra, Shilpa Rao",
+        "time": "19:06 UTC",
         "y_pos": 9
       }
     ]
