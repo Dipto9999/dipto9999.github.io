@@ -185,7 +185,7 @@
     "anchor": "middle",
     "fontSize": 40
   },
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json",
   "datasets": {
     "data-2499b64f9be58983f459d2071ccce1f4": [
       {
