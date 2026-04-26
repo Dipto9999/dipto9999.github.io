@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-905b1c9318fb1eb3c8d4dcfd4b6d626f"
+            "name": "data-e5c7a37f35fbb58f577e97b68b9531fb"
           }
         },
         {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-538a374d2d3aa0650fd870c8c1aa6cc0"
+            "name": "data-a4e19980e4b3ae5e5177d39d77fc8880"
           },
           "height": 380,
           "resolve": {
@@ -717,7 +717,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-905b1c9318fb1eb3c8d4dcfd4b6d626f": [
+    "data-e5c7a37f35fbb58f577e97b68b9531fb": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -783,9 +783,9 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 53,
-        "cumulative_tracks": 3476,
-        "cumulative_artists": 695,
+        "tracks_added": 54,
+        "cumulative_tracks": 3477,
+        "cumulative_artists": 696,
         "year": "2026"
       }
     ],
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-538a374d2d3aa0650fd870c8c1aa6cc0": [
+    "data-a4e19980e4b3ae5e5177d39d77fc8880": [
       {
         "rank": 1,
-        "song": "Betabi Ka Khamoshi Ka",
-        "artist": "Nadeem Shravan, Sarika Kapoor, Sameer Anjaan",
-        "time": "18:08 UTC",
+        "song": "BADASF",
+        "artist": "Sani Knight",
+        "time": "00:06 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "O Sahiba O Sahiba",
-        "artist": "Nadeem Shravan, Kavita Krishnamurthy, Sonu Nigam, Sameer Anjaan",
-        "time": "18:06 UTC",
+        "song": "Haan Tu Hain",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "22:02 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Mohabbat Dil Ka Sakoon",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Udit Narayan, Sameer Anjaan",
-        "time": "18:01 UTC",
+        "song": "Zara Sa",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "21:37 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "17:56 UTC",
+        "song": "Hale Dil",
+        "artist": "Harshit Saxena, Sayeed Quadri",
+        "time": "21:32 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "04:18 UTC",
+        "song": "Dhan Te Nan",
+        "artist": "Sukhwinder Singh, Vishal Dadlani, Robert Bob Omulo",
+        "time": "21:27 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Dil Laga Liya Maine",
-        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Sameer Anjaan",
-        "time": "21:43 UTC",
+        "song": "Tujhe Sochta Hoon",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "21:19 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Dil Hai Tumhaara",
-        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Kumar Sanu, Sameer Anjaan",
-        "time": "21:38 UTC",
+        "song": "Tujhe Sochta Hoon",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "20:00 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Bachke Rehna Re Baba - From \"Pukar\"",
-        "artist": "Kishore Kumar, Asha Bhosle, R. D. Burman",
-        "time": "21:31 UTC",
+        "song": "Maahi - Rock with Me",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "time": "19:37 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Pal Pal Dil Ke Paas - From \"Blackmail\"",
-        "artist": "Kishore Kumar",
-        "time": "21:22 UTC",
+        "song": "Raatbhor",
+        "artist": "Imran Mahmudul",
+        "time": "19:32 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Kagaz Kalam",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "21:16 UTC",
+        "song": "Main Agar Kahoon",
+        "artist": "Sonu Nigam, Shreya Ghoshal, Vishal-Shekhar, Javed Akhtar",
+        "time": "19:19 UTC",
         "y_pos": 9
       }
     ]
