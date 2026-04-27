@@ -194,7 +194,7 @@
         },
         {
           "data": {
-            "name": "data-db1347f2f9aed83a6017f9ed517de1da"
+            "name": "data-dc7a108499327656e921c515db11465b"
           },
           "mark": {
             "type": "arc",
@@ -352,7 +352,7 @@
             }
           ],
           "data": {
-            "name": "data-7f2994038d5fb48c3e7facc27759539e"
+            "name": "data-97617da79e63fbe01e0b336dd770445c"
           },
           "height": 320,
           "resolve": {
@@ -789,15 +789,15 @@
         "year": "2026"
       }
     ],
-    "data-db1347f2f9aed83a6017f9ed517de1da": [
+    "data-dc7a108499327656e921c515db11465b": [
       {
         "artist": "Alka Yagnik",
-        "count": 1216,
+        "count": 1215,
         "pct": 30.7
       },
       {
         "artist": "Kumar Sanu",
-        "count": 830,
+        "count": 829,
         "pct": 21.0
       },
       {
@@ -841,15 +841,15 @@
         "pct": 3.0
       }
     ],
-    "data-7f2994038d5fb48c3e7facc27759539e": [
+    "data-97617da79e63fbe01e0b336dd770445c": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,216)",
+        "label": "Alka Yagnik (1,215)",
         "idx": 0
       },
       {
         "artist": "Kumar Sanu",
-        "label": "Kumar Sanu (830)",
+        "label": "Kumar Sanu (829)",
         "idx": 1
       },
       {
