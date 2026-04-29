@@ -43,8 +43,8 @@ const Experiences = () => {
                     <div className = "custom-card-content intro-card">
                         <div className = "intro-text">
                             <span className = "custom-card-text">
-                                ⚡ I'm currently pursuing a <strong>Bachelors in Electrical Engineering</strong> at the <strong><a href = "https://ece.ubc.ca/undergraduates/programs/electrical-engineering-program/" className = "external-links">University of British Columbia</a></strong>,
-                                with an expected graduation in May 2026. My academic background also includes a <strong><a href = "https://extendedlearning.ubc.ca/programs-credentials/key-capabilities-data-science-certificate" className = "external-links">Certificate in Data Science</a></strong>,
+                                ⚡ I completed my <strong>Bachelors in Electrical Engineering</strong> at the <strong><a href = "https://ece.ubc.ca/undergraduates/programs/electrical-engineering-program/" className = "external-links">University of British Columbia</a></strong>,
+                                in May 2026. My academic background also includes a <strong><a href = "https://extendedlearning.ubc.ca/programs-credentials/key-capabilities-data-science-certificate" className = "external-links">Certificate in Data Science</a></strong>,
                                 where I enhanced my skills in data analytics, data visualization, & machine learning. ⚡
                             </span>
 
@@ -124,7 +124,7 @@ const Experiences = () => {
                         <img
                             src = {Optimus}
                             className = "float-right"
-                            alt = "Tesla Bot Optimus in Front of a Cybertruck"
+                            alt = "Tesla Bot Optimus in front of Cybertruck"
                         />
 
                         <br/>

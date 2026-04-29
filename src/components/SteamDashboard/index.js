@@ -47,8 +47,8 @@ const SteamDashboard = () => {
   }, [dimensions]);
 
   return (
-    <div className="vega-chart" style={chartContainerStyle}>
-      <VegaLite spec={spec} actions={false} />
+    <div className = "vega-chart" style = {chartContainerStyle}>
+      <VegaLite spec = {spec} actions = {false} />
     </div>
   );
 };

@@ -75,42 +75,42 @@ const Interests = () => {
 
     return (
         <>
-            <div className="loader">
-                <Loader type="line-scale-pulse-out" />
+            <div className = "loader">
+                <Loader type = "line-scale-pulse-out" />
             </div>
 
-            <div className="container interests-page">
-                <span className="tags top-tags">func main() &#123;</span>
+            <div className = "container interests-page">
+                <span className = "tags top-tags">func main() &#123;</span>
 
-                <div className="text-zone">
-                    <h1 className="supertitle">
+                <div className = "text-zone">
+                    <h1 className = "supertitle">
                         <AnimatedLetters
-                            letterClass={letterClass}
-                            strArray={['I', 'n', 't', 'e', 'r', 'e', 's', 't', 's']}
-                            idx={1}
+                            letterClass = {letterClass}
+                            strArray = {['I', 'n', 't', 'e', 'r', 'e', 's', 't', 's']}
+                            idx = {1}
                         />
                     </h1>
 
                     {/* Vega-Lite Visualization */}
                     <SteamDashboard />
 
-                    <div className="photo-gallery">
+                    <div className = "photo-gallery">
                             {
                                 tooltip.visible
                                 && (
-                                    <div className="tooltip" style={{ top: tooltip.position.top, left: tooltip.position.left}}>
+                                    <div className = "tooltip" style = {{ top: tooltip.position.top, left: tooltip.position.left}}>
                                         {tooltip.content}
                                     </div>
                                 )
                             }
                         <Slider {...settings}>
                             {gameImages.map((image, index) => (
-                                <div className="photo-items" key={index}>
+                                <div className = "photo-items" key = {index}>
                                     <img
-                                        src={image.src}
-                                        alt={image.alt}
-                                        onMouseEnter={(e) => handleMouseEnter(e, image.alt)}
-                                        onMouseLeave={handleMouseLeave}
+                                        src = {image.src}
+                                        alt = {image.alt}
+                                        onMouseEnter = {(e) => handleMouseEnter(e, image.alt)}
+                                        onMouseLeave = {handleMouseLeave}
                                     />
                                 </div>
                             ))}
@@ -121,7 +121,7 @@ const Interests = () => {
                 <SpotifyDashboard />
                 <br/>
                 <GoodReadsDashboard />
-                <span className="tags bottom-tags">&#125;</span>
+                <span className = "tags bottom-tags">&#125;</span>
             </div>
         </>
     );

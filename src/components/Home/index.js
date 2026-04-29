@@ -27,22 +27,22 @@ const Home = () => {
 
     return (
         <>
-            <div className="loader">
-                <Loader type="line-scale-pulse-out" />
+            <div className = "loader">
+                <Loader type = "line-scale-pulse-out" />
             </div>
 
-            <div className="container home-page">
+            <div className = "container home-page">
                 <span className='tags top-tags'>func main() &#123;</span>
 
-                <div className="stage-cube-container">
+                <div className = "stage-cube-container">
                     <br/>
-                    <div className="cubespinner">
-                        <div className="face1"><img src={Python} alt="Python" /></div>
-                        <div className="face2"><img src={SQL} alt="SQL" /></div>
-                        <div className="face3"><img src={C} alt="C" /></div>
-                        <div className="face4"><img src={Golang} alt="Golang" /></div>
-                        <div className="face5"><img src={Rust} alt="Rust" /></div>
-                        <div className="face6"><img src={ASM} alt="ASM" /></div>
+                    <div className = "cubespinner">
+                        <div className = "face1"><img src = {Python} alt = "Python" /></div>
+                        <div className = "face2"><img src = {SQL} alt = "SQL" /></div>
+                        <div className = "face3"><img src = {C} alt = "C" /></div>
+                        <div className = "face4"><img src = {Golang} alt = "Golang" /></div>
+                        <div className = "face5"><img src = {Rust} alt = "Rust" /></div>
+                        <div className = "face6"><img src = {ASM} alt = "ASM" /></div>
                     </div>
                 </div>
 
@@ -50,23 +50,23 @@ const Home = () => {
 
                 <div className='text-zone'>
                     <h1>
-                        <span className="supertitle">
+                        <span className = "supertitle">
                             <AnimatedLetters
-                                letterClass={letterClass}
-                                strArray={helloArray}
-                                idx={1}
+                                letterClass = {letterClass}
+                                strArray = {helloArray}
+                                idx = {1}
                             />
                         </span> 🙋🏽‍♂️
                     </h1>
 
                     <br/>
 
-                    <div className="custom-card-content">
-                        <h2 className="custom-card-text">
-                            <img src={Muntakim_Algonquin} alt="Muntakim Rahman at Algonquin Park, 2020" className="profile-img" />
+                    <div className = "custom-card-content">
+                        <h2 className = "custom-card-text">
+                            <img src = {Muntakim_Algonquin} alt = "Muntakim Rahman at Algonquin Park, 2020" className = "profile-img" />
 
-                            My name is Muntakim and I'm an electrical engineering undergraduate with an appetite for software development.&nbsp;
-                            <span className="not-on-mobile">
+                            My name is Muntakim and I'm an electrical engineer with an appetite for software development.&nbsp;
+                            <span className = "not-on-mobile">
                                 I'm passionate about developing innovative technologies that integrate software and hardware. My experiences are in data science and embedded systems;
                                 I love working on projects that leverage the intersection of these fields! <br /><br />
                             </span>

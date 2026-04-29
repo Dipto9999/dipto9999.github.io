@@ -27,14 +27,14 @@ const Resume = () => {
 
     return (
         <>
-            <label htmlFor="password">Resume </label>
+            <label htmlFor = "password">Resume </label>
             <input
-                type="password"
-                id="password"
-                value={input}
-                onChange={handleChange}
-                placeholder="Enter Password"
-                style={{ marginRight: '5px' }}
+                type = "password"
+                id = "password"
+                value = {input}
+                onChange = {handleChange}
+                placeholder = "Enter Password"
+                style = {{ marginRight: '5px' }}
                 required
             />
             {showCheckmark && (

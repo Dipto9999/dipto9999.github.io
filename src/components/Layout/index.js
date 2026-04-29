@@ -5,10 +5,10 @@ import './index.scss';
 
 const Layout = () => {
     return (
-        <div className="App">
+        <div className = "App">
             <Navbar />
 
-            <div className="main-content">
+            <div className = "main-content">
                 <Outlet />
             </div>
 

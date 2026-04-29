@@ -10,13 +10,13 @@ import Interests from './components/Interests';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className = "App">
         <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="experiences" element={<Experiences />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="interests" element={<Interests />} />
+          <Route path = "/" element = {<Layout />}>
+            <Route index element = {<Home />} />
+            <Route path = "experiences" element = {<Experiences />} />
+            <Route path = "projects" element = {<Projects />} />
+            <Route path = "interests" element = {<Interests />} />
           </Route>
         </Routes>
 
