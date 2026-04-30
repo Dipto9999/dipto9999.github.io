@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-e5c7a37f35fbb58f577e97b68b9531fb"
+            "name": "data-390af270f8d652afcce84cfe511d609f"
           }
         },
         {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-e5c7a37f35fbb58f577e97b68b9531fb": [
+    "data-390af270f8d652afcce84cfe511d609f": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -647,35 +647,35 @@
         "time_period": "2022",
         "tracks_added": 567,
         "cumulative_tracks": 2760,
-        "cumulative_artists": 540,
+        "cumulative_artists": 541,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
         "cumulative_tracks": 3217,
-        "cumulative_artists": 632,
+        "cumulative_artists": 633,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
         "cumulative_tracks": 3305,
-        "cumulative_artists": 657,
+        "cumulative_artists": 658,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
         "cumulative_tracks": 3423,
-        "cumulative_artists": 690,
+        "cumulative_artists": 691,
         "year": "2025"
       },
       {
         "time_period": "2026",
         "tracks_added": 54,
         "cumulative_tracks": 3477,
-        "cumulative_artists": 696,
+        "cumulative_artists": 697,
         "year": "2026"
       }
     ],
