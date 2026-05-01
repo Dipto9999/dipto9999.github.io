@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-49a6c6739f3c1a24d2b3d26a90c015f6"
+        "name": "data-6e2cf88de56a2eec48063581c3cf15dd"
       },
       "mark": {
         "type": "arc",
@@ -199,7 +199,7 @@
         "Value": 50
       }
     ],
-    "data-49a6c6739f3c1a24d2b3d26a90c015f6": [
+    "data-6e2cf88de56a2eec48063581c3cf15dd": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
@@ -226,7 +226,7 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 62.43,
+        "playtime_forever": 62.53,
         "appid": 1091500,
         "playtime_percentage": 4.39
       },
