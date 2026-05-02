@@ -513,7 +513,7 @@
             }
           ],
           "data": {
-            "name": "data-ab3ce5039fc96fe0dff63cf4ef637742"
+            "name": "data-7b8cbd1787bbdb1d972d685dc607ef7a"
           },
           "height": 380,
           "resolve": {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-b9bd2af0e6038da5fdc8c8c1ace9048b"
+            "name": "data-b79eb59d006971e508fa319d5c1ffc6e"
           },
           "height": 380,
           "resolve": {
@@ -898,7 +898,7 @@
         "x": 0
       }
     ],
-    "data-ab3ce5039fc96fe0dff63cf4ef637742": [
+    "data-7b8cbd1787bbdb1d972d685dc607ef7a": [
       {
         "rank": 1,
         "song": "Tadpati Hai, Tarsati Hai",
@@ -919,14 +919,14 @@
       },
       {
         "rank": 4,
-        "song": "Pasoori Nu (From \"Satyaprem Ki Katha\")",
-        "artist": "Arijit Singh, Rochak Kohli, Tulsi Kumar",
+        "song": "Maahi - Rock with Me",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Maahi - Rock with Me",
-        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "song": "Pasoori Nu (From \"Satyaprem Ki Katha\")",
+        "artist": "Arijit Singh, Rochak Kohli, Tulsi Kumar",
         "y_pos": 4
       },
       {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-b9bd2af0e6038da5fdc8c8c1ace9048b": [
+    "data-b79eb59d006971e508fa319d5c1ffc6e": [
       {
         "rank": 1,
-        "song": "Mujhe Pyar Hua Allamiya (From \"Judaai\")",
-        "artist": "Abhijeet",
-        "time": "21:00 UTC",
+        "song": "Sohena Jatona",
+        "artist": "Arfin Rumey",
+        "time": "04:30 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Mohabbat Ko Hum Chhod Dein",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "20:54 UTC",
+        "song": "Aapke Pyaar Mein Hum",
+        "artist": "Alka Yagnik",
+        "time": "04:26 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Yeh Dil Ye Pagal Dil",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "20:48 UTC",
+        "song": "Malang",
+        "artist": "Pritam, Siddharth Mahadevan, Shilpa Rao, Sameer Anjaan",
+        "time": "04:20 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Tu Nikla Chhupa Rustam",
-        "artist": "Alka Yagnik",
-        "time": "20:42 UTC",
+        "song": "Tumse Milke Dil Ka (From \"Main Hoon Na\")",
+        "artist": "Sonu Nigam, Sabri Brothers",
+        "time": "03:05 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "20:36 UTC",
+        "song": "Tumse Milke Dil Ka (From \"Main Hoon Na\")",
+        "artist": "Sonu Nigam, Sabri Brothers",
+        "time": "03:02 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Hamein Tumse Hua Pyar",
-        "artist": "Udit Narayan, Alka Yagnik, Anu Malik, Sameer Anjaan",
-        "time": "20:31 UTC",
+        "song": "Phir Mohabbat (From \"Murder 2\")",
+        "artist": "Mohammed Irfan, Arijit Singh, Saim Bhat",
+        "time": "23:53 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Meri Mehbooba",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "20:24 UTC",
+        "song": "Tu Jaane Na",
+        "artist": "Pritam, Atif Aslam",
+        "time": "22:27 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Main Tujhko Bhaga Laya",
-        "artist": "Anand-Milind, Kumar Sanu, Alka Yagnik, Sameer Anjaan",
-        "time": "20:14 UTC",
+        "song": "Aa Jao Meri Tamanna",
+        "artist": "Javed Ali, Jojo Nathaniel, Pritam",
+        "time": "22:21 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Pyar Tu Dil Tu",
-        "artist": "Vinod Rathod, Alka Yagnik",
-        "time": "03:46 UTC",
+        "song": "Guzarish",
+        "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
+        "time": "22:17 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Woh Meri Neend Mera Chain",
-        "artist": "Sadhana Sargam",
-        "time": "23:05 UTC",
+        "song": "Baarish",
+        "artist": "Mohammed Irfan, Gajendra Verma, Mithoon",
+        "time": "22:11 UTC",
         "y_pos": 9
       }
     ]
