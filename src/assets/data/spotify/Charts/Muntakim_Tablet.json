@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-2d3ec024341b2a5906ed994e19a85eda"
+            "name": "data-f9bd62f92e4df017913ba72e192414fe"
           },
           "height": 260,
           "resolve": {
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-2d3ec024341b2a5906ed994e19a85eda": [
+    "data-f9bd62f92e4df017913ba72e192414fe": [
       {
         "rank": 1,
-        "song": "Jadoo Hai Tera",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "16:28 UTC",
+        "song": "Tum Hi Ho",
+        "artist": "Arijit Singh, Mithoon",
+        "time": "21:29 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Dil Mein Basake",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "16:08 UTC",
+        "song": "Tadpati Hai, Tarsati Hai",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "20:55 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Khuda Jane",
-        "artist": "Zubeen Garg, Shyam Bhatt, Shreya Ghoshal, Jeet Gannguli",
-        "time": "16:03 UTC",
+        "song": "Tadpati Hai, Tarsati Hai",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "20:50 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Khuda Jane",
-        "artist": "Zubeen Garg, Shyam Bhatt, Shreya Ghoshal, Jeet Gannguli",
-        "time": "15:58 UTC",
+        "song": "Tadpati Hai, Tarsati Hai",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "19:57 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Khuda Jane",
-        "artist": "Zubeen Garg, Shyam Bhatt, Shreya Ghoshal, Jeet Gannguli",
-        "time": "15:16 UTC",
+        "song": "Haathon Ki Lakeeron Mein",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "19:44 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Kun Faya Kun",
-        "artist": "A.R. Rahman, Javed Ali, Mohit Chauhan",
-        "time": "15:08 UTC",
+        "song": "Maahi",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "time": "19:24 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Bye Bye Miss Goodnight",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "14:38 UTC",
+        "song": "Maahi",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "time": "19:11 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Pyar Mein Dil To",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "14:22 UTC",
+        "song": "Maahi",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "time": "19:02 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Abhi Abhi Aayi Jawani",
-        "artist": "Alka Yagnik",
-        "time": "13:59 UTC",
+        "song": "Maahi",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "time": "18:57 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Main Duniya Bhula Doonga",
-        "artist": "Anuradha Paudwal, Kumar Sanu, Super Cassettes Industries Private Limited, Sameer Anjaan",
-        "time": "13:54 UTC",
+        "song": "Maahi",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "time": "18:52 UTC",
         "y_pos": 9
       }
     ]
