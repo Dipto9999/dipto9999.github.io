@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-1a84cc56ce7a2d56417436ad6114ff79"
+            "name": "data-f7fe663b15f9ed1a251ff13e9cb56bdf"
           },
           "height": 380,
           "resolve": {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-1a84cc56ce7a2d56417436ad6114ff79": [
+    "data-f7fe663b15f9ed1a251ff13e9cb56bdf": [
       {
         "rank": 1,
-        "song": "Tera Mera Rishta",
-        "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
-        "time": "17:09 UTC",
+        "song": "Teri Chunnariya",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "22:44 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Shukran Allah",
-        "artist": "Salim–Sulaiman, Sonu Nigam, Shreya Ghoshal, Salim Merchant",
-        "time": "17:03 UTC",
+        "song": "Bhul Kore Jodi",
+        "artist": "Liza",
+        "time": "22:38 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Humsafar",
-        "artist": "Sachet-Parampara, Sachet Tandon, Parampara Tandon, Irshad Kamil, Prashant Pandey",
-        "time": "16:58 UTC",
+        "song": "Tere Dar Par Sanam - Female Version",
+        "artist": "Sadhana Sargam",
+        "time": "22:34 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Bulleya",
-        "artist": "Pritam, Amit Mishra, Shilpa Rao",
-        "time": "16:53 UTC",
+        "song": "You Are My Soniya",
+        "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
+        "time": "22:28 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Hale Dil",
-        "artist": "Harshit Saxena, Sayeed Quadri",
-        "time": "16:47 UTC",
+        "song": "Tumhein Apna Banane Ki Kasam Khai Hai",
+        "artist": "Kumar Sanu",
+        "time": "22:22 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Maahi - Rock with Me",
-        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
-        "time": "16:41 UTC",
+        "song": "Dil Jigar Nazar Kya Hai",
+        "artist": "Kumar Sanu",
+        "time": "22:16 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Milne Hai Mujhse Aayi",
-        "artist": "Arijit Singh, Jeet Gannguli, Irshad Kamil",
-        "time": "16:36 UTC",
+        "song": "Sohena Jatona",
+        "artist": "Arfin Rumey",
+        "time": "22:08 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Sunn Raha Hai (Female Version)",
-        "artist": "Shreya Ghoshal, Ankit Tiwari, Sandeep Nath",
-        "time": "16:31 UTC",
+        "song": "Aapke Pyaar Mein Hum",
+        "artist": "Alka Yagnik",
+        "time": "22:04 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Bhula Dena",
-        "artist": "Mustafa Zahid, Jeet Gannguli, Sanjay Masoom",
-        "time": "16:26 UTC",
+        "song": "Malang",
+        "artist": "Pritam, Siddharth Mahadevan, Shilpa Rao, Sameer Anjaan",
+        "time": "21:59 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Meri Aashiqui",
-        "artist": "Palak Muchhal, Arijit Singh, Mithoon, Irshad Kamil",
-        "time": "16:20 UTC",
+        "song": "Tumse Milke Dil Ka (From \"Main Hoon Na\")",
+        "artist": "Sonu Nigam, Sabri Brothers",
+        "time": "21:49 UTC",
         "y_pos": 9
       }
     ]
