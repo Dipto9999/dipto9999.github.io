@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-004aadc5dbee26f92f2cde45279a91a7"
+        "name": "data-cb59fc403b63e1e6dc5d28073986ffd6"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1436.4 Hrs",
+        "subtitle": "Total Playtime: 1436.5 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,12 +199,12 @@
         "Value": 50
       }
     ],
-    "data-004aadc5dbee26f92f2cde45279a91a7": [
+    "data-cb59fc403b63e1e6dc5d28073986ffd6": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 58.85
+        "playtime_percentage": 58.84
       },
       {
         "name": "Batman: Arkham Knight",
@@ -220,7 +220,7 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 75.38,
+        "playtime_forever": 75.47,
         "appid": 1091500,
         "playtime_percentage": 5.25
       },
