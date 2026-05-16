@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-cb59fc403b63e1e6dc5d28073986ffd6"
+        "name": "data-8d95549db000a2dea980da7be3edb5e7"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1436.5 Hrs",
+        "subtitle": "Total Playtime: 1437.3 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,12 +199,12 @@
         "Value": 50
       }
     ],
-    "data-cb59fc403b63e1e6dc5d28073986ffd6": [
+    "data-8d95549db000a2dea980da7be3edb5e7": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 58.84
+        "playtime_percentage": 58.81
       },
       {
         "name": "Batman: Arkham Knight",
@@ -220,9 +220,9 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 75.47,
+        "playtime_forever": 76.28,
         "appid": 1091500,
-        "playtime_percentage": 5.25
+        "playtime_percentage": 5.31
       },
       {
         "name": "Telltale: Batman",
@@ -234,7 +234,7 @@
         "name": "Stardew Valley",
         "playtime_forever": 49.5,
         "appid": 413150,
-        "playtime_percentage": 3.45
+        "playtime_percentage": 3.44
       },
       {
         "name": "Telltale: Game of Thrones",

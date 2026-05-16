@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-390af270f8d652afcce84cfe511d609f"
+            "name": "data-9f3522c4bacdc43aba86bb2dd74ac724"
           }
         },
         {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-15366e2461f06e4bde733b125e7d88e3"
+            "name": "data-80721275ae338b02b0be63059cb4368c"
           },
           "height": 380,
           "resolve": {
@@ -717,7 +717,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-390af270f8d652afcce84cfe511d609f": [
+    "data-9f3522c4bacdc43aba86bb2dd74ac724": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -783,8 +783,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 54,
-        "cumulative_tracks": 3477,
+        "tracks_added": 55,
+        "cumulative_tracks": 3478,
         "cumulative_artists": 697,
         "year": "2026"
       }
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-15366e2461f06e4bde733b125e7d88e3": [
+    "data-80721275ae338b02b0be63059cb4368c": [
       {
         "rank": 1,
-        "song": "Jadoo Hai Tera",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "16:16 UTC",
+        "song": "Do Naina Aur Ek Kahani",
+        "artist": "Aarti Mukherji",
+        "time": "05:08 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Teri Chunnariya",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "15:40 UTC",
+        "song": "Jeena Jeena",
+        "artist": "Sachin-Jigar, Atif Aslam",
+        "time": "05:03 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Shukran Allah",
-        "artist": "Salim–Sulaiman, Sonu Nigam, Shreya Ghoshal, Salim Merchant",
-        "time": "15:34 UTC",
+        "song": "Jadoo Hai Tera",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "16:16 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Deewana Main Tera Deewana",
+        "song": "Teri Chunnariya",
         "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "23:30 UTC",
+        "time": "15:40 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Too Shayar Hai Main Teri Shayari (From \"Saajan\")",
-        "artist": "Alka Yagnik",
-        "time": "22:03 UTC",
+        "song": "Shukran Allah",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Shreya Ghoshal, Salim Merchant",
+        "time": "15:34 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Chori Chori Sapnon Mein (From \"Chal Mere Bhai\")",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "21:57 UTC",
+        "song": "Deewana Main Tera Deewana",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "23:30 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Sawan Aaya Hai (From \"Creature 3D\")",
-        "artist": "Arijit Singh",
-        "time": "21:52 UTC",
+        "song": "Too Shayar Hai Main Teri Shayari (From \"Saajan\")",
+        "artist": "Alka Yagnik",
+        "time": "22:03 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Saiyaara Reprise - Female",
-        "artist": "Tanishk Bagchi, Faheem Abdullah, Arslan Nizami, Shreya Ghoshal, Irshad Kamil",
-        "time": "21:47 UTC",
+        "song": "Chori Chori Sapnon Mein (From \"Chal Mere Bhai\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "21:57 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Tu Hi Haqeeqat",
-        "artist": "Pritam, Javed Ali, Irshan Ashraf, Shadab, Sayeed Quadri",
-        "time": "21:44 UTC",
+        "song": "Sawan Aaya Hai (From \"Creature 3D\")",
+        "artist": "Arijit Singh",
+        "time": "21:52 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
-        "artist": "Kumar Sanu",
-        "time": "21:39 UTC",
+        "song": "Saiyaara Reprise - Female",
+        "artist": "Tanishk Bagchi, Faheem Abdullah, Arslan Nizami, Shreya Ghoshal, Irshad Kamil",
+        "time": "21:47 UTC",
         "y_pos": 9
       }
     ]
