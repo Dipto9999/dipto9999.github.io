@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-b8170454e8c5fab594c511bf1bebda69"
+        "name": "data-8e6fa22f5df095b59025f3dcd482324b"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1441.7 Hrs",
+        "subtitle": "Total Playtime: 1448.3 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,66 +199,66 @@
         "Value": 50
       }
     ],
-    "data-b8170454e8c5fab594c511bf1bebda69": [
+    "data-8e6fa22f5df095b59025f3dcd482324b": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 58.63
+        "playtime_percentage": 58.36
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 139.65,
         "appid": 208650,
-        "playtime_percentage": 9.69
+        "playtime_percentage": 9.64
       },
       {
         "name": "LOTR Online",
         "playtime_forever": 95.7,
         "appid": 212500,
-        "playtime_percentage": 6.64
+        "playtime_percentage": 6.61
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 80.68,
+        "playtime_forever": 87.28,
         "appid": 1091500,
-        "playtime_percentage": 5.6
+        "playtime_percentage": 6.03
       },
       {
         "name": "Telltale: Batman",
         "playtime_forever": 66.22,
         "appid": 498240,
-        "playtime_percentage": 4.59
+        "playtime_percentage": 4.57
       },
       {
         "name": "Stardew Valley",
         "playtime_forever": 49.5,
         "appid": 413150,
-        "playtime_percentage": 3.43
+        "playtime_percentage": 3.42
       },
       {
         "name": "Telltale: Game of Thrones",
         "playtime_forever": 47.68,
         "appid": 330840,
-        "playtime_percentage": 3.31
+        "playtime_percentage": 3.29
       },
       {
         "name": "Telltale: The Walking Dead",
         "playtime_forever": 40.52,
         "appid": 207610,
-        "playtime_percentage": 2.81
+        "playtime_percentage": 2.8
       },
       {
         "name": "SoS: A Wonderful Life",
         "playtime_forever": 39.42,
         "appid": 2111170,
-        "playtime_percentage": 2.73
+        "playtime_percentage": 2.72
       },
       {
         "name": "Shadow of Mordor",
         "playtime_forever": 37.05,
         "appid": 241930,
-        "playtime_percentage": 2.57
+        "playtime_percentage": 2.56
       }
     ]
   }
