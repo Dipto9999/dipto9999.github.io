@@ -205,43 +205,43 @@
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 58.08
+        "playtime_percentage": 57.95
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 139.65,
         "appid": 208650,
-        "playtime_percentage": 9.59
+        "playtime_percentage": 9.57
+      },
+      {
+        "name": "Cyberpunk 2077",
+        "playtime_forever": 97.55,
+        "appid": 1091500,
+        "playtime_percentage": 6.69
       },
       {
         "name": "LOTR Online",
         "playtime_forever": 95.7,
         "appid": 212500,
-        "playtime_percentage": 6.58
-      },
-      {
-        "name": "Cyberpunk 2077",
-        "playtime_forever": 94.45,
-        "appid": 1091500,
-        "playtime_percentage": 6.49
+        "playtime_percentage": 6.56
       },
       {
         "name": "Telltale: Batman",
         "playtime_forever": 66.22,
         "appid": 498240,
-        "playtime_percentage": 4.55
+        "playtime_percentage": 4.54
       },
       {
         "name": "Stardew Valley",
         "playtime_forever": 49.5,
         "appid": 413150,
-        "playtime_percentage": 3.4
+        "playtime_percentage": 3.39
       },
       {
         "name": "Telltale: Game of Thrones",
         "playtime_forever": 47.68,
         "appid": 330840,
-        "playtime_percentage": 3.28
+        "playtime_percentage": 3.27
       },
       {
         "name": "Telltale: The Walking Dead",
@@ -253,13 +253,13 @@
         "name": "SoS: A Wonderful Life",
         "playtime_forever": 39.42,
         "appid": 2111170,
-        "playtime_percentage": 2.71
+        "playtime_percentage": 2.7
       },
       {
         "name": "Shadow of Mordor",
         "playtime_forever": 37.05,
         "appid": 241930,
-        "playtime_percentage": 2.55
+        "playtime_percentage": 2.54
       }
     ]
   }
