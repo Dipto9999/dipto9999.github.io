@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-dc7a108499327656e921c515db11465b"
+            "name": "data-67514fb388801aa65f123d789968182b"
           },
           "mark": {
             "type": "arc",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-97617da79e63fbe01e0b336dd770445c"
+            "name": "data-733e1499d333c2ecd3080f140ff2518a"
           },
           "height": 260,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-9f3522c4bacdc43aba86bb2dd74ac724"
+        "name": "data-b8f3d784a7da9e102996bc368cad39d7"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-d03fd628cfb734852fb9869dd9b160de"
+            "name": "data-b78899ccd6452496b82e6abc80e0ca1e"
           },
           "height": 260,
           "resolve": {
@@ -735,7 +735,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-dc7a108499327656e921c515db11465b": [
+    "data-67514fb388801aa65f123d789968182b": [
       {
         "artist": "Alka Yagnik",
         "count": 1215,
@@ -753,12 +753,12 @@
       },
       {
         "artist": "Sonu Nigam",
-        "count": 305,
-        "pct": 7.7
+        "count": 307,
+        "pct": 7.8
       },
       {
         "artist": "Shreya Ghoshal",
-        "count": 228,
+        "count": 230,
         "pct": 5.8
       },
       {
@@ -787,7 +787,7 @@
         "pct": 3.0
       }
     ],
-    "data-97617da79e63fbe01e0b336dd770445c": [
+    "data-733e1499d333c2ecd3080f140ff2518a": [
       {
         "artist": "Alka Yagnik",
         "label": "Alka Yagnik (1,215)",
@@ -805,12 +805,12 @@
       },
       {
         "artist": "Sonu Nigam",
-        "label": "Sonu Nigam (305)",
+        "label": "Sonu Nigam (307)",
         "idx": 3
       },
       {
         "artist": "Shreya Ghoshal",
-        "label": "Shreya Ghoshal (228)",
+        "label": "Shreya Ghoshal (230)",
         "idx": 4
       },
       {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-9f3522c4bacdc43aba86bb2dd74ac724": [
+    "data-b8f3d784a7da9e102996bc368cad39d7": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,8 +910,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 55,
-        "cumulative_tracks": 3478,
+        "tracks_added": 58,
+        "cumulative_tracks": 3481,
         "cumulative_artists": 697,
         "year": "2026"
       }
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-d03fd628cfb734852fb9869dd9b160de": [
+    "data-b78899ccd6452496b82e6abc80e0ca1e": [
       {
         "rank": 1,
-        "song": "Ei Raat Tomar Amar",
-        "artist": "Hemant Kumar",
-        "time": "18:07 UTC",
+        "song": "Prothom Premer Prothom Chhowa",
+        "artist": "Shaan, Shreya Ghoshal",
+        "time": "03:53 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Coffee Houser Sei Addata Aaj Aar Nei",
-        "artist": "Manna Dey",
-        "time": "18:04 UTC",
+        "song": "Mone Rekho Amar Ei Gaan (Duet)",
+        "artist": "Shreya Ghoshal, Sonu Nigam",
+        "time": "03:47 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Lalita Go Oke Aaj Chole Jete Bal Na",
-        "artist": "Manna Dey",
-        "time": "16:46 UTC",
+        "song": "Mone Rekho Amar Ea Gaan (Female)",
+        "artist": "Shreya Ghoshal",
+        "time": "03:42 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Dil Hai Tumhaara",
-        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Kumar Sanu, Sameer Anjaan",
-        "time": "16:43 UTC",
+        "song": "Woh Meri Neend Mera Chain",
+        "artist": "Sadhana Sargam",
+        "time": "03:36 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Kisi Disco Mein Jaaye",
-        "artist": "Alka Yagnik, Udit Narayan",
-        "time": "14:27 UTC",
+        "song": "Dil Lagane Ki Saza",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "03:31 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Are Yaaro Mere Pyaro",
-        "artist": "Udit Narayan, Vijayta Pandit",
-        "time": "20:54 UTC",
+        "song": "Tujhe Sochta Hoon",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "03:26 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Kaash Kahin Aisa Hota",
-        "artist": "Kumar Sanu",
-        "time": "20:49 UTC",
+        "song": "Aaja Mahiya",
+        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasanta A Samadhar, Gulzar",
+        "time": "03:21 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Tujhe Pyar Karte Karte - Female Version",
-        "artist": "Alka Yagnik",
-        "time": "20:43 UTC",
+        "song": "Aaja Mahiya",
+        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasanta A Samadhar, Gulzar",
+        "time": "03:13 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
-        "artist": "Kumar Sanu",
-        "time": "20:35 UTC",
+        "song": "Ore Manwa Re",
+        "artist": "Arijit Singh, Akriti Kakar",
+        "time": "01:23 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Dil Humne Diya Hai",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "20:28 UTC",
+        "song": "Ei Valobasha",
+        "artist": "Alka Yagnik",
+        "time": "01:18 UTC",
         "y_pos": 9
       }
     ]
