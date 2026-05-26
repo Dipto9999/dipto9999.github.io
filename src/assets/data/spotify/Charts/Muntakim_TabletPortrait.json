@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-b8f3d784a7da9e102996bc368cad39d7"
+        "name": "data-27ed528360e45427c86bec3ab328e694"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-3a755592434c32142c9868fa152f8f89"
+            "name": "data-ddcc00c5dce685699c2870fba2180bb3"
           },
           "height": 200,
           "resolve": {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-b8f3d784a7da9e102996bc368cad39d7": [
+    "data-27ed528360e45427c86bec3ab328e694": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,9 +910,9 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 58,
-        "cumulative_tracks": 3481,
-        "cumulative_artists": 697,
+        "tracks_added": 63,
+        "cumulative_tracks": 3486,
+        "cumulative_artists": 699,
         "year": "2026"
       }
     ],
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-3a755592434c32142c9868fa152f8f89": [
+    "data-ddcc00c5dce685699c2870fba2180bb3": [
       {
         "rank": 1,
-        "song": "Tu Deewana Paagal",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "18:09 UTC",
+        "song": "Jodi Bou Sajo Go",
+        "artist": "Khurshid Alam, Runa Laila",
+        "time": "00:26 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Dil Mein Hulchul Si",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "18:04 UTC",
+        "song": "Ei Mon Tomake Dilam - Original Motion Picture Soundtrack",
+        "artist": "Sabina Yasmin",
+        "time": "00:21 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Dil Kehta Hai (From \"Akele Hum Akele Tum\")",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "17:58 UTC",
+        "song": "Amar Buker Moddhokhane - Version 2",
+        "artist": "Samina Chowdhury, Andrew Kishore",
+        "time": "00:09 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "17:57 UTC",
+        "song": "Tumi Amar Koto Chena-Version-1",
+        "artist": "Sabina Yasmin, Andrew Kishore",
+        "time": "00:04 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Karo Itni Mohabbat Sanam",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "17:57 UTC",
+        "song": "Tumi Chader Jochona Naw",
+        "artist": "Sabina Yasmin, Andrew Kishore",
+        "time": "00:02 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Dil Gaya Haathon Se",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "17:57 UTC",
+        "song": "Pore Na Chokher Polok",
+        "artist": "Andrew Kishore",
+        "time": "23:57 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Dil Lagane Ki Saza",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "17:57 UTC",
+        "song": "Tomay Dekhle Mone Hoy",
+        "artist": "Andrew Kishore, Kanak Chapa",
+        "time": "23:51 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Palkein Ho Khuli Ya Bandh",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "17:19 UTC",
+        "song": "Chander Sathe Ami Debona",
+        "artist": "Runa Laila, Andrew Kishore",
+        "time": "23:45 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Aawara Pagal Deewana",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "17:13 UTC",
+        "song": "Rajashree",
+        "artist": "Nachiketa Chakraborty",
+        "time": "23:40 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Pehli Pehli Baar Mohabbat Ki Hai (From \"Sirf Tum\")",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "17:07 UTC",
+        "song": "Chor Chor Pratidin Churi Jay",
+        "artist": "Nachiketa Chakraborty",
+        "time": "23:20 UTC",
         "y_pos": 9
       }
     ]
