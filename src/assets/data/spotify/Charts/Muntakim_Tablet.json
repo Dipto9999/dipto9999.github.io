@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-27ed528360e45427c86bec3ab328e694"
+        "name": "data-eb10b3d381f79ade0c333894879eef32"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-04903bc1647b4535d44afe2e4da59e87"
+            "name": "data-2efb08ce531d3f5981bde4de34c1a6d1"
           },
           "height": 260,
           "resolve": {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-27ed528360e45427c86bec3ab328e694": [
+    "data-eb10b3d381f79ade0c333894879eef32": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -912,7 +912,7 @@
         "time_period": "2026",
         "tracks_added": 63,
         "cumulative_tracks": 3486,
-        "cumulative_artists": 699,
+        "cumulative_artists": 697,
         "year": "2026"
       }
     ],
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-04903bc1647b4535d44afe2e4da59e87": [
+    "data-2efb08ce531d3f5981bde4de34c1a6d1": [
       {
         "rank": 1,
-        "song": "Bulleya",
-        "artist": "Pritam, Amit Mishra, Shilpa Rao",
-        "time": "01:47 UTC",
+        "song": "Maine Pyar Tumhi Se Kiya Hai",
+        "artist": "Anuradha Paudwal, Kumar Sanu",
+        "time": "18:27 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Dil Jigar Nazar Kya Hai",
-        "artist": "Kumar Sanu",
-        "time": "01:41 UTC",
+        "song": "Mehki Mehki",
+        "artist": "Sonu Nigam, Alka Yagnik",
+        "time": "18:25 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Jodi Bou Sajo Go",
-        "artist": "Khurshid Alam, Runa Laila",
-        "time": "00:57 UTC",
+        "song": "Tomay Dekhle Mone Hoy",
+        "artist": "Andrew Kishore, Kanak Chapa",
+        "time": "18:16 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Jodi Bou Sajo Go",
-        "artist": "Khurshid Alam, Runa Laila",
-        "time": "00:25 UTC",
+        "song": "Tumi Amar Emoni Ekjon",
+        "artist": "Kanak Chapa",
+        "time": "18:08 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Ei Mon Tomake Dilam - Original Motion Picture Soundtrack",
-        "artist": "Sabina Yasmin",
-        "time": "00:21 UTC",
+        "song": "Tomay Dekhle Mone Hoy",
+        "artist": "Andrew Kishore, Kanak Chapa",
+        "time": "17:51 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Amar Buker Moddhokhane - Version 2",
-        "artist": "Samina Chowdhury, Andrew Kishore",
-        "time": "00:09 UTC",
+        "song": "Bulleya",
+        "artist": "Pritam, Amit Mishra, Shilpa Rao",
+        "time": "17:38 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Tumi Amar Koto Chena-Version-1",
-        "artist": "Sabina Yasmin, Andrew Kishore",
-        "time": "00:04 UTC",
+        "song": "Bulleya",
+        "artist": "Pritam, Amit Mishra, Shilpa Rao",
+        "time": "01:47 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Tumi Chader Jochona Naw",
-        "artist": "Sabina Yasmin, Andrew Kishore",
-        "time": "00:02 UTC",
+        "song": "Dil Jigar Nazar Kya Hai",
+        "artist": "Kumar Sanu",
+        "time": "01:41 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Pore Na Chokher Polok",
-        "artist": "Andrew Kishore",
-        "time": "23:57 UTC",
+        "song": "Jodi Bou Sajo Go",
+        "artist": "Khurshid Alam, Runa Laila",
+        "time": "00:57 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Tomay Dekhle Mone Hoy",
-        "artist": "Andrew Kishore, Kanak Chapa",
-        "time": "23:51 UTC",
+        "song": "Jodi Bou Sajo Go",
+        "artist": "Khurshid Alam, Runa Laila",
+        "time": "00:25 UTC",
         "y_pos": 9
       }
     ]
