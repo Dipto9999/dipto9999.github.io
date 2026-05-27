@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-b1e09e0a1c9cd8f0a0af20f8c64900d2"
+        "name": "data-f4ad2d012b6e4d9050f10e84b47faade"
       },
       "mark": {
         "type": "arc",
@@ -199,12 +199,12 @@
         "Value": 50
       }
     ],
-    "data-b1e09e0a1c9cd8f0a0af20f8c64900d2": [
+    "data-f4ad2d012b6e4d9050f10e84b47faade": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 57.8
+        "playtime_percentage": 57.79
       },
       {
         "name": "Batman: Arkham Knight",
@@ -214,7 +214,7 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 101.48,
+        "playtime_forever": 101.53,
         "appid": 1091500,
         "playtime_percentage": 6.94
       },
