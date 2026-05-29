@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-52bd06086fbb1b6e7a9e80613b735f42"
+        "name": "data-147766e87376c60778a8d9a23805dd4f"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1464.6 Hrs",
+        "subtitle": "Total Playtime: 1465.0 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,24 +199,24 @@
         "Value": 50
       }
     ],
-    "data-52bd06086fbb1b6e7a9e80613b735f42": [
+    "data-147766e87376c60778a8d9a23805dd4f": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 57.71
+        "playtime_percentage": 57.7
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 139.65,
         "appid": 208650,
-        "playtime_percentage": 9.54
+        "playtime_percentage": 9.53
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 103.58,
+        "playtime_forever": 103.95,
         "appid": 1091500,
-        "playtime_percentage": 7.07
+        "playtime_percentage": 7.1
       },
       {
         "name": "LOTR Online",
@@ -240,7 +240,7 @@
         "name": "Telltale: Game of Thrones",
         "playtime_forever": 47.68,
         "appid": 330840,
-        "playtime_percentage": 3.26
+        "playtime_percentage": 3.25
       },
       {
         "name": "Telltale: The Walking Dead",
