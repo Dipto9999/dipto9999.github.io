@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-147766e87376c60778a8d9a23805dd4f"
+        "name": "data-8c0cc561042a0c1927333895c0c073fe"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1465.0 Hrs",
+        "subtitle": "Total Playtime: 1465.4 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,12 +199,12 @@
         "Value": 50
       }
     ],
-    "data-147766e87376c60778a8d9a23805dd4f": [
+    "data-8c0cc561042a0c1927333895c0c073fe": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 57.7
+        "playtime_percentage": 57.68
       },
       {
         "name": "Batman: Arkham Knight",
@@ -214,9 +214,9 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 103.95,
+        "playtime_forever": 104.33,
         "appid": 1091500,
-        "playtime_percentage": 7.1
+        "playtime_percentage": 7.12
       },
       {
         "name": "LOTR Online",
