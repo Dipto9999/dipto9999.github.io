@@ -189,12 +189,12 @@
             }
           ],
           "data": {
-            "name": "data-eb10b3d381f79ade0c333894879eef32"
+            "name": "data-f45d1d971106ab131098f7dc8ede794a"
           }
         },
         {
           "data": {
-            "name": "data-67514fb388801aa65f123d789968182b"
+            "name": "data-c110cf3b66b364f243d8ec2c862f6cfd"
           },
           "mark": {
             "type": "arc",
@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-cb1979e0c97fb2f4d7c1f43d11a91fb2"
+            "name": "data-5953aff633d5b8ba15032171db0782f4"
           },
           "height": 200,
           "resolve": {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-eb10b3d381f79ade0c333894879eef32": [
+    "data-f45d1d971106ab131098f7dc8ede794a": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -673,22 +673,22 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 63,
-        "cumulative_tracks": 3486,
+        "tracks_added": 64,
+        "cumulative_tracks": 3487,
         "cumulative_artists": 697,
         "year": "2026"
       }
     ],
-    "data-67514fb388801aa65f123d789968182b": [
+    "data-c110cf3b66b364f243d8ec2c862f6cfd": [
       {
         "artist": "Alka Yagnik",
-        "count": 1215,
+        "count": 1216,
         "pct": 30.7
       },
       {
         "artist": "Kumar Sanu",
         "count": 829,
-        "pct": 21.0
+        "pct": 20.9
       },
       {
         "artist": "Udit Narayan",
@@ -722,8 +722,8 @@
       },
       {
         "artist": "Abhijeet",
-        "count": 124,
-        "pct": 3.1
+        "count": 125,
+        "pct": 3.2
       },
       {
         "artist": "Pritam",
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-cb1979e0c97fb2f4d7c1f43d11a91fb2": [
+    "data-5953aff633d5b8ba15032171db0782f4": [
       {
         "rank": 1,
-        "song": "Kasam Khake Kaho",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
-        "time": "23:20 UTC",
+        "song": "Tumse Milke Dil Ka",
+        "artist": "Sonu Nigam, Sabri Brothers",
+        "time": "07:20 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Zamaane Ko Ab Tak",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "23:08 UTC",
+        "song": "Kasam Khake Kaho",
+        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Sameer Anjaan",
+        "time": "23:20 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "I Love You",
-        "artist": "Kumar Sanu, Alisha Chinai",
-        "time": "22:57 UTC",
+        "song": "Zamaane Ko Ab Tak",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "23:08 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Jete Dao Amay Dekona",
-        "artist": "Asha Bhosle",
-        "time": "22:45 UTC",
+        "song": "I Love You",
+        "artist": "Kumar Sanu, Alisha Chinai",
+        "time": "22:57 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Jab Tujhe Maine",
-        "artist": "Sadhana Sargam, Udit Narayan",
-        "time": "22:42 UTC",
+        "song": "Jete Dao Amay Dekona",
+        "artist": "Asha Bhosle",
+        "time": "22:45 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Haseeno Ko Aate Hain",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "22:36 UTC",
+        "song": "Jab Tujhe Maine",
+        "artist": "Sadhana Sargam, Udit Narayan",
+        "time": "22:42 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Hangover (From \"Kick\")",
-        "artist": "Salman Khan, Meet Bros Anjjan, Shreya Ghoshal",
-        "time": "22:29 UTC",
+        "song": "Haseeno Ko Aate Hain",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "22:36 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
         "song": "Hangover (From \"Kick\")",
         "artist": "Salman Khan, Meet Bros Anjjan, Shreya Ghoshal",
-        "time": "22:28 UTC",
+        "time": "22:29 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Sau Rab Di",
-        "artist": "Abhijeet, Alka Yagnik, Surendra Mishra",
-        "time": "17:04 UTC",
+        "song": "Hangover (From \"Kick\")",
+        "artist": "Salman Khan, Meet Bros Anjjan, Shreya Ghoshal",
+        "time": "22:28 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "O Bekhabar",
-        "artist": "Pritam, Shreya Ghoshal",
-        "time": "16:57 UTC",
+        "song": "Sau Rab Di",
+        "artist": "Abhijeet, Alka Yagnik, Surendra Mishra",
+        "time": "17:04 UTC",
         "y_pos": 9
       }
     ]
