@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-ed12f395a69ad81b29f55b56d6c6aa45"
+        "name": "data-a0c313df253b6266b2d36028c057b106"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1467.7 Hrs",
+        "subtitle": "Total Playtime: 1467.8 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,7 +199,7 @@
         "Value": 51
       }
     ],
-    "data-ed12f395a69ad81b29f55b56d6c6aa45": [
+    "data-a0c313df253b6266b2d36028c057b106": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
@@ -214,7 +214,7 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 106.72,
+        "playtime_forever": 106.73,
         "appid": 1091500,
         "playtime_percentage": 7.27
       },
