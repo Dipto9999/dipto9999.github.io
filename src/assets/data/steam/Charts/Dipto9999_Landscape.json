@@ -182,7 +182,7 @@
     "data-92b892d679d5fbeaa0a56e1238c7fc12": [
       {
         "Metric": "Played",
-        "Value": 51
+        "Value": 52
       }
     ],
     "data-b2da6c3eee8efb20e4c0e498a7d77a12": [
@@ -190,7 +190,7 @@
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 57.59
+        "playtime_percentage": 57.58
       },
       {
         "name": "Batman: Arkham Knight",
@@ -200,9 +200,9 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 106.73,
+        "playtime_forever": 106.92,
         "appid": 1091500,
-        "playtime_percentage": 7.27
+        "playtime_percentage": 7.28
       },
       {
         "name": "LOTR Online",

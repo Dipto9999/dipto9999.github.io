@@ -1,7 +1,7 @@
 appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_forever,playtime_linux_forever,playtime_deck_forever,rtime_last_played,content_descriptorids,playtime_disconnected,has_community_visible_stats,has_leaderboards,playtime_2weeks,player_level
 72850,Skyrim,845.28,b9aca8a189abd8d6aaf09047dbb0f57582683e1c,0,0,0,0,1623092117,"[1, 5]",0,True,0,0.0,21
 208650,Batman: Arkham Knight,139.65,f6c2ce13796844750dfbd01685fb009eeac4bf70,214,0,2590,2590,1774520183,0,0,True,0,0.0,21
-1091500,Cyberpunk 2077,106.73,6897c3848f3e0350d512f59d5bae174a1e3739f9,3050,0,3353,3353,1780620714,"[1, 2, 5]",1959,True,0,328.0,21
+1091500,Cyberpunk 2077,106.92,6897c3848f3e0350d512f59d5bae174a1e3739f9,3050,0,3364,3364,1780718694,"[1, 2, 5]",1959,True,0,339.0,21
 212500,LOTR Online,95.7,6dbff8345f6b3e5f092a834985c8f851859bfbf2,1057,0,115,115,1774923395,0,3139,0,0,0.0,21
 498240,Telltale: Batman,66.22,f7d48a2727c415d45412c50dcb228252f57f689b,0,0,0,0,1529389252,0,0,True,0,0.0,21
 413150,Stardew Valley,49.5,35d1377200084a4034238c05b0c8930451e2fb40,2970,0,0,0,1623094263,0,0,True,0,0.0,21
@@ -22,8 +22,8 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 866800,The Walking Dead: The Final Season,10.08,1b3b4649490d5112ef907c6dd660036d55a866b6,204,0,400,400,1768869865,"[2, 5]",46,True,0,0.0,21
 536220,The Walking Dead: A New Frontier,8.57,9d1a710175bdc5ecf10885100728e44cd4ad0942,514,0,0,0,1618346376,"[2, 5]",0,True,0,0.0,21
 20900,The Witcher: Enhanced Edition,6.75,746d1cd48fb2e57d579b05b6e9eccba95859e549,0,0,0,0,1496537456,"[1, 2, 5]",0,0,0,0.0,21
+292030,The Witcher 3,6.4,7b52d11edee478d652ef4e7103e00644bed2c74c,223,0,161,161,1780711188,"[1, 5]",0,True,0,8.0,21
 2623190,The Elder Scrolls IV: Oblivion Remastered,6.27,bad7d3e3c722ffc68af54cbe545dcc5978d87638,376,0,0,0,1746679460,"[2, 5]",0,True,0,0.0,21
-292030,The Witcher 3,6.27,7b52d11edee478d652ef4e7103e00644bed2c74c,223,0,152,152,1770450224,"[1, 5]",0,True,0,0.0,21
 550,Left 4 Dead 2,5.88,7d5a243f9500d2f8467312822f8af2a2928777ed,0,0,0,0,1491624553,"[2, 5]",0,True,0,0.0,21
 7000,Tomb Raider: Legend,5.17,df2e4400b953ab62c43ddd590684ecafd339134d,0,0,38,38,1768470464,0,0,0,0,0.0,21
 356190,Middle-earth™: Shadow of War™,4.97,316c479e5d51d21e15eb8f82338fce82c42c4115,28,0,269,269,1768254193,"[2, 5]",1,True,0,0.0,21
@@ -42,17 +42,17 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 698780,Doki Doki Literature Club,0.77,2bf8ed528d8f251428435a6f6ffc8e4e8e4b294c,0,0,0,0,1514917534,[5],0,0,0,0.0,21
 1174180,Red Dead Redemption 2,0.58,5106abd9c1187a97f23295a0ba9470c94804ec6c,0,0,35,35,1780299038,[5],0,True,0,35.0,21
 12120,Grand Theft Auto: San Andreas,0.53,895e9391da2b8155989022d9dd95b12e09766375,0,0,7,7,1766342220,0,7,0,0,0.0,21
+2556990,Beyond Good and Evil - 20th Anniversary Edition,0.48,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,29,29,1780710386,0,4,True,0,18.0,21
+2668510,Red Dead Redemption,0.4,c48b2bcf02c05ad184c5f443c8969c9ee304c883,0,0,24,24,1780712545,[5],23,True,0,24.0,21
 70,Half-Life,0.4,95be6d131fc61f145797317ca437c9765f24b41c,0,0,0,0,1499489342,"[2, 5]",0,0,0,0.0,21
 1426210,It Takes Two,0.27,6b15f6d81c4fc52056f4928b363b7fac591a945b,16,0,0,0,1735164107,0,0,True,0,0.0,21
 8000,Tomb Raider: Anniversary,0.25,13243b33c45bbde67ed6538641173e556548aac3,0,0,0,0,1511676526,0,0,0,0,0.0,21
 291550,Brawlhalla,0.2,c43fac31b8bf8821764603a14d09412bc3d45f66,0,0,0,0,1490842659,0,0,True,0,0.0,21
-2556990,Beyond Good and Evil - 20th Anniversary Edition,0.18,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,11,11,1772173732,0,0,True,0,0.0,21
 500,Left 4 Dead,0.17,428df26bc35b09319e31b1ffb712487b20b3245c,0,0,0,0,1490160415,"[2, 5]",0,True,0,0.0,21
 1172380,STAR WARS Jedi: Fallen Order™ ,0.13,0ea1d285a8ee6fbeef0e8f7f3b2d7fa4cbcb423b,0,0,8,8,1770895060,0,0,True,0,0.0,21
 218620,PAYDAY 2,0.03,a6abc0d0c1e79c0b5b0f5c8ab81ce9076a542414,0,0,0,0,1498800445,"[2, 5]",0,True,0,0.0,21
 220,Half-Life 2,0.0,fcfb366051782b8ebf2aa297f3b746395858cb62,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
 8250,Sam & Max 106: Bright Side of the Moon,0.0,b990384aaed21561b980f639e4304adfe94119c8,0,0,0,0,0,0,0,0,0,0.0,21
-8240,Sam & Max 105: Reality 2.0,0.0,71f6aa0229ef7811891da0d329efc66a1ff50a57,0,0,0,0,0,0,0,0,0,0.0,21
 8220,"Sam & Max 103: The Mole, the Mob and the Meatball",0.0,4597164a33a872bda12690f3381e341b5be3ed88,0,0,0,0,0,0,0,0,0,0.0,21
 8230,Sam & Max 104: Abe Lincoln Must Die!,0.0,b0358d1d0677eff960ae7ea474b2c1659850f4a2,0,0,0,0,0,0,0,0,0,0.0,21
 8290,Sam & Max 204: Chariots of the Dogs,0.0,a953f143763395a867c4fec7abe03ec89120c1df,0,0,0,0,0,0,0,0,0,0.0,21
@@ -60,7 +60,7 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 6020,STAR WARS™ Jedi Knight: Jedi Academy™,0.0,2e359a8df71ea18ddd77fda3f6b307e6e86ef910,0,0,0,0,0,0,0,0,0,0.0,21
 3830,Psychonauts,0.0,460b6471db7d83ee6943c1a87f7a9f2898634952,0,0,0,0,0,0,0,True,0,0.0,21
 1250,Killing Floor,0.0,d8a2d777cb4c59cf06aa244166db232336520547,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
-6030,STAR WARS™ Jedi Knight II: Jedi Outcast™,0.0,7f6bf88e9eca8e206b3659fd52d1a07324ee27cb,0,0,0,0,0,0,0,0,0,0.0,21
+8240,Sam & Max 105: Reality 2.0,0.0,71f6aa0229ef7811891da0d329efc66a1ff50a57,0,0,0,0,0,0,0,0,0,0.0,21
 8270,Sam & Max 202: Moai Better Blues,0.0,e3cc48139012d31287b6fe7fe977a3f995cb1c3b,0,0,0,0,0,0,0,0,0,0.0,21
 8280,Sam & Max 203: Night of the Raving Dead,0.0,81d700cbfe6a6efa8d638f82c99e9f7468fa2250,0,0,0,0,0,0,0,0,0,0.0,21
 360,Half-Life Deathmatch: Source,0.0,40b8a62efff5a9ab356e5c56f5c8b0532c8e1aa3,0,0,0,0,0,"[2, 5]",0,0,0,0.0,21
@@ -101,10 +101,10 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 8210,Sam & Max 102: Situation: Comedy,0.0,3a147dba083ba6afef23b62a663ffc400fd02af4,0,0,0,0,0,0,0,0,0,0.0,21
 8200,Sam & Max 101: Culture Shock,0.0,5a50b3323f27700cfc9819aaffce64163e7baf71,0,0,0,0,0,0,0,0,0,0.0,21
 7670,BioShock,0.0,9a7c9f640a76e6a32592277dbbc36a0f6da05372,0,0,0,0,0,0,0,0,0,0.0,21
+6030,STAR WARS™ Jedi Knight II: Jedi Outcast™,0.0,7f6bf88e9eca8e206b3659fd52d1a07324ee27cb,0,0,0,0,0,0,0,0,0,0.0,21
 271590,Grand Theft Auto V Legacy,0.0,1e72f87eb927fa1485e68aefaff23c7fd7178251,0,0,0,0,0,[5],0,True,0,0.0,21
-250320,The Wolf Among Us,0.0,dee5f1476ddd237ed9faab86b59cb9ca9b275faa,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
 330830,Tales from the Borderlands,0.0,620dbf286a2ef353c9c93e5b7c047027b18f1475,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
-391540,Undertale,0.0,2ce672b89b63ec1e70d2f12862e72eb4a33e9268,0,0,0,0,0,0,0,0,0,0.0,21
+250320,The Wolf Among Us,0.0,dee5f1476ddd237ed9faab86b59cb9ca9b275faa,0,0,0,0,0,"[1, 2, 5]",0,True,0,0.0,21
 214490,Alien: Isolation,0.0,7bf964858835da75630a43ac0ddbf0f66a40902f,0,0,0,0,0,[5],0,True,0,0.0,21
 210770,Sanctum 2,0.0,4cdfa1d19be460374a111b718ce3a204f21ea1dc,0,0,0,0,0,0,0,True,True,0.0,21
 201830,Jurassic Park: The Game,0.0,a01c4cd4cd09c140ecfc41d360abea823b36b9b4,0,0,0,0,0,0,0,True,0,0.0,21
@@ -116,16 +116,16 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 429570,The Walking Dead: Michonne,0.0,f75fb34d85b69cf28c5e8283a52d40aa09a33b01,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
 409720,BioShock 2 Remastered,0.0,97527a02b36f8ac4aba21005c2d953cc908a08e1,0,0,0,0,0,[5],0,True,0,0.0,21
 409710,BioShock Remastered,0.0,eb72262cd3ccc3219dd76392be3b60a4b6cbfd38,0,0,0,0,0,0,0,True,0,0.0,21
-883710,Resident Evil 2,0.0,86ef2fdebeced746313994ccf2d7afb1f2887bf0,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
+391540,Undertale,0.0,2ce672b89b63ec1e70d2f12862e72eb4a33e9268,0,0,0,0,0,0,0,0,0,0.0,21
 448510,Overcooked,0.0,0f8cb2d03134bfbc0536dcc9a476d9ba3a1e67f5,0,0,0,0,0,0,0,True,0,0.0,21
 553850,HELLDIVERS™ 2,0.0,c3dff088e090f81d6e3d88eabbb67732647c69cf,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
 617290,Remnant: From the Ashes,0.0,0fec2d481028011910bf6fc35c61d19386695128,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
 690640,Trine 4: The Nightmare Prince,0.0,afe71b7d8dd5ceb78d971d1996266c6307ec5fd0,0,0,0,0,0,0,0,True,0,0.0,21
 952070,RESIDENT EVIL RESISTANCE,0.0,05c0148e8e414361742c38e3709ca9cdd9c637a8,0,0,0,0,0,0,0,True,0,0.0,21
 952060,Resident Evil 3,0.0,136b7a39787b0d8df93cf3b757c36ae1eb392784,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
+883710,Resident Evil 2,0.0,86ef2fdebeced746313994ccf2d7afb1f2887bf0,0,0,0,0,0,"[2, 5]",0,True,0,0.0,21
 978780,STORY OF SEASONS: Friends of Mineral Town,0.0,796f73dc3e757ae09b58796854ecbe56fa48b6cc,0,0,0,0,0,0,0,True,0,0.0,21
-1224020,Creepy Tale,0.0,d436365f006f8a247e37002d4563f6943e74c3c2,0,0,0,0,0,0,0,True,0,0.0,21
 1436700,Trine 5: A Clockwork Conspiracy,0.0,3ef869db216460baed5dcd9caedc3d86510db597,0,0,0,0,0,0,0,True,0,0.0,21
-1774580,STAR WARS Jedi: Survivor™,0.0,25578ffb2c6070c5d4e6569624efaadb8a0f5538,0,0,0,0,0,0,0,True,0,0.0,21
+1224020,Creepy Tale,0.0,d436365f006f8a247e37002d4563f6943e74c3c2,0,0,0,0,0,0,0,True,0,0.0,21
 2362420,Mass Effect 2 (2010) Edition,0.0,0ffd2038ba90c573d5ba82290e8f193f1433090e,0,0,0,0,0,"[1, 2, 5]",0,0,0,0.0,21
-2668510,Red Dead Redemption,0.0,c48b2bcf02c05ad184c5f443c8969c9ee304c883,0,0,0,0,0,[5],0,True,0,0.0,21
+1774580,STAR WARS Jedi: Survivor™,0.0,25578ffb2c6070c5d4e6569624efaadb8a0f5538,0,0,0,0,0,0,0,True,0,0.0,21
