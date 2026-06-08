@@ -95,7 +95,7 @@
     },
     {
       "data": {
-        "name": "data-88e4aded8d141e2329db308da755bc83"
+        "name": "data-ff24fd1995bb393c628872b2fc45254e"
       },
       "mark": {
         "type": "arc",
@@ -168,7 +168,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 20,
-        "subtitle": "Total Playtime: 1467.9 Hrs",
+        "subtitle": "Total Playtime: 1468.2 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -199,12 +199,12 @@
         "Value": 52
       }
     ],
-    "data-88e4aded8d141e2329db308da755bc83": [
+    "data-ff24fd1995bb393c628872b2fc45254e": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
         "appid": 72850,
-        "playtime_percentage": 57.58
+        "playtime_percentage": 57.57
       },
       {
         "name": "Batman: Arkham Knight",
@@ -214,9 +214,9 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 106.92,
+        "playtime_forever": 107.18,
         "appid": 1091500,
-        "playtime_percentage": 7.28
+        "playtime_percentage": 7.3
       },
       {
         "name": "LOTR Online",
@@ -252,7 +252,7 @@
         "name": "SoS: A Wonderful Life",
         "playtime_forever": 39.42,
         "appid": 2111170,
-        "playtime_percentage": 2.69
+        "playtime_percentage": 2.68
       },
       {
         "name": "Shadow of Mordor",
