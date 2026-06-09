@@ -1,7 +1,7 @@
 appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_forever,playtime_linux_forever,playtime_deck_forever,rtime_last_played,content_descriptorids,playtime_disconnected,has_community_visible_stats,has_leaderboards,playtime_2weeks,player_level
 72850,Skyrim,845.28,b9aca8a189abd8d6aaf09047dbb0f57582683e1c,0,0,0,0,1623092117,"[1, 5]",0,True,0,0.0,21
 208650,Batman: Arkham Knight,139.65,f6c2ce13796844750dfbd01685fb009eeac4bf70,214,0,2590,2590,1774520183,0,0,True,0,0.0,21
-1091500,Cyberpunk 2077,107.18,6897c3848f3e0350d512f59d5bae174a1e3739f9,3050,0,3380,3380,1780865465,"[1, 2, 5]",1959,True,0,355.0,21
+1091500,Cyberpunk 2077,107.18,6897c3848f3e0350d512f59d5bae174a1e3739f9,3050,0,3380,3380,1780865465,"[1, 2, 5]",1959,True,0,342.0,21
 212500,LOTR Online,95.7,6dbff8345f6b3e5f092a834985c8f851859bfbf2,1057,0,115,115,1774923395,0,3139,0,0,0.0,21
 498240,Telltale: Batman,66.22,f7d48a2727c415d45412c50dcb228252f57f689b,0,0,0,0,1529389252,0,0,True,0,0.0,21
 413150,Stardew Valley,49.5,35d1377200084a4034238c05b0c8930451e2fb40,2970,0,0,0,1623094263,0,0,True,0,0.0,21
@@ -40,9 +40,9 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 242700,Injustice: Gods Among Us Ultimate Edition,1.18,4ea9f28360ca77b2ced5c8ac5545fcfc6ea8ef15,44,0,26,26,1769997389,0,0,True,0,0.0,21
 3240220,Grand Theft Auto V Enhanced,0.92,8355a7bbdb704f727bfba80ec56bc7228991338e,0,0,55,55,1768473915,"[1, 2, 5]",0,True,0,0.0,21
 698780,Doki Doki Literature Club,0.77,2bf8ed528d8f251428435a6f6ffc8e4e8e4b294c,0,0,0,0,1514917534,[5],0,0,0,0.0,21
+2556990,Beyond Good and Evil - 20th Anniversary Edition,0.75,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,45,45,1780948501,0,4,True,0,33.0,21
 1174180,Red Dead Redemption 2,0.58,5106abd9c1187a97f23295a0ba9470c94804ec6c,0,0,35,35,1780299038,[5],0,True,0,35.0,21
 12120,Grand Theft Auto: San Andreas,0.53,895e9391da2b8155989022d9dd95b12e09766375,0,0,7,7,1766342220,0,7,0,0,0.0,21
-2556990,Beyond Good and Evil - 20th Anniversary Edition,0.48,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,29,29,1780710386,0,4,True,0,18.0,21
 2668510,Red Dead Redemption,0.4,c48b2bcf02c05ad184c5f443c8969c9ee304c883,0,0,24,24,1780712545,[5],23,True,0,24.0,21
 70,Half-Life,0.4,95be6d131fc61f145797317ca437c9765f24b41c,0,0,0,0,1499489342,"[2, 5]",0,0,0,0.0,21
 1426210,It Takes Two,0.27,6b15f6d81c4fc52056f4928b363b7fac591a945b,16,0,0,0,1735164107,0,0,True,0,0.0,21
