@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-c110cf3b66b364f243d8ec2c862f6cfd"
+            "name": "data-bc1664c9f42949c7ac22bbb46f3cc0c9"
           },
           "mark": {
             "type": "arc",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-c7b10b42f8ade2196330f57cb7a11dc4"
+            "name": "data-7e15fb80abde369bee5c6c5fe6a626c7"
           },
           "height": 200,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-f45d1d971106ab131098f7dc8ede794a"
+        "name": "data-feda1234d6b0f2e229f47972c9041e91"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-ae89ba46f4a824cc8975b76489c1ab84"
+            "name": "data-7b82aefb27025d7ef79e09fc88d2cf9a"
           },
           "height": 200,
           "resolve": {
@@ -735,10 +735,10 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-c110cf3b66b364f243d8ec2c862f6cfd": [
+    "data-bc1664c9f42949c7ac22bbb46f3cc0c9": [
       {
         "artist": "Alka Yagnik",
-        "count": 1216,
+        "count": 1217,
         "pct": 30.7
       },
       {
@@ -787,10 +787,10 @@
         "pct": 3.0
       }
     ],
-    "data-c7b10b42f8ade2196330f57cb7a11dc4": [
+    "data-7e15fb80abde369bee5c6c5fe6a626c7": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,216)",
+        "label": "Alka Yagnik (1,217)",
         "idx": 0
       },
       {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-f45d1d971106ab131098f7dc8ede794a": [
+    "data-feda1234d6b0f2e229f47972c9041e91": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,8 +910,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 64,
-        "cumulative_tracks": 3487,
+        "tracks_added": 65,
+        "cumulative_tracks": 3488,
         "cumulative_artists": 697,
         "year": "2026"
       }
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-ae89ba46f4a824cc8975b76489c1ab84": [
+    "data-7b82aefb27025d7ef79e09fc88d2cf9a": [
       {
         "rank": 1,
-        "song": "Laddu Motichur Ka",
-        "artist": "Alka Yagnik, Poornima",
-        "time": "05:07 UTC",
+        "song": "Hai Dil Ye Mera (From \"Hate Story 2\")",
+        "artist": "Arijit Singh",
+        "time": "01:55 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Dheere Dheere Hum Dono Mein",
-        "artist": "Alka Yagnik, Abhijeet",
-        "time": "04:56 UTC",
+        "song": "Malang - Extended Version",
+        "artist": "Pritam, Siddharth Mahadevan, Shilpa Rao, Sameer Anjaan",
+        "time": "01:50 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
         "song": "Dheere Dheere Hum Dono Mein",
         "artist": "Alka Yagnik, Abhijeet",
-        "time": "04:52 UTC",
+        "time": "01:44 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
         "song": "Dheere Dheere Hum Dono Mein",
         "artist": "Alka Yagnik, Abhijeet",
-        "time": "23:16 UTC",
+        "time": "01:39 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Dheere Dheere Hum Dono Mein",
-        "artist": "Alka Yagnik, Abhijeet",
-        "time": "23:07 UTC",
+        "song": "Laddu Motichur Ka",
+        "artist": "Alka Yagnik, Poornima",
+        "time": "01:29 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Dheere Dheere Hum Dono Mein",
-        "artist": "Alka Yagnik, Abhijeet",
-        "time": "23:03 UTC",
+        "song": "Laddu Motichur Ka",
+        "artist": "Alka Yagnik, Poornima",
+        "time": "22:45 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Dheere Dheere Hum Dono Mein",
-        "artist": "Alka Yagnik, Abhijeet",
-        "time": "22:58 UTC",
+        "song": "Laddu Motichur Ka",
+        "artist": "Alka Yagnik, Poornima",
+        "time": "22:44 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Dheere Dheere Hum Dono Mein",
-        "artist": "Alka Yagnik, Abhijeet",
-        "time": "22:54 UTC",
+        "song": "Laddu Motichur Ka",
+        "artist": "Alka Yagnik, Poornima",
+        "time": "05:07 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
         "song": "Dheere Dheere Hum Dono Mein",
         "artist": "Alka Yagnik, Abhijeet",
-        "time": "22:28 UTC",
+        "time": "04:56 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
         "song": "Dheere Dheere Hum Dono Mein",
         "artist": "Alka Yagnik, Abhijeet",
-        "time": "22:22 UTC",
+        "time": "04:52 UTC",
         "y_pos": 9
       }
     ]
