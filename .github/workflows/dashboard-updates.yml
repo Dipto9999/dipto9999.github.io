@@ -2,14 +2,14 @@ name: dashboard-updates
 
 on:
   schedule:
-    - cron: '0 6 * * *' # 6 AM — Steam + Spotify
+    - cron: '0 6 * * *' # 6 AM — Games + Spotify
     - cron: '0 18 * * *' # 6 PM — Spotify only
   workflow_dispatch:
   push:
     branches: [ main ]
     paths:
       - 'src/assets/data/spotify/**'
-      - 'src/assets/data/steam/**'
+      - 'src/assets/data/games/**'
 
 jobs:
   update-and-deploy:
@@ -44,11 +44,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r src/assets/data/spotify/requirements.txt
 
-    - name: Install Steam Python Dependencies
+    - name: Install Games Python Dependencies
       # Only Install at 6 AM / Manual Trigger
       if: github.event.schedule != '0 18 * * *'
       run: |
-        pip install -r src/assets/data/steam/requirements.txt
+        pip install -r src/assets/data/games/requirements.txt
 
     - name: Set Up Node.js
       uses: actions/setup-node@v4
@@ -59,19 +59,25 @@ jobs:
     - name: Install Node.js Dependencies
       run: npm ci
 
-    # Steam ETL
+    # Games ETL
     - name: Create .env file for Steam API
       # Only Create at 6 AM / Manual Trigger
       if: github.event.schedule != '0 18 * * *'
       run: |
-        echo "STEAM_API_KEY=${{ secrets.STEAM_API_KEY }}" > src/assets/data/steam/.env
+        echo "STEAM_API_KEY=${{ secrets.STEAM_API_KEY }}" > src/assets/data/games/steam/.env
 
-    - name: Run Steam Data Update
+    - name: Create .env file for PSN API
+      # Only Create at 6 AM / Manual Trigger
+      if: github.event.schedule != '0 18 * * *'
+      run: |
+        echo "NPSSO_CODE=${{ secrets.NPSSO_CODE }}" > src/assets/data/games/psn/.env
+
+    - name: Run Games Data Update
       # Only Run at 6 AM / Manual Trigger
       if: github.event.schedule != '0 18 * * *'
       run: |
-        cd src/assets/data/steam
-        python steam.py
+        cd src/assets/data/games
+        python games.py
 
     # Spotify ETL
     - name: Create .env file for Spotify API

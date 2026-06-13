@@ -1,0 +1,382 @@
+{
+  "background": null,
+  "config": {
+    "view": {
+      "continuousWidth": 90,
+      "continuousHeight": 90,
+      "strokeOpacity": 0,
+      "strokeWidth": 1.5
+    },
+    "axis": {
+      "labelFontSize": 7,
+      "titleFontSize": 8
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 16
+    }
+  },
+  "hconcat": [
+    {
+      "vconcat": [
+        {
+          "hconcat": [
+            {
+              "data": {
+                "name": "data-5d6aeba095252c326bbbfd5f7abdc85a"
+              },
+              "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "color": "#141331",
+                "fontSize": 11,
+                "fontWeight": "bold"
+              },
+              "encoding": {
+                "text": {
+                  "field": "Value",
+                  "type": "quantitative"
+                },
+                "x": {
+                  "axis": null,
+                  "field": "Metric",
+                  "type": "nominal"
+                },
+                "y": {
+                  "value": 25
+                }
+              },
+              "height": 40,
+              "title": {
+                "text": "Steam Level",
+                "anchor": "middle",
+                "fontSize": 9
+              },
+              "width": 50
+            },
+            {
+              "data": {
+                "name": "data-209579f83bb465219158f903efdbaf51"
+              },
+              "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "color": "#141331",
+                "fontSize": 11,
+                "fontWeight": "bold"
+              },
+              "encoding": {
+                "text": {
+                  "field": "Value",
+                  "type": "quantitative"
+                },
+                "x": {
+                  "axis": null,
+                  "field": "Metric",
+                  "type": "nominal"
+                },
+                "y": {
+                  "value": 25
+                }
+              },
+              "height": 40,
+              "title": {
+                "text": "PSN Level",
+                "anchor": "middle",
+                "fontSize": 9
+              },
+              "width": 50
+            }
+          ]
+        },
+        {
+          "data": {
+            "name": "data-0806719922ab0a69d8ed35284b9451c4"
+          },
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "middle",
+            "color": "#141331",
+            "fontSize": 13,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "text": {
+              "field": "Value",
+              "type": "quantitative"
+            },
+            "x": {
+              "axis": null,
+              "field": "Metric",
+              "type": "nominal"
+            },
+            "y": {
+              "value": 30
+            }
+          },
+          "height": 40,
+          "title": {
+            "text": "Played",
+            "anchor": "middle",
+            "fontSize": 10
+          },
+          "width": 100
+        },
+        {
+          "data": {
+            "name": "data-b5e5e3621ebe956b3f4f9d97cbbacadf"
+          },
+          "mark": {
+            "type": "bar",
+            "stroke": "black",
+            "strokeWidth": 1
+          },
+          "encoding": {
+            "color": {
+              "field": "type",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "Platinum",
+                  "Gold",
+                  "Silver",
+                  "Bronze"
+                ],
+                "range": [
+                  "#B9F2FF",
+                  "#FFD700",
+                  "#C0C0C0",
+                  "#CD7F32"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "type",
+                "title": "Trophy",
+                "type": "nominal"
+              },
+              {
+                "field": "count",
+                "title": "Count",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "tickMinStep": 1,
+                "title": ""
+              },
+              "field": "count",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelFontSize": 5,
+                "title": ""
+              },
+              "field": "type",
+              "sort": [
+                "Platinum",
+                "Gold",
+                "Silver",
+                "Bronze"
+              ],
+              "type": "nominal"
+            }
+          },
+          "height": 45,
+          "title": {
+            "text": "PSN Trophies",
+            "anchor": "middle",
+            "fontSize": 8,
+            "subtitle": "Total: 772",
+            "subtitleFontSize": 7
+          },
+          "width": 85
+        }
+      ],
+      "title": {
+        "text": "Player Stats",
+        "anchor": "middle",
+        "fontSize": 12
+      }
+    },
+    {
+      "data": {
+        "name": "data-e02f2c1edd48e33dbb5a48263f5a1ebf"
+      },
+      "mark": {
+        "type": "arc",
+        "stroke": "black",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "name",
+          "legend": null,
+          "scale": {
+            "range": [
+              "#00008B",
+              "#FF4500",
+              "#32CD32",
+              "#C2185B",
+              "#00CED1",
+              "#FFD700",
+              "#7B1FA2",
+              "#2E8B57",
+              "#FF8C00",
+              "#4682B4",
+              "#808080",
+              "#8B0000",
+              "#20B2AA",
+              "#E91E63",
+              "#006400"
+            ]
+          },
+          "sort": null,
+          "type": "nominal"
+        },
+        "theta": {
+          "field": "playtime_percentage",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "name",
+            "title": "Game",
+            "type": "nominal"
+          },
+          {
+            "field": "playtime_forever",
+            "format": ".1f",
+            "title": "Time (Hrs)",
+            "type": "quantitative"
+          },
+          {
+            "field": "playtime_percentage",
+            "format": ".2f",
+            "title": "Playtime (%)",
+            "type": "quantitative"
+          }
+        ]
+      },
+      "height": 90,
+      "title": {
+        "text": "Top Games",
+        "anchor": "middle",
+        "fontSize": 12,
+        "subtitle": "Total Playtime: 2444.1 Hrs",
+        "subtitleFontSize": 10
+      },
+      "width": 90
+    }
+  ],
+  "padding": {
+    "left": 10,
+    "right": 10,
+    "top": 0,
+    "bottom": 0
+  },
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "title": {
+    "text": "Dipto9999's Games Dashboard",
+    "anchor": "middle",
+    "fontSize": 14
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
+  "datasets": {
+    "data-5d6aeba095252c326bbbfd5f7abdc85a": [
+      {
+        "Metric": "Steam Level",
+        "Value": 21
+      }
+    ],
+    "data-209579f83bb465219158f903efdbaf51": [
+      {
+        "Metric": "PSN Level",
+        "Value": 200
+      }
+    ],
+    "data-0806719922ab0a69d8ed35284b9451c4": [
+      {
+        "Metric": "Played",
+        "Value": 71
+      }
+    ],
+    "data-b5e5e3621ebe956b3f4f9d97cbbacadf": [
+      {
+        "type": "Gold",
+        "count": 24
+      },
+      {
+        "type": "Silver",
+        "count": 132
+      },
+      {
+        "type": "Bronze",
+        "count": 616
+      }
+    ],
+    "data-e02f2c1edd48e33dbb5a48263f5a1ebf": [
+      {
+        "name": "Skyrim",
+        "playtime_forever": 845.28,
+        "playtime_percentage": 45.08
+      },
+      {
+        "name": "Batman: Arkham Knight",
+        "playtime_forever": 172.22,
+        "playtime_percentage": 9.19
+      },
+      {
+        "name": "Spider-Man",
+        "playtime_forever": 166.1,
+        "playtime_percentage": 8.86
+      },
+      {
+        "name": "Harvest Moon: AWL",
+        "playtime_forever": 163.35000000000002,
+        "playtime_percentage": 8.71
+      },
+      {
+        "name": "God of War",
+        "playtime_forever": 161.51,
+        "playtime_percentage": 8.61
+      },
+      {
+        "name": "Cyberpunk 2077",
+        "playtime_forever": 107.32000000000001,
+        "playtime_percentage": 5.72
+      },
+      {
+        "name": "LOTR Online",
+        "playtime_forever": 95.7,
+        "playtime_percentage": 5.1
+      },
+      {
+        "name": "Telltale: Batman",
+        "playtime_forever": 66.22,
+        "playtime_percentage": 3.53
+      },
+      {
+        "name": "Stardew Valley",
+        "playtime_forever": 49.5,
+        "playtime_percentage": 2.64
+      },
+      {
+        "name": "Telltale: Game of Thrones",
+        "playtime_forever": 47.68,
+        "playtime_percentage": 2.54
+      }
+    ]
+  }
+}
