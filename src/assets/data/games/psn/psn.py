@@ -20,6 +20,8 @@ from typing import Optional
 from psnawp_api import PSNAWP
 from psnawp_api.models.trophies import PlatformType
 
+PWD = os.path.dirname(os.path.abspath(__file__))
+
 class PSN_API:
     """Handles PSN API Interactions via PSNAWP"""
 
@@ -30,12 +32,12 @@ class PSN_API:
         """Get Authenticated Client (Your Account)"""
         return self.psnawp.me()
 
-    def getUser(self, online_id: str):
+    def getUser(self, username: str):
         """Get User by Online ID"""
         try:
-            return self.psnawp.user(online_id = online_id)
+            return self.psnawp.user(username = username)
         except Exception as e:
-            print(f"Failed to Get User {online_id}: {e}")
+            print(f"Failed to Get User {username}: {e}")
             return None
 
     def getTitleStats(self, user) -> pd.DataFrame:
@@ -95,8 +97,8 @@ class PSN_User:
         "Spotify"
     }
 
-    def __init__(self, online_id: str, api_client: PSN_API, use_client: bool = False):
-        self.online_id = online_id
+    def __init__(self, username: str, api_client: PSN_API, use_client: bool = False):
+        self.username = username
         self.api_client = api_client
 
         self.trophy_level = 0
@@ -130,12 +132,12 @@ class PSN_User:
         try:
             if use_client:
                 user = self.api_client.getClient()
-                self.online_id = user.online_id
+                self.username = user.username
             else:
-                user = self.api_client.getUser(self.online_id)
+                user = self.api_client.getUser(self.username)
 
             if not user:
-                raise ValueError(f"Could Not Find PSN User: {self.online_id}")
+                raise ValueError(f"Could Not Find PSN User: {self.username}")
 
             # Get Title Stats (Playtime)
             self.stats_df = self.api_client.getTitleStats(user)
@@ -146,7 +148,7 @@ class PSN_User:
 
             self._compileStats()
 
-            print(f"Successfully Fetched Data for {self.online_id}")
+            print(f"Successfully Fetched Data for {self.username}")
             print(f"Games Played: {len(self.stats_df)}")
             print(f"Trophy Level: {self.trophy_level}")
 
@@ -156,7 +158,7 @@ class PSN_User:
 
     def _loadFromCSV(self) -> None:
         """Load Data from Backup CSV if API Fails"""
-        csv_file = f"{self.online_id}_PSNData.csv"
+        csv_file = f"{self.username}_PSNData.csv"
         if os.path.exists(os.path.join(PWD, csv_file)):
             print(f"Loading Data from CSV File: {csv_file}")
             self.stats_df = pd.read_csv(os.path.join(PWD, csv_file))
@@ -190,7 +192,7 @@ class PSN_User:
     def saveData(self, filename: Optional[str] = None) -> None:
         """Save User Data to CSV"""
         if filename is None:
-            filename = f"{self.online_id}_PSNData.csv"
+            filename = f"{self.username}_PSNData.csv"
 
         if not self.stats_df.empty:
             self.stats_df.to_csv(os.path.join(PWD, filename), index = False)
@@ -354,7 +356,7 @@ class PSN_Dashboard:
         self.dashboard = (stats_chart | playtime_chart).resolve_scale(color = 'independent').properties(
             padding = {"left": 250, "right": 250, "top": 0, "bottom": 0},
             title = alt.TitleParams(
-                text = f"{self.user.online_id}'s PSN Dashboard",
+                text = f"{self.user.username}'s PSN Dashboard",
                 anchor = 'middle', fontSize = 40
             ),
         ).configure_view(
@@ -423,7 +425,7 @@ class PSN_Dashboard:
             return
 
         if filename is None:
-            filename = f"{self.user.online_id}_Dashboard"
+            filename = f"{self.user.username}_Dashboard"
 
         if not os.path.exists(os.path.join(PWD, 'Charts')):
             os.makedirs(os.path.join(PWD, 'Charts'))
@@ -457,15 +459,14 @@ class PSN_Dashboard:
 if __name__ == '__main__':
     load_dotenv()
 
-    ONLINE_ID = 'Dipto_9999'
+    USERNAME = 'Dipto_9999'
     USE_CLIENT = True # True = Use Authenticated Account, False = Lookup by Online ID
 
     NPSSO_CODE = os.getenv("NPSSO_CODE")
 
-    PWD = os.path.dirname(os.path.abspath(__file__))
     try:
         api = PSN_API(NPSSO_CODE)
-        user = PSN_User(ONLINE_ID, api, use_client = USE_CLIENT)
+        user = PSN_User(USERNAME, api, use_client = USE_CLIENT)
         PSN_Dashboard(user).save()
         print("Execution Completed Successfully!")
 

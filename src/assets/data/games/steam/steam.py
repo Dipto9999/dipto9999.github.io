@@ -19,6 +19,9 @@ from dotenv import load_dotenv
 from typing import Optional
 
 from IPython.display import display
+
+PWD = os.path.dirname(os.path.abspath(__file__))
+
 class SteamAPI:
     """Handles Steam API Interactions"""
 
@@ -514,7 +517,6 @@ if __name__ == '__main__':
     USERNAME = 'Dipto9999'
     API_KEY = os.getenv("STEAM_API_KEY")
 
-    PWD = os.path.dirname(os.path.abspath(__file__))
     try:
         user = SteamUser(USERNAME, SteamAPI(API_KEY))
         SteamDashboard(user).save()
