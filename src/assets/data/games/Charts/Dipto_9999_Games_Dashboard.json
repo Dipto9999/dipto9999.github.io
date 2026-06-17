@@ -207,7 +207,7 @@
     },
     {
       "data": {
-        "name": "data-47cfb00371ddb692a396bc0256ed0ba6"
+        "name": "data-39e44722b4a4fa2b9f74e0325f9f2600"
       },
       "mark": {
         "type": "arc",
@@ -336,7 +336,7 @@
         "count": 616
       }
     ],
-    "data-47cfb00371ddb692a396bc0256ed0ba6": [
+    "data-39e44722b4a4fa2b9f74e0325f9f2600": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
@@ -364,7 +364,7 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 107.54,
+        "playtime_forever": 107.56,
         "playtime_percentage": 5.74
       },
       {
