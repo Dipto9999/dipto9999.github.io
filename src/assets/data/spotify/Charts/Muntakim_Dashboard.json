@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-af85976c355847002df1721519cf7de8"
+            "name": "data-8a57fbd8613b9be44b0c2fe09f007a09"
           }
         },
         {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-b64bff8d4dcbc8d24ad36e3eed7fe761"
+            "name": "data-dd7f4287b35049711044a8a3ce8297a1"
           },
           "height": 380,
           "resolve": {
@@ -717,7 +717,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-af85976c355847002df1721519cf7de8": [
+    "data-8a57fbd8613b9be44b0c2fe09f007a09": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -734,56 +734,56 @@
       },
       {
         "time_period": "2019",
-        "tracks_added": 712,
-        "cumulative_tracks": 1605,
+        "tracks_added": 711,
+        "cumulative_tracks": 1604,
         "cumulative_artists": 277,
         "year": "2019"
       },
       {
         "time_period": "2020",
         "tracks_added": 229,
-        "cumulative_tracks": 1834,
+        "cumulative_tracks": 1833,
         "cumulative_artists": 375,
         "year": "2020"
       },
       {
         "time_period": "2021",
         "tracks_added": 359,
-        "cumulative_tracks": 2193,
+        "cumulative_tracks": 2192,
         "cumulative_artists": 421,
         "year": "2021"
       },
       {
         "time_period": "2022",
         "tracks_added": 567,
-        "cumulative_tracks": 2760,
+        "cumulative_tracks": 2759,
         "cumulative_artists": 542,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
-        "cumulative_tracks": 3217,
+        "cumulative_tracks": 3216,
         "cumulative_artists": 634,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
-        "cumulative_tracks": 3305,
+        "cumulative_tracks": 3304,
         "cumulative_artists": 659,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
-        "cumulative_tracks": 3423,
+        "cumulative_tracks": 3422,
         "cumulative_artists": 693,
         "year": "2025"
       },
       {
         "time_period": "2026",
-        "tracks_added": 65,
+        "tracks_added": 66,
         "cumulative_tracks": 3488,
         "cumulative_artists": 699,
         "year": "2026"
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-b64bff8d4dcbc8d24ad36e3eed7fe761": [
+    "data-dd7f4287b35049711044a8a3ce8297a1": [
       {
         "rank": 1,
-        "song": "Jaaneman Jaane Jaan",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "00:58 UTC",
+        "song": "Tu Deewana Paagal",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "18:32 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Sajna da Dil Torya",
-        "artist": "Zeeshan Ali",
-        "time": "00:50 UTC",
+        "song": "Saare Rango Se Hai (From \"Dhartiputra\")",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "18:27 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "My Name Is Lakhan",
-        "artist": "Mohammed Aziz, Anuradha Paudwal, Nitin Mukesh, Laxmikant–Pyarelal",
-        "time": "00:46 UTC",
+        "song": "Palat - Tera Hero Idhar Hai",
+        "artist": "Arijit Singh",
+        "time": "18:17 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Tha Kar Ke",
-        "artist": "Pritam, Neeraj Shridhar, Anweshaa, Aakariti, Earl Edgar, Indie",
-        "time": "00:39 UTC",
+        "song": "Palat - Tera Hero Idhar Hai",
+        "artist": "Arijit Singh",
+        "time": "18:03 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Khuda Jane",
-        "artist": "Zubeen Garg, Shyam Bhatt, Shreya Ghoshal, Jeet Gannguli",
-        "time": "00:34 UTC",
+        "song": "Aa Jao Meri Tamanna",
+        "artist": "Javed Ali, Jojo Nathaniel, Pritam",
+        "time": "18:01 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Sanam Mere Humraaz",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "00:29 UTC",
+        "song": "Bolo Na Tumi Amar",
+        "artist": "Jeet Gannguli, Monali Thakur, Gautam Sushmit",
+        "time": "17:54 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Say Chilo Barai Anmona",
-        "artist": "Shaan",
-        "time": "00:22 UTC",
+        "song": "Haila Haila",
+        "artist": "Udit Narayan, Alka Yagnik, Dev Kohli",
+        "time": "17:44 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Aaj Ki Raat",
-        "artist": "Alisha Chinai, Mahalakshmi Iyer, Sonu Nigam",
-        "time": "00:14 UTC",
+        "song": "Gore Tan Se Sarakta Jaye",
+        "artist": "Sonu Nigam, Alka Yagnik, Sanjivani",
+        "time": "17:38 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Kaun Tujhe (From \"M.S.Dhoni - The Untold Story\")",
-        "artist": "Palak Muchhal",
-        "time": "20:45 UTC",
+        "song": "Bhula Dena",
+        "artist": "Mustafa Zahid, Jeet Gannguli, Sanjay Masoom",
+        "time": "17:33 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Main Agar Kahoon",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "20:43 UTC",
+        "song": "Bhula Dena",
+        "artist": "Mustafa Zahid, Jeet Gannguli, Sanjay Masoom",
+        "time": "17:02 UTC",
         "y_pos": 9
       }
     ]
