@@ -207,7 +207,7 @@
     },
     {
       "data": {
-        "name": "data-39e44722b4a4fa2b9f74e0325f9f2600"
+        "name": "data-7a998f483333f2e703639ed5dc93edfc"
       },
       "mark": {
         "type": "arc",
@@ -280,7 +280,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 26,
-        "subtitle": "Total Playtime: 2444.4 Hrs",
+        "subtitle": "Total Playtime: 2445.6 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -336,11 +336,11 @@
         "count": 616
       }
     ],
-    "data-39e44722b4a4fa2b9f74e0325f9f2600": [
+    "data-7a998f483333f2e703639ed5dc93edfc": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
-        "playtime_percentage": 45.08
+        "playtime_percentage": 45.05
       },
       {
         "name": "Batman: Arkham Knight",
@@ -350,7 +350,7 @@
       {
         "name": "Spider-Man",
         "playtime_forever": 166.1,
-        "playtime_percentage": 8.86
+        "playtime_percentage": 8.85
       },
       {
         "name": "Harvest Moon: AWL",
@@ -364,8 +364,8 @@
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 107.56,
-        "playtime_percentage": 5.74
+        "playtime_forever": 108.72,
+        "playtime_percentage": 5.79
       },
       {
         "name": "LOTR Online",
