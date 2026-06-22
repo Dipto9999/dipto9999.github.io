@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-8a57fbd8613b9be44b0c2fe09f007a09"
+        "name": "data-48a4a083a312e552b6637fbb79b08815"
       }
     },
     {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-8a57fbd8613b9be44b0c2fe09f007a09": [
+    "data-48a4a083a312e552b6637fbb79b08815": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -912,7 +912,7 @@
         "time_period": "2026",
         "tracks_added": 66,
         "cumulative_tracks": 3488,
-        "cumulative_artists": 699,
+        "cumulative_artists": 701,
         "year": "2026"
       }
     ],
