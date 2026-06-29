@@ -1,7 +1,7 @@
 appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_forever,playtime_linux_forever,playtime_deck_forever,rtime_last_played,content_descriptorids,playtime_disconnected,has_community_visible_stats,has_leaderboards,playtime_2weeks,player_level
 72850,Skyrim,845.28,b9aca8a189abd8d6aaf09047dbb0f57582683e1c,0,0,0,0,1623092117,"[1, 5]",0,True,0,0.0,21
 208650,Batman: Arkham Knight,139.65,f6c2ce13796844750dfbd01685fb009eeac4bf70,214,0,2590,2590,1774520183,0,0,True,0,0.0,21
-1091500,Cyberpunk 2077,108.58,6897c3848f3e0350d512f59d5bae174a1e3739f9,3050,0,3464,3464,1781726988,"[1, 2, 5]",1959,True,0,83.0,21
+1091500,Cyberpunk 2077,108.58,6897c3848f3e0350d512f59d5bae174a1e3739f9,3050,0,3464,3464,1781726988,"[1, 2, 5]",1959,True,0,71.0,21
 212500,LOTR Online,95.7,6dbff8345f6b3e5f092a834985c8f851859bfbf2,1057,0,115,115,1774923395,0,3139,0,0,0.0,21
 498240,Telltale: Batman,66.22,f7d48a2727c415d45412c50dcb228252f57f689b,0,0,0,0,1529389252,0,0,True,0,0.0,21
 413150,Stardew Valley,49.5,35d1377200084a4034238c05b0c8930451e2fb40,2970,0,0,0,1623094263,0,0,True,0,0.0,21
@@ -30,7 +30,7 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 3241660,R.E.P.O.,3.97,b8bf4770408fc369e15cebd42e0026a27b67aaa8,238,0,0,0,1763278990,0,0,0,0,0.0,21
 728880,Overcooked! 2,3.63,bac36f471109038ae0b40619de4109d475f86a54,218,0,0,0,1642221987,0,0,True,0,0.0,21
 306130,The Elder Scrolls Online,3.53,2a0f43963c08a3755682adb2369918c9ad07ef1b,103,0,0,0,1615857362,"[1, 2, 5]",0,0,0,0.0,21
-2556990,Beyond Good and Evil - 20th Anniversary Edition,3.25,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,195,195,1781467076,0,4,True,0,1.0,21
+2556990,Beyond Good and Evil - 20th Anniversary Edition,3.25,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,195,195,1781467076,0,4,True,0,0.0,21
 6060,"Star Wars: Battlefront 2 (Classic, 2005)",3.05,f6302406e215af8cff3533a747d30387f68bef2a,0,0,0,0,1508563919,0,0,0,0,0.0,21
 22330,The Elder Scrolls IV: Oblivion Game of the Year Edition (2009),2.47,e33402f6e1e4ed6dd001c7add26934f345cbd31e,0,0,0,0,1530254833,"[2, 5]",0,0,0,0.0,21
 990080,Hogwarts Legacy,2.32,a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59,0,0,139,139,1770288429,0,0,True,0,0.0,21

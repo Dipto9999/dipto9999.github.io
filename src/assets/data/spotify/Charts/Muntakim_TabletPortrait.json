@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-60f31d58681bc22c9ab0ecd4938a081f"
+            "name": "data-90a7987b94aa64b45714b9bb42626e93"
           },
           "mark": {
             "type": "arc",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-beee7e677a1412007534e526ce069fb5"
+            "name": "data-0ca34ba9e04659dbc6125850107edea1"
           },
           "height": 200,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-48a4a083a312e552b6637fbb79b08815"
+        "name": "data-995adf95593756a20381af53d82ee19c"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-45c90ae66259584e38a819b4670aba31"
+            "name": "data-3b1033d2d89188bca675cfcf9c0ddc9d"
           },
           "height": 200,
           "resolve": {
@@ -735,7 +735,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-60f31d58681bc22c9ab0ecd4938a081f": [
+    "data-90a7987b94aa64b45714b9bb42626e93": [
       {
         "artist": "Alka Yagnik",
         "count": 1217,
@@ -748,8 +748,8 @@
       },
       {
         "artist": "Udit Narayan",
-        "count": 723,
-        "pct": 18.2
+        "count": 724,
+        "pct": 18.3
       },
       {
         "artist": "Sonu Nigam",
@@ -768,8 +768,8 @@
       },
       {
         "artist": "Arijit Singh",
-        "count": 136,
-        "pct": 3.4
+        "count": 137,
+        "pct": 3.5
       },
       {
         "artist": "Kishore Kumar",
@@ -787,7 +787,7 @@
         "pct": 3.1
       }
     ],
-    "data-beee7e677a1412007534e526ce069fb5": [
+    "data-0ca34ba9e04659dbc6125850107edea1": [
       {
         "artist": "Alka Yagnik",
         "label": "Alka Yagnik (1,217)",
@@ -800,7 +800,7 @@
       },
       {
         "artist": "Udit Narayan",
-        "label": "Udit Narayan (723)",
+        "label": "Udit Narayan (724)",
         "idx": 2
       },
       {
@@ -820,7 +820,7 @@
       },
       {
         "artist": "Arijit Singh",
-        "label": "Arijit Singh (136)",
+        "label": "Arijit Singh (137)",
         "idx": 6
       },
       {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-48a4a083a312e552b6637fbb79b08815": [
+    "data-995adf95593756a20381af53d82ee19c": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,8 +910,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 66,
-        "cumulative_tracks": 3488,
+        "tracks_added": 68,
+        "cumulative_tracks": 3490,
         "cumulative_artists": 701,
         "year": "2026"
       }
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-45c90ae66259584e38a819b4670aba31": [
+    "data-3b1033d2d89188bca675cfcf9c0ddc9d": [
       {
         "rank": 1,
-        "song": "Jeeta Hoon Jiske Liye - From \"Dilwale\"",
+        "song": "Chura Ke Dil Mera (From \"Main Khiladi Tu Anari\")",
         "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "05:36 UTC",
+        "time": "06:19 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Ladki Badi Anjani Hai",
-        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik",
-        "time": "05:30 UTC",
+        "song": "Dhire Dhire Aap Mere",
+        "artist": "Udit Narayan, Sadhana Sargam",
+        "time": "06:06 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Jeevan Ke Din - Male Vocals",
-        "artist": "Kishore Kumar, Majrooh Sultanpuri",
-        "time": "05:24 UTC",
+        "song": "Woh Meri Neend Mera Chain",
+        "artist": "Sadhana Sargam",
+        "time": "05:59 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Bhula Denge Tumko Sanam",
-        "artist": "Sonu Nigam",
-        "time": "05:18 UTC",
+        "song": "Hale Dil",
+        "artist": "Harshit Saxena, Sayeed Quadri",
+        "time": "05:54 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Manzoor Dil - Reprise Version",
-        "artist": "Pawandeep Rajan, Arunita Kanjilal",
-        "time": "05:12 UTC",
+        "song": "Chura Ke Dil Mera (From \"Main Khiladi Tu Anari\")",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "05:48 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "O Bekhabar",
-        "artist": "Pritam, Shreya Ghoshal",
-        "time": "05:08 UTC",
+        "song": "Dhire Dhire Aap Mere",
+        "artist": "Udit Narayan, Sadhana Sargam",
+        "time": "05:39 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Kal Raat Ho Gayee",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "19:58 UTC",
+        "song": "Tumse Milke Dil Ka (From \"Main Hoon Na\")",
+        "artist": "Sonu Nigam, Sabri Brothers",
+        "time": "05:34 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Zoobi Doobi",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "18:00 UTC",
+        "song": "Neele Neele Ambar Par - Male Version",
+        "artist": "Kalyanji-Anandji, Kishore Kumar",
+        "time": "05:28 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Pyaar Se Pyar Hum",
-        "artist": "Nadeem Shravan, Abhijeet, Sameer Anjaan",
-        "time": "04:47 UTC",
+        "song": "Pehla Nasha",
+        "artist": "Udit Narayan, Sadhana Sargam",
+        "time": "05:22 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Chal Pyar Karegi",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "04:37 UTC",
+        "song": "Tu Hi Meri Shab Hai",
+        "artist": "Pritam, KK",
+        "time": "05:17 UTC",
         "y_pos": 9
       }
     ]
