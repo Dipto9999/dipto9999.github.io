@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-e9f2d49c5077262ff22e58d619233272"
+            "name": "data-ea9eb53d8f09ae2e16d3a00aa2276e9b"
           },
           "height": 380,
           "resolve": {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-e9f2d49c5077262ff22e58d619233272": [
+    "data-ea9eb53d8f09ae2e16d3a00aa2276e9b": [
       {
         "rank": 1,
-        "song": "Gore Tan Se Sarakta Jaye",
-        "artist": "Sonu Nigam, Alka Yagnik, Sanjivani",
-        "time": "04:45 UTC",
+        "song": "Bhula Dena",
+        "artist": "Mustafa Zahid, Jeet Gannguli, Sanjay Masoom",
+        "time": "16:05 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Gore Tan Se Sarakta Jaye",
-        "artist": "Sonu Nigam, Alka Yagnik, Sanjivani",
-        "time": "04:40 UTC",
+        "song": "Piya Aaye Na",
+        "artist": "Tulsi Kumar, KK, Jeet Gannguli, Irshad Kamil",
+        "time": "16:01 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Haareya",
-        "artist": "Sachin-Jigar, Arijit Singh, Priya Saraiya",
-        "time": "04:07 UTC",
+        "song": "Meri Aashiqui",
+        "artist": "Palak Muchhal, Arijit Singh, Mithoon, Irshad Kamil",
+        "time": "15:56 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Kitna Pyaara Tujhe Rabne Banaya",
-        "artist": "Alka Yagnik, Udit Narayan",
-        "time": "04:00 UTC",
+        "song": "Chahun Main Ya Naa",
+        "artist": "Palak Muchhal, Arijit Singh, Jeet Gannguli, Irshad Kamil",
+        "time": "15:51 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Main Hoon Na",
-        "artist": "Sonu Nigam, Shreya Ghoshal",
-        "time": "03:54 UTC",
+        "song": "Sunn Raha Hai",
+        "artist": "Ankit Tiwari, Sandeep Nath",
+        "time": "15:46 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Ooee Baba",
-        "artist": "Alka Yagnik, Abhijeet, Sapna Mukherjee",
-        "time": "03:48 UTC",
+        "song": "Tum Hi Ho",
+        "artist": "Arijit Singh, Mithoon",
+        "time": "15:40 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Tadpati Hai, Tarsati Hai",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "03:42 UTC",
+        "song": "Saadda Haq",
+        "artist": "Mohit Chauhan",
+        "time": "15:35 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Nachle Ve",
-        "artist": "Vishal-Shekhar, Sonu Nigam, Sowmya Raoh, Javed Akhtar",
-        "time": "03:37 UTC",
+        "song": "Gore Tan Se Sarakta Jaye",
+        "artist": "Sonu Nigam, Alka Yagnik, Sanjivani",
+        "time": "04:45 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Baadshah O Baadshah",
-        "artist": "Abhijeet",
-        "time": "03:31 UTC",
+        "song": "Gore Tan Se Sarakta Jaye",
+        "artist": "Sonu Nigam, Alka Yagnik, Sanjivani",
+        "time": "04:40 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Baadshah O Baadshah",
-        "artist": "Abhijeet",
-        "time": "10:04 UTC",
+        "song": "Haareya",
+        "artist": "Sachin-Jigar, Arijit Singh, Priya Saraiya",
+        "time": "04:07 UTC",
         "y_pos": 9
       }
     ]
