@@ -187,12 +187,12 @@
         }
       ],
       "data": {
-        "name": "data-1be7b78b70abeeae8351311b6373ee31"
+        "name": "data-8da0603366bfb6fd689459263fa3f812"
       }
     },
     {
       "data": {
-        "name": "data-adafb8c1afb0d05563c2017cde78ebbf"
+        "name": "data-269942846632f805c0057453ebb267ae"
       },
       "mark": {
         "type": "arc",
@@ -272,7 +272,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-1be7b78b70abeeae8351311b6373ee31": [
+    "data-8da0603366bfb6fd689459263fa3f812": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -312,7 +312,7 @@
         "time_period": "2022",
         "tracks_added": 567,
         "cumulative_tracks": 2759,
-        "cumulative_artists": 542,
+        "cumulative_artists": 543,
         "year": "2022"
       },
       {
@@ -344,7 +344,7 @@
         "year": "2026"
       }
     ],
-    "data-adafb8c1afb0d05563c2017cde78ebbf": [
+    "data-269942846632f805c0057453ebb267ae": [
       {
         "artist": "Alka Yagnik",
         "count": 1218,
@@ -358,7 +358,7 @@
       {
         "artist": "Udit Narayan",
         "count": 724,
-        "pct": 18.3
+        "pct": 18.2
       },
       {
         "artist": "Sonu Nigam",
@@ -367,17 +367,17 @@
       },
       {
         "artist": "Shreya Ghoshal",
-        "count": 230,
+        "count": 231,
         "pct": 5.8
+      },
+      {
+        "artist": "Arijit Singh",
+        "count": 139,
+        "pct": 3.5
       },
       {
         "artist": "Lata Mangeshkar",
         "count": 138,
-        "pct": 3.5
-      },
-      {
-        "artist": "Arijit Singh",
-        "count": 137,
         "pct": 3.5
       },
       {
@@ -388,7 +388,7 @@
       {
         "artist": "Abhijeet",
         "count": 125,
-        "pct": 3.2
+        "pct": 3.1
       },
       {
         "artist": "Nadeem Shravan",
@@ -458,75 +458,75 @@
         "y_pos": 9
       }
     ],
-    "data-ea9eb53d8f09ae2e16d3a00aa2276e9b": [
+    "data-ea4298d1bf74dd7bc4bda980f951cd66": [
       {
         "rank": 1,
-        "song": "Bhula Dena",
-        "artist": "Mustafa Zahid, Jeet Gannguli, Sanjay Masoom",
-        "time": "16:05 UTC",
+        "song": "Kya Tum Mujhse Pyar Karte Ho",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "02:31 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Piya Aaye Na",
-        "artist": "Tulsi Kumar, KK, Jeet Gannguli, Irshad Kamil",
-        "time": "16:01 UTC",
+        "song": "Jeene Ke Hain Chaar Din",
+        "artist": "Sonu Nigam, Sunidhi Chauhan",
+        "time": "02:05 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Meri Aashiqui",
-        "artist": "Palak Muchhal, Arijit Singh, Mithoon, Irshad Kamil",
-        "time": "15:56 UTC",
+        "song": "Kya Kare Kya Na Kare",
+        "artist": "A.R. Rahman, Udit Narayan, Mehboob",
+        "time": "01:56 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Chahun Main Ya Naa",
-        "artist": "Palak Muchhal, Arijit Singh, Jeet Gannguli, Irshad Kamil",
-        "time": "15:51 UTC",
+        "song": "Khushboo Tumhare Pyar Ki",
+        "artist": "Nadeem Shravan, Kumar Sanu, Alka Yagnik",
+        "time": "01:50 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Sunn Raha Hai",
-        "artist": "Ankit Tiwari, Sandeep Nath",
-        "time": "15:46 UTC",
+        "song": "Ae Kash Ke Hum",
+        "artist": "Jatin-Lalit, Kumar Sanu",
+        "time": "01:42 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Tum Hi Ho",
-        "artist": "Arijit Singh, Mithoon",
-        "time": "15:40 UTC",
+        "song": "Agar Mujhse Mohabbat Hai",
+        "artist": "Lata Mangeshkar",
+        "time": "01:36 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Saadda Haq",
-        "artist": "Mohit Chauhan",
-        "time": "15:35 UTC",
+        "song": "Dhire Dhire - From \"Yeh Hai Jalwa\"",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "01:27 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Gore Tan Se Sarakta Jaye",
-        "artist": "Sonu Nigam, Alka Yagnik, Sanjivani",
-        "time": "04:45 UTC",
+        "song": "Hum Jaante Hai",
+        "artist": "Vinod Rathod, Alka Yagnik",
+        "time": "01:20 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Gore Tan Se Sarakta Jaye",
-        "artist": "Sonu Nigam, Alka Yagnik, Sanjivani",
-        "time": "04:40 UTC",
+        "song": "Chahun Main Ya Naa",
+        "artist": "Palak Muchhal, Arijit Singh, Jeet Gannguli, Irshad Kamil",
+        "time": "01:11 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Haareya",
-        "artist": "Sachin-Jigar, Arijit Singh, Priya Saraiya",
-        "time": "04:07 UTC",
+        "song": "Sunn Raha Hai (Female Version)",
+        "artist": "Shreya Ghoshal, Ankit Tiwari, Sandeep Nath",
+        "time": "01:06 UTC",
         "y_pos": 9
       }
     ]
@@ -534,6 +534,6 @@
   "background": null,
   "_cardData": {
     "topSongsDataset": "data-ac19f185316cb8e78f07b317baac5471",
-    "recentlyPlayedDataset": "data-ea9eb53d8f09ae2e16d3a00aa2276e9b"
+    "recentlyPlayedDataset": "data-ea4298d1bf74dd7bc4bda980f951cd66"
   }
 }
