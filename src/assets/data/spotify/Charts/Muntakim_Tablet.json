@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-8da0603366bfb6fd689459263fa3f812"
+        "name": "data-1e417378262bdad04ca2f7f6b864acbb"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-9a8b5bcd8b4cb2a1ae676b2eb69d302d"
+            "name": "data-b059b97230d97bce20e5bef3c11aee4e"
           },
           "height": 260,
           "resolve": {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-8da0603366bfb6fd689459263fa3f812": [
+    "data-1e417378262bdad04ca2f7f6b864acbb": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -884,35 +884,35 @@
         "time_period": "2022",
         "tracks_added": 567,
         "cumulative_tracks": 2759,
-        "cumulative_artists": 543,
+        "cumulative_artists": 544,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
         "cumulative_tracks": 3216,
-        "cumulative_artists": 634,
+        "cumulative_artists": 635,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
         "cumulative_tracks": 3304,
-        "cumulative_artists": 659,
+        "cumulative_artists": 660,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
         "cumulative_tracks": 3422,
-        "cumulative_artists": 693,
+        "cumulative_artists": 694,
         "year": "2025"
       },
       {
         "time_period": "2026",
         "tracks_added": 69,
         "cumulative_tracks": 3491,
-        "cumulative_artists": 701,
+        "cumulative_artists": 702,
         "year": "2026"
       }
     ],
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-9a8b5bcd8b4cb2a1ae676b2eb69d302d": [
+    "data-b059b97230d97bce20e5bef3c11aee4e": [
       {
         "rank": 1,
-        "song": "Mujhse Dosti Karoge",
-        "artist": "Rahul Sharma, Asha Bhosle, Alka Yagnik, Udit Narayan, Anand Bakshi",
-        "time": "07:01 UTC",
+        "song": "Jab Koi Baat Bigad Jaye",
+        "artist": "Kumar Sanu, Sadhana Sargam",
+        "time": "18:28 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Jodi No.1",
-        "artist": "Sonu Nigam, Kumar Sanu, Alka Yagnik",
-        "time": "06:56 UTC",
+        "song": "Mera Dil Tere Liye",
+        "artist": "Anuradha Paudwal, Udit Narayan, Super Cassettes Industries Private Limited, Sameer Anjaan",
+        "time": "18:13 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Haiya Hikko Nikko F",
-        "artist": "Kavita Krishnamurthy",
-        "time": "06:41 UTC",
+        "song": "Tu Jo Jaan Le",
+        "artist": "Sonu Nigam",
+        "time": "18:07 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Aankhon Se Tune Kya Keh Diya",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "03:27 UTC",
+        "song": "Chahun Main Ya Naa (From \"Aashiqui 2\")",
+        "artist": "Palak Muchhal, Arijit Singh",
+        "time": "17:49 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Dekhte Dekhte",
-        "artist": "Atif Aslam, Nusrat Fateh Ali Khan, Rochak Kohli, Manoj Muntashir",
-        "time": "03:22 UTC",
+        "song": "Bas Ek Baar",
+        "artist": "Alka Yagnik, Babul Supriyo",
+        "time": "17:43 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Dekhte Dekhte",
-        "artist": "Atif Aslam, Nusrat Fateh Ali Khan, Rochak Kohli, Manoj Muntashir",
-        "time": "03:17 UTC",
+        "song": "Mujhse Dosti Karoge",
+        "artist": "Rahul Sharma, Asha Bhosle, Alka Yagnik, Udit Narayan, Anand Bakshi",
+        "time": "07:01 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Tere Pyar Mein",
-        "artist": "Kumar Sanu",
-        "time": "01:58 UTC",
+        "song": "Jodi No.1",
+        "artist": "Sonu Nigam, Kumar Sanu, Alka Yagnik",
+        "time": "06:56 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "I Am In Love",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "01:46 UTC",
+        "song": "Haiya Hikko Nikko F",
+        "artist": "Kavita Krishnamurthy",
+        "time": "06:41 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Oh My Daddy",
-        "artist": "Anand-Milind, Kumar Sanu, Sonu Nigam",
-        "time": "01:40 UTC",
+        "song": "Aankhon Se Tune Kya Keh Diya",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "03:27 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "In Kadmon Ke Neeche",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "01:27 UTC",
+        "song": "Dekhte Dekhte",
+        "artist": "Atif Aslam, Nusrat Fateh Ali Khan, Rochak Kohli, Manoj Muntashir",
+        "time": "03:22 UTC",
         "y_pos": 9
       }
     ]
