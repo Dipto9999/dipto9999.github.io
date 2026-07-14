@@ -187,7 +187,7 @@
         }
       ],
       "data": {
-        "name": "data-1e417378262bdad04ca2f7f6b864acbb"
+        "name": "data-8da0603366bfb6fd689459263fa3f812"
       }
     },
     {
@@ -272,7 +272,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-1e417378262bdad04ca2f7f6b864acbb": [
+    "data-8da0603366bfb6fd689459263fa3f812": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -312,35 +312,35 @@
         "time_period": "2022",
         "tracks_added": 567,
         "cumulative_tracks": 2759,
-        "cumulative_artists": 544,
+        "cumulative_artists": 543,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
         "cumulative_tracks": 3216,
-        "cumulative_artists": 635,
+        "cumulative_artists": 634,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
         "cumulative_tracks": 3304,
-        "cumulative_artists": 660,
+        "cumulative_artists": 659,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
         "cumulative_tracks": 3422,
-        "cumulative_artists": 694,
+        "cumulative_artists": 693,
         "year": "2025"
       },
       {
         "time_period": "2026",
         "tracks_added": 69,
         "cumulative_tracks": 3491,
-        "cumulative_artists": 702,
+        "cumulative_artists": 701,
         "year": "2026"
       }
     ],
@@ -458,75 +458,75 @@
         "y_pos": 9
       }
     ],
-    "data-f7f366f5330bb9c4529194f67f68a7bb": [
+    "data-22a4c1691196dcd70448be0b0381be64": [
       {
         "rank": 1,
-        "song": "Tu Jaane Na",
-        "artist": "Pritam, Atif Aslam",
-        "time": "18:26 UTC",
+        "song": "Mon Bechara (original motion picture soundtrack)",
+        "artist": "Shweta Pandit, Shaan",
+        "time": "23:59 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Bahara",
-        "artist": "Vishal-Shekhar, Shreya Ghoshal, Sona Mohapatra",
-        "time": "18:20 UTC",
+        "song": "Deewana Tu Hai",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "23:55 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Bahara",
-        "artist": "Vishal-Shekhar, Shreya Ghoshal, Sona Mohapatra",
-        "time": "16:28 UTC",
+        "song": "Khushboo Tumhare Pyar Ki",
+        "artist": "Nadeem Shravan, Kumar Sanu, Alka Yagnik",
+        "time": "23:49 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Guzarish",
-        "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
-        "time": "16:24 UTC",
+        "song": "Koi Ladki Hai",
+        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
+        "time": "23:42 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "O Mere Dil Ke Chain",
-        "artist": "Kishore Kumar, R. D. Burman",
-        "time": "16:18 UTC",
+        "song": "Humko Humise Chura Lo",
+        "artist": "Jatin-Lalit, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
+        "time": "23:36 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Hale Dil",
-        "artist": "Harshit Saxena, Sayeed Quadri",
-        "time": "16:13 UTC",
+        "song": "Mujhe Paisa Mila Yaar Aisa Mila",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "23:28 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Kuch To Hua Hai",
-        "artist": "Shankar-Ehsaan-Loy, Alka Yagnik, Shaan",
-        "time": "16:07 UTC",
+        "song": "Layi Vi Na Gayee",
+        "artist": "Sukhwinder Singh",
+        "time": "23:16 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Tum Ho Mera Pyar",
-        "artist": "KK, Suzanne",
-        "time": "16:01 UTC",
+        "song": "Layi Vi Na Gayee",
+        "artist": "Sukhwinder Singh",
+        "time": "21:00 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Dil Ibaadat",
-        "artist": "Pritam, KK, Sayeed Quadri",
-        "time": "06:11 UTC",
+        "song": "Mujhe Pyaar Hua (From \"Judaai\")",
+        "artist": "Alka Yagnik",
+        "time": "20:55 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Phir Mohabbat",
-        "artist": "Mohammed Irfan, Arijit Singh, Saim Bhat, Mithoon, Sayeed Quadri",
-        "time": "06:05 UTC",
+        "song": "Du Nokay Diyapa",
+        "artist": "Alka Yagnik",
+        "time": "20:55 UTC",
         "y_pos": 9
       }
     ]
@@ -534,6 +534,6 @@
   "background": null,
   "_cardData": {
     "topSongsDataset": "data-3655635f6224bd50d7e0106bcef388d1",
-    "recentlyPlayedDataset": "data-f7f366f5330bb9c4529194f67f68a7bb"
+    "recentlyPlayedDataset": "data-22a4c1691196dcd70448be0b0381be64"
   }
 }
