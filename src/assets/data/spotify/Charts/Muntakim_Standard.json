@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-eddaf037f1c042b8c715087467d253f7"
+            "name": "data-a736c8c3bb93ea5b2611ab0a31b0666d"
           },
           "height": 380,
           "resolve": {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-eddaf037f1c042b8c715087467d253f7": [
+    "data-a736c8c3bb93ea5b2611ab0a31b0666d": [
       {
         "rank": 1,
-        "song": "Aaja Nachle",
-        "artist": "Salim–Sulaiman, Sunidhi Chauhan, Piyush Mishra",
-        "time": "02:09 UTC",
+        "song": "Tauba Tauba",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Kunal Ganjawala, Sunidhi Chauhan, Richa Sharma",
+        "time": "03:16 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Kasam Se Teri Aankhen Aaiya Re Aaiya",
-        "artist": "Udit Narayan, Sonu Nigam, Alka Yagnik, Sunidhi Chauhan",
-        "time": "02:04 UTC",
+        "song": "Tauba Tauba",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Kunal Ganjawala, Sunidhi Chauhan, Richa Sharma",
+        "time": "03:13 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Janam Janam",
-        "artist": "Pritam, Arijit Singh, Antara Mitra",
-        "time": "01:58 UTC",
+        "song": "Bye Bye Miss Goodnight",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "03:05 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Mere Haath Mein",
-        "artist": "Jatin-Lalit, Sonu Nigam, Sunidhi Chauhan, Aamir Khan, Kajol, Prasoon Joshi",
-        "time": "01:47 UTC",
+        "song": "Dil Gaya Haathon Se",
+        "artist": "Anu Malik, Kumar Sanu, Alka Yagnik, Rani Malik",
+        "time": "02:54 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Maine Apna Dil De Diya",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "01:42 UTC",
+        "song": "Soniye Ve",
+        "artist": "Sonu Nigam, Sunidhi Chauhan, Sajid-Wajid",
+        "time": "02:16 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Aap Humse Pyar Karne Lage",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "01:37 UTC",
+        "song": "Pyar Kar",
+        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
+        "time": "02:09 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Parde Mein Rahne Do",
-        "artist": "Asha Bhosle",
-        "time": "01:32 UTC",
+        "song": "Hum To Tujhse Mohabbat Karte (From \"Barood\")",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "02:02 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Hale Dil",
-        "artist": "Harshit Saxena, Sayeed Quadri",
-        "time": "00:48 UTC",
+        "song": "Aao Huzoor Tumko",
+        "artist": "Asha Bhosle",
+        "time": "01:57 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Nahi Kahi Thi Baat",
-        "artist": "Udit Narayan, Alka Yagnik",
-        "time": "00:42 UTC",
+        "song": "Ek Dil Hai",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "01:51 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Haareya",
-        "artist": "Sachin-Jigar, Arijit Singh, Priya Saraiya",
-        "time": "00:37 UTC",
+        "song": "Kehna Hai Tumse",
+        "artist": "Udit Narayan, Hema Sardesai",
+        "time": "01:37 UTC",
         "y_pos": 9
       }
     ]
