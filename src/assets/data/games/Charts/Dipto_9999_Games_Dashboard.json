@@ -207,7 +207,7 @@
     },
     {
       "data": {
-        "name": "data-7a998f483333f2e703639ed5dc93edfc"
+        "name": "data-a32242a1c406c968b7d2d12419a2a146"
       },
       "mark": {
         "type": "arc",
@@ -280,7 +280,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 26,
-        "subtitle": "Total Playtime: 2445.6 Hrs",
+        "subtitle": "Total Playtime: 2446.6 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -336,16 +336,16 @@
         "count": 616
       }
     ],
-    "data-7a998f483333f2e703639ed5dc93edfc": [
+    "data-a32242a1c406c968b7d2d12419a2a146": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
-        "playtime_percentage": 45.05
+        "playtime_percentage": 45.03
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 172.22,
-        "playtime_percentage": 9.18
+        "playtime_percentage": 9.17
       },
       {
         "name": "Spider-Man",
@@ -354,17 +354,17 @@
       },
       {
         "name": "Harvest Moon: AWL",
-        "playtime_forever": 163.35000000000002,
-        "playtime_percentage": 8.71
+        "playtime_forever": 164.28,
+        "playtime_percentage": 8.75
       },
       {
         "name": "God of War",
         "playtime_forever": 161.51,
-        "playtime_percentage": 8.61
+        "playtime_percentage": 8.6
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 108.72,
+        "playtime_forever": 108.77,
         "playtime_percentage": 5.79
       },
       {
