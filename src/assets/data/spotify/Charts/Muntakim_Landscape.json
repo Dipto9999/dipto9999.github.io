@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-5b630cb3d7e77e4d0f4316f4a6ee7983"
+            "name": "data-1b98cf2397595e28df5d50e365661ef9"
           }
         },
         {
@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-bd965aa182c2387df461523a4e51b39c"
+            "name": "data-3f2a3630f6176794657d3422a461b6a5"
           },
           "height": 200,
           "resolve": {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-5b630cb3d7e77e4d0f4316f4a6ee7983": [
+    "data-1b98cf2397595e28df5d50e365661ef9": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -647,35 +647,35 @@
         "time_period": "2022",
         "tracks_added": 567,
         "cumulative_tracks": 2758,
-        "cumulative_artists": 543,
+        "cumulative_artists": 545,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
         "cumulative_tracks": 3215,
-        "cumulative_artists": 634,
+        "cumulative_artists": 636,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
         "cumulative_tracks": 3303,
-        "cumulative_artists": 659,
+        "cumulative_artists": 661,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
         "cumulative_tracks": 3421,
-        "cumulative_artists": 693,
+        "cumulative_artists": 695,
         "year": "2025"
       },
       {
         "time_period": "2026",
-        "tracks_added": 70,
-        "cumulative_tracks": 3491,
-        "cumulative_artists": 701,
+        "tracks_added": 71,
+        "cumulative_tracks": 3492,
+        "cumulative_artists": 703,
         "year": "2026"
       }
     ],
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-bd965aa182c2387df461523a4e51b39c": [
+    "data-3f2a3630f6176794657d3422a461b6a5": [
       {
         "rank": 1,
-        "song": "Premi Aashiq Aawara",
-        "artist": "Kumar Sanu",
-        "time": "03:57 UTC",
+        "song": "Aapke Pyaar Mein Hum",
+        "artist": "Nadeem Shravan, Alka Yagnik, Sameer Anjaan",
+        "time": "18:25 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Barso Re",
-        "artist": "A.R. Rahman, Shreya Ghoshal, Uday Mazumdar",
-        "time": "03:19 UTC",
+        "song": "Dagariya Chalo",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "18:14 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Ek Do Teen Char",
-        "artist": "Alka Yagnik, Laxmikant–Pyarelal, Javed Akhtar",
-        "time": "03:14 UTC",
+        "song": "Jar Chhobi Ei Mon Eke Jay",
+        "artist": "Jeet Gannguli, Gautam Susmit, Sonu Nigam",
+        "time": "17:44 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Ek Do Teen Char",
-        "artist": "Alka Yagnik, Laxmikant–Pyarelal, Javed Akhtar",
-        "time": "03:03 UTC",
+        "song": "Kehti Hai Yeh Hawa",
+        "artist": "Shankar Mahadevan, Richa Sharma",
+        "time": "17:38 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Tauba Tauba",
-        "artist": "Salim–Sulaiman, Sonu Nigam, Kunal Ganjawala, Sunidhi Chauhan, Richa Sharma",
-        "time": "03:16 UTC",
+        "song": "Chudi Khankayi Re - From \"Yeh Hai Jalwa\"",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "17:34 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Tauba Tauba",
-        "artist": "Salim–Sulaiman, Sonu Nigam, Kunal Ganjawala, Sunidhi Chauhan, Richa Sharma",
-        "time": "03:13 UTC",
+        "song": "Dheere Dheere Hum Dono Mein",
+        "artist": "Alka Yagnik, Abhijeet",
+        "time": "17:17 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Bye Bye Miss Goodnight",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "03:05 UTC",
+        "song": "Kaun Main Haan Tum",
+        "artist": "Udit Narayan, Alka Yagnik, Akshay Kumar, Bobby Deol, Kareena Kapoor, Bipasha Basu",
+        "time": "15:52 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Dil Gaya Haathon Se",
-        "artist": "Anu Malik, Kumar Sanu, Alka Yagnik, Rani Malik",
-        "time": "02:54 UTC",
+        "song": "Param Sundari",
+        "artist": "A.R. Rahman, Shreya Ghoshal",
+        "time": "15:45 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Soniye Ve",
-        "artist": "Sonu Nigam, Sunidhi Chauhan, Sajid-Wajid",
-        "time": "02:16 UTC",
+        "song": "Pagol Korona Amake",
+        "artist": "Alka Yagnik, Javed Ali",
+        "time": "15:38 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Pyar Kar",
-        "artist": "Uttam Singh, Lata Mangeshkar, Udit Narayan, Anand Bakshi",
-        "time": "02:09 UTC",
+        "song": "Mil Jaate Hain",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "15:33 UTC",
         "y_pos": 9
       }
     ]
