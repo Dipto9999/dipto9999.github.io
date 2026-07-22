@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-add984334c5bf652b31ad50f2270fa0e"
+            "name": "data-800df6ad91ffdff0e75f673d23f0b1ab"
           },
           "mark": {
             "type": "arc",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-677c9f065c382cd7ebb8ad35ea984fa2"
+            "name": "data-7b4d14a812416a1f258973e6e833a60c"
           },
           "height": 200,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-1b98cf2397595e28df5d50e365661ef9"
+        "name": "data-a976284ccb247d07db530138b74f5dd8"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-c830c512b1f6a59f65d20adfd48ff2e7"
+            "name": "data-43b648b00a1c0ebfb9729aeb5fd8981f"
           },
           "height": 200,
           "resolve": {
@@ -735,7 +735,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-add984334c5bf652b31ad50f2270fa0e": [
+    "data-800df6ad91ffdff0e75f673d23f0b1ab": [
       {
         "artist": "Alka Yagnik",
         "count": 1218,
@@ -748,7 +748,7 @@
       },
       {
         "artist": "Udit Narayan",
-        "count": 724,
+        "count": 725,
         "pct": 18.2
       },
       {
@@ -787,7 +787,7 @@
         "pct": 3.1
       }
     ],
-    "data-677c9f065c382cd7ebb8ad35ea984fa2": [
+    "data-7b4d14a812416a1f258973e6e833a60c": [
       {
         "artist": "Alka Yagnik",
         "label": "Alka Yagnik (1,218)",
@@ -800,7 +800,7 @@
       },
       {
         "artist": "Udit Narayan",
-        "label": "Udit Narayan (724)",
+        "label": "Udit Narayan (725)",
         "idx": 2
       },
       {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-1b98cf2397595e28df5d50e365661ef9": [
+    "data-a976284ccb247d07db530138b74f5dd8": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,8 +910,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 71,
-        "cumulative_tracks": 3492,
+        "tracks_added": 72,
+        "cumulative_tracks": 3493,
         "cumulative_artists": 703,
         "year": "2026"
       }
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-c830c512b1f6a59f65d20adfd48ff2e7": [
+    "data-43b648b00a1c0ebfb9729aeb5fd8981f": [
       {
         "rank": 1,
-        "song": "Love You Love You Bolo - Chori Chori Chupke Chupke / Soundtrack Version",
-        "artist": "Anu Malik, Alka Yagnik",
-        "time": "03:07 UTC",
+        "song": "Mujhe Neend Na Aaye",
+        "artist": "Anuradha Paudwal, Udit Narayan",
+        "time": "18:18 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Abhi Mujh Mein Kahin",
-        "artist": "Ajay-Atul, Sonu Nigam",
-        "time": "03:00 UTC",
+        "song": "Jaane Mujhe Kya Hua",
+        "artist": "Sadhana Sargam, Udit Narayan",
+        "time": "17:56 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Aadat",
-        "artist": "Jal, Mithoon, Atif Aslam",
-        "time": "01:31 UTC",
+        "song": "Jab Tujhe Maine",
+        "artist": "Sadhana Sargam, Udit Narayan",
+        "time": "17:49 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Aawara Pagal Deewana",
+        "song": "Tu Dharti Pe Chaahe Jahan Bhi",
         "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "01:13 UTC",
+        "time": "17:42 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Pehli Baar Mile Hain",
-        "artist": "S. P. Balasubrahmanyam",
-        "time": "01:01 UTC",
+        "song": "Khoye Khoye Din Hain",
+        "artist": "Sonu Nigam, Anuradha Paudwal, Daboo Malik, Praveen Bharadwaj",
+        "time": "17:32 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Kitna Pyaara Pyaara Hai Sama",
-        "artist": "Alka Yagnik, Abhijeet, Nadeem Shravan, Sameer Anjaan",
-        "time": "00:54 UTC",
+        "song": "Kitna Pyaara Hai",
+        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Sameer Anjaan",
+        "time": "17:27 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Dil Ki Ghadi",
-        "artist": "Kumar Sanu, Kavita Krishnamurthy",
-        "time": "00:49 UTC",
+        "song": "Koi Na Koi Chahiye - From \"Deewana\"",
+        "artist": "Vinod Rathod",
+        "time": "17:22 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Anjaana Anjaani Ki Kahani",
-        "artist": "Vishal-Shekhar, Nikhil D'Souza, Monali Thakur",
-        "time": "00:41 UTC",
+        "song": "Kisi Din Banoongi Main",
+        "artist": "Alka Yagnik, Udit Narayan",
+        "time": "17:16 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Ab Tere Bin",
-        "artist": "Kumar Sanu, Super Cassettes Industries Private Limited, Sameer Anjaan",
-        "time": "15:56 UTC",
+        "song": "Aisa Zakhm Diya Hai (From \"Akele Hum Akele Tum\")",
+        "artist": "Udit Narayan, Aamir Khan",
+        "time": "17:00 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Teri Chunnariya",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "15:50 UTC",
+        "song": "Jagte Hain Hum - Instrumental",
+        "artist": "Sanjeev Darshan",
+        "time": "16:54 UTC",
         "y_pos": 9
       }
     ]
