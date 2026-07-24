@@ -189,12 +189,12 @@
             }
           ],
           "data": {
-            "name": "data-a976284ccb247d07db530138b74f5dd8"
+            "name": "data-dc07a183b431e5042ab2643bc113e268"
           }
         },
         {
           "data": {
-            "name": "data-800df6ad91ffdff0e75f673d23f0b1ab"
+            "name": "data-be0096e3dcce00349ed8504a8918f0c3"
           },
           "mark": {
             "type": "arc",
@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-948dd74300a328a613a3697c869ccc8a"
+            "name": "data-a73f0658d099d6ba57892d3fb41d3a97"
           },
           "height": 200,
           "resolve": {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-a976284ccb247d07db530138b74f5dd8": [
+    "data-dc07a183b431e5042ab2643bc113e268": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -673,17 +673,17 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 72,
-        "cumulative_tracks": 3493,
+        "tracks_added": 73,
+        "cumulative_tracks": 3494,
         "cumulative_artists": 703,
         "year": "2026"
       }
     ],
-    "data-800df6ad91ffdff0e75f673d23f0b1ab": [
+    "data-be0096e3dcce00349ed8504a8918f0c3": [
       {
         "artist": "Alka Yagnik",
         "count": 1218,
-        "pct": 30.7
+        "pct": 30.6
       },
       {
         "artist": "Kumar Sanu",
@@ -697,8 +697,8 @@
       },
       {
         "artist": "Sonu Nigam",
-        "count": 307,
-        "pct": 7.7
+        "count": 308,
+        "pct": 7.8
       },
       {
         "artist": "Shreya Ghoshal",
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-948dd74300a328a613a3697c869ccc8a": [
+    "data-a73f0658d099d6ba57892d3fb41d3a97": [
       {
         "rank": 1,
-        "song": "Dil Mein Hulchul Si",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "17:57 UTC",
+        "song": "Ho Gaya Hai Tujhko To Pyar Sajna",
+        "artist": "Lata Mangeshkar, Udit Narayan",
+        "time": "03:37 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Mon Bechara (original motion picture soundtrack)",
-        "artist": "Shweta Pandit, Shaan",
-        "time": "17:51 UTC",
+        "song": "Bhula Denge Tumko Sanam",
+        "artist": "Sonu Nigam",
+        "time": "03:31 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Aaj Amaye",
-        "artist": "Jeet Gannguli, Anweshaa",
-        "time": "17:47 UTC",
+        "song": "Crazy Kiya Re (From \"Dhoom:2\")",
+        "artist": "Pritam, Sunidhi Chauhan, Sameer Anjaan",
+        "time": "03:25 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Aaja Mahiya",
-        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasanta A Samadhar, Gulzar",
-        "time": "17:43 UTC",
+        "song": "Meri Zindagi Mein Ajnabee",
+        "artist": "Kumar Sanu, Sunidhi Chauhan",
+        "time": "03:19 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Tor Ek Kothaye",
-        "artist": "Arijit Singh, Jeet Gannguli, Prasen",
-        "time": "17:36 UTC",
+        "song": "Neele Neele Ambar Par - Male Version",
+        "artist": "Kalyanji-Anandji, Kishore Kumar",
+        "time": "03:12 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Chirodini Tumi Je Aamar - Male Version",
-        "artist": "Kishore Kumar",
-        "time": "17:26 UTC",
+        "song": "Chak De",
+        "artist": "Jatin-Lalit, Sonu Nigam, Sadhana Sargam, Prasoon Joshi",
+        "time": "03:07 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Maine Tumse Pyaar (From \"Barsaat\")",
-        "artist": "Alka Yagnik, Nadeem Shravan",
-        "time": "17:11 UTC",
+        "song": "Chori Chori",
+        "artist": "Alka Yagnik, Sonu Nigam",
+        "time": "02:58 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Woh Meri Neend Mera Chain",
-        "artist": "Sadhana Sargam",
-        "time": "17:06 UTC",
+        "song": "Mere Haath Mein",
+        "artist": "Jatin-Lalit, Sonu Nigam, Sunidhi Chauhan, Aamir Khan, Kajol, Prasoon Joshi",
+        "time": "02:53 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Ore Manwa Re",
-        "artist": "Arijit Singh, Akriti Kakar",
-        "time": "17:01 UTC",
+        "song": "Chori Chori",
+        "artist": "Alka Yagnik, Sonu Nigam",
+        "time": "02:41 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Ami Je Ke Tomar",
-        "artist": "Lata Mangeshkar",
-        "time": "16:56 UTC",
+        "song": "Mere Haath Mein",
+        "artist": "Jatin-Lalit, Sonu Nigam, Sunidhi Chauhan, Aamir Khan, Kajol, Prasoon Joshi",
+        "time": "02:35 UTC",
         "y_pos": 9
       }
     ]
