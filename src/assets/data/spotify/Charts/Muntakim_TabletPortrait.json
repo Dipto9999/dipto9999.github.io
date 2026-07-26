@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-6813815a61b1454722428a9421a4fd8b"
+            "name": "data-d52fbec4f3fdbc9b661706e4c10cb322"
           },
           "height": 200,
           "resolve": {
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-6813815a61b1454722428a9421a4fd8b": [
+    "data-d52fbec4f3fdbc9b661706e4c10cb322": [
       {
         "rank": 1,
-        "song": "Bahara",
-        "artist": "Vishal-Shekhar, Shreya Ghoshal, Sona Mohapatra",
-        "time": "02:32 UTC",
+        "song": "Pyar Ka Khumar",
+        "artist": "Alka Yagnik",
+        "time": "06:36 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Dhindhora Baje Re (From \"Rocky Aur Rani Kii Prem Kahaani\")",
-        "artist": "Pritam, Darshan Raval, Bhoomi Trivedi, Amitabh Bhattacharya",
-        "time": "02:26 UTC",
+        "song": "Saajan Saajan",
+        "artist": "Nadeem Shravan, Alka Yagnik, Sapna Awasthi, Kumar Sanu, Sameer Anjaan",
+        "time": "03:38 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Aisi Deewangi",
-        "artist": "Alka Yagnik, Vinod Rathod",
-        "time": "02:21 UTC",
+        "song": "Ae Ajnabi",
+        "artist": "Udit Narayan, Mahalakshmi Iyer",
+        "time": "03:32 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Ho Gaya Hai Tujhko To Pyar Sajna",
-        "artist": "Lata Mangeshkar, Udit Narayan",
-        "time": "02:14 UTC",
+        "song": "Chaiyya Chaiyya (From \"Dil Se\")",
+        "artist": "Sukhwinder Singh, Sapna Awasthi",
+        "time": "03:26 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
-        "artist": "Kumar Sanu",
-        "time": "02:08 UTC",
+        "song": "What Jhumka ? (From \"Rocky Aur Rani Kii Prem Kahaani\")",
+        "artist": "Pritam, Arijit Singh, Jonita Gandhi, Ranveer Singh, Amitabh Bhattacharya",
+        "time": "03:06 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Resham Wale",
-        "artist": "Udit Narayan",
-        "time": "02:00 UTC",
+        "song": "Dil Mein Sanam Ki Soorat",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "03:02 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Aisa Sama Na Hota",
-        "artist": "R. D. Burman, Lata Mangeshkar",
-        "time": "01:53 UTC",
+        "song": "Dil Mein Sanam Ki Soorat",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "03:00 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Kha Kasam Kha Kasam",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "01:44 UTC",
+        "song": "Kuch To Hai",
+        "artist": "Armaan Malik, Amaal Mallik, Manoj Muntashir",
+        "time": "00:36 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Deewano Ko Pata Hai",
-        "artist": "Jatin-Lalit, Udit Narayan, Sadhana Sargam",
-        "time": "01:36 UTC",
+        "song": "Dil Hi Toh Hai - Reprise",
+        "artist": "Pritam, Sreerama Chandra, Antara Mitra",
+        "time": "00:32 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Yeh Vaada Hai",
-        "artist": "Jatin-Lalit, Alka Yagnik, Kumar Sanu",
-        "time": "01:23 UTC",
+        "song": "Chabi Kho Jayi - Hum Tum Ek Kamre Mein",
+        "artist": "Lata Mangeshkar, Shailendra Singh, Laxmikant–Pyarelal",
+        "time": "00:28 UTC",
         "y_pos": 9
       }
     ]
