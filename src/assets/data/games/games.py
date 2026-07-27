@@ -97,7 +97,8 @@ class Games_Dashboard:
             'pie':             {'width': 700,  'height': 400, 'titleFontSize': 26, 'subtitleFontSize': 16},
             'stats_title':     30,
             'dashboard_title': 40,
-            'padding':         {'left': 250, 'right': 250, 'top': 0,  'bottom': 0},
+            # Keep padding small — MacBook Air (~1280–1440px) clips with 250px sides
+            'padding':         {'left': 40, 'right': 40, 'top': 10,  'bottom': 10},
         },
         'Tablet': { # Tablet (900px - 1200px)
             'view':            {'continuousWidth': 200,  'continuousHeight': 200},

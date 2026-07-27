@@ -4,13 +4,12 @@
     margin: 0 auto; // Center Chart
     padding: 20px 0;
     display: flex;
-    justify-content: center; // Center Content Horizontally
-    align-items: center; // Center Content Vertically
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    overflow-x: auto; // Never Clip Left Edge on Narrow Laptops
+    overflow-x: auto;
     box-sizing: border-box;
 
-    // Vega Embed Can Overflow — Keep Chart Inside Viewport
     .vega-embed,
     .vega-embed > summary,
     .vega-embed form,

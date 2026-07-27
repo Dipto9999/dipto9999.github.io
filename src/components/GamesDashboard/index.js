@@ -18,6 +18,7 @@ const chartContainerStyle = {
 const getGamesSpec = (width, height) => {
   if (width <= 550 && height >= width) return portraitGames; // Mobile Portrait
   if (width <= 900 && width > height) return landscapeGames;  // Mobile Landscape
+  // MacBook Air / small laptops often report ~1280–1440; Standard used to clip left
   if (width <= 1440) return tabletGames; // Tablet / Laptop
   return defaultGames; // Wide Desktop
 };
