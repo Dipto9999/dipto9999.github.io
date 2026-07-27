@@ -22,7 +22,7 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 866800,The Walking Dead: The Final Season,10.08,1b3b4649490d5112ef907c6dd660036d55a866b6,204,0,400,400,1768869865,"[2, 5]",46,True,0,0.0,21
 536220,The Walking Dead: A New Frontier,8.57,9d1a710175bdc5ecf10885100728e44cd4ad0942,514,0,0,0,1618346376,"[2, 5]",0,True,0,0.0,21
 20900,The Witcher: Enhanced Edition,6.75,746d1cd48fb2e57d579b05b6e9eccba95859e549,0,0,0,0,1496537456,"[1, 2, 5]",0,0,0,0.0,21
-292030,The Witcher 3,6.4,7b52d11edee478d652ef4e7103e00644bed2c74c,223,0,161,161,1780711188,"[1, 5]",277,True,0,0.0,21
+292030,The Witcher 3,6.52,7b52d11edee478d652ef4e7103e00644bed2c74c,230,0,161,161,1785052400,"[1, 5]",277,True,0,7.0,21
 2623190,The Elder Scrolls IV: Oblivion Remastered,6.27,bad7d3e3c722ffc68af54cbe545dcc5978d87638,376,0,0,0,1746679460,"[2, 5]",0,True,0,0.0,21
 550,Left 4 Dead 2,5.88,7d5a243f9500d2f8467312822f8af2a2928777ed,0,0,0,0,1491624553,"[2, 5]",0,True,0,0.0,21
 7000,Tomb Raider: Legend,5.17,df2e4400b953ab62c43ddd590684ecafd339134d,0,0,38,38,1768470464,0,0,0,0,0.0,21
@@ -32,8 +32,8 @@ appid,name,playtime_forever,img_icon_url,playtime_windows_forever,playtime_mac_f
 306130,The Elder Scrolls Online,3.53,2a0f43963c08a3755682adb2369918c9ad07ef1b,103,0,0,0,1615857362,"[1, 2, 5]",0,0,0,0.0,21
 2556990,Beyond Good and Evil - 20th Anniversary Edition,3.25,36d6f7b9e6c4065191608a88833a79cfdc1c7271,0,0,195,195,1781467076,0,4,True,0,0.0,21
 6060,"Star Wars: Battlefront 2 (Classic, 2005)",3.05,f6302406e215af8cff3533a747d30387f68bef2a,0,0,0,0,1508563919,0,0,0,0,0.0,21
+990080,Hogwarts Legacy,2.48,a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59,9,0,139,139,1785054721,0,0,True,0,9.0,21
 22330,The Elder Scrolls IV: Oblivion Game of the Year Edition (2009),2.47,e33402f6e1e4ed6dd001c7add26934f345cbd31e,0,0,0,0,1530254833,"[2, 5]",0,0,0,0.0,21
-990080,Hogwarts Legacy,2.32,a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59,0,0,139,139,1770288429,0,0,True,0,0.0,21
 24980,Mass Effect 2 (2010),2.02,e6f3b9b0762fd4d42a732abfc41887f6c5903a52,0,0,0,0,1526093063,0,0,0,0,0.0,21
 544730,Catan Universe,1.88,8cd29d84f760481a824955e880ee5b86b7d2b4dc,0,0,0,0,1513217815,0,0,True,0,0.0,21
 22380,Fallout: New Vegas,1.4,1711fd8c46d739feec76bd4a64eaeeca5b87e3a7,80,0,0,0,1586439700,0,0,True,0,0.0,21
