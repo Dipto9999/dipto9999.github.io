@@ -778,7 +778,7 @@ class SpotifyDashboard:
         -------------
             {username}_Standard.json (Desktop)
             {username}_Tablet.json (Large Tablet / Small Desktop)
-            {username}_TabletPortrait.json ) (iPad Mini/Air)
+            {username}_TabletPortrait.json (iPad Mini/Air)
             {username}_Landscape.json (Mobile Landscape)
             {username}_Portrait.json (Mobile Portrait)
             {username}_Dashboard.json (Standard Reference Copy)

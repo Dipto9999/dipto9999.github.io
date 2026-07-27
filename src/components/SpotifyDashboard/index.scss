@@ -1,3 +1,17 @@
+.spotify-dashboard {
+  padding: 0 16px;
+
+  @media (min-width: 768px) {
+    padding: 0 32px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+}
+
 .vega-chart {
   width: 100%;
   max-width: 100%;
@@ -10,19 +24,20 @@
   overflow-x: hidden;
 }
 
-/* ── Mobile Card View for Top Songs / Recently Played ── */
-
-.spotify-cards-row {
+/* Mobile Cards (Phone Portrait Only — Same Idea as GoodReads Cards) */
+.spotify-cards-container {
+  margin: 0 0 2rem 0;
+  background: #e3f7ff;
+  border-radius: 8px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 0 16px 24px;
-  width: 100%;
-  box-sizing: border-box;
+  gap: 20px;
 }
 
 .spotify-card-section {
   width: 100%;
+  text-align: left;
 }
 
 .spotify-card-section-title {
@@ -33,7 +48,7 @@
 }
 
 .spotify-card-section-subtitle {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: #555;
   margin: 0 0 10px 0;
 }
@@ -41,26 +56,24 @@
 .spotify-card-list {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 8px;
 }
 
 .spotify-track-card {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 8px 4px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-
-  &:last-child {
-    border-bottom: none;
-  }
+  background: #f9fbfd;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 12px;
 }
 
 .spotify-track-rank {
-  width: 22px;
+  width: 24px;
   flex-shrink: 0;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.95rem;
+  font-weight: 700;
   color: #555;
   text-align: center;
 }
@@ -70,20 +83,20 @@
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 2px;
 }
 
 .spotify-track-title {
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  color: #1a7a3a;
+  color: #0e7a38; // Match Spotify Green
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .spotify-track-artist {
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   color: #444;
   white-space: nowrap;
   overflow: hidden;
@@ -92,7 +105,7 @@
 
 .spotify-track-time {
   flex-shrink: 0;
-  font-size: 0.75rem;
-  color: #555;
+  font-size: 0.78rem;
+  color: #666;
   white-space: nowrap;
 }
