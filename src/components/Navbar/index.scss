@@ -91,18 +91,6 @@
                 transition: all 0.3s ease-out;
             }
 
-            &:hover {
-                color: #D9FEC0;
-
-                svg {
-                    opacity: 0;
-                }
-
-                &:after {
-                    opacity: 1;
-                }
-            }
-
             &:after {
                 content: '';
                 font-size: 18px;
@@ -115,11 +103,27 @@
                 text-align: center;
                 opacity: 0;
                 transition: all 0.3s ease-out;
+                pointer-events: none; /* Label Must Not Steal Taps on Mobile */
             }
 
             &:first-child {
                 &:after {
                     content: 'Home';
+                }
+            }
+
+            /* Real Mouse Only — Touch :hover Sticky State Was Jumping the Top Bar */
+            @media (hover: hover) and (pointer: fine) {
+                &:hover {
+                    color: #D9FEC0;
+
+                    svg {
+                        opacity: 0;
+                    }
+
+                    &:after {
+                        opacity: 1;
+                    }
                 }
             }
         }
@@ -272,13 +276,20 @@
                 width: auto;
                 margin: 0 10px;
 
-                &:hover:after {
-                    top: -30px;
-                    left: -10px;
-                }
-
+                /* Keep Labels Inside the Bar — top: -30px Caused Mobile Jump / Spaz */
                 &:after {
                     font-size: 10px;
+                    top: auto;
+                    bottom: 0;
+                    left: 0;
+                }
+
+                @media (hover: hover) and (pointer: fine) {
+                    &:hover:after {
+                        top: auto;
+                        bottom: 0;
+                        left: 0;
+                    }
                 }
             }
         }
