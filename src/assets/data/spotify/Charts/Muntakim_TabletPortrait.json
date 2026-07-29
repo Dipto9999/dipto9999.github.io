@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-73915d2a43230a4bad680a5650023239"
+            "name": "data-978b13021a2774dbde0a6ca323a62153"
           },
           "height": 200,
           "resolve": {
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-73915d2a43230a4bad680a5650023239": [
+    "data-978b13021a2774dbde0a6ca323a62153": [
       {
         "rank": 1,
-        "song": "Gup Chup Gup Chup",
-        "artist": "Ila Arun, Alka Yagnik",
-        "time": "18:00 UTC",
+        "song": "Soch Liya Maine",
+        "artist": "Vinod Rathod, Alka Yagnik",
+        "time": "02:41 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Ab To Bina Tumhare",
-        "artist": "Nadeem Shravan, Kumar Sanu",
-        "time": "17:52 UTC",
+        "song": "Zamaane Ko Ab Tak",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "02:32 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Zamane Ke Dekhein Hain Rang Hazaar",
-        "artist": "Anuradha Paudwal",
-        "time": "17:39 UTC",
+        "song": "Ab Hain Neend Kise Ab Hain Chain Kahan",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "02:20 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Gaa Re Mann",
-        "artist": "Kavita Krishnamurthy, Alka Yagnik, Sudesh Bhosle, Kailash Kher",
-        "time": "17:34 UTC",
+        "song": "Dil Diyan Gallan",
+        "artist": "Vishal-Shekhar, Atif Aslam, Irshad Kamil",
+        "time": "02:12 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Love Mera Hit Hit",
-        "artist": "Pritam, Neeraj Shridhar, Tulsi Kumar, Ashish Pandit",
-        "time": "17:28 UTC",
+        "song": "Kangna Re",
+        "artist": "Sonu Nigam, Shreya Ghoshal, Madhushree, Bela Shende, Kalapini Komakali",
+        "time": "01:58 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Shanivaar Raati",
-        "artist": "Arijit Singh, Shalmali Kholgade",
-        "time": "17:23 UTC",
+        "song": "Padh Likh Ke",
+        "artist": "Alka Yagnik",
+        "time": "01:52 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Chaaha Toh Bahut",
-        "artist": "Kumar Sanu, Bela",
-        "time": "16:40 UTC",
+        "song": "Tinak Tin Tana",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "01:46 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Mujhpe Har Haseena",
-        "artist": "Alisha Chinai, Kumar Sanu, Sonu Nigam",
-        "time": "16:25 UTC",
+        "song": "Mujhe Tumse",
+        "artist": "Kumar Sanu, Sadhana Sargam",
+        "time": "01:42 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "No Entry: Ishq Di Galli Vich",
-        "artist": "Sonu Nigam, Alisha Chinai",
-        "time": "16:02 UTC",
+        "song": "Tujhe Dekhte Hi Yeh Dil",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "01:35 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Dilliwaali Girlfriend",
-        "artist": "Pritam, Arijit Singh, Sunidhi Chauhan, Kumaar",
-        "time": "15:56 UTC",
+        "song": "Dum Maro Dum",
+        "artist": "Asha Bhosle",
+        "time": "01:29 UTC",
         "y_pos": 9
       }
     ]
