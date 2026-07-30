@@ -11,9 +11,22 @@
     display: inline-block;
     animation-fill-mode: both;
 
-    &:hover {
-        animation: rubberBand 1s;
-        color: #D9FEC0;
+    @media (hover: hover) and (pointer: fine) {
+        &:hover {
+            animation: rubberBand 1s;
+            color: #3EA542;
+        }
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .text-animate {
+        opacity: 1;
+        animation: none;
+    }
+
+    .text-animate-hover:hover {
+        animation: none;
     }
 }
 

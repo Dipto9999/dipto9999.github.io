@@ -58,6 +58,18 @@
     font-family: 'Coolvetica';
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .container {
+        opacity: 1;
+        animation: none;
+        top: 0;
+    }
+
+    .loader {
+        display: none;
+    }
+}
+
 .container img {
     max-width: 100%;
     height: auto;
@@ -180,22 +192,12 @@ h2 {
     }
 }
 
+/* Top-Bar Navbar Is Sticky and Occupies Its Own Space — Only Breathing Room Needed */
 @media (max-width: 600px) or (max-height: 690px) {
     .main-content {
         padding-left: 0;
         padding-right: 15px;
         margin-right: 2%;
-    }
-}
-
-@media (max-width: 600px) {
-    .main-content {
-        padding-top: 17%;
-    }
-}
-
-@media (max-height: 515px) {
-    .main-content {
-        padding-top: 15%;
+        padding-top: 16px;
     }
 }
