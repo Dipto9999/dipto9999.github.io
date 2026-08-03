@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-dc07a183b431e5042ab2643bc113e268"
+            "name": "data-a3298205f29d5e22db11d715f82e0d99"
           }
         },
         {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-6bb40ca399ebab275c01c796b9088402"
+            "name": "data-b6e213b117058c79455aa4d0da6b95ff"
           },
           "height": 380,
           "resolve": {
@@ -717,7 +717,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-dc07a183b431e5042ab2643bc113e268": [
+    "data-a3298205f29d5e22db11d715f82e0d99": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -783,9 +783,9 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 73,
-        "cumulative_tracks": 3494,
-        "cumulative_artists": 703,
+        "tracks_added": 74,
+        "cumulative_tracks": 3495,
+        "cumulative_artists": 704,
         "year": "2026"
       }
     ],
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-6bb40ca399ebab275c01c796b9088402": [
+    "data-b6e213b117058c79455aa4d0da6b95ff": [
       {
         "rank": 1,
         "song": "Loser",
         "artist": "Tame Impala",
-        "time": "08:04 UTC",
+        "time": "06:17 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Soniye Ve",
-        "artist": "Sonu Nigam, Sunidhi Chauhan, Sajid-Wajid",
-        "time": "20:36 UTC",
+        "song": "Taal Se Taal",
+        "artist": "Alka Yagnik, Udit Narayan",
+        "time": "04:29 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Chura Ke Dil Mera",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "19:04 UTC",
+        "song": "Ramta Jogi",
+        "artist": "Sukhwinder Singh, Alka Yagnik",
+        "time": "04:20 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Neend Churayee Meri",
-        "artist": "Anu Malik, Kumar Sanu, Udit Narayan, Alka Yagnik, Kavita Krishnamurthy",
-        "time": "18:50 UTC",
+        "song": "Ishq Bina",
+        "artist": "Anuradha Sriram, Sujatha, A.R. Rahman, Sonu Nigam",
+        "time": "04:08 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Pyaar Hota Kayi Baar Hai",
-        "artist": "Pritam, Arijit Singh, Amitabh Bhattacharya, Charan",
-        "time": "18:35 UTC",
+        "song": "Loser",
+        "artist": "Tame Impala",
+        "time": "04:00 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Yeh Ladka Hai Deewana",
-        "artist": "Jatin-Lalit, Udit Narayan, Alka Yagnik",
-        "time": "18:30 UTC",
+        "song": "Loser",
+        "artist": "Tame Impala",
+        "time": "03:56 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Yeh Behki Behki Chaal",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "18:23 UTC",
+        "song": "Loser",
+        "artist": "Tame Impala",
+        "time": "03:47 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Tauba Tumhare Ishare",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "18:13 UTC",
+        "song": "Loser",
+        "artist": "Tame Impala",
+        "time": "03:39 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Chahun Main Ya Naa",
-        "artist": "Palak Muchhal, Arijit Singh, Jeet Gannguli, Irshad Kamil",
-        "time": "18:07 UTC",
+        "song": "Loser",
+        "artist": "Tame Impala",
+        "time": "03:14 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Aaj Ki Raat",
-        "artist": "Alisha Chinai, Mahalakshmi Iyer, Sonu Nigam",
-        "time": "18:02 UTC",
+        "song": "End Of Summer",
+        "artist": "Tame Impala",
+        "time": "02:11 UTC",
         "y_pos": 9
       }
     ]
