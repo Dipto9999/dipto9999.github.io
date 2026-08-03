@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-b6e213b117058c79455aa4d0da6b95ff"
+            "name": "data-d941a59ecb2c2129e549fb82572dca8c"
           },
           "height": 380,
           "resolve": {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-b6e213b117058c79455aa4d0da6b95ff": [
+    "data-d941a59ecb2c2129e549fb82572dca8c": [
       {
         "rank": 1,
-        "song": "Loser",
-        "artist": "Tame Impala",
-        "time": "06:17 UTC",
+        "song": "Pucho Zara Pucho",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "18:28 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Taal Se Taal",
-        "artist": "Alka Yagnik, Udit Narayan",
-        "time": "04:29 UTC",
+        "song": "Aaja Mahiya",
+        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasanta A Samadhar, Gulzar",
+        "time": "18:22 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Ramta Jogi",
-        "artist": "Sukhwinder Singh, Alka Yagnik",
-        "time": "04:20 UTC",
+        "song": "Tauba Tauba",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Kunal Ganjawala, Sunidhi Chauhan, Richa Sharma",
+        "time": "17:41 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Ishq Bina",
-        "artist": "Anuradha Sriram, Sujatha, A.R. Rahman, Sonu Nigam",
-        "time": "04:08 UTC",
+        "song": "Janam Janam",
+        "artist": "Pritam, Arijit Singh, Antara Mitra",
+        "time": "17:36 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Loser",
-        "artist": "Tame Impala",
-        "time": "04:00 UTC",
+        "song": "Vadon Se Nahin",
+        "artist": "Kumar Sanu, Sadhana Sargam",
+        "time": "17:26 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Loser",
-        "artist": "Tame Impala",
-        "time": "03:56 UTC",
+        "song": "Yaar Badal Na Jaana (From \"Talaash\")",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "17:20 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Loser",
-        "artist": "Tame Impala",
-        "time": "03:47 UTC",
+        "song": "Maine Apna Dil De Diya",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "16:12 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Loser",
-        "artist": "Tame Impala",
-        "time": "03:39 UTC",
+        "song": "Dil Deewana Dhoondta Hai",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "16:07 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Loser",
-        "artist": "Tame Impala",
-        "time": "03:14 UTC",
+        "song": "Mehandi Mehandi - Chori Chori Chupke Chupke / Soundtrack Version",
+        "artist": "Jaspinder Narula",
+        "time": "16:01 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "End Of Summer",
-        "artist": "Tame Impala",
-        "time": "02:11 UTC",
+        "song": "Mere Khwabon Mein Jo Aaya",
+        "artist": "Alka Yagnik",
+        "time": "15:51 UTC",
         "y_pos": 9
       }
     ]
