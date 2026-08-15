@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-f1ec0a949d0ab97ba2e688fcd555540f"
+            "name": "data-e0980029acc55eddbfcb1778896385e7"
           },
           "height": 380,
           "resolve": {
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-f1ec0a949d0ab97ba2e688fcd555540f": [
+    "data-e0980029acc55eddbfcb1778896385e7": [
       {
         "rank": 1,
-        "song": "Hamne Tumko Dil Ye De Diya",
-        "artist": "Anand Raj Anand, Alka Yagnik, Babul Supriyo",
-        "time": "16:17 UTC",
+        "song": "Hangover",
+        "artist": "Salman Khan, Meet Bros Anjjan, Shreya Ghoshal, Kumaar",
+        "time": "00:41 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Haay Meri Ankhiyon Ne - Pt. 2",
-        "artist": "Alka Yagnik, Laxmikant–Pyarelal",
-        "time": "16:11 UTC",
+        "song": "Seene Mein Dil Hai",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "00:35 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Aahun Aahun",
-        "artist": "Pritam, Neeraj Shridhar, Master Saleem, Suzi Q",
-        "time": "16:09 UTC",
+        "song": "Lal Lal Honthon Pe",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "00:29 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Allah Maaf Kare",
-        "artist": "Pritam, Sonu Nigam, Shilpa Rao",
-        "time": "16:04 UTC",
+        "song": "Lal Lal Honthon Pe",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "00:22 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Thodi Si Beqarari",
+        "song": "Lal Lal Honthon Pe",
         "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "16:00 UTC",
+        "time": "00:18 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Tere Dar Par Sanam - Female Version",
-        "artist": "Sadhana Sargam",
-        "time": "15:55 UTC",
+        "song": "Aankhon Se Tune Kya Keh Diya",
+        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik, Sameer Anjaan",
+        "time": "19:12 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Ishq Main",
-        "artist": "Shaan, Alka Yagnik",
-        "time": "15:49 UTC",
+        "song": "Gore Gore Gaal Mere",
+        "artist": "Alka Yagnik",
+        "time": "19:07 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "In Kadmon Ke Neeche",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "15:44 UTC",
+        "song": "Hum Aise Karenge Pyar",
+        "artist": "Udit Narayan, Sadhana Sargam",
+        "time": "18:58 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "In Kadmon Ke Neeche",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "13:41 UTC",
+        "song": "Pehli Baar Dil Ye - From \"Hum Ho Gaye Aap Ke\"",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "18:51 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Mere Rashke Qamar",
-        "artist": "Nusrat Fateh Ali Khan, Rahat Fateh Ali Khan, Tanishk Bagchi, A1 Melody Master-Fana, Manoj Muntashir",
-        "time": "03:46 UTC",
+        "song": "Loser",
+        "artist": "Tame Impala",
+        "time": "18:46 UTC",
         "y_pos": 9
       }
     ]
