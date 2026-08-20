@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-bbd53b93e28dabf9b51ec8ece978808a"
+            "name": "data-aad24e4d4495b8e0b7dc4d81afe749ec"
           }
         },
         {
@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-e37c0a5ad257e34005e48eccee0e50ec"
+            "name": "data-0fdaebbd21871500b152098f127d446a"
           },
           "height": 200,
           "resolve": {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-bbd53b93e28dabf9b51ec8ece978808a": [
+    "data-aad24e4d4495b8e0b7dc4d81afe749ec": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -640,42 +640,42 @@
         "time_period": "2021",
         "tracks_added": 359,
         "cumulative_tracks": 2191,
-        "cumulative_artists": 421,
+        "cumulative_artists": 424,
         "year": "2021"
       },
       {
         "time_period": "2022",
         "tracks_added": 567,
         "cumulative_tracks": 2758,
-        "cumulative_artists": 545,
+        "cumulative_artists": 547,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
         "cumulative_tracks": 3215,
-        "cumulative_artists": 636,
+        "cumulative_artists": 641,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
         "cumulative_tracks": 3303,
-        "cumulative_artists": 661,
+        "cumulative_artists": 666,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
         "cumulative_tracks": 3421,
-        "cumulative_artists": 695,
+        "cumulative_artists": 701,
         "year": "2025"
       },
       {
         "time_period": "2026",
         "tracks_added": 75,
         "cumulative_tracks": 3496,
-        "cumulative_artists": 704,
+        "cumulative_artists": 710,
         "year": "2026"
       }
     ],
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-e37c0a5ad257e34005e48eccee0e50ec": [
+    "data-0fdaebbd21871500b152098f127d446a": [
       {
         "rank": 1,
-        "song": "Dheere Dheere Hum Dono Mein",
-        "artist": "Alka Yagnik, Abhijeet",
-        "time": "02:11 UTC",
+        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
+        "artist": "Kumar Sanu",
+        "time": "18:04 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Mere Haath Mein",
-        "artist": "Jatin-Lalit, Sonu Nigam, Sunidhi Chauhan, Aamir Khan, Kajol, Prasoon Joshi",
-        "time": "02:06 UTC",
+        "song": "Main Hoon Na (From \"Main Hoon Na\")",
+        "artist": "Sonu Nigam, Shreya Ghoshal",
+        "time": "17:56 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Kisi Din Banoongi Main",
-        "artist": "Alka Yagnik, Udit Narayan",
-        "time": "01:35 UTC",
+        "song": "Dheere Dheere Hum Dono Mein",
+        "artist": "Alka Yagnik, Abhijeet",
+        "time": "17:47 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Shaam Bhi Khoob Hai",
-        "artist": "Kumar Sanu, Udit Narayan, Alka Yagnik",
-        "time": "01:27 UTC",
+        "song": "Dheere Dheere Hum Dono Mein",
+        "artist": "Alka Yagnik, Abhijeet",
+        "time": "17:34 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Mujhe Neend Na Aaye",
-        "artist": "Anuradha Paudwal, Udit Narayan",
-        "time": "01:21 UTC",
+        "song": "Dheere Dheere Hum Dono Mein",
+        "artist": "Alka Yagnik, Abhijeet",
+        "time": "17:30 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Tu Dharti Pe Chaahe Jahan Bhi",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "01:15 UTC",
+        "song": "Dheere Dheere Hum Dono Mein",
+        "artist": "Alka Yagnik, Abhijeet",
+        "time": "17:24 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Tujhe Yaad Na Meri Aayee",
-        "artist": "Jatin-Lalit, Udit Narayan, Manpreet Akhtar",
-        "time": "01:06 UTC",
+        "song": "Dheere Dheere Hum Dono Mein",
+        "artist": "Alka Yagnik, Abhijeet",
+        "time": "02:11 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Tu Jaane Na",
-        "artist": "Pritam, Atif Aslam",
-        "time": "23:42 UTC",
+        "song": "Mere Haath Mein",
+        "artist": "Jatin-Lalit, Sonu Nigam, Sunidhi Chauhan, Aamir Khan, Kajol, Prasoon Joshi",
+        "time": "02:06 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Mone Rekho Amar Ei Gaan (Female)",
-        "artist": "Jeet Gannguli, Gautam Susmit, Shreya Ghoshal",
-        "time": "23:20 UTC",
+        "song": "Kisi Din Banoongi Main",
+        "artist": "Alka Yagnik, Udit Narayan",
+        "time": "01:35 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Bolte Bolte Cholte Cholte",
-        "artist": "Imran Mahmudul",
-        "time": "23:13 UTC",
+        "song": "Shaam Bhi Khoob Hai",
+        "artist": "Kumar Sanu, Udit Narayan, Alka Yagnik",
+        "time": "01:27 UTC",
         "y_pos": 9
       }
     ]
