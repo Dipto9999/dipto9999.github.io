@@ -1,10 +1,20 @@
 .vega-chart {
     width: 100%;
     max-width: 100%;
-    margin: 0 auto;  // Center Chart
+    margin: 0 auto; // Center Chart
     padding: 20px 0;
-    display: flex;  // Use Flexbox for Better Centering
+    display: flex;
     justify-content: center; // Center Content Horizontally
     align-items: center; // Center Content Vertically
-    text-align: center; // Center Text
+    text-align: center;
+    overflow-x: auto; // Never Clip Left Edge on Narrow Laptops
+    box-sizing: border-box;
+
+    // Vega Embed Can Overflow — Keep Chart Inside Viewport
+    .vega-embed,
+    .vega-embed > summary,
+    .vega-embed form,
+    svg {
+        max-width: 100%;
+    }
 }

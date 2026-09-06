@@ -1,0 +1,358 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 300,
+      "continuousHeight": 300,
+      "strokeOpacity": 0,
+      "strokeWidth": 1.5
+    },
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 16
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 16
+    }
+  },
+  "hconcat": [
+    {
+      "vconcat": [
+        {
+          "data": {
+            "name": "data-372b3804121f6aa3f1332df797f3346c"
+          },
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "middle",
+            "color": "#141331",
+            "fontSize": 80,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "text": {
+              "field": "Value",
+              "type": "quantitative"
+            },
+            "x": {
+              "axis": null,
+              "field": "Metric",
+              "type": "nominal"
+            },
+            "y": {
+              "value": 50
+            }
+          },
+          "height": 150,
+          "title": {
+            "text": "Trophy Level",
+            "anchor": "middle",
+            "fontSize": 20
+          },
+          "width": 300
+        },
+        {
+          "data": {
+            "name": "data-2f901c88a4af9814284bbd5df2c7cbd5"
+          },
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "middle",
+            "color": "#141331",
+            "fontSize": 80,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "text": {
+              "field": "Value",
+              "type": "quantitative"
+            },
+            "x": {
+              "axis": null,
+              "field": "Metric",
+              "type": "nominal"
+            },
+            "y": {
+              "value": 50
+            }
+          },
+          "height": 150,
+          "title": {
+            "text": "Played",
+            "anchor": "middle",
+            "fontSize": 20
+          },
+          "width": 300
+        },
+        {
+          "data": {
+            "name": "data-4e024515abbc59d80be0637a943e97ae"
+          },
+          "mark": {
+            "type": "bar",
+            "stroke": "black",
+            "strokeWidth": 1
+          },
+          "encoding": {
+            "color": {
+              "field": "type",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "Platinum",
+                  "Gold",
+                  "Silver",
+                  "Bronze"
+                ],
+                "range": [
+                  "#B9F2FF",
+                  "#FFD700",
+                  "#C0C0C0",
+                  "#CD7F32"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "type",
+                "title": "Trophy",
+                "type": "nominal"
+              },
+              {
+                "field": "count",
+                "title": "Count",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "tickMinStep": 1,
+                "title": ""
+              },
+              "field": "count",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelFontSize": 13,
+                "title": ""
+              },
+              "field": "type",
+              "sort": [
+                "Platinum",
+                "Gold",
+                "Silver",
+                "Bronze"
+              ],
+              "type": "nominal"
+            }
+          },
+          "height": 150,
+          "title": {
+            "text": "Trophies",
+            "anchor": "middle",
+            "fontSize": 20,
+            "subtitle": "Total: 817",
+            "subtitleFontSize": 14
+          },
+          "width": 250
+        }
+      ],
+      "title": {
+        "text": "Player Stats",
+        "anchor": "middle",
+        "fontSize": 30
+      }
+    },
+    {
+      "data": {
+        "name": "data-fad045e0419a35ebad821db2102381f9"
+      },
+      "mark": {
+        "type": "arc",
+        "stroke": "black",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "name",
+          "legend": {
+            "columnPadding": 75,
+            "columns": 5,
+            "direction": "horizontal",
+            "labelFontSize": 10,
+            "orient": "bottom",
+            "padding": 75,
+            "rowPadding": 10,
+            "title": "",
+            "titleAlign": "center",
+            "titleFontSize": 16
+          },
+          "scale": {
+            "range": [
+              "#00008B",
+              "#32CD32",
+              "#00CED1",
+              "#A8D7E7",
+              "#808080",
+              "#FF4500",
+              "#0000FF",
+              "#3D3A38",
+              "#800080",
+              "#FFA500",
+              "#006400",
+              "#8B0000",
+              "#FFD700",
+              "#4682B4",
+              "#2E8B57"
+            ]
+          },
+          "sort": null,
+          "type": "nominal"
+        },
+        "theta": {
+          "field": "playtime_percentage",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "name",
+            "title": "Game",
+            "type": "nominal"
+          },
+          {
+            "field": "playtime_forever",
+            "format": ".1f",
+            "title": "Time (Hrs)",
+            "type": "quantitative"
+          },
+          {
+            "field": "playtime_percentage",
+            "format": ".2f",
+            "title": "Playtime (%)",
+            "type": "quantitative"
+          }
+        ]
+      },
+      "height": 400,
+      "title": {
+        "text": "Top Games",
+        "anchor": "middle",
+        "fontSize": 20,
+        "subtitle": "Total Playtime: 711.6 Hrs",
+        "subtitleFontSize": 16
+      },
+      "width": 700
+    }
+  ],
+  "padding": {
+    "left": 250,
+    "right": 250,
+    "top": 0,
+    "bottom": 0
+  },
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "title": {
+    "text": "Dipto_9999's PSN Dashboard",
+    "anchor": "middle",
+    "fontSize": 40
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json",
+  "datasets": {
+    "data-372b3804121f6aa3f1332df797f3346c": [
+      {
+        "Metric": "Trophy Level",
+        "Value": 203
+      }
+    ],
+    "data-2f901c88a4af9814284bbd5df2c7cbd5": [
+      {
+        "Metric": "Played",
+        "Value": 29
+      }
+    ],
+    "data-4e024515abbc59d80be0637a943e97ae": [
+      {
+        "type": "Gold",
+        "count": 26
+      },
+      {
+        "type": "Silver",
+        "count": 147
+      },
+      {
+        "type": "Bronze",
+        "count": 644
+      }
+    ],
+    "data-fad045e0419a35ebad821db2102381f9": [
+      {
+        "name": "Spider-Man",
+        "playtime_forever": 166.1,
+        "title_id": "CUSA02299_00",
+        "playtime_percentage": 23.34
+      },
+      {
+        "name": "God of War",
+        "playtime_forever": 161.51,
+        "title_id": "CUSA07408_00",
+        "playtime_percentage": 22.7
+      },
+      {
+        "name": "Harvest Moon: AWL",
+        "playtime_forever": 123.93,
+        "title_id": "CUSA06584_00",
+        "playtime_percentage": 17.41
+      },
+      {
+        "name": "God of War Ragnarok",
+        "playtime_forever": 79.36,
+        "title_id": "PPSA08329_00",
+        "playtime_percentage": 11.15
+      },
+      {
+        "name": "Marvel's Spider-Man 2",
+        "playtime_forever": 44.07,
+        "title_id": "PPSA03016_00",
+        "playtime_percentage": 6.19
+      },
+      {
+        "name": "007 First Light",
+        "playtime_forever": 35.42,
+        "title_id": "PPSA11386_00",
+        "playtime_percentage": 4.98
+      },
+      {
+        "name": "Injustice 2",
+        "playtime_forever": 34.98,
+        "title_id": "CUSA10992_00",
+        "playtime_percentage": 4.92
+      },
+      {
+        "name": "Batman: Arkham Knight",
+        "playtime_forever": 32.57,
+        "title_id": "CUSA00133_00",
+        "playtime_percentage": 4.58
+      },
+      {
+        "name": "inFAMOUS Second Son",
+        "playtime_forever": 18.18,
+        "title_id": "CUSA00223_00",
+        "playtime_percentage": 2.55
+      },
+      {
+        "name": "Call of Duty\u00ae: Black Ops II",
+        "playtime_forever": 15.53,
+        "title_id": "CUSA57548_00",
+        "playtime_percentage": 2.18
+      }
+    ]
+  }
+}
