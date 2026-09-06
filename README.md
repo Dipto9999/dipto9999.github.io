@@ -60,6 +60,13 @@ were migrated to the **React** application and further adjusted for browser resp
 
 <i>This section was almost completely AI generated and programmed by training Claude Code on my previous dashboards.</i>
 
+This uses a **Spotify** refresh token from following the steps below:
+
+1. Run [`spotify.py`](src/assets/data/spotify/spotify.py) locally and sign in at the **Spotify** prompt.
+2. Copy [`spotify/.cache`](src/assets/data/spotify/.cache) to the **GitHub Actions** secret `SPOTIFY_TOKEN_CACHE`.
+
+*Note: The token must be refreshed if **Spotify** returns `invalid_grant` / refresh token revoked.*
+
 
 ### GoodReads
 

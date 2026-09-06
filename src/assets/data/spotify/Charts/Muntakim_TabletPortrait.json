@@ -21,7 +21,7 @@
       "hconcat": [
         {
           "data": {
-            "name": "data-60f31d58681bc22c9ab0ecd4938a081f"
+            "name": "data-68c553f217c7db9c704d70fe3eebfc7a"
           },
           "mark": {
             "type": "arc",
@@ -106,11 +106,11 @@
                       "Udit Narayan",
                       "Sonu Nigam",
                       "Shreya Ghoshal",
-                      "Lata Mangeshkar",
                       "Arijit Singh",
+                      "Lata Mangeshkar",
                       "Kishore Kumar",
-                      "Abhijeet",
-                      "Nadeem Shravan"
+                      "Pritam",
+                      "Abhijeet"
                     ],
                     "range": [
                       "#00008B",
@@ -179,7 +179,7 @@
             }
           ],
           "data": {
-            "name": "data-beee7e677a1412007534e526ce069fb5"
+            "name": "data-cfd1c93788821ee93cdaf8a6bd6ff584"
           },
           "height": 200,
           "resolve": {
@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-af85976c355847002df1721519cf7de8"
+        "name": "data-4538aae67d8a220e6642b48244a297f9"
       }
     },
     {
@@ -531,7 +531,7 @@
             }
           ],
           "data": {
-            "name": "data-458434ee0589db7774600e145de3249c"
+            "name": "data-47ee3dfcefbe3536abcf85369c86bfbb"
           },
           "height": 200,
           "resolve": {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-6c36f22268ed212a63919c8a4fd4ee63"
+            "name": "data-ceb6180703674560fc1b52267b11e569"
           },
           "height": 200,
           "resolve": {
@@ -735,31 +735,36 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-60f31d58681bc22c9ab0ecd4938a081f": [
+    "data-68c553f217c7db9c704d70fe3eebfc7a": [
       {
         "artist": "Alka Yagnik",
-        "count": 1217,
+        "count": 1220,
         "pct": 30.7
       },
       {
         "artist": "Kumar Sanu",
-        "count": 829,
+        "count": 830,
         "pct": 20.9
       },
       {
         "artist": "Udit Narayan",
-        "count": 723,
+        "count": 725,
         "pct": 18.2
       },
       {
         "artist": "Sonu Nigam",
-        "count": 307,
+        "count": 308,
         "pct": 7.7
       },
       {
         "artist": "Shreya Ghoshal",
-        "count": 230,
+        "count": 232,
         "pct": 5.8
+      },
+      {
+        "artist": "Arijit Singh",
+        "count": 139,
+        "pct": 3.5
       },
       {
         "artist": "Lata Mangeshkar",
@@ -767,60 +772,55 @@
         "pct": 3.5
       },
       {
-        "artist": "Arijit Singh",
-        "count": 136,
-        "pct": 3.4
-      },
-      {
         "artist": "Kishore Kumar",
         "count": 135,
         "pct": 3.4
       },
       {
-        "artist": "Abhijeet",
-        "count": 125,
+        "artist": "Pritam",
+        "count": 127,
         "pct": 3.2
       },
       {
-        "artist": "Nadeem Shravan",
-        "count": 123,
+        "artist": "Abhijeet",
+        "count": 125,
         "pct": 3.1
       }
     ],
-    "data-beee7e677a1412007534e526ce069fb5": [
+    "data-cfd1c93788821ee93cdaf8a6bd6ff584": [
       {
         "artist": "Alka Yagnik",
-        "label": "Alka Yagnik (1,217)",
+        "label": "Alka Yagnik (1,220)",
         "idx": 0
       },
       {
         "artist": "Kumar Sanu",
-        "label": "Kumar Sanu (829)",
+        "label": "Kumar Sanu (830)",
         "idx": 1
       },
       {
         "artist": "Udit Narayan",
-        "label": "Udit Narayan (723)",
+        "label": "Udit Narayan (725)",
         "idx": 2
       },
       {
         "artist": "Sonu Nigam",
-        "label": "Sonu Nigam (307)",
+        "label": "Sonu Nigam (308)",
         "idx": 3
       },
       {
         "artist": "Shreya Ghoshal",
-        "label": "Shreya Ghoshal (230)",
+        "label": "Shreya Ghoshal (232)",
         "idx": 4
+      },
+      {
+        "artist": "Arijit Singh",
+        "label": "Arijit Singh (139)",
+        "idx": 5
       },
       {
         "artist": "Lata Mangeshkar",
         "label": "Lata Mangeshkar (138)",
-        "idx": 5
-      },
-      {
-        "artist": "Arijit Singh",
-        "label": "Arijit Singh (136)",
         "idx": 6
       },
       {
@@ -829,13 +829,13 @@
         "idx": 7
       },
       {
-        "artist": "Abhijeet",
-        "label": "Abhijeet (125)",
+        "artist": "Pritam",
+        "label": "Pritam (127)",
         "idx": 8
       },
       {
-        "artist": "Nadeem Shravan",
-        "label": "Nadeem Shravan (123)",
+        "artist": "Abhijeet",
+        "label": "Abhijeet (125)",
         "idx": 9
       }
     ],
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-af85976c355847002df1721519cf7de8": [
+    "data-4538aae67d8a220e6642b48244a297f9": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -861,78 +861,78 @@
       },
       {
         "time_period": "2019",
-        "tracks_added": 712,
-        "cumulative_tracks": 1605,
+        "tracks_added": 710,
+        "cumulative_tracks": 1603,
         "cumulative_artists": 277,
         "year": "2019"
       },
       {
         "time_period": "2020",
         "tracks_added": 229,
-        "cumulative_tracks": 1834,
-        "cumulative_artists": 375,
+        "cumulative_tracks": 1832,
+        "cumulative_artists": 376,
         "year": "2020"
       },
       {
         "time_period": "2021",
         "tracks_added": 359,
-        "cumulative_tracks": 2193,
-        "cumulative_artists": 421,
+        "cumulative_tracks": 2191,
+        "cumulative_artists": 425,
         "year": "2021"
       },
       {
         "time_period": "2022",
         "tracks_added": 567,
-        "cumulative_tracks": 2760,
-        "cumulative_artists": 542,
+        "cumulative_tracks": 2758,
+        "cumulative_artists": 548,
         "year": "2022"
       },
       {
         "time_period": "2023",
         "tracks_added": 457,
-        "cumulative_tracks": 3217,
-        "cumulative_artists": 634,
+        "cumulative_tracks": 3215,
+        "cumulative_artists": 641,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
-        "cumulative_tracks": 3305,
-        "cumulative_artists": 659,
+        "cumulative_tracks": 3303,
+        "cumulative_artists": 666,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
-        "cumulative_tracks": 3423,
-        "cumulative_artists": 693,
+        "cumulative_tracks": 3421,
+        "cumulative_artists": 701,
         "year": "2025"
       },
       {
         "time_period": "2026",
-        "tracks_added": 65,
-        "cumulative_tracks": 3488,
-        "cumulative_artists": 699,
+        "tracks_added": 76,
+        "cumulative_tracks": 3497,
+        "cumulative_artists": 710,
         "year": "2026"
       }
     ],
-    "data-458434ee0589db7774600e145de3249c": [
+    "data-47ee3dfcefbe3536abcf85369c86bfbb": [
       {
         "rank": 1,
-        "song": "Tadpati Hai, Tarsati Hai",
-        "artist": "Udit Narayan, Alka Yagnik",
+        "song": "Maahi - Rock with Me",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Maine Tumse Pyaar (From \"Barsaat\")",
-        "artist": "Alka Yagnik, Nadeem Shravan",
+        "song": "Tadpati Hai, Tarsati Hai",
+        "artist": "Udit Narayan, Alka Yagnik",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Maahi - Rock with Me",
-        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "song": "Maine Tumse Pyaar (From \"Barsaat\")",
+        "artist": "Alka Yagnik, Nadeem Shravan",
         "y_pos": 2
       },
       {
@@ -943,14 +943,14 @@
       },
       {
         "rank": 5,
-        "song": "Pasoori Nu (From \"Satyaprem Ki Katha\")",
-        "artist": "Arijit Singh, Rochak Kohli, Tulsi Kumar",
+        "song": "Bulleya",
+        "artist": "Pritam, Amit Mishra, Shilpa Rao",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Bulleya",
-        "artist": "Pritam, Amit Mishra, Shilpa Rao",
+        "song": "Jo Bhi Kasmein",
+        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Sameer Anjaan",
         "y_pos": 5
       },
       {
@@ -961,92 +961,92 @@
       },
       {
         "rank": 8,
-        "song": "Saanson Ko",
-        "artist": "Shaarib Toshi, Arijit Singh",
+        "song": "Tumse Milke Dil Ka",
+        "artist": "Sonu Nigam, Sabri Brothers",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Jo Bhi Kasmein",
-        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Sameer Anjaan",
+        "song": "Sauda Khara Khara - From \"Good Newwz\"",
+        "artist": "Diljit Dosanjh, Sukhbir, Dhvani Bhanushali, Dj Chetas, Lijo George, Kumaar",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Tumse Milke Dil Ka",
-        "artist": "Sonu Nigam, Sabri Brothers",
+        "song": "Sajna da Dil Torya",
+        "artist": "Zeeshan Ali",
         "y_pos": 9
       }
     ],
-    "data-6c36f22268ed212a63919c8a4fd4ee63": [
+    "data-ceb6180703674560fc1b52267b11e569": [
       {
         "rank": 1,
-        "song": "Onek Shadhona Pore",
-        "artist": "Imran Mahmudul, Nancy",
-        "time": "05:17 UTC",
+        "song": "Chalte Chalte",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "03:17 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Chahun Main Ya Naa",
-        "artist": "Palak Muchhal, Arijit Singh, Jeet Gannguli, Irshad Kamil",
-        "time": "05:12 UTC",
+        "song": "Choodake Daman",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "03:10 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "You Are My Soniya",
-        "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
-        "time": "05:07 UTC",
+        "song": "Discowale Khisko",
+        "artist": "Pritam, KK, Sunidhi Chauhan, Rana Mazumder, Jaideep Sahni",
+        "time": "02:58 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "You Are My Soniya",
-        "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
-        "time": "17:30 UTC",
+        "song": "Baarish",
+        "artist": "Mohammed Irfan, Gajendra Verma, Mithoon",
+        "time": "02:53 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Bhula Dena",
-        "artist": "Mustafa Zahid, Jeet Gannguli, Sanjay Masoom",
-        "time": "00:27 UTC",
+        "song": "Baarish",
+        "artist": "Mohammed Irfan, Gajendra Verma, Mithoon",
+        "time": "02:48 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Hale Dil",
-        "artist": "Harshit Saxena, Sayeed Quadri",
-        "time": "00:23 UTC",
+        "song": "Aa Jao Meri Tamanna",
+        "artist": "Javed Ali, Jojo Nathaniel, Pritam",
+        "time": "02:30 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Guzarish",
-        "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
-        "time": "00:17 UTC",
+        "song": "Aadat",
+        "artist": "Jal, Mithoon, Atif Aslam",
+        "time": "02:25 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Malang",
-        "artist": "Pritam, Siddharth Mahadevan, Shilpa Rao, Sameer Anjaan",
-        "time": "00:03 UTC",
+        "song": "Jeena Jeena",
+        "artist": "Sachin-Jigar, Atif Aslam",
+        "time": "02:19 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Baarish",
-        "artist": "Mohammed Irfan, Gajendra Verma, Mithoon",
-        "time": "23:59 UTC",
+        "song": "Chanda Sitare",
+        "artist": "Udit Narayan, Alka Yagnik",
+        "time": "04:01 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Ek Naya Aasman",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "23:52 UTC",
+        "song": "Tere Dar Par Sanam - Female Version",
+        "artist": "Sadhana Sargam",
+        "time": "02:51 UTC",
         "y_pos": 9
       }
     ]
