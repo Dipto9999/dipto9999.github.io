@@ -63,10 +63,9 @@ were migrated to the **React** application and further adjusted for browser resp
 This uses a **Spotify** refresh token from following the steps below:
 
 1. Run [`spotify.py`](src/assets/data/spotify/spotify.py) locally and sign in at the **Spotify** prompt.
-2. Copy [`spotify/.cache`](src/assets/data/spotify/.cache) to the **GitHub Actions** secret `SPOTIFY_TOKEN_CACHE`.
+2. Store `base64 -i .cache | pbcopy` into the **GitHub Actions** secret `SPOTIFY_TOKEN_CACHE`.
 
 *Note: The token must be refreshed if **Spotify** returns `invalid_grant` / refresh token revoked.*
-
 
 ### GoodReads
 

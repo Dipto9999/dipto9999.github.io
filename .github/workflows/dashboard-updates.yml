@@ -113,7 +113,32 @@ jobs:
       env:
         SPOTIFY_CACHE: ${{ secrets.SPOTIFY_TOKEN_CACHE }}
       run: |
-        printenv SPOTIFY_CACHE > src/assets/data/spotify/.cache
+        python3 << 'PY'
+        import base64, json, os, pathlib, sys
+
+        raw = os.environ.get("SPOTIFY_CACHE", "").strip()
+        if not raw:
+            sys.exit("SPOTIFY_TOKEN_CACHE secret is empty")
+
+        if (raw[0] == raw[-1]) and raw[0] in "\"'":
+            raw = raw[1:-1].strip()
+
+        data = None
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError:
+            try:
+                data = json.loads(base64.b64decode(raw).decode("utf-8"))
+            except Exception:
+                sys.exit("SPOTIFY_TOKEN_CACHE is not valid JSON. Paste the full .cache file (starts with {).")
+
+        if not isinstance(data, dict) or "refresh_token" not in data:
+            sys.exit("SPOTIFY_TOKEN_CACHE JSON is missing refresh_token")
+
+        path = pathlib.Path("src/assets/data/spotify/.cache")
+        path.write_text(json.dumps(data), encoding="utf-8")
+        print("Spotify token cache restored")
+        PY
 
     - name: Run Spotify Data Update
       run: |
