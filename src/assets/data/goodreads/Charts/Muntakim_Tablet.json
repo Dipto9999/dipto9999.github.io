@@ -1,121 +1,192 @@
 {
-  "background": null,
   "config": {
     "view": {
-      "continuousWidth": 180,
-      "continuousHeight": 160
+      "continuousWidth": 300,
+      "continuousHeight": 300,
+      "strokeOpacity": 0,
+      "strokeWidth": 1.5
     },
     "axis": {
-      "labelFontSize": 11,
-      "titleFontSize": 13
+      "labelFontSize": 8,
+      "titleFontSize": 10
     },
     "legend": {
-      "labelFontSize": 11,
-      "titleFontSize": 13,
-      "orient": "bottom",
-      "gradientLength": 150,
-      "gradientThickness": 10
+      "labelFontSize": 8,
+      "orient": "right",
+      "titleFontSize": 9
     }
   },
   "hconcat": [
     {
-      "data": { "name": "data-26ef6fd35988b53c5090f9c6ca44a4ba" },
-      "mark": { "type": "bar", "size": 8 },
+      "data": {
+        "name": "data-33b56759e0533136bd43eaec95bef874"
+      },
+      "mark": {
+        "type": "bar",
+        "size": 6
+      },
       "encoding": {
         "color": {
           "field": "Reviewer",
           "legend": {
-            "labelFontSize": 11,
-            "symbolSize": 70,
             "symbolType": "square",
-            "title": "Reviewer",
-            "titleFontSize": 13
+            "title": "Reviewer"
           },
           "scale": {
-            "domain": ["Muntakim", "GoodReads Average"],
-            "range": ["seagreen", "orange"]
+            "domain": [
+              "Muntakim",
+              "GoodReads Average"
+            ],
+            "range": [
+              "seagreen",
+              "orange"
+            ]
           },
           "type": "nominal"
         },
         "tooltip": [
-          { "field": "Title", "title": "Title", "type": "nominal" },
-          { "field": "Authors", "title": "Author(s)", "type": "nominal" },
-          { "field": "Year", "title": "Year Read", "type": "quantitative" },
-          { "field": "Reviewer", "title": "Reviewer", "type": "nominal" },
-          { "field": "Rating", "title": "Rating", "type": "quantitative" }
+          {
+            "field": "Title",
+            "title": "Title",
+            "type": "nominal"
+          },
+          {
+            "field": "Authors",
+            "title": "Author(s)",
+            "type": "nominal"
+          },
+          {
+            "field": "Year",
+            "title": "Year Read",
+            "type": "quantitative"
+          },
+          {
+            "field": "Reviewer",
+            "title": "Reviewer",
+            "type": "nominal"
+          },
+          {
+            "field": "Rating",
+            "title": "Rating",
+            "type": "quantitative"
+          }
         ],
         "x": {
-          "axis": { "labelFontSize": 11, "titleFontSize": 13 },
           "field": "Rating",
-          "scale": { "domain": [0, 5] },
+          "scale": {
+            "domain": [
+              0,
+              5
+            ]
+          },
           "title": "Rating",
           "type": "quantitative"
         },
         "y": {
           "axis": {
-            "labelFontSize": 11,
-            "labelLimit": 80,
-            "titleFontSize": 13
+            "labelLimit": 80
           },
           "field": "SummarizedTitle",
-          "sort": { "field": "Rating", "order": "descending" },
+          "sort": {
+            "field": "Rating",
+            "order": "descending"
+          },
           "title": "Book",
           "type": "nominal"
         },
-        "yOffset": { "field": "Reviewer", "type": "nominal" }
+        "yOffset": {
+          "field": "Reviewer",
+          "type": "nominal"
+        }
       },
       "height": 160,
-      "width": 180,
-      "title": { "text": "Muntakim's Ratings", "fontSize": 18 }
+      "title": {
+        "text": "Muntakim's Ratings",
+        "fontSize": 14
+      },
+      "width": 180
     },
     {
-      "data": { "name": "data-6c958c206645b7e22635aeb796ff59cc" },
-      "mark": { "type": "bar" },
+      "data": {
+        "name": "data-21e8d2b109d40523084ba30a6234d567"
+      },
+      "mark": {
+        "type": "bar"
+      },
       "encoding": {
         "color": {
           "field": "Pages",
           "legend": {
-            "labelFontSize": 11,
-            "title": "Pages (#)",
-            "titleFontSize": 13
+            "title": "Pages (#)"
           },
-          "scale": { "scheme": "greens" },
+          "scale": {
+            "scheme": "greens"
+          },
           "title": "Pages (#)",
           "type": "quantitative"
         },
         "tooltip": [
-          { "field": "Year", "title": "Year", "type": "ordinal" },
-          { "field": "Books", "title": "Books (#)", "type": "quantitative" },
-          { "field": "Pages", "title": "Pages (#)", "type": "quantitative" }
+          {
+            "field": "Year",
+            "title": "Year",
+            "type": "ordinal"
+          },
+          {
+            "field": "Books",
+            "title": "Books (#)",
+            "type": "quantitative"
+          },
+          {
+            "field": "Pages",
+            "title": "Pages (#)",
+            "type": "quantitative"
+          }
         ],
         "x": {
-          "axis": { "labelAngle": -45, "labelFontSize": 11, "titleFontSize": 13 },
+          "axis": {
+            "labelAngle": -45
+          },
           "field": "Year",
           "title": "Year",
           "type": "nominal"
         },
         "y": {
-          "axis": { "labelFontSize": 11, "titleFontSize": 13 },
           "field": "Books",
           "title": "Books (#)",
           "type": "quantitative"
         }
       },
       "height": 160,
-      "width": 120,
-      "title": { "text": "Annual Summary", "fontSize": 18 }
+      "title": {
+        "text": "Annual Summary",
+        "fontSize": 14
+      },
+      "width": 120
     }
   ],
+  "padding": {
+    "left": 12,
+    "right": 12,
+    "top": 5,
+    "bottom": 8
+  },
   "spacing": 10,
-  "padding": { "left": 12, "right": 12, "top": 5, "bottom": 8 },
   "title": {
     "text": "Muntakim's GoodReads Dashboard",
     "anchor": "middle",
-    "fontSize": 24
+    "fontSize": 18
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-26ef6fd35988b53c5090f9c6ca44a4ba": [
+    "data-33b56759e0533136bd43eaec95bef874": [
+      {
+        "SummarizedTitle": "I Will Teach You to Be Rich",
+        "Title": "I Will Teach You to Be Rich: No Guilt. No Excuses. No B.S. Just a 6-Week Program That Works.",
+        "Authors": "Ramit Sethi",
+        "Year": 2026,
+        "Reviewer": "Muntakim",
+        "Rating": 5.0
+      },
       {
         "SummarizedTitle": "The Grid",
         "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future",
@@ -127,7 +198,7 @@
       {
         "SummarizedTitle": "Working Backwards",
         "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon",
-        "Authors": "Colin Bryar | Bill Carr",
+        "Authors": "Colin Bryar",
         "Year": 2022,
         "Reviewer": "Muntakim",
         "Rating": 5.0
@@ -135,7 +206,7 @@
       {
         "SummarizedTitle": "Watchmen",
         "Title": "Watchmen",
-        "Authors": "Alan             Moore | Dave Gibbons | John    Higgins",
+        "Authors": "Alan Moore",
         "Year": 2018,
         "Reviewer": "Muntakim",
         "Rating": 5.0
@@ -158,7 +229,7 @@
       },
       {
         "SummarizedTitle": "The Defining Decade",
-        "Title": "The Defining Decade: Why Your Twenties Matter\u2014And How to Make the Most of Them Now",
+        "Title": "The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now",
         "Authors": "Meg Jay",
         "Year": 2023,
         "Reviewer": "Muntakim",
@@ -166,7 +237,7 @@
       },
       {
         "SummarizedTitle": "Build",
-        "Title": "Build: An Unorthodox Guide to Making Things Worth Making",
+        "Title": "Build: An Unorthodox Guide to Making Things Worth Making – An NYT Bestselling Entrepreneurship and Product Design Manual",
         "Authors": "Tony Fadell",
         "Year": 2022,
         "Reviewer": "Muntakim",
@@ -181,25 +252,33 @@
         "Rating": 4.0
       },
       {
+        "SummarizedTitle": "I Will Teach You to Be Rich",
+        "Title": "I Will Teach You to Be Rich: No Guilt. No Excuses. No B.S. Just a 6-Week Program That Works.",
+        "Authors": "Ramit Sethi",
+        "Year": 2026,
+        "Reviewer": "GoodReads Average",
+        "Rating": 4.4
+      },
+      {
         "SummarizedTitle": "The Grid",
         "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future",
         "Authors": "Gretchen Bakke",
         "Year": 2024,
         "Reviewer": "GoodReads Average",
-        "Rating": 3.87
+        "Rating": 3.81
       },
       {
         "SummarizedTitle": "Working Backwards",
         "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon",
-        "Authors": "Colin Bryar | Bill Carr",
+        "Authors": "Colin Bryar",
         "Year": 2022,
         "Reviewer": "GoodReads Average",
-        "Rating": 4.21
+        "Rating": 4.15
       },
       {
         "SummarizedTitle": "Watchmen",
         "Title": "Watchmen",
-        "Authors": "Alan             Moore | Dave Gibbons | John    Higgins",
+        "Authors": "Alan Moore",
         "Year": 2018,
         "Reviewer": "GoodReads Average",
         "Rating": 4.39
@@ -210,7 +289,7 @@
         "Authors": "Ashlee Vance",
         "Year": 2023,
         "Reviewer": "GoodReads Average",
-        "Rating": 4.13
+        "Rating": 4.34
       },
       {
         "SummarizedTitle": "Lean Customer Development",
@@ -222,19 +301,19 @@
       },
       {
         "SummarizedTitle": "The Defining Decade",
-        "Title": "The Defining Decade: Why Your Twenties Matter\u2014And How to Make the Most of Them Now",
+        "Title": "The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now",
         "Authors": "Meg Jay",
         "Year": 2023,
         "Reviewer": "GoodReads Average",
-        "Rating": 4.1
+        "Rating": 4.09
       },
       {
         "SummarizedTitle": "Build",
-        "Title": "Build: An Unorthodox Guide to Making Things Worth Making",
+        "Title": "Build: An Unorthodox Guide to Making Things Worth Making – An NYT Bestselling Entrepreneurship and Product Design Manual",
         "Authors": "Tony Fadell",
         "Year": 2022,
         "Reviewer": "GoodReads Average",
-        "Rating": 4.32
+        "Rating": 4.46
       },
       {
         "SummarizedTitle": "Thinking in Bets",
@@ -242,17 +321,56 @@
         "Authors": "Annie Duke",
         "Year": 2022,
         "Reviewer": "GoodReads Average",
-        "Rating": 3.82
+        "Rating": 3.95
       }
     ],
-    "data-6c958c206645b7e22635aeb796ff59cc": [
-      { "Year": 2018, "Books": 1, "Pages": 416 },
-      { "Year": 2019, "Books": 0, "Pages": 0 },
-      { "Year": 2020, "Books": 0, "Pages": 0 },
-      { "Year": 2021, "Books": 0, "Pages": 0 },
-      { "Year": 2022, "Books": 4, "Pages": 1242 },
-      { "Year": 2023, "Books": 2, "Pages": 665 },
-      { "Year": 2024, "Books": 1, "Pages": 384 }
+    "data-21e8d2b109d40523084ba30a6234d567": [
+      {
+        "Year": 2018,
+        "Books": 1,
+        "Pages": 416
+      },
+      {
+        "Year": 2019,
+        "Books": 0,
+        "Pages": 0
+      },
+      {
+        "Year": 2020,
+        "Books": 0,
+        "Pages": 0
+      },
+      {
+        "Year": 2021,
+        "Books": 0,
+        "Pages": 0
+      },
+      {
+        "Year": 2022,
+        "Books": 4,
+        "Pages": 1242
+      },
+      {
+        "Year": 2023,
+        "Books": 2,
+        "Pages": 665
+      },
+      {
+        "Year": 2024,
+        "Books": 1,
+        "Pages": 384
+      },
+      {
+        "Year": 2025,
+        "Books": 0,
+        "Pages": 0
+      },
+      {
+        "Year": 2026,
+        "Books": 1,
+        "Pages": 353
+      }
     ]
-  }
+  },
+  "background": null
 }

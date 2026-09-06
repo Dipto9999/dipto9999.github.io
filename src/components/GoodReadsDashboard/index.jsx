@@ -51,11 +51,11 @@ const GoodReadsTable = ({ data }) => {
   ];
 
   const tableStyles = {
-    rows: { style: { minHeight: '40px', fontSize: '1.16rem' } },
+    rows: { style: { minHeight: '40px', fontSize: '11.6px' } },
     headCells: {
       style: {
         fontWeight: '800',
-        fontSize: '1.42rem',
+        fontSize: '14.2px',
         background: '#f4f8fb',
         letterSpacing: '0.02em',
         textTransform: 'none',

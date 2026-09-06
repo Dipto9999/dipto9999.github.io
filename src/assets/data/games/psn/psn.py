@@ -32,12 +32,12 @@ class PSN_API:
         """Get Authenticated Client (Your Account)"""
         return self.psnawp.me()
 
-    def getUser(self, username: str):
+    def getUser(self, online_id: str):
         """Get User by Online ID"""
         try:
-            return self.psnawp.user(username = username)
+            return self.psnawp.user(online_id = online_id)
         except Exception as e:
-            print(f"Failed to Get User {username}: {e}")
+            print(f"Failed to Get User {online_id}: {e}")
             return None
 
     def getTitleStats(self, user) -> pd.DataFrame:
@@ -132,7 +132,7 @@ class PSN_User:
         try:
             if use_client:
                 user = self.api_client.getClient()
-                self.username = user.username
+                self.username = user.online_id
             else:
                 user = self.api_client.getUser(self.username)
 
@@ -148,7 +148,7 @@ class PSN_User:
 
             self._compileStats()
 
-            print(f"Successfully Fetched Data for {self.username}")
+            print(f"Successfully Fetched Data for {self.username} using PSNAWP")
             print(f"Games Played: {len(self.stats_df)}")
             print(f"Trophy Level: {self.trophy_level}")
 

@@ -1,15 +1,25 @@
 {
-  "background": null,
   "config": {
     "view": {
       "continuousWidth": 300,
-      "continuousHeight": 300
+      "continuousHeight": 300,
+      "strokeOpacity": 0,
+      "strokeWidth": 1.5
+    },
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 14
+    },
+    "legend": {
+      "labelFontSize": 14,
+      "orient": "right",
+      "titleFontSize": 18
     }
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-26ef6fd35988b53c5090f9c6ca44a4ba"
+        "name": "data-33b56759e0533136bd43eaec95bef874"
       },
       "mark": {
         "type": "bar",
@@ -19,11 +29,8 @@
         "color": {
           "field": "Reviewer",
           "legend": {
-            "labelFontSize": 14,
-            "symbolSize": 100,
             "symbolType": "square",
-            "title": "Reviewer",
-            "titleFontSize": 18
+            "title": "Reviewer"
           },
           "scale": {
             "domain": [
@@ -65,10 +72,6 @@
           }
         ],
         "x": {
-          "axis": {
-            "labelFontSize": 12,
-            "titleFontSize": 14
-          },
           "field": "Rating",
           "scale": {
             "domain": [
@@ -81,9 +84,7 @@
         },
         "y": {
           "axis": {
-            "labelFontSize": 12,
-            "labelLimit": 0,
-            "titleFontSize": 14
+            "labelLimit": 0
           },
           "field": "SummarizedTitle",
           "sort": {
@@ -107,7 +108,7 @@
     },
     {
       "data": {
-        "name": "data-6c958c206645b7e22635aeb796ff59cc"
+        "name": "data-21e8d2b109d40523084ba30a6234d567"
       },
       "mark": {
         "type": "bar"
@@ -116,9 +117,7 @@
         "color": {
           "field": "Pages",
           "legend": {
-            "labelFontSize": 14,
-            "title": "Pages (#)",
-            "titleFontSize": 18
+            "title": "Pages (#)"
           },
           "scale": {
             "scheme": "greens"
@@ -145,19 +144,13 @@
         ],
         "x": {
           "axis": {
-            "labelAngle": 0,
-            "labelFontSize": 12,
-            "titleFontSize": 14
+            "labelAngle": -45
           },
           "field": "Year",
           "title": "Year",
           "type": "nominal"
         },
         "y": {
-          "axis": {
-            "labelFontSize": 12,
-            "titleFontSize": 14
-          },
           "field": "Books",
           "title": "Books (#)",
           "type": "quantitative"
@@ -179,7 +172,15 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-26ef6fd35988b53c5090f9c6ca44a4ba": [
+    "data-33b56759e0533136bd43eaec95bef874": [
+      {
+        "SummarizedTitle": "I Will Teach You to Be Rich",
+        "Title": "I Will Teach You to Be Rich: No Guilt. No Excuses. No B.S. Just a 6-Week Program That Works.",
+        "Authors": "Ramit Sethi",
+        "Year": 2026,
+        "Reviewer": "Muntakim",
+        "Rating": 5.0
+      },
       {
         "SummarizedTitle": "The Grid",
         "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future",
@@ -191,7 +192,7 @@
       {
         "SummarizedTitle": "Working Backwards",
         "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon",
-        "Authors": "Colin Bryar | Bill Carr",
+        "Authors": "Colin Bryar",
         "Year": 2022,
         "Reviewer": "Muntakim",
         "Rating": 5.0
@@ -199,7 +200,7 @@
       {
         "SummarizedTitle": "Watchmen",
         "Title": "Watchmen",
-        "Authors": "Alan             Moore | Dave Gibbons | John    Higgins",
+        "Authors": "Alan Moore",
         "Year": 2018,
         "Reviewer": "Muntakim",
         "Rating": 5.0
@@ -222,7 +223,7 @@
       },
       {
         "SummarizedTitle": "The Defining Decade",
-        "Title": "The Defining Decade: Why Your Twenties Matter\u2014And How to Make the Most of Them Now",
+        "Title": "The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now",
         "Authors": "Meg Jay",
         "Year": 2023,
         "Reviewer": "Muntakim",
@@ -230,7 +231,7 @@
       },
       {
         "SummarizedTitle": "Build",
-        "Title": "Build: An Unorthodox Guide to Making Things Worth Making",
+        "Title": "Build: An Unorthodox Guide to Making Things Worth Making – An NYT Bestselling Entrepreneurship and Product Design Manual",
         "Authors": "Tony Fadell",
         "Year": 2022,
         "Reviewer": "Muntakim",
@@ -245,25 +246,33 @@
         "Rating": 4.0
       },
       {
+        "SummarizedTitle": "I Will Teach You to Be Rich",
+        "Title": "I Will Teach You to Be Rich: No Guilt. No Excuses. No B.S. Just a 6-Week Program That Works.",
+        "Authors": "Ramit Sethi",
+        "Year": 2026,
+        "Reviewer": "GoodReads Average",
+        "Rating": 4.4
+      },
+      {
         "SummarizedTitle": "The Grid",
         "Title": "The Grid: The Fraying Wires Between Americans and Our Energy Future",
         "Authors": "Gretchen Bakke",
         "Year": 2024,
         "Reviewer": "GoodReads Average",
-        "Rating": 3.87
+        "Rating": 3.81
       },
       {
         "SummarizedTitle": "Working Backwards",
         "Title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon",
-        "Authors": "Colin Bryar | Bill Carr",
+        "Authors": "Colin Bryar",
         "Year": 2022,
         "Reviewer": "GoodReads Average",
-        "Rating": 4.21
+        "Rating": 4.15
       },
       {
         "SummarizedTitle": "Watchmen",
         "Title": "Watchmen",
-        "Authors": "Alan             Moore | Dave Gibbons | John    Higgins",
+        "Authors": "Alan Moore",
         "Year": 2018,
         "Reviewer": "GoodReads Average",
         "Rating": 4.39
@@ -274,7 +283,7 @@
         "Authors": "Ashlee Vance",
         "Year": 2023,
         "Reviewer": "GoodReads Average",
-        "Rating": 4.13
+        "Rating": 4.34
       },
       {
         "SummarizedTitle": "Lean Customer Development",
@@ -286,19 +295,19 @@
       },
       {
         "SummarizedTitle": "The Defining Decade",
-        "Title": "The Defining Decade: Why Your Twenties Matter\u2014And How to Make the Most of Them Now",
+        "Title": "The Defining Decade: Why Your Twenties Matter—And How to Make the Most of Them Now",
         "Authors": "Meg Jay",
         "Year": 2023,
         "Reviewer": "GoodReads Average",
-        "Rating": 4.1
+        "Rating": 4.09
       },
       {
         "SummarizedTitle": "Build",
-        "Title": "Build: An Unorthodox Guide to Making Things Worth Making",
+        "Title": "Build: An Unorthodox Guide to Making Things Worth Making – An NYT Bestselling Entrepreneurship and Product Design Manual",
         "Authors": "Tony Fadell",
         "Year": 2022,
         "Reviewer": "GoodReads Average",
-        "Rating": 4.32
+        "Rating": 4.46
       },
       {
         "SummarizedTitle": "Thinking in Bets",
@@ -306,10 +315,10 @@
         "Authors": "Annie Duke",
         "Year": 2022,
         "Reviewer": "GoodReads Average",
-        "Rating": 3.82
+        "Rating": 3.95
       }
     ],
-    "data-6c958c206645b7e22635aeb796ff59cc": [
+    "data-21e8d2b109d40523084ba30a6234d567": [
       {
         "Year": 2018,
         "Books": 1,
@@ -344,7 +353,18 @@
         "Year": 2024,
         "Books": 1,
         "Pages": 384
+      },
+      {
+        "Year": 2025,
+        "Books": 0,
+        "Pages": 0
+      },
+      {
+        "Year": 2026,
+        "Books": 1,
+        "Pages": 353
       }
     ]
-  }
+  },
+  "background": null
 }

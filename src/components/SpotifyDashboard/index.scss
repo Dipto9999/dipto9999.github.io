@@ -26,7 +26,7 @@
 
 /* Mobile Cards (Phone Portrait Only — Same Idea as GoodReads Cards) */
 .spotify-cards-container {
-  margin: 0 0 2rem 0;
+  margin: 0 0 20px 0;
   background: #e3f7ff;
   border-radius: 8px;
   padding: 16px;
@@ -41,14 +41,14 @@
 }
 
 .spotify-card-section-title {
-  font-size: 1.1rem;
+  font-size: 14px;
   font-weight: 700;
   color: #141331;
   margin: 0 0 2px 0;
 }
 
 .spotify-card-section-subtitle {
-  font-size: 0.85rem;
+  font-size: 11px;
   color: #555;
   margin: 0 0 10px 0;
 }
@@ -72,7 +72,7 @@
 .spotify-track-rank {
   width: 24px;
   flex-shrink: 0;
-  font-size: 0.95rem;
+  font-size: 12px;
   font-weight: 700;
   color: #555;
   text-align: center;
@@ -87,7 +87,7 @@
 }
 
 .spotify-track-title {
-  font-size: 0.95rem;
+  font-size: 12px;
   font-weight: 600;
   color: #0e7a38; // Match Spotify Green
   white-space: nowrap;
@@ -96,7 +96,7 @@
 }
 
 .spotify-track-artist {
-  font-size: 0.8rem;
+  font-size: 11px;
   color: #444;
   white-space: nowrap;
   overflow: hidden;
@@ -105,7 +105,7 @@
 
 .spotify-track-time {
   flex-shrink: 0;
-  font-size: 0.78rem;
+  font-size: 10.5px;
   color: #666;
   white-space: nowrap;
 }

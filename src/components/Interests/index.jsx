@@ -13,6 +13,22 @@ import SpotifyDashboard from '../SpotifyDashboard';
 
 const gameImageCount = 41; // Number of Steam Game Images
 
+// Vite Replaces CRA's Dynamic require() — Eager Glob Gives URL / Raw Text Modules
+const gameImageModules = import.meta.glob('../../assets/images/Games/Games_*.jpeg', {
+    eager: true,
+    import: 'default',
+});
+const gameTextModules = import.meta.glob('../../assets/images/Games/Games_*.txt', {
+    eager: true,
+    query: '?raw',
+    import: 'default',
+});
+
+const pickGlob = (modules, filename) => {
+    const entry = Object.entries(modules).find(([path]) => path.endsWith(filename));
+    return entry ? entry[1] : null;
+};
+
 const TABS = [
     { id: 'games', label: 'Games' },
     { id: 'spotify', label: 'Spotify' },
@@ -31,22 +47,17 @@ const Interests = () => {
         }, 3000);
 
         // Load Images and Alt Descriptions Dynamically
-        const loadGameFiles = async () => {
-            const to_load = [];
-            for (let i = 1; i <= gameImageCount; i++) {
-                try {
-                    const imagePath = require(`../../assets/images/Games/Games_${i}.jpeg`);
-                    const descriptionPath = require(`../../assets/images/Games/Games_${i}.txt`);
-                    const description = await fetch(descriptionPath).then(response => response.text());
-                    to_load.push({ src: imagePath, alt: description });
-                } catch (error) {
-                    console.error(`Error loading image or description for Games_${i}: ${error}`);
-                }
+        const to_load = [];
+        for (let i = 1; i <= gameImageCount; i++) {
+            const src = pickGlob(gameImageModules, `Games_${i}.jpeg`);
+            const alt = pickGlob(gameTextModules, `Games_${i}.txt`);
+            if (src && alt != null) {
+                to_load.push({ src, alt });
+            } else {
+                console.error(`Error Loading Image or Description for Games_${i}`);
             }
-            setGameImages(to_load);
-        };
-
-        loadGameFiles();
+        }
+        setGameImages(to_load);
 
         // Clear the Timeout
         return () => clearTimeout(timeoutId);

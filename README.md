@@ -7,6 +7,7 @@
     * [Games](#Games)
     * [Spotify](#Spotify)
     * [GoodReads](#GoodReads)
+    * [Automation](#Automation)
 
 ## Overview
 
@@ -32,21 +33,18 @@ were migrated to the **React** application and further adjusted for browser resp
 #### Steam
 
 I pulled my **Steam** account data using the [`steam.py`](src/assets/data/games/steam/steam.py) **Python** script, which interacts with the **Steam Web API**.
-After fetching, the data was processed and cleaned with **pandas**.
 
 #### PlayStation Network
 
 I pulled my **PlayStation Network** account data using the [`psn.py`](src/assets/data/games/psn/psn.py) **Python** script via the **PSNAWP** library.
-After fetching, the data was processed and cleaned with **pandas**. Trophy data is also included in the unified dashboard.
 
-#### Automation
+This uses an **NPSSO** token from following the steps below:
 
-This data is automatically updated with **GitHub Actions** every day at **6 AM UTC**.
+1. Sign in at [playstation.com](https://www.playstation.com/).
+2. Open [https://ca.account.sony.com/api/v1/ssocookie](https://ca.account.sony.com/api/v1/ssocookie).
+3. Copie the `npsso` value to [`psn/.env`](src/assets/data/games/psn/.env), where it is used by **GitHub Actions**.
 
-<div align = "center">
-    <img src = "ref/GitHub_Actions.png" width = 750 title = "GitHub Action"/>
-</div>
-
+*Note: The token must be refreshed due to expiry every 60 days.*
 
 ### Spotify
 
@@ -62,18 +60,18 @@ were migrated to the **React** application and further adjusted for browser resp
 
 <i>This section was almost completely AI generated and programmed by training Claude Code on my previous dashboards.</i>
 
-#### Automation
-
-This data is automatically updated with **GitHub Actions** every day at **6 AM UTC**.
-
 
 ### GoodReads
 
-GoodReads doesn't provide access to its **API** for new users. I exported my user data from the website, cleaned, and visualized the data in the [`GoodReads_Stats.ipynb`](src/assets/data/goodreads/GoodReads_Stats.ipynb) **Jupyter Notebook**.
+GoodReads retired their public **API** in 2020, so this dashboard is built from their public **RSS** shelf feeds instead.
+I pull the `read`, `currently-reading`, and `to-read` shelves with [`goodreads.py`](src/assets/data/goodreads/goodreads.py), clean the data with **pandas**, and visualize it with **vega-altair**.
 
-The initial [`Muntakim_Dashboard.json`](src/assets/data/goodreads/Charts/Muntakim_Dashboard.json) and related chart assets
-were migrated to the **React** application and further adjusted for browser responsiveness.
+The generated [`Charts/`](src/assets/data/goodreads/Charts) Vega-Lite JSONs (`Standard` / `Tablet` / `Landscape` / `Portrait`) were migrated to the **React** application and adjusted for browser responsiveness.
 
 <div align = "center">
     <img src = "src/assets/data/goodreads/Charts/Muntakim_Dashboard.svg" width = 750 title = "Muntakim GoodReads Dashboard">
 </div>
+
+### Automation
+
+This data is automatically updated with **GitHub Actions** every day at **6 AM UTC**.

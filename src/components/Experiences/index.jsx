@@ -62,7 +62,7 @@ const Experiences = () => {
                     </div>
 
                     <div className = "custom-card-content">
-                        <strong>3x Application Engineering Intern @ <a href = "https://www.tesla.com/en_eu/megapack" className = "external-links">TESLA</a> </strong> 🔋<span className = "exp-details"> [Jan 2023] - [Jan 2024],&nbsp;(May - Aug) [2024, 2025]</span>
+                        <strong>Application Engineer & 3x Intern @ <a href = "https://www.tesla.com/en_eu/megapack" className = "external-links">TESLA</a> </strong> 🔋<span className = "exp-details"> [Jan 2023] - [Jan 2024],&nbsp;(May - Aug) [2024, 2025]</span>
                         <hr className = "hr-separator"/>
                         <img
                             src = {Tesla_Interns_2023}
@@ -74,11 +74,11 @@ const Experiences = () => {
                         <br/>
 
                         <span className = "custom-card-text">
-                            I worked on performance testing for utility-scale energy storage systems. Working with partner engineering teams, I helped standardize
-                            data management best practices for reporting KPI fleet metrics to stakeholder groups, including org leadership. I also worked with Asset Management teams
-                            to prototype and productize a software application for accurately assessing project performance.
+                            I work on system performance improvements via firmware and software updates for utility-scale energy storage systems.
                             <br/><br/>
-                            During my recent internships, I took on the scope to expose new telemetry data on customer interfaces and update supporting documentation.
+                            During my internships, I worked on performance testing for utility-scale energy storage systems. I worked with partner engineering teams to help standardize
+                            data management best practices for reporting KPI fleet metrics to stakeholder groups, including org leadership. I also prototyped and then productized a software application for
+                            accurately assessing project performance.
                         </span>
                     </div>
 
@@ -130,7 +130,7 @@ const Experiences = () => {
                         <br/>
 
                         <span className = "custom-card-text">
-                            A potential market that excites me is the emerging field of humanoid and autonomous robots! 🤖 I am keen to
+                            A potential market that excites me is the emerging field of humanoid robots! 🤖 I am keen to
                             closely follow new developments in this technological space!
                         </span>
                     </div>
