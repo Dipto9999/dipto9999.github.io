@@ -62,7 +62,7 @@ const Experiences = () => {
                     </div>
 
                     <div className = "custom-card-content">
-                        <strong>Application Engineer & 3x Intern @ <a href = "https://www.tesla.com/en_eu/megapack" className = "external-links">TESLA</a> </strong> 🔋<span className = "exp-details"> [Jan 2023] - [Jan 2024],&nbsp;(May - Aug) [2024, 2025]</span>
+                        <strong>Application Engineer & 3x Intern @ <a href = "https://www.tesla.com/en_eu/megapack" className = "external-links">TESLA</a> </strong> 🔋<span className = "exp-details"> [June 2026] - Present&nbsp;&&nbsp;[Jan 2023] - [Aug 2025]</span>
                         <hr className = "hr-separator"/>
                         <img
                             src = {Tesla_Interns_2023}
