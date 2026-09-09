@@ -92,7 +92,7 @@
         },
         {
           "data": {
-            "name": "data-f92fda34e60c9398559b222b3710afa3"
+            "name": "data-bb460cb00f8cdb5bebafd97081d4834f"
           },
           "mark": {
             "type": "text",
@@ -126,7 +126,7 @@
         },
         {
           "data": {
-            "name": "data-20be33eed370b6a71be23721eb6cec08"
+            "name": "data-f7937e7fcf131dff99d4dcbfbe331fa1"
           },
           "mark": {
             "type": "bar",
@@ -193,7 +193,7 @@
             "text": "PSN Trophies",
             "anchor": "middle",
             "fontSize": 20,
-            "subtitle": "Total: 819",
+            "subtitle": "Total: 820",
             "subtitleFontSize": 14
           },
           "width": 250
@@ -280,7 +280,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 26,
-        "subtitle": "Total Playtime: 2583.5 Hrs",
+        "subtitle": "Total Playtime: 2584.1 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -316,13 +316,13 @@
         "Value": 203
       }
     ],
-    "data-f92fda34e60c9398559b222b3710afa3": [
+    "data-bb460cb00f8cdb5bebafd97081d4834f": [
       {
         "Metric": "Played",
-        "Value": 75
+        "Value": 76
       }
     ],
-    "data-20be33eed370b6a71be23721eb6cec08": [
+    "data-f7937e7fcf131dff99d4dcbfbe331fa1": [
       {
         "type": "Gold",
         "count": 26
@@ -333,7 +333,7 @@
       },
       {
         "type": "Bronze",
-        "count": 646
+        "count": 647
       }
     ],
     "data-9b664f9b7f3c783f8c6e3336eb19f5a0": [
