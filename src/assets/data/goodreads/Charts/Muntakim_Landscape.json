@@ -19,7 +19,7 @@
   "hconcat": [
     {
       "data": {
-        "name": "data-33b56759e0533136bd43eaec95bef874"
+        "name": "data-f7a50e5fd5106c8c08b1c32074d6222e"
       },
       "mark": {
         "type": "bar",
@@ -108,7 +108,7 @@
     },
     {
       "data": {
-        "name": "data-21e8d2b109d40523084ba30a6234d567"
+        "name": "data-842e927c329bd44ebdf64f8a1609b4bb"
       },
       "mark": {
         "type": "bar"
@@ -178,7 +178,15 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-33b56759e0533136bd43eaec95bef874": [
+    "data-f7a50e5fd5106c8c08b1c32074d6222e": [
+      {
+        "SummarizedTitle": "101 Secrets for Your Twenties",
+        "Title": "101 Secrets for Your Twenties",
+        "Authors": "Paul Angone",
+        "Year": 2026,
+        "Reviewer": "Muntakim",
+        "Rating": 4.0
+      },
       {
         "SummarizedTitle": "I Will Teach You to Be Rich",
         "Title": "I Will Teach You to Be Rich: No Guilt. No Excuses. No B.S. Just a 6-Week Program That Works.",
@@ -250,6 +258,14 @@
         "Year": 2022,
         "Reviewer": "Muntakim",
         "Rating": 4.0
+      },
+      {
+        "SummarizedTitle": "101 Secrets for Your Twenties",
+        "Title": "101 Secrets for Your Twenties",
+        "Authors": "Paul Angone",
+        "Year": 2026,
+        "Reviewer": "GoodReads Average",
+        "Rating": 3.5
       },
       {
         "SummarizedTitle": "I Will Teach You to Be Rich",
@@ -324,7 +340,7 @@
         "Rating": 3.95
       }
     ],
-    "data-21e8d2b109d40523084ba30a6234d567": [
+    "data-842e927c329bd44ebdf64f8a1609b4bb": [
       {
         "Year": 2018,
         "Books": 1,
@@ -367,8 +383,8 @@
       },
       {
         "Year": 2026,
-        "Books": 1,
-        "Pages": 353
+        "Books": 2,
+        "Pages": 561
       }
     ]
   },
