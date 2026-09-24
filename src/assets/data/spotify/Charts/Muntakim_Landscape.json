@@ -189,12 +189,12 @@
             }
           ],
           "data": {
-            "name": "data-912d2f50327a6a066799c39c557b0eaf"
+            "name": "data-2704e66ddf30c9165ccdfa491c1e11ec"
           }
         },
         {
           "data": {
-            "name": "data-fade907fe3933939581e328dc4055dde"
+            "name": "data-38706dcf5ae82fecc630db3996286463"
           },
           "mark": {
             "type": "arc",
@@ -607,128 +607,86 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-912d2f50327a6a066799c39c557b0eaf": [
-      {
-        "time_period": "2017",
-        "tracks_added": 334,
-        "cumulative_tracks": 334,
-        "cumulative_artists": 96,
-        "year": "2017"
-      },
-      {
-        "time_period": "2018",
-        "tracks_added": 559,
-        "cumulative_tracks": 893,
-        "cumulative_artists": 146,
-        "year": "2018"
-      },
-      {
-        "time_period": "2019",
-        "tracks_added": 710,
-        "cumulative_tracks": 1603,
-        "cumulative_artists": 278,
-        "year": "2019"
-      },
-      {
-        "time_period": "2020",
-        "tracks_added": 229,
-        "cumulative_tracks": 1832,
-        "cumulative_artists": 377,
-        "year": "2020"
-      },
-      {
-        "time_period": "2021",
-        "tracks_added": 359,
-        "cumulative_tracks": 2191,
-        "cumulative_artists": 426,
-        "year": "2021"
-      },
-      {
-        "time_period": "2022",
-        "tracks_added": 567,
-        "cumulative_tracks": 2758,
-        "cumulative_artists": 549,
-        "year": "2022"
-      },
+    "data-2704e66ddf30c9165ccdfa491c1e11ec": [
       {
         "time_period": "2023",
-        "tracks_added": 457,
-        "cumulative_tracks": 3215,
-        "cumulative_artists": 642,
+        "tracks_added": 115,
+        "cumulative_tracks": 115,
+        "cumulative_artists": 121,
         "year": "2023"
       },
       {
         "time_period": "2024",
         "tracks_added": 88,
-        "cumulative_tracks": 3303,
-        "cumulative_artists": 667,
+        "cumulative_tracks": 203,
+        "cumulative_artists": 180,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
-        "cumulative_tracks": 3421,
-        "cumulative_artists": 702,
+        "cumulative_tracks": 321,
+        "cumulative_artists": 241,
         "year": "2025"
       },
       {
         "time_period": "2026",
         "tracks_added": 79,
-        "cumulative_tracks": 3500,
-        "cumulative_artists": 711,
+        "cumulative_tracks": 400,
+        "cumulative_artists": 263,
         "year": "2026"
       }
     ],
-    "data-fade907fe3933939581e328dc4055dde": [
+    "data-38706dcf5ae82fecc630db3996286463": [
       {
         "artist": "Alka Yagnik",
-        "count": 1220,
-        "pct": 30.6
-      },
-      {
-        "artist": "Kumar Sanu",
-        "count": 831,
-        "pct": 20.9
-      },
-      {
-        "artist": "Udit Narayan",
-        "count": 726,
-        "pct": 18.2
-      },
-      {
-        "artist": "Sonu Nigam",
-        "count": 309,
-        "pct": 7.8
-      },
-      {
-        "artist": "Shreya Ghoshal",
-        "count": 232,
-        "pct": 5.8
+        "count": 68,
+        "pct": 17.3
       },
       {
         "artist": "Arijit Singh",
-        "count": 139,
-        "pct": 3.5
+        "count": 60,
+        "pct": 15.2
       },
       {
-        "artist": "Lata Mangeshkar",
-        "count": 138,
-        "pct": 3.5
+        "artist": "Kumar Sanu",
+        "count": 52,
+        "pct": 13.2
       },
       {
-        "artist": "Kishore Kumar",
-        "count": 135,
-        "pct": 3.4
+        "artist": "Shreya Ghoshal",
+        "count": 48,
+        "pct": 12.2
+      },
+      {
+        "artist": "Sonu Nigam",
+        "count": 47,
+        "pct": 11.9
       },
       {
         "artist": "Pritam",
-        "count": 127,
-        "pct": 3.2
+        "count": 39,
+        "pct": 9.9
       },
       {
-        "artist": "Abhijeet",
-        "count": 125,
-        "pct": 3.1
+        "artist": "Udit Narayan",
+        "count": 28,
+        "pct": 7.1
+      },
+      {
+        "artist": "Jeet Gannguli",
+        "count": 26,
+        "pct": 6.6
+      },
+      {
+        "artist": "Kishore Kumar",
+        "count": 14,
+        "pct": 3.6
+      },
+      {
+        "artist": "Sadhana Sargam",
+        "count": 12,
+        "pct": 3.0
       }
     ],
     "data-d285a7403ed98ae579761d64a864032b": [
