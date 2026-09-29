@@ -19,7 +19,7 @@
   "hconcat": [
     {
       "data": {
-        "name": "data-f7a50e5fd5106c8c08b1c32074d6222e"
+        "name": "data-95066abb303c752e49bde6cced498cd1"
       },
       "mark": {
         "type": "bar",
@@ -108,7 +108,7 @@
     },
     {
       "data": {
-        "name": "data-842e927c329bd44ebdf64f8a1609b4bb"
+        "name": "data-d1c43a30b2a3f3ab831e971549c16ae1"
       },
       "mark": {
         "type": "bar"
@@ -178,7 +178,15 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-f7a50e5fd5106c8c08b1c32074d6222e": [
+    "data-95066abb303c752e49bde6cced498cd1": [
+      {
+        "SummarizedTitle": "101 Questions You Need to Ask in Your Twenties",
+        "Title": "101 Questions You Need to Ask in Your Twenties: (And Let's Be Honest, Your Thirties Too)",
+        "Authors": "Paul Angone",
+        "Year": 2026,
+        "Reviewer": "Muntakim",
+        "Rating": 4.0
+      },
       {
         "SummarizedTitle": "101 Secrets for Your Twenties",
         "Title": "101 Secrets for Your Twenties",
@@ -258,6 +266,14 @@
         "Year": 2022,
         "Reviewer": "Muntakim",
         "Rating": 4.0
+      },
+      {
+        "SummarizedTitle": "101 Questions You Need to Ask in Your Twenties",
+        "Title": "101 Questions You Need to Ask in Your Twenties: (And Let's Be Honest, Your Thirties Too)",
+        "Authors": "Paul Angone",
+        "Year": 2026,
+        "Reviewer": "GoodReads Average",
+        "Rating": 3.78
       },
       {
         "SummarizedTitle": "101 Secrets for Your Twenties",
@@ -340,7 +356,7 @@
         "Rating": 3.95
       }
     ],
-    "data-842e927c329bd44ebdf64f8a1609b4bb": [
+    "data-d1c43a30b2a3f3ab831e971549c16ae1": [
       {
         "Year": 2018,
         "Books": 1,
@@ -383,8 +399,8 @@
       },
       {
         "Year": 2026,
-        "Books": 2,
-        "Pages": 561
+        "Books": 3,
+        "Pages": 818
       }
     ]
   },
