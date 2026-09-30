@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-0b14319fcf6b8a59f19fd01270b06162"
+        "name": "data-c0ebf39fe61086161557a601b97e5d0d"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-27419e2d3fd58682eb5cef011dc0d3ab"
+            "name": "data-67b7bcbf783a9fc10d65c52fcb3eb13d"
           },
           "height": 260,
           "resolve": {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-0b14319fcf6b8a59f19fd01270b06162": [
+    "data-c0ebf39fe61086161557a601b97e5d0d": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -896,23 +896,23 @@
       },
       {
         "time_period": "2024",
-        "tracks_added": 88,
-        "cumulative_tracks": 3303,
-        "cumulative_artists": 667,
+        "tracks_added": 87,
+        "cumulative_tracks": 3302,
+        "cumulative_artists": 665,
         "year": "2024"
       },
       {
         "time_period": "2025",
         "tracks_added": 118,
-        "cumulative_tracks": 3421,
-        "cumulative_artists": 702,
+        "cumulative_tracks": 3420,
+        "cumulative_artists": 700,
         "year": "2025"
       },
       {
         "time_period": "2026",
         "tracks_added": 80,
-        "cumulative_tracks": 3501,
-        "cumulative_artists": 711,
+        "cumulative_tracks": 3500,
+        "cumulative_artists": 709,
         "year": "2026"
       }
     ],
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-27419e2d3fd58682eb5cef011dc0d3ab": [
+    "data-67b7bcbf783a9fc10d65c52fcb3eb13d": [
       {
         "rank": 1,
-        "song": "Tera Mera Rishta - Original Version",
-        "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
-        "time": "19:58 UTC",
+        "song": "Haan Tu Hain",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "05:33 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "you were good to me",
-        "artist": "Jeremy Zucker, Chelsea Cutler",
-        "time": "18:56 UTC",
+        "song": "Ik Mulaqaat - From \"Dream Girl\"",
+        "artist": "Meet Bros., Altamash Faridi, Palak Muchhal",
+        "time": "03:46 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Milne Hai Mujhse Aayi",
-        "artist": "Arijit Singh, Jeet Gannguli, Irshad Kamil",
-        "time": "18:00 UTC",
+        "song": "Phir Milenge Chalte Chalte",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Jaideep Sahni",
+        "time": "03:39 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Sunn Raha Hai (Female Version)",
-        "artist": "Shreya Ghoshal, Ankit Tiwari, Sandeep Nath",
-        "time": "17:55 UTC",
+        "song": "Kaash Kahin Aisa Hota (From \"Mohra\")",
+        "artist": "Kumar Sanu",
+        "time": "03:28 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Bhula Dena",
-        "artist": "Mustafa Zahid, Jeet Gannguli, Sanjay Masoom",
-        "time": "17:43 UTC",
+        "song": "Khwab Dekhe Sexy Lady",
+        "artist": "Pritam, Neeraj Shridhar, Monali Thakur",
+        "time": "03:22 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Meri Aashiqui",
-        "artist": "Palak Muchhal, Arijit Singh, Mithoon, Irshad Kamil",
-        "time": "17:38 UTC",
+        "song": "Apnaa Mujhe Tu Lagaa",
+        "artist": "Sonu Nigam, Chirantan Bhatt, Shakeel Azmi",
+        "time": "03:17 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Piya Aaye Na",
-        "artist": "Tulsi Kumar, KK, Jeet Gannguli, Irshad Kamil",
-        "time": "16:31 UTC",
+        "song": "Yaara Yaara",
+        "artist": "Jatin-Lalit, Alka Yagnik, Udit Narayan, Prasoon Joshi",
+        "time": "03:11 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Meri Aashiqui",
-        "artist": "Palak Muchhal, Arijit Singh, Mithoon, Irshad Kamil",
-        "time": "15:34 UTC",
+        "song": "Gore Gore",
+        "artist": "Jatin-Lalit, Alka Yagnik, Prasoon Joshi",
+        "time": "03:06 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Meri Aashiqui",
-        "artist": "Palak Muchhal, Arijit Singh, Mithoon, Irshad Kamil",
-        "time": "14:35 UTC",
+        "song": "Hum Tum",
+        "artist": "Jatin-Lalit, Alka Yagnik, Babul Supriyo, Prasoon Joshi",
+        "time": "03:01 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Hum Mar Jayenge",
-        "artist": "Tulsi Kumar, Arijit Singh, Jeet Gannguli, Irshad Kamil",
-        "time": "14:31 UTC",
+        "song": "Ladki Kyon",
+        "artist": "Jatin-Lalit, Alka Yagnik, Shaan, Prasoon Joshi",
+        "time": "02:55 UTC",
         "y_pos": 9
       }
     ]
