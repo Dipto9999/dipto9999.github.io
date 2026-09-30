@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-c0ebf39fe61086161557a601b97e5d0d"
+        "name": "data-ad6a028bb67cb141da5c996c1ff3fab8"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-67b7bcbf783a9fc10d65c52fcb3eb13d"
+            "name": "data-2274cbe3e801480f7b9f5b12c85b7f6b"
           },
           "height": 200,
           "resolve": {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-c0ebf39fe61086161557a601b97e5d0d": [
+    "data-ad6a028bb67cb141da5c996c1ff3fab8": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,9 +910,9 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 80,
-        "cumulative_tracks": 3500,
-        "cumulative_artists": 709,
+        "tracks_added": 81,
+        "cumulative_tracks": 3501,
+        "cumulative_artists": 710,
         "year": "2026"
       }
     ],
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-67b7bcbf783a9fc10d65c52fcb3eb13d": [
+    "data-2274cbe3e801480f7b9f5b12c85b7f6b": [
       {
         "rank": 1,
-        "song": "Haan Tu Hain",
-        "artist": "Pritam, KK, Sayeed Quadri",
-        "time": "05:33 UTC",
+        "song": "Mushkil Bada Yeh Pyaar Hai",
+        "artist": "Alka Yagnik, Udit Narayan",
+        "time": "17:48 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Ik Mulaqaat - From \"Dream Girl\"",
-        "artist": "Meet Bros., Altamash Faridi, Palak Muchhal",
-        "time": "03:46 UTC",
+        "song": "Aashiqui Mein Teri",
+        "artist": "Himesh Reshammiya, Sunidhi Chauhan",
+        "time": "17:42 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Phir Milenge Chalte Chalte",
-        "artist": "Salim–Sulaiman, Sonu Nigam, Jaideep Sahni",
-        "time": "03:39 UTC",
+        "song": "Woh Lamhe Woh Baatein",
+        "artist": "Roop Kumar Rathod, Mithoon, Naresh Sharma, Atif Aslam",
+        "time": "16:02 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Kaash Kahin Aisa Hota (From \"Mohra\")",
-        "artist": "Kumar Sanu",
-        "time": "03:28 UTC",
+        "song": "Prem Amar Title Track",
+        "artist": "Kunal Ganjawala, June Banerjee",
+        "time": "15:55 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Khwab Dekhe Sexy Lady",
-        "artist": "Pritam, Neeraj Shridhar, Monali Thakur",
-        "time": "03:22 UTC",
+        "song": "Pareshaan",
+        "artist": "Amit Trivedi, Shalmali Kholgade, Kausar Munir",
+        "time": "15:51 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Apnaa Mujhe Tu Lagaa",
-        "artist": "Sonu Nigam, Chirantan Bhatt, Shakeel Azmi",
-        "time": "03:17 UTC",
+        "song": "Haan Tu Hain",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "15:47 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Yaara Yaara",
-        "artist": "Jatin-Lalit, Alka Yagnik, Udit Narayan, Prasoon Joshi",
-        "time": "03:11 UTC",
+        "song": "Haan Tu Hain",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "05:33 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Gore Gore",
-        "artist": "Jatin-Lalit, Alka Yagnik, Prasoon Joshi",
-        "time": "03:06 UTC",
+        "song": "Ik Mulaqaat - From \"Dream Girl\"",
+        "artist": "Meet Bros., Altamash Faridi, Palak Muchhal",
+        "time": "03:46 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Hum Tum",
-        "artist": "Jatin-Lalit, Alka Yagnik, Babul Supriyo, Prasoon Joshi",
-        "time": "03:01 UTC",
+        "song": "Phir Milenge Chalte Chalte",
+        "artist": "Salim–Sulaiman, Sonu Nigam, Jaideep Sahni",
+        "time": "03:39 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Ladki Kyon",
-        "artist": "Jatin-Lalit, Alka Yagnik, Shaan, Prasoon Joshi",
-        "time": "02:55 UTC",
+        "song": "Kaash Kahin Aisa Hota (From \"Mohra\")",
+        "artist": "Kumar Sanu",
+        "time": "03:28 UTC",
         "y_pos": 9
       }
     ]
