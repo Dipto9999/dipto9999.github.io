@@ -126,7 +126,7 @@
         },
         {
           "data": {
-            "name": "data-30792545ed24eab10083af52a684f33d"
+            "name": "data-86d84d036fd7bbabc9759288b8434918"
           },
           "mark": {
             "type": "bar",
@@ -193,7 +193,7 @@
             "text": "PSN Trophies",
             "anchor": "middle",
             "fontSize": 20,
-            "subtitle": "Total: 829",
+            "subtitle": "Total: 830",
             "subtitleFontSize": 14
           },
           "width": 250
@@ -207,7 +207,7 @@
     },
     {
       "data": {
-        "name": "data-9b664f9b7f3c783f8c6e3336eb19f5a0"
+        "name": "data-05d169fc20e2ea7d3ce2ec799f79f6f2"
       },
       "mark": {
         "type": "arc",
@@ -280,7 +280,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 26,
-        "subtitle": "Total Playtime: 2608.7 Hrs",
+        "subtitle": "Total Playtime: 2616.0 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -322,7 +322,7 @@
         "Value": 77
       }
     ],
-    "data-30792545ed24eab10083af52a684f33d": [
+    "data-86d84d036fd7bbabc9759288b8434918": [
       {
         "type": "Gold",
         "count": 26
@@ -333,10 +333,10 @@
       },
       {
         "type": "Bronze",
-        "count": 656
+        "count": 657
       }
     ],
-    "data-9b664f9b7f3c783f8c6e3336eb19f5a0": [
+    "data-05d169fc20e2ea7d3ce2ec799f79f6f2": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
@@ -344,8 +344,8 @@
       },
       {
         "name": "Batman: Arkham Knight",
-        "playtime_forever": 172.22,
-        "playtime_percentage": 9.02
+        "playtime_forever": 172.36,
+        "playtime_percentage": 9.03
       },
       {
         "name": "Spider-Man",
