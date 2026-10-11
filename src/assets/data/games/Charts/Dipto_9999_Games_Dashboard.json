@@ -56,7 +56,7 @@
             },
             {
               "data": {
-                "name": "data-209579f83bb465219158f903efdbaf51"
+                "name": "data-d8803a9c83f590849d6625fcf188fe38"
               },
               "mark": {
                 "type": "text",
@@ -92,7 +92,7 @@
         },
         {
           "data": {
-            "name": "data-0806719922ab0a69d8ed35284b9451c4"
+            "name": "data-6f4d390c0b31ea466544267225713125"
           },
           "mark": {
             "type": "text",
@@ -126,7 +126,7 @@
         },
         {
           "data": {
-            "name": "data-b5e5e3621ebe956b3f4f9d97cbbacadf"
+            "name": "data-9cde958e8cd4e6a7740cb0b00cf887eb"
           },
           "mark": {
             "type": "bar",
@@ -193,7 +193,7 @@
             "text": "PSN Trophies",
             "anchor": "middle",
             "fontSize": 20,
-            "subtitle": "Total: 772",
+            "subtitle": "Total: 845",
             "subtitleFontSize": 14
           },
           "width": 250
@@ -207,7 +207,7 @@
     },
     {
       "data": {
-        "name": "data-e02f2c1edd48e33dbb5a48263f5a1ebf"
+        "name": "data-bd0dd7e75e25ba331eae8207f1b625ed"
       },
       "mark": {
         "type": "arc",
@@ -280,7 +280,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 26,
-        "subtitle": "Total Playtime: 2444.1 Hrs",
+        "subtitle": "Total Playtime: 2620.1 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -310,82 +310,86 @@
         "Value": 21
       }
     ],
-    "data-209579f83bb465219158f903efdbaf51": [
+    "data-d8803a9c83f590849d6625fcf188fe38": [
       {
         "Metric": "PSN Level",
-        "Value": 200
+        "Value": 205
       }
     ],
-    "data-0806719922ab0a69d8ed35284b9451c4": [
+    "data-6f4d390c0b31ea466544267225713125": [
       {
         "Metric": "Played",
-        "Value": 71
+        "Value": 77
       }
     ],
-    "data-b5e5e3621ebe956b3f4f9d97cbbacadf": [
+    "data-9cde958e8cd4e6a7740cb0b00cf887eb": [
+      {
+        "type": "Platinum",
+        "count": 1
+      },
       {
         "type": "Gold",
-        "count": 24
+        "count": 27
       },
       {
         "type": "Silver",
-        "count": 132
+        "count": 153
       },
       {
         "type": "Bronze",
-        "count": 616
+        "count": 664
       }
     ],
-    "data-e02f2c1edd48e33dbb5a48263f5a1ebf": [
+    "data-bd0dd7e75e25ba331eae8207f1b625ed": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
-        "playtime_percentage": 45.08
+        "playtime_percentage": 44.25
       },
       {
         "name": "Batman: Arkham Knight",
-        "playtime_forever": 172.22,
-        "playtime_percentage": 9.19
+        "playtime_forever": 172.36,
+        "playtime_percentage": 9.02
       },
       {
         "name": "Spider-Man",
         "playtime_forever": 166.1,
-        "playtime_percentage": 8.86
+        "playtime_percentage": 8.69
       },
       {
         "name": "Harvest Moon: AWL",
-        "playtime_forever": 163.35000000000002,
-        "playtime_percentage": 8.71
+        "playtime_forever": 164.28,
+        "playtime_percentage": 8.6
       },
       {
         "name": "God of War",
         "playtime_forever": 161.51,
-        "playtime_percentage": 8.61
+        "playtime_percentage": 8.45
       },
       {
         "name": "Cyberpunk 2077",
-        "playtime_forever": 107.32000000000001,
-        "playtime_percentage": 5.72
+        "playtime_forever": 109.06,
+        "playtime_percentage": 5.71
       },
       {
         "name": "LOTR Online",
         "playtime_forever": 95.7,
-        "playtime_percentage": 5.1
+        "playtime_percentage": 5.01
+      },
+      {
+        "name": "God of War Ragnarok",
+        "playtime_forever": 79.36,
+        "playtime_percentage": 4.15
       },
       {
         "name": "Telltale: Batman",
         "playtime_forever": 66.22,
-        "playtime_percentage": 3.53
+        "playtime_percentage": 3.47
       },
       {
-        "name": "Stardew Valley",
-        "playtime_forever": 49.5,
+        "name": "Spider-Man 2",
+        "playtime_forever": 50.49,
         "playtime_percentage": 2.64
-      },
-      {
-        "name": "Telltale: Game of Thrones",
-        "playtime_forever": 47.68,
-        "playtime_percentage": 2.54
       }
     ]
   }

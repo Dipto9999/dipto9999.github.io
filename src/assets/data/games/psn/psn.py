@@ -88,6 +88,7 @@ class PSN_User:
         "God of War Ragnar\u00f6k": "God of War Ragnarok",
         "Marvel's Spider-Man: Miles Morales": "Spider-Man: Miles Morales",
         "Marvel's Spider-Man": "Spider-Man",
+        "Marvel's Spider-Man 2": "Spider-Man 2",
         "inFAMOUS\u2122 Second Son": "inFAMOUS Second Son",
     }
 
