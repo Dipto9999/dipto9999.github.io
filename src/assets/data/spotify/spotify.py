@@ -139,6 +139,16 @@ class SpotifyUser:
         self.top_tracks_df = self.api_client.getTopTracks()
         self.saved_tracks_df = self.api_client.getSavedTracks()
 
+        if self.recent_df.empty and self.top_tracks_df.empty and self.saved_tracks_df.empty:
+            raise RuntimeError(
+                "Spotify API returned no data. Re-authenticate Locally and Update GitHub Secret."
+            )
+
+        print("Fetched using Spotify API")
+        print(f"Recent Tracks: {len(self.recent_df)}")
+        print(f"Top Tracks: {len(self.top_tracks_df)}")
+        print(f"Saved Tracks: {len(self.saved_tracks_df)}")
+
     def getTopTracks(self, n: int = 10) -> pd.DataFrame:
         """Get Top N Tracks"""
         return self.top_tracks_df.head(n) if not self.top_tracks_df.empty else pd.DataFrame()
@@ -778,7 +788,7 @@ class SpotifyDashboard:
         -------------
             {username}_Standard.json (Desktop)
             {username}_Tablet.json (Large Tablet / Small Desktop)
-            {username}_TabletPortrait.json ) (iPad Mini/Air)
+            {username}_TabletPortrait.json (iPad Mini/Air)
             {username}_Landscape.json (Mobile Landscape)
             {username}_Portrait.json (Mobile Portrait)
             {username}_Dashboard.json (Standard Reference Copy)
