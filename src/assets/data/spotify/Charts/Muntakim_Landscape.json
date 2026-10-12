@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-058dc1dcb249de52e89c15d8f5f02771"
+            "name": "data-2848c4d8a625f3703c2f9067a6fdcaff"
           },
           "height": 200,
           "resolve": {
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-058dc1dcb249de52e89c15d8f5f02771": [
+    "data-2848c4d8a625f3703c2f9067a6fdcaff": [
       {
         "rank": 1,
-        "song": "Chahun Main Ya Naa (From \"Aashiqui 2\")",
-        "artist": "Palak Muchhal, Arijit Singh",
-        "time": "00:13 UTC",
+        "song": "Barbaad (From \"Saiyaara\")",
+        "artist": "The Rish, Jubin Nautiyal",
+        "time": "15:51 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "You Are My Soniya",
-        "artist": "Sandesh Shandilya, Sonu Nigam, Alka Yagnik",
-        "time": "00:08 UTC",
+        "song": "Maahi",
+        "artist": "Shaarib Toshi, Toshi Sabri, Sayeed Quadri",
+        "time": "15:34 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Woh Lamhe Woh Baatein",
-        "artist": "Roop Kumar Rathod, Mithoon, Naresh Sharma, Atif Aslam",
-        "time": "00:02 UTC",
+        "song": "Dil Kehta Hai (From \"Akele Hum Akele Tum\")",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "15:28 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Jadoo Hai Tera",
-        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik, Sameer Anjaan",
-        "time": "23:57 UTC",
+        "song": "Tu Hi Haqeeqat",
+        "artist": "Pritam, Javed Ali, Irshan Ashraf, Shadab, Sayeed Quadri",
+        "time": "15:18 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Tujhe Bhula Diya",
-        "artist": "Vishal-Shekhar, Mohit Chauhan, Shekhar Ravjiani, Shruti Pathak",
-        "time": "23:49 UTC",
+        "song": "Main Agar Saamne",
+        "artist": "Nadeem Shravan, Alka Yagnik, Abhijeet, Sameer Anjaan",
+        "time": "15:13 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Bekhayali (Arijit Singh Version)",
-        "artist": "Arijit Singh, Sachet-Parampara, Irshad Kamil",
-        "time": "23:39 UTC",
+        "song": "Saathiya",
+        "artist": "A.R. Rahman, Sonu Nigam, Gulzar",
+        "time": "14:49 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Ada",
-        "artist": "Pritam, Sonu Nigam, Sameer Anjaan",
-        "time": "23:33 UTC",
+        "song": "Meri Aashiqui (From \"Aashiqui 2\")",
+        "artist": "Palak Muchhal, Arijit Singh",
+        "time": "14:43 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Dil Lagane Ki Saza",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "23:28 UTC",
+        "song": "Ishq Bina",
+        "artist": "Anuradha Sriram, Sujatha, A.R. Rahman, Sonu Nigam",
+        "time": "14:39 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Guzarish",
-        "artist": "A.R. Rahman, Javed Ali, Prasoon Joshi",
-        "time": "23:23 UTC",
+        "song": "Haareya (From \"Meri Pyaari Bindu \")",
+        "artist": "Sachin-Jigar, Arijit Singh, Priya Saraiya",
+        "time": "14:31 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Dil Hai Tumhaara",
-        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Kumar Sanu, Sameer Anjaan",
-        "time": "23:18 UTC",
+        "song": "Main Hoon Na (From \"Main Hoon Na\")",
+        "artist": "Sonu Nigam, Shreya Ghoshal",
+        "time": "14:07 UTC",
         "y_pos": 9
       }
     ]
