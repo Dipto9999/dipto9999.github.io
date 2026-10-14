@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-af9eca9968e212e39e007eeacaa2060b"
+        "name": "data-830769e3642eb8eab290fa59e65fb2bc"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-b26b9a4397c98685578ef3e1a2df7f38"
+            "name": "data-b2f7e3665bd39c21a7cb2306cfd57683"
           },
           "height": 200,
           "resolve": {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-af9eca9968e212e39e007eeacaa2060b": [
+    "data-830769e3642eb8eab290fa59e65fb2bc": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,8 +910,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 82,
-        "cumulative_tracks": 3502,
+        "tracks_added": 83,
+        "cumulative_tracks": 3503,
         "cumulative_artists": 710,
         "year": "2026"
       }
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-b26b9a4397c98685578ef3e1a2df7f38": [
+    "data-b2f7e3665bd39c21a7cb2306cfd57683": [
       {
         "rank": 1,
-        "song": "My Dil Goes Mmmm",
-        "artist": "Vishal-Shekhar, Shaan, Gayatri Iyer, Jaideep Sahni",
-        "time": "01:36 UTC",
+        "song": "Onek Shadhona Pore",
+        "artist": "Imran Mahmudul, Nancy",
+        "time": "18:02 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Tere Bin",
-        "artist": "Mithoon, Atif Aslam",
-        "time": "01:23 UTC",
+        "song": "Banjaara",
+        "artist": "Mohammed Irfan, Mithoon",
+        "time": "17:24 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Tujh Mein Rab Dikhta Hai",
-        "artist": "Salim–Sulaiman, Roop Kumar Rathod, Jaideep Sahni",
-        "time": "01:18 UTC",
+        "song": "Khuda Jaane",
+        "artist": "Vishal-Shekhar, KK, Shilpa Rao, Anvita Dutt Guptan",
+        "time": "17:23 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Wada Raha",
-        "artist": "Arnab Chakraborty, Shreya Ghoshal",
-        "time": "01:13 UTC",
+        "song": "Rishte Naate - From \"De Dana Dan\"",
+        "artist": "Rahat Fateh Ali Khan, Suzanne D'Mello",
+        "time": "17:18 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Aaja Mahiya",
-        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasant Anil Samaddar, Gulzar",
-        "time": "01:08 UTC",
+        "song": "Channa Mereya",
+        "artist": "Pritam, Arijit Singh",
+        "time": "17:13 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Humko Sirf Tumse",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "01:00 UTC",
+        "song": "Zaalima",
+        "artist": "Arijit Singh, Harshdeep Kaur",
+        "time": "16:44 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Ladki Badi Anjani Hai",
-        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik",
-        "time": "00:52 UTC",
+        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "16:39 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Deewana Kar Raha Hai",
-        "artist": "Javed Ali",
-        "time": "00:45 UTC",
+        "song": "Agar Tum Saath Ho (From \"Tamasha\")",
+        "artist": "Alka Yagnik, Arijit Singh",
+        "time": "16:34 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Neele Neele Ambar Par - Male Version",
-        "artist": "Kalyanji-Anandji, Kishore Kumar",
-        "time": "00:39 UTC",
+        "song": "Jab Haal-e-Dil Tumse Kehne Ko (From \"Salaami\")",
+        "artist": "Alka Yagnik",
+        "time": "16:26 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Apnaa Mujhe Tu Lagaa (From \"1920 Evil Returns\")",
-        "artist": "Sonu Nigam",
-        "time": "00:34 UTC",
+        "song": "Bekhayali (From \"Kabir Singh\")",
+        "artist": "Sachet Tandon, Sachet-Parampara",
+        "time": "16:21 UTC",
         "y_pos": 9
       }
     ]
