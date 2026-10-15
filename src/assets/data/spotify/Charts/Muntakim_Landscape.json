@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-0fae28c9498549c199451925d8746394"
+            "name": "data-e61edfdfa6285d776a6247d20b2d0830"
           },
           "height": 200,
           "resolve": {
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-0fae28c9498549c199451925d8746394": [
+    "data-e61edfdfa6285d776a6247d20b2d0830": [
       {
         "rank": 1,
-        "song": "Pal Pal Dil Ke Paas - Title Track - From \"Pal Pal Dil Ke Paas\"",
-        "artist": "Arijit Singh, Parampara Thakur, Sachet-Parampara, Siddharth - Garima",
-        "time": "01:24 UTC",
+        "song": "Dil Hai Tumhaara",
+        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Kumar Sanu, Sameer Anjaan",
+        "time": "17:11 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Bekhayali (Arijit Singh Version)",
-        "artist": "Arijit Singh, Sachet-Parampara, Irshad Kamil",
-        "time": "01:20 UTC",
+        "song": "Humsafar",
+        "artist": "Sachet-Parampara, Sachet Tandon, Parampara Tandon, Irshad Kamil, Prashant Pandey",
+        "time": "17:05 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Chori Chori",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "01:12 UTC",
+        "song": "Phir Mohabbat (From \"Murder 2\")",
+        "artist": "Mohammed Irfan, Arijit Singh, Saim Bhat",
+        "time": "16:59 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Kya Mujhe Pyar Hai",
-        "artist": "Pritam, KK, Neelesh Misra",
-        "time": "01:06 UTC",
+        "song": "Dil Mein Jo Baat",
+        "artist": "Alka Yagnik, Sonu Nigam",
+        "time": "16:50 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Woh Lamhe Woh Baatein",
-        "artist": "Roop Kumar Rathod, Mithoon, Naresh Sharma, Atif Aslam",
-        "time": "01:01 UTC",
+        "song": "Janam Janam",
+        "artist": "Pritam, Arijit Singh, Antara Mitra",
+        "time": "16:45 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Jadoo Hai Tera",
-        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik, Sameer Anjaan",
-        "time": "00:56 UTC",
+        "song": "Aapke Pyaar Mein Hum",
+        "artist": "Nadeem Shravan, Alka Yagnik, Sameer Anjaan",
+        "time": "16:41 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Achchi Lagti Ho",
-        "artist": "Udit Narayan, Kavita Krishnamurthy",
-        "time": "00:48 UTC",
+        "song": "Aapke Pyaar Mein Hum",
+        "artist": "Nadeem Shravan, Alka Yagnik, Sameer Anjaan",
+        "time": "16:35 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Mere Haath Mein",
-        "artist": "Jatin-Lalit, Sonu Nigam, Sunidhi Chauhan, Aamir Khan, Kajol, Prasoon Joshi",
-        "time": "00:42 UTC",
+        "song": "Pal Pal Dil Ke Paas - Title Track - From \"Pal Pal Dil Ke Paas\"",
+        "artist": "Arijit Singh, Parampara Thakur, Sachet-Parampara, Siddharth - Garima",
+        "time": "01:24 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Tera Mera Rishta - Original Version",
-        "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
-        "time": "00:37 UTC",
+        "song": "Bekhayali (Arijit Singh Version)",
+        "artist": "Arijit Singh, Sachet-Parampara, Irshad Kamil",
+        "time": "01:20 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Haan Tu Hain",
-        "artist": "Pritam, KK, Sayeed Quadri",
-        "time": "00:09 UTC",
+        "song": "Chori Chori",
+        "artist": "Alka Yagnik, Sonu Nigam",
+        "time": "01:12 UTC",
         "y_pos": 9
       }
     ]
