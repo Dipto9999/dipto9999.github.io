@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-b2f7e3665bd39c21a7cb2306cfd57683"
+            "name": "data-0fae28c9498549c199451925d8746394"
           },
           "height": 200,
           "resolve": {
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-b2f7e3665bd39c21a7cb2306cfd57683": [
+    "data-0fae28c9498549c199451925d8746394": [
       {
         "rank": 1,
-        "song": "Onek Shadhona Pore",
-        "artist": "Imran Mahmudul, Nancy",
-        "time": "18:02 UTC",
+        "song": "Pal Pal Dil Ke Paas - Title Track - From \"Pal Pal Dil Ke Paas\"",
+        "artist": "Arijit Singh, Parampara Thakur, Sachet-Parampara, Siddharth - Garima",
+        "time": "01:24 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Banjaara",
-        "artist": "Mohammed Irfan, Mithoon",
-        "time": "17:24 UTC",
+        "song": "Bekhayali (Arijit Singh Version)",
+        "artist": "Arijit Singh, Sachet-Parampara, Irshad Kamil",
+        "time": "01:20 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Khuda Jaane",
-        "artist": "Vishal-Shekhar, KK, Shilpa Rao, Anvita Dutt Guptan",
-        "time": "17:23 UTC",
+        "song": "Chori Chori",
+        "artist": "Alka Yagnik, Sonu Nigam",
+        "time": "01:12 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Rishte Naate - From \"De Dana Dan\"",
-        "artist": "Rahat Fateh Ali Khan, Suzanne D'Mello",
-        "time": "17:18 UTC",
+        "song": "Kya Mujhe Pyar Hai",
+        "artist": "Pritam, KK, Neelesh Misra",
+        "time": "01:06 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Channa Mereya",
-        "artist": "Pritam, Arijit Singh",
-        "time": "17:13 UTC",
+        "song": "Woh Lamhe Woh Baatein",
+        "artist": "Roop Kumar Rathod, Mithoon, Naresh Sharma, Atif Aslam",
+        "time": "01:01 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Zaalima",
-        "artist": "Arijit Singh, Harshdeep Kaur",
-        "time": "16:44 UTC",
+        "song": "Jadoo Hai Tera",
+        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik, Sameer Anjaan",
+        "time": "00:56 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
-        "artist": "Abhijeet, Alka Yagnik",
-        "time": "16:39 UTC",
+        "song": "Achchi Lagti Ho",
+        "artist": "Udit Narayan, Kavita Krishnamurthy",
+        "time": "00:48 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Agar Tum Saath Ho (From \"Tamasha\")",
-        "artist": "Alka Yagnik, Arijit Singh",
-        "time": "16:34 UTC",
+        "song": "Mere Haath Mein",
+        "artist": "Jatin-Lalit, Sonu Nigam, Sunidhi Chauhan, Aamir Khan, Kajol, Prasoon Joshi",
+        "time": "00:42 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Jab Haal-e-Dil Tumse Kehne Ko (From \"Salaami\")",
-        "artist": "Alka Yagnik",
-        "time": "16:26 UTC",
+        "song": "Tera Mera Rishta - Original Version",
+        "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
+        "time": "00:37 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Bekhayali (From \"Kabir Singh\")",
-        "artist": "Sachet Tandon, Sachet-Parampara",
-        "time": "16:21 UTC",
+        "song": "Haan Tu Hain",
+        "artist": "Pritam, KK, Sayeed Quadri",
+        "time": "00:09 UTC",
         "y_pos": 9
       }
     ]
