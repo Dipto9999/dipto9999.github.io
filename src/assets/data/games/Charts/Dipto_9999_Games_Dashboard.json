@@ -92,7 +92,7 @@
         },
         {
           "data": {
-            "name": "data-6f4d390c0b31ea466544267225713125"
+            "name": "data-7bc412e3579df18a480b6f3e7ad827a4"
           },
           "mark": {
             "type": "text",
@@ -280,7 +280,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 26,
-        "subtitle": "Total Playtime: 2620.9 Hrs",
+        "subtitle": "Total Playtime: 2622.3 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -316,10 +316,10 @@
         "Value": 205
       }
     ],
-    "data-6f4d390c0b31ea466544267225713125": [
+    "data-7bc412e3579df18a480b6f3e7ad827a4": [
       {
         "Metric": "Played",
-        "Value": 77
+        "Value": 78
       }
     ],
     "data-9cde958e8cd4e6a7740cb0b00cf887eb": [
