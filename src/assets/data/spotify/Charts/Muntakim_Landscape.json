@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-830769e3642eb8eab290fa59e65fb2bc"
+            "name": "data-ed0a9972c136be7b5c96710b5d86d329"
           }
         },
         {
@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-e5e33ec00ba6546ae530db7562ffb722"
+            "name": "data-d370bde481d4dcbecd8e95a0e425c787"
           },
           "height": 200,
           "resolve": {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-830769e3642eb8eab290fa59e65fb2bc": [
+    "data-ed0a9972c136be7b5c96710b5d86d329": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -666,14 +666,14 @@
       },
       {
         "time_period": "2025",
-        "tracks_added": 118,
-        "cumulative_tracks": 3420,
+        "tracks_added": 117,
+        "cumulative_tracks": 3419,
         "cumulative_artists": 700,
         "year": "2025"
       },
       {
         "time_period": "2026",
-        "tracks_added": 83,
+        "tracks_added": 84,
         "cumulative_tracks": 3503,
         "cumulative_artists": 710,
         "year": "2026"
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-e5e33ec00ba6546ae530db7562ffb722": [
+    "data-d370bde481d4dcbecd8e95a0e425c787": [
       {
         "rank": 1,
-        "song": "Aap Humse Pyar Karne Lage",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "16:29 UTC",
+        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
+        "artist": "Kumar Sanu",
+        "time": "03:28 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Jadoo Hai Tera",
-        "artist": "Jatin-Lalit, Kumar Sanu, Alka Yagnik, Sameer Anjaan",
-        "time": "16:24 UTC",
+        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
+        "artist": "Kumar Sanu",
+        "time": "03:20 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Sab Kuchh Bhula Diya",
-        "artist": "Sonu Nigam, Bali Brahmbhatt, Kartik Awasthi",
-        "time": "16:16 UTC",
+        "song": "Dhire Dhire Aap Mere",
+        "artist": "Udit Narayan, Sadhana Sargam",
+        "time": "02:00 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Dil Mera Dil Mera Dil-Kumar Sanu",
+        "song": "Dil Jigar Nazar Kya Hai",
         "artist": "Kumar Sanu",
-        "time": "16:08 UTC",
+        "time": "01:51 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Mone Rekho Amar Ei Gaan (Male)",
-        "artist": "Jeet Gannguli, Gautam Susmit, Sonu Nigam",
-        "time": "16:05 UTC",
+        "song": "Mera Dil",
+        "artist": "Shaan, Nihira",
+        "time": "01:40 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Allah Kare Dil Na Lagey Kisise (From \"Andaaz\")",
-        "artist": "Sonu Nigam, Alka Yagnik, Nadeem Shravan",
-        "time": "15:59 UTC",
+        "song": "Sachcha Ashiq Hai To",
+        "artist": "Alka Yagnik, Kumar Sanu",
+        "time": "01:28 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Uttar Dakshin",
-        "artist": "Alka Yagnik, Sonu Nigam",
-        "time": "02:35 UTC",
+        "song": "Bahara",
+        "artist": "Vishal-Shekhar, Shreya Ghoshal, Sona Mohapatra",
+        "time": "01:20 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Dil Kya Kare",
-        "artist": "Jatin-Lalit, Udit Narayan, Alka Yagnik",
-        "time": "01:25 UTC",
+        "song": "Khoobsurat",
+        "artist": "Kumar Sanu",
+        "time": "01:14 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Khuda Jane",
-        "artist": "Zubeen Garg, Shyam Bhatt, Shreya Ghoshal, Jeet Gannguli",
-        "time": "01:20 UTC",
+        "song": "Didi Tera Devar Deewana",
+        "artist": "Lata Mangeshkar, S. P. Balasubrahmanyam",
+        "time": "01:09 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Matargashti",
-        "artist": "Mohit Chauhan",
-        "time": "01:15 UTC",
+        "song": "Gawah Hai Chand Tare",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "01:01 UTC",
         "y_pos": 9
       }
     ]
