@@ -385,7 +385,7 @@
         }
       ],
       "data": {
-        "name": "data-ed0a9972c136be7b5c96710b5d86d329"
+        "name": "data-d602d08bb2384b1993d96dd628ffba81"
       }
     },
     {
@@ -702,7 +702,7 @@
             }
           ],
           "data": {
-            "name": "data-d370bde481d4dcbecd8e95a0e425c787"
+            "name": "data-fdd3cecaa78f2f5fcd96e2075337ede6"
           },
           "height": 260,
           "resolve": {
@@ -844,7 +844,7 @@
         "x": 0
       }
     ],
-    "data-ed0a9972c136be7b5c96710b5d86d329": [
+    "data-d602d08bb2384b1993d96dd628ffba81": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -910,9 +910,9 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 84,
-        "cumulative_tracks": 3503,
-        "cumulative_artists": 710,
+        "tracks_added": 87,
+        "cumulative_tracks": 3506,
+        "cumulative_artists": 713,
         "year": "2026"
       }
     ],
@@ -978,75 +978,75 @@
         "y_pos": 9
       }
     ],
-    "data-d370bde481d4dcbecd8e95a0e425c787": [
+    "data-fdd3cecaa78f2f5fcd96e2075337ede6": [
       {
         "rank": 1,
-        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
-        "artist": "Kumar Sanu",
-        "time": "03:28 UTC",
+        "song": "Oi Tor Mayabi Chokh",
+        "artist": "Jeet Gannguli, Shreya Ghosal",
+        "time": "17:36 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
-        "artist": "Kumar Sanu",
-        "time": "03:20 UTC",
+        "song": "Boleto Diyechi Hridoyer Kotha",
+        "artist": "Habib Wahid, Nazmun Munira Nancy",
+        "time": "17:28 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Dhire Dhire Aap Mere",
-        "artist": "Udit Narayan, Sadhana Sargam",
-        "time": "02:00 UTC",
+        "song": "Tui Amake Agle Rakh",
+        "artist": "Ujjaini Mukherjee, Savvy",
+        "time": "16:54 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Dil Jigar Nazar Kya Hai",
-        "artist": "Kumar Sanu",
-        "time": "01:51 UTC",
+        "song": "Oi Tor Mayabi Chokh",
+        "artist": "Jeet Gannguli, Shreya Ghosal",
+        "time": "16:50 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Mera Dil",
-        "artist": "Shaan, Nihira",
-        "time": "01:40 UTC",
+        "song": "Jhiri Jhiri",
+        "artist": "June Banerjee, Jeet Gannguli",
+        "time": "16:46 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Sachcha Ashiq Hai To",
-        "artist": "Alka Yagnik, Kumar Sanu",
-        "time": "01:28 UTC",
+        "song": "U La La (Female)",
+        "artist": "Jeet Gannguli",
+        "time": "16:40 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Bahara",
-        "artist": "Vishal-Shekhar, Shreya Ghoshal, Sona Mohapatra",
-        "time": "01:20 UTC",
+        "song": "Tumhein Dekhen Meri Aankhen",
+        "artist": "Alka Yagnik, P Sunanda, Kumar Sanu",
+        "time": "16:35 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Khoobsurat",
+        "song": "Chand Se Parda",
         "artist": "Kumar Sanu",
-        "time": "01:14 UTC",
+        "time": "16:18 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Didi Tera Devar Deewana",
-        "artist": "Lata Mangeshkar, S. P. Balasubrahmanyam",
-        "time": "01:09 UTC",
+        "song": "Aaja Mahiya",
+        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasant Anil Samaddar, Gulzar",
+        "time": "16:10 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Gawah Hai Chand Tare",
-        "artist": "Kumar Sanu, Alka Yagnik",
-        "time": "01:01 UTC",
+        "song": "Aaja Mahiya",
+        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasant Anil Samaddar, Gulzar",
+        "time": "16:03 UTC",
         "y_pos": 9
       }
     ]
