@@ -19,7 +19,7 @@
   "hconcat": [
     {
       "data": {
-        "name": "data-95066abb303c752e49bde6cced498cd1"
+        "name": "data-26c81b6ee025f089cbbe3a5319d4f232"
       },
       "mark": {
         "type": "bar",
@@ -172,7 +172,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-95066abb303c752e49bde6cced498cd1": [
+    "data-26c81b6ee025f089cbbe3a5319d4f232": [
       {
         "SummarizedTitle": "101 Questions You Need to Ask in Your Twenties",
         "Title": "101 Questions You Need to Ask in Your Twenties: (And Let's Be Honest, Your Thirties Too)",
@@ -247,7 +247,7 @@
       },
       {
         "SummarizedTitle": "Build",
-        "Title": "Build: An Unorthodox Guide to Making Things Worth Making – An NYT Bestselling Entrepreneurship and Product Design Manual",
+        "Title": "Build: An Unorthodox Guide to Making Things Worth Making",
         "Authors": "Tony Fadell",
         "Year": 2022,
         "Reviewer": "Muntakim",
@@ -335,7 +335,7 @@
       },
       {
         "SummarizedTitle": "Build",
-        "Title": "Build: An Unorthodox Guide to Making Things Worth Making – An NYT Bestselling Entrepreneurship and Product Design Manual",
+        "Title": "Build: An Unorthodox Guide to Making Things Worth Making",
         "Authors": "Tony Fadell",
         "Year": 2022,
         "Reviewer": "GoodReads Average",

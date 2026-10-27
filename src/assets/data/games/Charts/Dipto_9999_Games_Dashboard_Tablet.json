@@ -320,7 +320,7 @@
     "data-0806719922ab0a69d8ed35284b9451c4": [
       {
         "Metric": "Played",
-        "Value": 78
+        "Value": 79
       }
     ],
     "data-b5e5e3621ebe956b3f4f9d97cbbacadf": [
@@ -338,7 +338,7 @@
       },
       {
         "type": "Bronze",
-        "count": 678
+        "count": 681
       }
     ],
     "data-e02f2c1edd48e33dbb5a48263f5a1ebf": [
@@ -379,8 +379,8 @@
       },
       {
         "name": "God of War Ragnarok",
-        "playtime_forever": 79.36,
-        "playtime_percentage": 4.15
+        "playtime_forever": 79.6,
+        "playtime_percentage": 4.16
       },
       {
         "name": "Telltale: Batman",

@@ -92,7 +92,7 @@
         },
         {
           "data": {
-            "name": "data-7bc412e3579df18a480b6f3e7ad827a4"
+            "name": "data-1003bea18866962435f791ded2b8bade"
           },
           "mark": {
             "type": "text",
@@ -126,7 +126,7 @@
         },
         {
           "data": {
-            "name": "data-197fe89f5b56be50a98284ddbdae15f9"
+            "name": "data-46acbd2c98b3a026bfaf4bc6a90ec640"
           },
           "mark": {
             "type": "bar",
@@ -193,7 +193,7 @@
             "text": "PSN Trophies",
             "anchor": "middle",
             "fontSize": 20,
-            "subtitle": "Total: 860",
+            "subtitle": "Total: 863",
             "subtitleFontSize": 14
           },
           "width": 250
@@ -207,7 +207,7 @@
     },
     {
       "data": {
-        "name": "data-63b4c40c478aa86114bcb5efc1768f6f"
+        "name": "data-adaeea44fb6e091891582cf3b6126dec"
       },
       "mark": {
         "type": "arc",
@@ -280,7 +280,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 26,
-        "subtitle": "Total Playtime: 2635.9 Hrs",
+        "subtitle": "Total Playtime: 2636.9 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -316,13 +316,13 @@
         "Value": 205
       }
     ],
-    "data-7bc412e3579df18a480b6f3e7ad827a4": [
+    "data-1003bea18866962435f791ded2b8bade": [
       {
         "Metric": "Played",
-        "Value": 78
+        "Value": 79
       }
     ],
-    "data-197fe89f5b56be50a98284ddbdae15f9": [
+    "data-46acbd2c98b3a026bfaf4bc6a90ec640": [
       {
         "type": "Platinum",
         "count": 1
@@ -337,10 +337,10 @@
       },
       {
         "type": "Bronze",
-        "count": 678
+        "count": 681
       }
     ],
-    "data-63b4c40c478aa86114bcb5efc1768f6f": [
+    "data-adaeea44fb6e091891582cf3b6126dec": [
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
@@ -378,8 +378,8 @@
       },
       {
         "name": "God of War Ragnarok",
-        "playtime_forever": 79.36,
-        "playtime_percentage": 4.15
+        "playtime_forever": 79.6,
+        "playtime_percentage": 4.16
       },
       {
         "name": "Telltale: Batman",
