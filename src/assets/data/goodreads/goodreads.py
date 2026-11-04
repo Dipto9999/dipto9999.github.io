@@ -409,4 +409,14 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"Error During Execution: {e}")
-        raise
+        csv_path = os.path.join(_script_dir, "goodreads.csv")
+        if (not OFFLINE) and os.path.isfile(csv_path):
+            print("Loading Data from CSV File: goodreads.csv")
+            library_df = pd.read_csv(csv_path, dtype = str).fillna("")
+            library_df["My Rating"] = pd.to_numeric(library_df["My Rating"], errors = "coerce").fillna(0).astype(int)
+            library_df["Average Rating"] = pd.to_numeric(library_df["Average Rating"], errors = "coerce").fillna(0.0)
+            library_df["Number of Pages"] = pd.to_numeric(library_df["Number of Pages"], errors = "coerce").fillna(0).astype(int)
+            GoodReadsDashboard(library_df).save()
+            print("GoodReads Dashboard Generated from Backup CSV")
+        else:
+            raise

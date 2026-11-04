@@ -82,6 +82,7 @@ jobs:
     - name: Run Games Data Update
       # Only Run at 6 AM / Manual Trigger
       if: github.event.schedule != '0 18 * * *'
+      continue-on-error: true
       run: |
         cd src/assets/data/games
         python games.py
@@ -96,6 +97,7 @@ jobs:
     - name: Run GoodReads Data Update
       # Only Run at 6 AM / Manual Trigger
       if: github.event.schedule != '0 18 * * *'
+      continue-on-error: true
       run: |
         cd src/assets/data/goodreads
         python goodreads.py
@@ -110,6 +112,7 @@ jobs:
         EOF
 
     - name: Restore Spotify Token Cache
+      continue-on-error: true
       env:
         SPOTIFY_CACHE: ${{ secrets.SPOTIFY_TOKEN_CACHE }}
       run: |
@@ -141,6 +144,7 @@ jobs:
         PY
 
     - name: Run Spotify Data Update
+      continue-on-error: true
       run: |
         cd src/assets/data/spotify
         python spotify.py
