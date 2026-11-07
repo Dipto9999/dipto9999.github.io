@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-3dff5bb00b647e45832a281ff8fc5b73"
+            "name": "data-09d86713b7fcfac7c1e9cef840cb0264"
           }
         },
         {
@@ -684,7 +684,7 @@
             }
           ],
           "data": {
-            "name": "data-c541777a92359c14fb8af5029215ff40"
+            "name": "data-1000d5ef0a4dd26173dfcbfac5f5eab0"
           },
           "height": 380,
           "resolve": {
@@ -717,7 +717,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-3dff5bb00b647e45832a281ff8fc5b73": [
+    "data-09d86713b7fcfac7c1e9cef840cb0264": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -783,8 +783,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 94,
-        "cumulative_tracks": 3513,
+        "tracks_added": 97,
+        "cumulative_tracks": 3516,
         "cumulative_artists": 717,
         "year": "2026"
       }
@@ -960,75 +960,75 @@
         "y_pos": 9
       }
     ],
-    "data-c541777a92359c14fb8af5029215ff40": [
+    "data-1000d5ef0a4dd26173dfcbfac5f5eab0": [
       {
         "rank": 1,
-        "song": "Naam Na Jana Pakhi - Duet Version",
-        "artist": "Arijit Singh, Shreya Ghoshal",
-        "time": "01:21 UTC",
+        "song": "Boleto Diyechi Hridoyer Kotha",
+        "artist": "Habib Wahid, Nazmun Munira Nancy",
+        "time": "09:04 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Kaise Mizaz Aap Ke Hain",
-        "artist": "Anuradha Paudwal, Kumar Sanu",
-        "time": "01:16 UTC",
+        "song": "Boleto Diyechi Hridoyer Kotha",
+        "artist": "Habib Wahid, Nazmun Munira Nancy",
+        "time": "08:36 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Hangover (From \"Kick\")",
-        "artist": "Salman Khan, Meet Bros Anjjan, Shreya Ghoshal",
-        "time": "00:53 UTC",
+        "song": "Boleto Diyechi Hridoyer Kotha",
+        "artist": "Habib Wahid, Nazmun Munira Nancy",
+        "time": "08:31 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Se Chhilo Boroi Anmona",
-        "artist": "Gautam Susmit, Jeet Gannguli, Shaan",
-        "time": "00:46 UTC",
+        "song": "Yara Ve",
+        "artist": "Ashok Raj, Javed Ali, Anweshaa",
+        "time": "08:25 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Aashiqui Mein Har Aashiq",
-        "artist": "Sadhana Sargam",
-        "time": "00:41 UTC",
+        "song": "Naam Na Jana Pakhi - Duet Version",
+        "artist": "Arijit Singh, Shreya Ghoshal",
+        "time": "01:21 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Le Gayi",
-        "artist": "Uttam Singh, Asha Bhosle, Anand Bakshi",
-        "time": "00:01 UTC",
+        "song": "Kaise Mizaz Aap Ke Hain",
+        "artist": "Anuradha Paudwal, Kumar Sanu",
+        "time": "01:16 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Aao Huzoor Tumko",
-        "artist": "Asha Bhosle",
-        "time": "23:47 UTC",
+        "song": "Hangover (From \"Kick\")",
+        "artist": "Salman Khan, Meet Bros Anjjan, Shreya Ghoshal",
+        "time": "00:53 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Kill Dil",
-        "artist": "Shankar-Ehsaan-Loy, Sonu Nigam, Shankar Mahadevan, Gulzar",
-        "time": "23:40 UTC",
+        "song": "Se Chhilo Boroi Anmona",
+        "artist": "Gautam Susmit, Jeet Gannguli, Shaan",
+        "time": "00:46 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Kill Dil",
-        "artist": "Shankar-Ehsaan-Loy, Sonu Nigam, Shankar Mahadevan, Gulzar",
-        "time": "22:58 UTC",
+        "song": "Aashiqui Mein Har Aashiq",
+        "artist": "Sadhana Sargam",
+        "time": "00:41 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Kill Dil",
-        "artist": "Shankar-Ehsaan-Loy, Sonu Nigam, Shankar Mahadevan, Gulzar",
-        "time": "16:44 UTC",
+        "song": "Le Gayi",
+        "artist": "Uttam Singh, Asha Bhosle, Anand Bakshi",
+        "time": "00:01 UTC",
         "y_pos": 9
       }
     ]
