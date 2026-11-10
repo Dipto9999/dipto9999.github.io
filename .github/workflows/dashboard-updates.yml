@@ -79,6 +79,12 @@ jobs:
       run: |
         echo "NPSSO_CODE=${{ secrets.NPSSO_CODE }}" > src/assets/data/games/psn/.env
 
+    - name: Create .env file for Nintendo API
+      # Only Create at 6 AM / Manual Trigger
+      if: github.event.schedule != '0 18 * * *'
+      run: |
+        echo "NINTENDO_SESSION_TOKEN=${{ secrets.NINTENDO_SESSION_TOKEN }}" > src/assets/data/games/nintendo/.env
+
     - name: Run Games Data Update
       # Only Run at 6 AM / Manual Trigger
       if: github.event.schedule != '0 18 * * *'

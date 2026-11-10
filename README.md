@@ -20,8 +20,8 @@ This is my portfolio website, where I've highlighted academic achievements and m
 
 ### Games
 
-I pulled my gaming data from both **Steam** and **PlayStation Network** using the [`games.py`](src/assets/data/games/games.py) **Python** script.
-Both data sources are merged — playtime for cross-platform titles is summed — and visualized with **vega-altair**.
+I pulled my gaming data from **Steam**, **PlayStation Network** and **Nintendo** using the [`games.py`](src/assets/data/games/games.py) **Python** script.
+All data sources are merged — playtime for cross-platform titles is summed — and visualized with **vega-altair**.
 
 The initial [`Dipto_9999_Games_Dashboard_Standard.json`](src/assets/data/games/Charts/Dipto_9999_Games_Dashboard_Standard.json) and related chart assets
 were migrated to the **React** application and further adjusted for browser responsiveness.
@@ -45,6 +45,18 @@ This uses an **NPSSO** token from following the steps below:
 3. Copie the `npsso` value to [`psn/.env`](src/assets/data/games/psn/.env), where it is used by **GitHub Actions**.
 
 *Note: The token must be refreshed due to expiry every 60 days.*
+
+#### Nintendo
+
+Nintendo does not offer a public **API**, so I pulled my **Nintendo Switch** play history using the [`nintendo.py`](src/assets/data/games/nintendo/nintendo.py) **Python** script, which interacts with the unofficial **API** behind the **Nintendo Store** app.
+
+This uses a **Nintendo Account** session token from following the steps below:
+
+1. Run `python nintendo.py login` locally and sign in at the printed [accounts.nintendo.com](https://accounts.nintendo.com/) link.
+2. Right click the **Select this person** button and copy the link address back into the terminal prompt.
+3. Store the `NINTENDO_SESSION_TOKEN` value from [`nintendo/.env`](src/assets/data/games/nintendo/.env) into the **GitHub Actions** secret `NINTENDO_SESSION_TOKEN`.
+
+*Note: The token must be refreshed due to expiry every 2 years. This **API** is undocumented and may change without notice, in which case the dashboard falls back to the last saved [`Dipto9999_NintendoData.csv`](src/assets/data/games/nintendo/Dipto9999_NintendoData.csv).*
 
 ### Spotify
 

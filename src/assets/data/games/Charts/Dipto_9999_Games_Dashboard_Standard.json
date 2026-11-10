@@ -194,7 +194,7 @@
             "text": "PSN Trophies",
             "anchor": "middle",
             "fontSize": 20,
-            "subtitle": "Total: 772",
+            "subtitle": "Total: 866",
             "subtitleFontSize": 14
           },
           "width": 250
@@ -281,7 +281,7 @@
         "text": "Top Games",
         "anchor": "middle",
         "fontSize": 26,
-        "subtitle": "Total Playtime: 2444.1 Hrs",
+        "subtitle": "Total Playtime: 2769.5 Hrs",
         "subtitleFontSize": 16
       },
       "width": 700
@@ -320,7 +320,7 @@
     "data-0806719922ab0a69d8ed35284b9451c4": [
       {
         "Metric": "Played",
-        "Value": 79
+        "Value": 86
       }
     ],
     "data-b5e5e3621ebe956b3f4f9d97cbbacadf": [
@@ -345,52 +345,52 @@
       {
         "name": "Skyrim",
         "playtime_forever": 845.28,
-        "playtime_percentage": 44.04
+        "playtime_percentage": 43.72
       },
       {
         "name": "Batman: Arkham Knight",
         "playtime_forever": 172.36,
-        "playtime_percentage": 8.98
+        "playtime_percentage": 8.91
       },
       {
         "name": "Spider-Man",
         "playtime_forever": 166.1,
-        "playtime_percentage": 8.65
+        "playtime_percentage": 8.59
       },
       {
         "name": "Harvest Moon: AWL",
         "playtime_forever": 164.28,
-        "playtime_percentage": 8.56
+        "playtime_percentage": 8.5
       },
       {
         "name": "God of War",
         "playtime_forever": 161.51,
-        "playtime_percentage": 8.41
+        "playtime_percentage": 8.35
       },
       {
         "name": "Cyberpunk 2077",
         "playtime_forever": 117.83,
-        "playtime_percentage": 6.14
+        "playtime_percentage": 6.09
       },
       {
         "name": "LOTR Online",
         "playtime_forever": 95.7,
-        "playtime_percentage": 4.99
+        "playtime_percentage": 4.95
       },
       {
         "name": "God of War Ragnarok",
         "playtime_forever": 79.6,
-        "playtime_percentage": 4.15
+        "playtime_percentage": 4.12
       },
       {
         "name": "Telltale: Batman",
         "playtime_forever": 66.22,
-        "playtime_percentage": 3.45
+        "playtime_percentage": 3.42
       },
       {
-        "name": "Spider-Man 2",
-        "playtime_forever": 50.49,
-        "playtime_percentage": 2.63
+        "name": "Zelda: Breath of the Wild",
+        "playtime_forever": 64.67,
+        "playtime_percentage": 3.34
       }
     ]
   }

@@ -1,9 +1,9 @@
 """
 Games Dashboard Generator
 Author: Muntakim Rahman
-Description: Combines PlayStation Network and Steam gaming data for the same player,
+Description: Combines PlayStation Network, Steam and Nintendo gaming data for the same player,
     merging playtime for cross-platform games and generating unified Altair visualizations.
-    Loads from CSV backups (steam/, psn/) or fetches live from both APIs.
+    Loads from CSV backups (steam/, psn/, nintendo/) or fetches live from all three APIs.
     Dashboard exported as JSON (Standard, Tablet, Landscape, Portrait), HTML, PNG, SVG.
 """
 
@@ -23,14 +23,16 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 
 sys.path.insert(0, os.path.join(current_dir, 'steam'))
 sys.path.insert(0, os.path.join(current_dir, 'psn'))
+sys.path.insert(0, os.path.join(current_dir, 'nintendo'))
 
 from steam import SteamUser, SteamAPI
 from psn import PSN_User, PSN_API
+from nintendo import NintendoUser, NintendoAPI
 
 PWD = os.path.dirname(os.path.abspath(__file__))
 
 class Games_User:
-    """Combines PSN and Steam Gaming Data for the Same Player"""
+    """Combines PSN, Steam and Nintendo Gaming Data for the Same Player"""
 
     # Games with Different Store Names on Each Platform after Custom Name Mapping.
     # Key = Steam Custom Name, Value = PSN Custom Name (Label Kept in Combined Data).
@@ -38,9 +40,10 @@ class Games_User:
         'SoS: A Wonderful Life': 'Harvest Moon: AWL',
     }
 
-    def __init__(self, steam_user: SteamUser, psn_user: PSN_User):
-        self.steam_user  = steam_user
-        self.psn_user    = psn_user
+    def __init__(self, steam_user: SteamUser, psn_user: PSN_User, nintendo_user: Optional[NintendoUser] = None):
+        self.steam_user    = steam_user
+        self.psn_user      = psn_user
+        self.nintendo_user = nintendo_user
 
         # Combined Data
         self.combined_df = pd.DataFrame()
@@ -48,7 +51,7 @@ class Games_User:
         self._merge()
 
     def _merge(self) -> None:
-        """Merge Steam and PSN Game Data, Summing Playtime for Cross-Platform Titles"""
+        """Merge Steam, PSN and Nintendo Game Data, Summing Playtime for Cross-Platform Titles"""
         steam_df = self.steam_user.stats_df[['name', 'playtime_forever']].copy()
         psn_df   = self.psn_user.stats_df[['name',  'playtime_forever']].copy()
 
@@ -56,7 +59,13 @@ class Games_User:
         for steam_name, psn_name in self.CROSS_PLATFORM_NAMES.items():
             steam_df.loc[steam_df['name'] == steam_name, 'name'] = psn_name
 
-        combined = pd.concat([steam_df, psn_df], ignore_index = True)
+        platform_dfs = [steam_df, psn_df]
+
+        # Nintendo is Optional : Skipped if Neither API nor Backup CSV Returned Data
+        if (self.nintendo_user is not None) and (not self.nintendo_user.stats_df.empty):
+            platform_dfs.append(self.nintendo_user.stats_df[['name', 'playtime_forever']].copy())
+
+        combined = pd.concat(platform_dfs, ignore_index = True)
 
         self.combined_df = (
             combined
@@ -75,15 +84,15 @@ class Games_User:
         )
 
     def getNumberPlayed(self) -> int:
-        """Get Number of Unique Games Played Across Both Platforms"""
+        """Get Number of Unique Games Played Across All Platforms"""
         return (self.combined_df['playtime_forever'] > 0).sum()
 
     def getTotalPlaytime(self) -> float:
-        """Get Total Combined Playtime Across Both Platforms"""
+        """Get Total Combined Playtime Across All Platforms"""
         return self.combined_df['playtime_forever'].sum()
 
 class Games_Dashboard:
-    """Creates Unified Visualizations for Combined PSN + Steam Data"""
+    """Creates Unified Visualizations for Combined PSN + Steam + Nintendo Data"""
 
     # Responsive Layout Configurations — Scaled per Breakpoint
     BREAKPOINTS = {
@@ -340,6 +349,19 @@ class Games_Dashboard:
                     keys['Games'] = key
             return keys
 
+        def _get_subtitles(node, subtitles: dict) -> dict:
+            """Collect Title Blocks with Subtitles (e.g. Total Playtime), Keyed by Title Text"""
+            if isinstance(node, dict):
+                title = node.get('title')
+                if isinstance(title, dict) and ('subtitle' in title):
+                    subtitles[title.get('text')] = title
+                for value in node.values():
+                    _get_subtitles(value, subtitles)
+            elif isinstance(node, list):
+                for value in node:
+                    _get_subtitles(value, subtitles)
+            return subtitles
+
         try:
             fresh_datasets  = fresh_json.get('datasets', {})
             template_keys   = _get_keys(template_json)
@@ -352,6 +374,12 @@ class Games_Dashboard:
                     template_json['datasets'][t_key] = fresh_datasets[f_key]
                 elif t_key:
                     print(f"Warning: No Fresh Data for '{key}' - Skipping Update for this Dataset")
+
+            # Subtitles Hold Computed Totals, so Refresh Them Alongside the Datasets
+            fresh_subtitles = _get_subtitles(fresh_json, {})
+            for text, title in _get_subtitles(template_json, {}).items():
+                if text in fresh_subtitles:
+                    title['subtitle'] = fresh_subtitles[text]['subtitle']
 
             with open(output_path, 'w') as f:
                 json.dump(template_json, f, indent = 2)
@@ -408,18 +436,22 @@ class Games_Dashboard:
 if __name__ == '__main__':
     load_dotenv(os.path.join(current_dir, 'steam', '.env'))
     load_dotenv(os.path.join(current_dir, 'psn',   '.env'))
+    load_dotenv(os.path.join(current_dir, 'nintendo', '.env'))
 
     STEAM_USERNAME = 'Dipto9999'
     PSN_USERNAME = 'Dipto_9999'
+    NINTENDO_USERNAME = 'Dipto9999' # Only Used for Naming Files
     USE_PSN_CLIENT = True # True = Authenticated Account, False = Lookup by Online ID
 
     STEAM_API_KEY = os.getenv("STEAM_API_KEY")
     NPSSO_CODE = os.getenv("NPSSO_CODE")
+    NINTENDO_SESSION_TOKEN = os.getenv("NINTENDO_SESSION_TOKEN")
 
     try:
         games_user = Games_User(
             steam_user = SteamUser(STEAM_USERNAME, SteamAPI(STEAM_API_KEY)),
-            psn_user = PSN_User(PSN_USERNAME, PSN_API(NPSSO_CODE), use_client = USE_PSN_CLIENT)
+            psn_user = PSN_User(PSN_USERNAME, PSN_API(NPSSO_CODE), use_client = USE_PSN_CLIENT),
+            nintendo_user = NintendoUser(NINTENDO_USERNAME, NintendoAPI(NINTENDO_SESSION_TOKEN))
         )
         Games_Dashboard(games_user).save()
         print("Execution Completed Successfully!")
