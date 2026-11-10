@@ -47,8 +47,9 @@ const SteamDashboard = () => {
   }, [dimensions]);
 
   return (
-    <div className = "vega-chart" style = {chartContainerStyle}>
-      <VegaLite spec = {spec} actions = {false} />
+    <div className = "vega-chart games-chart" style = {chartContainerStyle}>
+      {/* SVG Renderer Lets the Chart Shrink to Fit its Container (See index.scss) while Keeping Tooltips Accurate */}
+      <VegaLite spec = {spec} actions = {false} renderer = "svg" />
     </div>
   );
 };

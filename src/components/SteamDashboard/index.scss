@@ -18,3 +18,17 @@
         max-width: 100%;
     }
 }
+
+// Games Chart is Rendered as SVG — Scale Down Proportionally Instead of Clipping
+// when Wider than its Container (Tablet Portrait, Wide Desktop, Long Legend Labels)
+.vega-chart.games-chart {
+    .vega-embed {
+        width: 100%;
+        text-align: center;
+    }
+
+    svg {
+        max-width: 100%;
+        height: auto;
+    }
+}
