@@ -11,7 +11,7 @@ import SteamDashboard from '../SteamDashboard';
 import GoodReadsDashboard from '../GoodReadsDashboard';
 import SpotifyDashboard from '../SpotifyDashboard';
 
-const gameImageCount = 41; // Number of Steam Game Images
+const gameImageCount = 85; // Number of Game Images (Steam + Nintendo Switch)
 
 // Vite Replaces CRA's Dynamic require() — Eager Glob Gives URL / Raw Text Modules
 const gameImageModules = import.meta.glob('../../assets/images/Games/Games_*.jpeg', {
