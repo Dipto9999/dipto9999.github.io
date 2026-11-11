@@ -189,7 +189,7 @@
             }
           ],
           "data": {
-            "name": "data-09d86713b7fcfac7c1e9cef840cb0264"
+            "name": "data-75f2861282fe23541ae3f612f84157a8"
           }
         },
         {
@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-c1c084bb122ac352e7d10e18a10f23d4"
+            "name": "data-54c27def96e1c43fc8882ae43e79f7a8"
           },
           "height": 200,
           "resolve": {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-09d86713b7fcfac7c1e9cef840cb0264": [
+    "data-75f2861282fe23541ae3f612f84157a8": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -673,8 +673,8 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 97,
-        "cumulative_tracks": 3516,
+        "tracks_added": 98,
+        "cumulative_tracks": 3517,
         "cumulative_artists": 717,
         "year": "2026"
       }
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-c1c084bb122ac352e7d10e18a10f23d4": [
+    "data-54c27def96e1c43fc8882ae43e79f7a8": [
       {
         "rank": 1,
-        "song": "Aaja Mahiya",
-        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasant Anil Samaddar, Gulzar",
-        "time": "03:17 UTC",
+        "song": "Tauba Tumhare Ishare (From \"Chalte Chalte\")",
+        "artist": "Abhijeet, Alka Yagnik",
+        "time": "03:03 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Aaja Mahiya",
-        "artist": "Anu Malik, Udit Narayan, Alka Yagnik, Prasant Anil Samaddar, Gulzar",
-        "time": "01:31 UTC",
+        "song": "Kisi Din Banoongi Main",
+        "artist": "Alka Yagnik, Udit Narayan",
+        "time": "02:57 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Woh Lamhe Woh Baatein",
-        "artist": "Roop Kumar Rathod, Mithoon, Naresh Sharma, Atif Aslam",
-        "time": "23:08 UTC",
+        "song": "Tune Zindagi Mein (Male Version) - From \"Humraaz\"",
+        "artist": "Udit Narayan",
+        "time": "02:50 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Is Tarah Aashiqui Ka - Kumar Sanu Version",
-        "artist": "Kumar Sanu",
-        "time": "22:43 UTC",
+        "song": "Saajan Saajan",
+        "artist": "Nadeem Shravan, Alka Yagnik, Sapna Awasthi, Kumar Sanu, Sameer Anjaan",
+        "time": "02:45 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Aapke Pyaar Mein Hum",
-        "artist": "Nadeem Shravan, Alka Yagnik, Sameer Anjaan",
-        "time": "22:27 UTC",
+        "song": "Chahun Main Ya Naa (From \"Aashiqui 2\")",
+        "artist": "Palak Muchhal, Arijit Singh",
+        "time": "02:33 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Ishq Daa Challa",
-        "artist": "Udit Narayan, Alka Yagnik, Sneha Pant, Sameer Anjaan",
-        "time": "22:15 UTC",
+        "song": "Akeli Na Bazar Jaya Karo",
+        "artist": "Udit Narayan",
+        "time": "02:27 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Ishq Daa Challa",
-        "artist": "Udit Narayan, Alka Yagnik, Sneha Pant, Sameer Anjaan",
-        "time": "22:01 UTC",
+        "song": "Jo Bhi Kasmein",
+        "artist": "Nadeem Shravan, Alka Yagnik, Udit Narayan, Sameer Anjaan",
+        "time": "02:13 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Boleto Diyechi Hridoyer Kotha",
-        "artist": "Habib Wahid, Nazmun Munira Nancy",
-        "time": "21:50 UTC",
+        "song": "Meri Mehbooba",
+        "artist": "Kumar Sanu, Alka Yagnik",
+        "time": "02:01 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Boleto Diyechi Hridoyer Kotha",
-        "artist": "Habib Wahid, Nazmun Munira Nancy",
-        "time": "21:45 UTC",
+        "song": "Ishq Daa Challa",
+        "artist": "Udit Narayan, Alka Yagnik, Sneha Pant, Sameer Anjaan",
+        "time": "01:38 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Boleto Diyechi Hridoyer Kotha",
-        "artist": "Habib Wahid, Nazmun Munira Nancy",
-        "time": "21:40 UTC",
+        "song": "Bolte Bolte Cholte Cholte",
+        "artist": "Imran Mahmudul",
+        "time": "22:57 UTC",
         "y_pos": 9
       }
     ]
