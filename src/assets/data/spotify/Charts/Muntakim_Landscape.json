@@ -189,12 +189,12 @@
             }
           ],
           "data": {
-            "name": "data-b9c97168c70ce6577f8dc5af327a4f81"
+            "name": "data-eb539f20840f2b04963fb7fc88da27f1"
           }
         },
         {
           "data": {
-            "name": "data-4fb6dc0d260bc9ca74a0ee75237e888e"
+            "name": "data-0fca2db8e8685c6a061033e168f2114e"
           },
           "mark": {
             "type": "arc",
@@ -574,7 +574,7 @@
             }
           ],
           "data": {
-            "name": "data-c55fc37de4e3c245dc03811975efd969"
+            "name": "data-b19f181e7c09ca84d76be8de7867035b"
           },
           "height": 200,
           "resolve": {
@@ -607,7 +607,7 @@
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
   "datasets": {
-    "data-b9c97168c70ce6577f8dc5af327a4f81": [
+    "data-eb539f20840f2b04963fb7fc88da27f1": [
       {
         "time_period": "2017",
         "tracks_added": 334,
@@ -673,13 +673,13 @@
       },
       {
         "time_period": "2026",
-        "tracks_added": 99,
-        "cumulative_tracks": 3518,
+        "tracks_added": 101,
+        "cumulative_tracks": 3520,
         "cumulative_artists": 716,
         "year": "2026"
       }
     ],
-    "data-4fb6dc0d260bc9ca74a0ee75237e888e": [
+    "data-0fca2db8e8685c6a061033e168f2114e": [
       {
         "artist": "Alka Yagnik",
         "count": 1221,
@@ -692,18 +692,18 @@
       },
       {
         "artist": "Udit Narayan",
-        "count": 726,
+        "count": 727,
         "pct": 18.2
       },
       {
         "artist": "Sonu Nigam",
-        "count": 309,
+        "count": 310,
         "pct": 7.8
       },
       {
         "artist": "Shreya Ghoshal",
-        "count": 233,
-        "pct": 5.8
+        "count": 234,
+        "pct": 5.9
       },
       {
         "artist": "Arijit Singh",
@@ -798,75 +798,75 @@
         "y_pos": 9
       }
     ],
-    "data-c55fc37de4e3c245dc03811975efd969": [
+    "data-b19f181e7c09ca84d76be8de7867035b": [
       {
         "rank": 1,
-        "song": "Main Koi Aisa Geet Gaoon (From \"Yes Boss\")",
-        "artist": "Abhijeet",
-        "time": "08:20 UTC",
+        "song": "Sajdaa",
+        "artist": "Shankar-Ehsaan-Loy, Rahat Fateh Ali Khan, Shankar Mahadevan, Richa Sharma",
+        "time": "04:32 UTC",
         "y_pos": 0
       },
       {
         "rank": 2,
-        "song": "Phir Mohabbat",
-        "artist": "Mohammed Irfan, Arijit Singh, Saim Bhat, Mithoon, Sayeed Quadri",
-        "time": "02:58 UTC",
+        "song": "Tera Mera Rishta - Original Version",
+        "artist": "Pritam, Mustafa Zahid, Sayeed Quadri",
+        "time": "02:25 UTC",
         "y_pos": 1
       },
       {
         "rank": 3,
-        "song": "Mujhe Neend Na Aaye",
-        "artist": "Anuradha Paudwal, Udit Narayan",
-        "time": "02:46 UTC",
+        "song": "Khuda Jaane",
+        "artist": "Vishal-Shekhar, KK, Shilpa Rao, Anvita Dutt Guptan",
+        "time": "02:16 UTC",
         "y_pos": 2
       },
       {
         "rank": 4,
-        "song": "Dil Na Diya",
-        "artist": "Kunal Ganjawala",
-        "time": "02:30 UTC",
+        "song": "Soniyo",
+        "artist": "Raju Singh, Sonu Nigam, Shreya Ghoshal",
+        "time": "02:11 UTC",
         "y_pos": 3
       },
       {
         "rank": 5,
-        "song": "Aankhon Ki Gustakhiyan (From \"Hum Dil De Chuke Sanam\")",
-        "artist": "Kumar Sanu, Kavita Krishnamurthy",
-        "time": "02:24 UTC",
+        "song": "Soniyo",
+        "artist": "Raju Singh, Sonu Nigam, Shreya Ghoshal",
+        "time": "02:08 UTC",
         "y_pos": 4
       },
       {
         "rank": 6,
-        "song": "Ho Gaya Hai Tujhko To Pyar Sajna",
-        "artist": "Lata Mangeshkar, Udit Narayan",
-        "time": "02:13 UTC",
+        "song": "Main Agar Kahoon",
+        "artist": "Sonu Nigam, Shreya Ghoshal",
+        "time": "02:00 UTC",
         "y_pos": 5
       },
       {
         "rank": 7,
-        "song": "Makhna",
-        "artist": "Alka Yagnik, Amit Kumar, Udit Narayan",
-        "time": "02:07 UTC",
+        "song": "Hangover (From \"Kick\")",
+        "artist": "Salman Khan, Meet Bros Anjjan, Shreya Ghoshal",
+        "time": "01:47 UTC",
         "y_pos": 6
       },
       {
         "rank": 8,
-        "song": "Mohabbat Dil Ka Sakoon",
-        "artist": "Nadeem Shravan, Alka Yagnik, Kumar Sanu, Udit Narayan, Sameer Anjaan",
-        "time": "01:58 UTC",
+        "song": "Aa Jao Meri Tamanna",
+        "artist": "Javed Ali, Jojo Nathaniel, Pritam",
+        "time": "01:41 UTC",
         "y_pos": 7
       },
       {
         "rank": 9,
-        "song": "Soni Soni",
-        "artist": "Jatin-Lalit, Udit Narayan, Jaspinder Narula, Udbhav, Manohar Shetty, Ishaan, Shweta Pandit, Sonali Bhatawdekar, Pritha Mazumdar, Anand Bakshi",
-        "time": "01:47 UTC",
+        "song": "Achchi Lagti Ho",
+        "artist": "Udit Narayan, Kavita Krishnamurthy",
+        "time": "01:37 UTC",
         "y_pos": 8
       },
       {
         "rank": 10,
-        "song": "Soni Soni",
-        "artist": "Jatin-Lalit, Udit Narayan, Jaspinder Narula, Udbhav, Manohar Shetty, Ishaan, Shweta Pandit, Sonali Bhatawdekar, Pritha Mazumdar, Anand Bakshi",
-        "time": "01:34 UTC",
+        "song": "Sunn Raha Hai",
+        "artist": "Ankit Tiwari, Sandeep Nath",
+        "time": "01:24 UTC",
         "y_pos": 9
       }
     ]
